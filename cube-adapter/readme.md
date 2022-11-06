@@ -1,0 +1,70 @@
+# MobiFlight Cube Adapter
+The MobiFlight Cube Adapter is a breakout board to learn and experiment with the different input and output devices that are supported by MobiFlight.
+The board uses XH JST connectors of different sizes depending on the type of device. These connectors ensure a secure connection and correct orientation of the plugs.
+
+## Devices overview
+
+### Button 1 - 6
+Simple buttons that connect with just two wires.
+
+Left pin is Ground, right pin is VCC.
+
+### LEDs 1 - 6
+All LEDs are using PWM enabled pins and can be dimmed in MobiFlight.
+It is recommended to add a apropriate resistor for you LED. 
+More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#led--output
+
+Left pin is Ground, right pin is VCC.
+
+### Switch 1 - 5 (On-On)
+Connector is designed for On-On switches or two position switches.
+More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#buttons-and-switches
+
+Left pin is Button 1, middle pin is GND, right pin is Button 2.
+
+### Switch 6 - 10 (On-Off-On)
+Connector is designed for On-Off-On switches or three position switches.
+More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#buttons-and-switches
+
+* Left pin is Button 1,
+* middle pin is GND, 
+* right pin is Button 2.
+
+### 7-Segment 1
+Connect a 7219MAX-chip based board to this pin.
+More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#7-segment-modules
+
+* 1st pin GND,
+* 2nd pin VCC,
+* 3rd pin DIN,
+* 4th pin CS,
+* 5th pin CLK
+
+### Encoder 1-3
+Connect a Encoder with Push Button function.
+More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#encoders
+
+* 1st pin GND
+* 2nd pin Left Pin (A)
+* 3rd pin Right Pin (B)
+* 4th pin Push Button
+
+### Pot 1 - 3
+Connect a Potentiometer or other analog input device.
+More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#analog-inputs
+
+* 1st pin GND
+* 2nd pin Reading
+* 3rd pin VCC
+
+### Shift-Register 1-2
+Connect an output shift register.
+More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#output-shift-registers
+
+* 1st pin GND
+* 2nd pin VCC
+* 3rd pin SPI (Latch)
+* 4th pin SPI (Clock)
+* 5th pin SPI (Data)
+
+
