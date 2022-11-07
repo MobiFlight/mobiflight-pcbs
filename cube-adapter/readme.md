@@ -4,6 +4,8 @@ The board uses XH JST connectors of different sizes depending on the type of dev
 
 ## Devices overview
 
+
+
 ### Button 1 - 6
 Simple buttons that connect with just two wires.
 
@@ -66,5 +68,22 @@ More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-
 * 3rd pin SPI (Latch)
 * 4th pin SPI (Clock)
 * 5th pin SPI (Data)
+
+### Servo 1-2
+Connect a servo. More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#servos-motors
+
+### Stepper 1-2
+Connect a stepper. More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#stepper-motors
+
+
+
+### LCD Display 1-2
+Connect a LCD Display. More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#lcd-displays
+
+* 1st pin GND
+* 2nd pin VCC
+* 3rd pin I2C - SDA
+* 4th pin I2C - SCL
+
 
 

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleName>MF-Test</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Button Name="Button_1" Pin="2" />
+  <Button Name="Button_2" Pin="3" />
+  <Button Name="Button_3" Pin="4" />
+  <Button Name="Button_4" Pin="5" />
+  <Button Name="Button_5" Pin="6" />
+  <Output Name="LED_1" Pin="7" />
+  <Output Name="LED_2" Pin="8" />
+  <Output Name="LED_3" Pin="9" />
+  <Output Name="LED_4" Pin="10" />
+  <Output Name="LED_5" Pin="11" />
+  <Button Name="SW1-1" Pin="12" />
+  <Button Name="SW1-3" Pin="13" />
+  <Button Name="SW2-1" Pin="14" />
+  <Button Name="SW2-3" Pin="15" />
+  <Button Name="SW3-1" Pin="16" />
+  <Button Name="SW3-3" Pin="17" />
+  <Button Name="SW4-1" Pin="18" />
+  <Button Name="SW4-3" Pin="19" />
+  <LcdDisplay Name="LCD_1" Address="39" Cols="16" Lines="2" />
+  <LcdDisplay Name="LCD_2" Address="39" Cols="16" Lines="2" />
+  <Button Name="dummy1" Pin="22" />
+  <LedModule Name="7-SEGMENT_1" DinPin="23" ClsPin="25" ClkPin="27" Brightness="15" NumModules="1" />
+  <Output Name="LED_6" Pin="24" />
+  <Button Name="Button_6" Pin="26" />
+  <Encoder Name="Encoder_1" PinLeft="28" PinRight="29" EncoderType="0" />
+  <Encoder Name="Encoder_2" PinLeft="30" PinRight="31" EncoderType="0" />
+  <Button Name="SW5-1" Pin="32" />
+  <Button Name="SW5-3" Pin="33" />
+  <Servo Name="Servo_1" DataPin="34" />
+  <Servo Name="Servo_2" DataPin="35" />
+  <Stepper Name="Stepper_1" Pin1="36" Pin2="38" Pin3="40" Pin4="42" BtnPin="0" />
+  <Stepper Name="Stepper_2" Pin1="37" Pin2="39" Pin3="41" Pin4="43" BtnPin="0" />
+  <ShiftRegister Name="ShiftRegister" LatchPin="45" ClockPin="47" DataPin="49" NumModules="1" />
+  <ShiftRegister Name="ShiftRegister 1" LatchPin="51" ClockPin="53" DataPin="44" NumModules="1" />
+  <Encoder Name="Encoder_3" PinLeft="46" PinRight="48" EncoderType="0" />
+  <Button Name="ENCODER_1_SW" Pin="50" />
+  <Button Name="ENCODER_2_SW" Pin="52" />
+  <Button Name="ENCODER_3_SW" Pin="67" />
+  <AnalogInput Name="POT_1" Pin="54" Sensitivity="5" />
+  <AnalogInput Name="POT_2" Pin="55" Sensitivity="5" />
+  <AnalogInput Name="POT_3" Pin="56" Sensitivity="5" />
+  <Button Name="SW6_1" Pin="58" />
+  <Button Name="SW6_3" Pin="57" />
+  <Button Name="SW7-1" Pin="60" />
+  <Button Name="SW7_3" Pin="59" />
+  <Button Name="SW8_1" Pin="62" />
+  <Button Name="SW8_3" Pin="61" />
+  <Button Name="SW9_1" Pin="64" />
+  <Button Name="SW9_3" Pin="63" />
+  <Button Name="SW11_1" Pin="66" />
+  <Button Name="SW10_3" Pin="65" />
+</Config>
