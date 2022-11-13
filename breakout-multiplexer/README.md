@@ -85,7 +85,8 @@ As one can see on the picture, the 74HC4067 are mounted with the silkscreen faci
 > This information will be added soon.
 
 ## Case
-You can print a case for the board for better handling and look:
+You can print a case for the board [using this STL file](breakout-multiplexer-case.stl) for better handling and look:
+
 ![Case Preview](breakout-multiplexer-case-preview.png)
 
 ![Case Preview](breakout-multiplexer-case-preview-2.png)
