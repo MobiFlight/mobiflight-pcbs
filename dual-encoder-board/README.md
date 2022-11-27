@@ -11,7 +11,7 @@ attach the encoder for example to a [MobiFlight Cube adapter](https://github.com
 with a 4 pin JST XH cable.
 
 The board has a 20x20mm pattern of M3 mounting holes, so you can use nylon standoffs and M3 machine screws to attach it
-to an acrylic panel for example. 
+to an acrylic panel for example. The encoder body is about 7mm tall, so 8mm standoffs work great.
 
 ![image](https://user-images.githubusercontent.com/2587818/204113602-29c45b36-56e6-4fd4-ba06-1d2413532c25.png)
 
