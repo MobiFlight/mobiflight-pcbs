@@ -2,8 +2,7 @@
 <Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ModuleName>MF Cube Adapter</ModuleName>
   <PowerSavingTime>600</PowerSavingTime>
-  <Button Name="Button 1" Pin="2" />
-  <Button Name="Button 2" Pin="3" />
+  <MultiplexerDriver Name="MultiplexerDriver" PinSx="37 39 41 43" />
   <Button Name="Button 3" Pin="4" />
   <Button Name="Button 4" Pin="5" />
   <Button Name="Button 5" Pin="6" />
@@ -46,10 +45,15 @@
   <Servo Name="Servo 1" DataPin="35" />
   <Servo Name="Servo 2" DataPin="34" />
   <Stepper Name="Stepper 1" Pin1="36" Pin2="38" Pin3="40" Pin4="42" BtnPin="0" />
-  <Stepper Name="Stepper 2" Pin1="37" Pin2="39" Pin3="41" Pin4="43" BtnPin="0" />
   <ShiftRegister Name="ShiftRegister 1" LatchPin="45" ClockPin="47" DataPin="49" NumModules="1" />
   <ShiftRegister Name="ShiftRegister 2" LatchPin="51" ClockPin="52" DataPin="53" NumModules="1" />
   <AnalogInput Name="POT 1" Pin="54" Sensitivity="5" />
   <AnalogInput Name="POT 2" Pin="55" Sensitivity="5" />
   <AnalogInput Name="POT 3" Pin="56" Sensitivity="5" />
+  <InputMultiplexer Name="Multiplexer 1-1" DataPin="2" NumBytes="2">
+    <Selector Name="MultiplexerDriver" PinSx="37 39 41 43" />
+  </InputMultiplexer>
+  <InputMultiplexer Name="Multiplexer 1-2" DataPin="3" NumBytes="2">
+    <Selector Name="MultiplexerDriver" PinSx="37 39 41 43" />
+  </InputMultiplexer>
 </Config>
