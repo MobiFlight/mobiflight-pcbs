@@ -2,6 +2,16 @@
 The MobiFlight Cube Adapter is a breakout board to learn and experiment with the different input and output devices that are supported by MobiFlight.
 The board uses XH JST connectors of different sizes depending on the type of device. These connectors ensure a secure connection and correct orientation of the plugs.
 
+The MobiFlight Cube Adapter expects a Arduino Mega 2560 Pro Mini that is attached to the back of the board.
+
+There are two configurations available:
+* Standard - [cube-adapter.mfmc](cube-adapter.mfmc)
+
+  All buttons from `Button 01` to `Button-06` are available, and `Stepper 1` and `Stepper 2` can be both used for steppers 
+* Multiplexer - [cube-adapter.multiplexer.mfmc](cube-adapter.multiplexer.mfmc)
+
+  using Stepper 2 as Multiplexer 1 connection, and Button 1 and Button 2 for the signal channels. See [Multiplexer Breakout Board](../breakout-multiplexer/README.md) for more information.
+
 ## Devices overview
 
 ![Top View](cube-adapter-top.png)
@@ -100,7 +110,7 @@ Connect a LCD Display. More information: https://github.com/MobiFlight/MobiFligh
 ![Alt text](schematic.png)
 
 ## Bottom side
-![Top View](cube-adapter-bottom.png)
+![Bottom View](cube-adapter-bottom.png)
 
 
 
