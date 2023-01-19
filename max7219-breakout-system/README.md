@@ -75,11 +75,12 @@ The pins that are connected to pins on the MobiFlight board.
 
 ## Assembly instructions
 
-1. Solder resistors to the bottom of the PCB
-1. Solder the capacitors to the bottom of the PCB
+1. Solder resistors (10kOhm) to the bottom of the PCB
+1. Solder the capacitors (100nF) to the bottom of the PCB
 1. Solder the pin connector to the left onto the top of the PCB
 1. Solder the Max7219 IC sockets to the top of the PCB
 1. Solder the 8x2 connectors to the top of the PCB
+1. Insert the MAX7219 Chips into the sockets, watch out for correct orientation
 
 Optionally:
 If you want to connect a second circuit board, you should also solder J10 and J12 on the first circuit board and J11 on the second circuit board. 
