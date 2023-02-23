@@ -3,7 +3,7 @@ The MobiFlight Multiplexer Breakout Board is a breakout board for easier use of 
 
 On the top side, The board uses XH JST connectors for the individual inputs. On the back, you can add up to two 74HC4067 modules (https://shop.mobiflight.com/product/multiplexer).
 
-On the bottom side, you plug in the 74HC4067 modules. Version 1.0 does not show information about the orientation (sorry for that).
+On the bottom side, you plug in the 74HC4067 modules. Version 1.2 now shows information about the orientation and all important pins are labeled.
 You can daisy chain the boards.
 
 For more information on how to configure the board with MobiFlight, check out the [MobiFlight Connector documentation](https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#input-multiplexer).
