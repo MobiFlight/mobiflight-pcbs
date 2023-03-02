@@ -381,7 +381,7 @@
       "idf": "",
       "netlist": "MAX7219_V5.net",
       "specctra_dsn": "MAX7219_V5.dsn",
-      "step": "MAX7219_V5.step",
+      "step": "max7219-breakout-system.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
