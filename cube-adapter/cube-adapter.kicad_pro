@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|29423869|31116401|00000000-0000-0000-0000-0000613882fa|63d8a727-2e3f-47cb-8683-8594d113dabb",
+        "courtyards_overlap|29423869|31116401|63d8a727-2e3f-47cb-8683-8594d113dabb|00000000-0000-0000-0000-0000613882fa"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -347,7 +350,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mobiflight-breakout-board.kicad_pro.kicad_pro",
+    "filename": "cube-adapter.kicad_pro",
     "version": 1
   },
   "net_settings": {
