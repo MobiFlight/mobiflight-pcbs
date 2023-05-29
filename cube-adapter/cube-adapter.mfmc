@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ModuleName>MF Cube Adapter</ModuleName>
+  <ModuleName>ProtoBoard-v2</ModuleName>
   <PowerSavingTime>600</PowerSavingTime>
   <Button Name="Button 1" Pin="2" />
   <Button Name="Button 2" Pin="3" />

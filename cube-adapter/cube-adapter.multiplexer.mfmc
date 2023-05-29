@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ModuleName>MF Cube Adapter</ModuleName>
+  <ModuleName>ProtoBoard-v2</ModuleName>
   <PowerSavingTime>600</PowerSavingTime>
   <MultiplexerDriver Name="MultiplexerDriver" PinSx="37 39 41 43" />
   <Button Name="Button 3" Pin="4" />
