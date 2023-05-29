@@ -1,8 +1,8 @@
-# MobiFlight Cube Adapter
-The MobiFlight Cube Adapter is a breakout board to learn and experiment with the different input and output devices that are supported by MobiFlight.
+# MobiFlight Prototyping Board
+The MobiFlight Prototyping Board is a breakout board to learn and experiment with the different input and output devices that are supported by MobiFlight.
 The board uses XH JST connectors of different sizes depending on the type of device. These connectors ensure a secure connection and correct orientation of the plugs.
 
-The MobiFlight Cube Adapter expects a Arduino Mega 2560 Pro Mini that is attached to the back of the board.
+The MobiFlight Prototyping Board is compatible with Arduino Mega 2560 Pro Mini that is attached to the back of the board.
 
 There are two configurations available:
 * Standard - [cube-adapter.mfmc](cube-adapter.mfmc)
@@ -23,23 +23,25 @@ Left pin is Ground, right pin is VCC.
 
 ### LEDs 1 - 6
 All LEDs are using PWM enabled pins and can be dimmed in MobiFlight.
-It is recommended to add a apropriate resistor for you LED. 
+It is recommended to add an apropriate resistor for you LED. 
 More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#led--output
 
 Left pin is Ground, right pin is VCC.
 
 ### Switch 1 - 5 (On-On)
-Connector is designed for On-On switches or two position switches.
+Connector is designed for On-On switches, two or three position switches.
 More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#buttons-and-switches
 
-Left pin is Button 1, middle pin is GND, right pin is Button 2.
+* Left pin is GND
+* middle pin is Button 1 
+* right pin is Button 2
 
-### Switch 6 - 10 (On-Off-On)
-Connector is designed for On-Off-On switches or three position switches.
+### Switch 6 - 10 (On-On)
+Connector is designed for On-On switches, two or three position switches.
 More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#buttons-and-switches
 
-* Left pin is Button 1,
-* middle pin is GND, 
+* left pin is GND,
+* middle pin is Button 1, 
 * right pin is Button 2.
 
 ### 7-Segment 1
@@ -66,7 +68,7 @@ Connect a Potentiometer or other analog input device.
 More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#analog-inputs
 
 * 1st pin GND
-* 2nd pin Reading
+* 2nd pin Signal
 * 3rd pin VCC
 
 ### Shift-Register 1-2
@@ -82,9 +84,9 @@ More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-
 ### Servo 1-2
 Connect a servo. More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#servos-motors
 
-* 1st pin DIN 
+* 1st pin GND 
 * 2nd pin VCC
-* 3rd pin GND
+* 3rd pin DIN
 
 ### Stepper 1-2
 Connect a stepper. More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#stepper-motors
