@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "Cube-System MobiFlight")
+    (title "MobiFlight Prototyping Board")
     (date "09.12.2022")
-    (rev "1.4")
+    (rev "2.0")
     (company "mobiflight community")
     (comment 1 "stephan hoeltig")
     (comment 2 "sebastian moebius")
