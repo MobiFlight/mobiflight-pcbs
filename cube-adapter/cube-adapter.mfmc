@@ -45,8 +45,8 @@
   <Button Name="Encoder 3 Push" Pin="67" />
   <Servo Name="Servo 1" DataPin="35" />
   <Servo Name="Servo 2" DataPin="34" />
-  <Stepper Name="Stepper 1" Pin1="36" Pin2="38" Pin3="40" Pin4="42" BtnPin="0" />
-  <Stepper Name="Stepper 2" Pin1="37" Pin2="39" Pin3="41" Pin4="43" BtnPin="0" />
+  <Stepper Name="Stepper 1" Pin1="36" Pin2="38" Pin3="40" Pin4="42" BtnPin="0" Mode="1" Backlash="6" Deactivate="false" Profile="1" />
+  <Stepper Name="Stepper 2" Pin1="37" Pin2="39" Pin3="41" Pin4="43" BtnPin="0" Mode="1" Backlash="6" Deactivate="false" Profile="1" />
   <ShiftRegister Name="ShiftRegister 1" LatchPin="45" ClockPin="47" DataPin="49" NumModules="1" />
   <ShiftRegister Name="ShiftRegister 2" LatchPin="51" ClockPin="52" DataPin="53" NumModules="1" />
   <AnalogInput Name="POT 1" Pin="54" Sensitivity="5" />
