@@ -445,7 +445,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "dual-encoder-board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
