@@ -234,8 +234,6 @@
   )
 
 
-  (no_connect (at 54.61 31.75) (uuid f691f9e3-80b8-4854-90b9-a9f5450e6444))
-
   (global_label "GND" (shape input) (at 36.83 63.5 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 07110ea8-509e-430e-803f-48cfcbb286e3)
@@ -247,6 +245,13 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 18ec03b9-2a27-47c8-abaa-d48af9393865)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 68.5136 63.4206 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "SMALL_BUTTON" (shape input) (at 54.61 31.75 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 2848d129-32d3-4db3-bba8-7d404e547b8c)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 70.9931 31.8294 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
