@@ -21,8 +21,7 @@ The pin headers are optional, you can either use them, and  solder the 7-segment
 
 ### Let's get started!
 
-
-> [!NOTE]  
+> [!IMPORTANT]  
 > Insert the female pin headers to the 7-segment module pins. **If you want to leave the headers out for a more compact module, solder the IDC connector first.** Soldering the 7-segment module directly on the PCB will cover the IDC connector pins and they cannot be soldered after the digit module.
 
 #### Segment module
