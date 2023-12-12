@@ -1,6 +1,6 @@
 # 7-segment display MAX7217 breakout digits board
 
-These digit holder boards are part of the [MobiFlight MAX7219 Breakout System](https://shop.mobiflight.com/product/max7219-breakout-system) available on the [MobiFlight Shop](https://shop.mobiflight.com). They are not meant to be used alone.
+These digit holder boards are part of the [MobiFlight MAX7219 Breakout System](https://shop.mobiflight.com/product/max7219-breakout-system) available on the [MobiFlight Shop](https://shop.mobiflight.com/product/max7219-digit-pcb-system-50cm). They are not meant to be used alone.
 
 ![Segment module](breakout-assembled.png)
 
