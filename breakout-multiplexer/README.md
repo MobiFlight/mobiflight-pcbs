@@ -1,5 +1,5 @@
 # MobiFlight Multiplexer Breakout Board
-The MobiFlight Multiplexer Breakout Board is a breakout board for easier use of the 74HC4067 multiplexer.
+The MobiFlight Multiplexer Breakout Board is a breakout board for easier use of the 74HC4067 multiplexer. It is designed to work best together with the [MobiFlight Prototyping Board](https://shop.mobiflight.com/product/prototyping-board-v2).
 
 On the top side, The board uses XH JST connectors for the individual inputs. On the back, you can add up to two 74HC4067 modules (https://shop.mobiflight.com/product/multiplexer).
 
@@ -79,6 +79,36 @@ Polarity doesn't matter for switches.
 ![Mounting orientation 74HC4067 modules](breakout-multiplexer-74hc4067.png)
 
 As one can see on the picture, the 74HC4067 are mounted with the silkscreen facing up. Due to the asymmetric connectors, the orientation cannot be confused.
+
+## Connecting and wiring
+The multiplexer prototyping board is designed to work best together with the [MobiFlight Prototyping Board](https://shop.mobiflight.com/product/prototyping-board-v2). Of course, you can also connect it directly to any of the supported microcontrollers.
+
+### MobiFlight Prototyping Board
+The prototyping board comes with the required cables to make connection super easy.
+
+* **Connect the 6-pin wire** from the breakout board to the MobiFlight Prototyping Board's 6-pin connector labeled **Stepper 2 / Multiplexer**
+* **Connect the 2-pin wires** to the MobiFlight Prototyping Board's 2-pin connectors **Btn1** and **Btn2** respectively
+* **Upload multiplexer board configuration** to the MobiFlight Prototyping Board - [Download multiplexer-config (mfmc)](https://raw.githubusercontent.com/MobiFlight/mobiflight-pcbs/refs/heads/main/prototyping-board/prototyping-board.multiplexer.mfmc)
+
+All pins on the multiplexer will now work correctly!
+
+### Direct connection
+If you are using any of the supported microcontrollers, do the following:
+
+#### Wiring
+* Connect the first two pins on the **Multiplexer In** connector to **GND**, **5V** and the four remaining pins to free output-capable pins. For an Arduino Mega that could be, eg. D2, D3 D4 and D5. 
+* Connect two input-capable pins to Data0 and Data1 connectors - first pin is **GND** and is not necessarily required, second pin is data pins. You can verify by looking on the backside of the curcuit board where the pins are labeled. 
+
+![image](https://github.com/MobiFlight/mobiflight-pcbs/assets/2587818/d38acea9-0853-4c9f-adc7-96773ab6a843)
+
+#### Board configuration
+You should first add one multiplexer device with the four data pins configured as follows, and select also the pin connected to Data0. Data1 will be assigned to a another Multiplexer device we add after this one.
+
+![226143462-3bedf9fe-c78f-402c-b73f-0bc42e2be1f8](https://github.com/MobiFlight/mobiflight-pcbs/assets/2587818/4343863f-7fe1-492a-b9ed-07e8d59b0a64)
+
+For the second multiplexer add another multiplexer device from the menu, the four selector pins will be the same, and the **data pin** will a unique one for the second multiplexer, D7 for example.
+
+Click "Upload config" and your device should work.
 
 ## MobiFlight Configuration
 
