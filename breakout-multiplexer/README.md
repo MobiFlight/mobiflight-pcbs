@@ -97,7 +97,7 @@ If you are using any of the supported microcontrollers, do the following:
 
 #### Wiring
 * Connect the first two pins on the **Multiplexer In** connector to **GND**, **5V** and the four remaining pins to free output-capable pins. For an Arduino Mega that could be, eg. D2, D3 D4 and D5. 
-* Connect two input-capable pins to Data0 and Data1 connectors - first pin is **GND** and is not necessarily required, second pin is data pins. You can verify by looking on the backside of the curcuit board where the pins are labeled. 
+* Connect two input-capable pins to Data0 and Data1 connectors - first pin is **GND** and is not necessarily required, second pin is data pins. You can verify by looking on the backside of the circuit board where the pins are labeled. 
 
 ![image](https://github.com/MobiFlight/mobiflight-pcbs/assets/2587818/d38acea9-0853-4c9f-adc7-96773ab6a843)
 
