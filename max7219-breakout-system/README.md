@@ -12,7 +12,7 @@ It is therefore still possible to control up to 8 digits per MAX chip and as a d
 ## Connectors
 There are two box headers (straight type) assigned to each MAX chip for more flexibility and efficient use.
 
-![Top View](note-connectors-division.png) 
+![Top View](MAX7219-breakout-board-front.png) 
 
 Having two connectors allows for the possibility of dividing the 8 digits of a MAX chip between two groups of digts:
 * 2 x 4 digits, 
@@ -32,16 +32,29 @@ This also applies to connectors J4 and J5, J6 and J7 and J8 and J9.
 
 Displays with 3, 4, 5 and 6 digits can be plugged into the connectors J2, J4, J6 and J8. Displays with 3 or 4 digits can be plugged into connectors J3, J5, J7 and J9, but not more than 8 digits in total. A combination of 5 or 6 digits on J2 and 4 digits on J3 at the same time is therefore not possible.
 
+## Prototyping board
+![External power supply](board-connected-to-prototyping-board.png)
+With the 5-pin XH JST cable that is provided, a connection to the prototyping board is simple.
+
+> [!NOTE]
+> Starting with v2.0, the pin sequence is the same for both boards, the prototyping board and the MAX7219 breakout board.
+
 ## Daisy chain mode
 ![Daisy chain mode](two-boards-chained.png)
 
 You can connect two boards together and take advantage of the daisy chain capability. Two boards is the maximum, only up to 8 MAX7219 chips can be chained. This is a limitation of the MAX7219 chip itself.
 
-## Power supply
+## External Power supply
 The power supply with +5V should be provided via a separate power pack, since a MAX chip can consume between 80 and 120 mA of current and thus the Mega Module or a USB interface (maximum 500 mA with USB 2.x or 900 mA with USB 3 .x) can be overloaded.
 
+> [!NOTE]
+> When using external power, set the blue jumper to the "EXT" position, otherwise use "INT" position.
+
+
+![External power supply](board-connected-to-prototyping-board.png)
+
 ## Board overview
-![Top View](top.png) 
+![Top View](MAX7219-breakout-board-front.png) 
 
 ### MAX7219 - IC1-4
 The IC socket and the 4 MAX7219 chips
@@ -55,37 +68,23 @@ The pins that are connected to pins on the MobiFlight board.
 * Pin 1 - VCC
 * Pin 2 - GND
 * Pin 3 - DIN
-* Pin 4 - CLK
-* PIN 5 - LOAD
-
-> The order of the pins on the standard MAX7219 (green) modules is different, where pin 4 and 5 are swapped:
->
-> Pin 1 => VCC,
-> Pin 2 => GND,
-> Pin 3 => DIN,
-> **Pin 4 => CS (which is referred to as LOAD)**,
-> **Pin 5 => CLK**,
+* Pin 4 - CS
+* PIN 5 - CLK
 
 ### OUT-connectors J10+J12
 * Pin 1 - VCC
 * Pin 2 - GND
 * Pin 3 - DOUT
-* Pin 4 - CLK
-* PIN 5 - LOAD
+* Pin 4 - CS
+* PIN 5 - CLK
 
 ## Assembly instructions
-
-1. Solder resistors (10kOhm) to the bottom of the PCB
-1. Solder the capacitors (100nF) to the bottom of the PCB
-1. Solder the pin connector to the left onto the top of the PCB
+1. Solder resistors (10kOhm) to the top of the PCB
+1. Solder the capacitors (100nF) to the top of the PCB
 1. Solder the Max7219 IC sockets to the top of the PCB
+1. Solder the XH JST connectors to the top of the PCB
 1. Solder the 8x2 connectors to the top of the PCB
 1. Insert the MAX7219 Chips into the sockets, watch out for correct orientation
-
-Optionally:
-If you want to connect a second circuit board, you should also solder J10 and J12 on the first circuit board and J11 on the second circuit board. 
-
-The connections from J11 and J12 only serve to ensure the stability of the plug connection and have no connection to the signal lines on the circuit boards. If you want to mount the 2nd MAX board separately from the 1st board, you can do without J11 and J12.
 
 ## MobiFlight Configuration
 ### Device configuration
@@ -124,13 +123,10 @@ In the case of the segments, these are assigned even numbers, as is the case wit
 
 
 ### Top side with components
-![Bottom View](top-with-components.png)
+![Bottom View](MAX7219-breakout-board-front.png)
 
 ### Bottom side
 ![Bottom View](bottom.png)
-
-### Bottom side with components
-![Bottom View with components](bottom-with-components.png)
 
 ### Schematic
 ![Schematic](schematic.png)
