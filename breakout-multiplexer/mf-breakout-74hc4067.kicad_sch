@@ -4174,7 +4174,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 220.98 148.59 0)
 			(effects
 				(font
@@ -4183,13 +4183,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 220.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4259,7 +4258,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 243.84 148.59 0)
 			(effects
 				(font
@@ -4268,13 +4267,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 243.84 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4381,7 +4379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:74HC4067"
+		(property "Footprint" "MobiFlight:74HC4067"
 			(at 53.34 142.24 0)
 			(effects
 				(font
@@ -4539,7 +4537,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 196.85 148.59 0)
 			(effects
 				(font
@@ -4548,13 +4546,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 196.85 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4624,7 +4621,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 175.26 148.59 0)
 			(effects
 				(font
@@ -4633,13 +4630,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 175.26 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4709,7 +4705,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 175.26 69.85 0)
 			(effects
 				(font
@@ -4718,13 +4714,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 175.26 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4794,7 +4789,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 153.67 132.08 0)
 			(effects
 				(font
@@ -4803,13 +4798,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 153.67 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4879,7 +4873,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 196.85 86.36 0)
 			(effects
 				(font
@@ -4888,13 +4882,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 196.85 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5031,7 +5024,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5663"
+		(property "JLC Rotation Offset" "0"
 			(at 36.83 29.21 0)
 			(effects
 				(font
@@ -5040,13 +5033,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "0"
+		(property "MPN" "C5663"
 			(at 36.83 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5191,7 +5183,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 153.67 148.59 0)
 			(effects
 				(font
@@ -5200,13 +5192,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 153.67 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5250,7 +5241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:74HC4067"
+		(property "Footprint" "MobiFlight:74HC4067"
 			(at 53.34 82.55 0)
 			(effects
 				(font
@@ -5409,7 +5400,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 175.26 132.08 0)
 			(effects
 				(font
@@ -5418,13 +5409,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 175.26 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5494,7 +5484,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 243.84 132.08 0)
 			(effects
 				(font
@@ -5503,13 +5493,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 243.84 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5579,7 +5568,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 101.6 38.1 0)
 			(effects
 				(font
@@ -5588,13 +5577,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 101.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5664,7 +5652,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 133.35 86.36 0)
 			(effects
 				(font
@@ -5673,13 +5661,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5749,7 +5736,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 133.35 69.85 0)
 			(effects
 				(font
@@ -5758,13 +5745,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 133.35 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5834,7 +5820,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 133.35 148.59 0)
 			(effects
 				(font
@@ -5843,13 +5829,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 133.35 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5985,7 +5970,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 243.84 69.85 0)
 			(effects
 				(font
@@ -5994,13 +5979,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 243.84 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6070,7 +6054,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 220.98 86.36 0)
 			(effects
 				(font
@@ -6079,13 +6063,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 220.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6289,7 +6272,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 153.67 69.85 0)
 			(effects
 				(font
@@ -6298,13 +6281,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 153.67 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6374,7 +6356,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 114.3 86.36 0)
 			(effects
 				(font
@@ -6383,13 +6365,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 114.3 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6459,7 +6440,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 196.85 69.85 0)
 			(effects
 				(font
@@ -6468,13 +6449,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 196.85 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6544,7 +6524,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 243.84 86.36 0)
 			(effects
 				(font
@@ -6553,13 +6533,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 243.84 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6629,7 +6608,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 153.67 86.36 0)
 			(effects
 				(font
@@ -6638,13 +6617,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 153.67 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6714,7 +6692,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 196.85 132.08 0)
 			(effects
 				(font
@@ -6723,13 +6701,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 196.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6799,7 +6776,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 125.73 38.1 0)
 			(effects
 				(font
@@ -6808,13 +6785,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 125.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6951,7 +6927,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 93.98 86.36 0)
 			(effects
 				(font
@@ -6960,13 +6936,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7036,7 +7011,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 93.98 69.85 0)
 			(effects
 				(font
@@ -7045,13 +7020,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 93.98 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7121,7 +7095,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 93.98 132.08 0)
 			(effects
 				(font
@@ -7130,13 +7104,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 93.98 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7206,7 +7179,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 93.98 148.59 0)
 			(effects
 				(font
@@ -7215,13 +7188,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 93.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7291,7 +7263,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 175.26 86.36 0)
 			(effects
 				(font
@@ -7300,13 +7272,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 175.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7376,7 +7347,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5663"
+		(property "JLC Rotation Offset" "0"
 			(at 66.04 29.21 0)
 			(effects
 				(font
@@ -7385,13 +7356,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "0"
+		(property "MPN" "C5663"
 			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7473,7 +7443,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 114.3 132.08 0)
 			(effects
 				(font
@@ -7482,13 +7452,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7558,7 +7527,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 114.3 69.85 0)
 			(effects
 				(font
@@ -7567,13 +7536,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 114.3 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7706,7 +7674,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 220.98 132.08 0)
 			(effects
 				(font
@@ -7715,13 +7683,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 220.98 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7854,7 +7821,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 220.98 69.85 0)
 			(effects
 				(font
@@ -7863,13 +7830,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 220.98 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7939,7 +7905,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 114.3 148.59 0)
 			(effects
 				(font
@@ -7948,13 +7914,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 114.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8024,7 +7989,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "JLC Rotation Offset" "180"
 			(at 133.35 132.08 0)
 			(effects
 				(font
@@ -8033,13 +7998,12 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Rotation Offset" "180"
+		(property "MPN" "C20079"
 			(at 133.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
