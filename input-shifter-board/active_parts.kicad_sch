@@ -2621,6 +2621,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df1b8f63-41de-4893-b59b-7ae3318867fe")
 		)
@@ -2628,7 +2646,7 @@
 			(uuid "97e45bab-b84b-4132-9f50-424e841bee90")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "C2")
 					(unit 1)
@@ -2691,6 +2709,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 49.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
+			(at 49.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "029a95f4-42d1-4bba-8f14-e55548d006df")
 		)
@@ -2698,7 +2734,7 @@
 			(uuid "74f8691a-8982-4e01-8aff-de79d3da60d7")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "C1")
 					(unit 1)
@@ -2761,6 +2797,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 83.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
+			(at 83.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35eb217e-494e-4c6c-a8bc-7eb39fdd9e30")
 		)
@@ -2768,7 +2822,7 @@
 			(uuid "3cca155d-d50a-4ef7-bc33-3483d75f5418")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "C4")
 					(unit 1)
@@ -2831,6 +2885,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 72.39 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
+			(at 72.39 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12e453b6-a97e-4520-ae7c-24b2d5a2ca80")
 		)
@@ -2838,7 +2910,7 @@
 			(uuid "c36bb76d-4449-4975-858b-2fcbc51803e7")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "C3")
 					(unit 1)
@@ -2906,7 +2978,7 @@
 			(uuid "e133ad16-457a-49ec-b690-77d9a0675246")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR016")
 					(unit 1)
@@ -2974,7 +3046,7 @@
 			(uuid "41accdf1-73d4-409c-88ea-390596b0e907")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR023")
 					(unit 1)
@@ -3042,7 +3114,7 @@
 			(uuid "e9f96c33-5e91-4e0a-b97c-0f3cac4b3d78")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR017")
 					(unit 1)
@@ -3110,7 +3182,7 @@
 			(uuid "769497d1-3db3-40b8-884f-038ac2ead9f0")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR012")
 					(unit 1)
@@ -3178,7 +3250,7 @@
 			(uuid "77125585-049a-4de2-b13c-26dbcf32e753")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR06")
 					(unit 1)
@@ -3244,7 +3316,7 @@
 			(uuid "3638f384-a367-4c6a-a1cf-95304c0305af")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR01")
 					(unit 1)
@@ -3310,7 +3382,7 @@
 			(uuid "b09a3521-3683-4ab5-8dbb-549bbf811b8a")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR019")
 					(unit 1)
@@ -3378,7 +3450,7 @@
 			(uuid "a2c9751a-4242-4f4d-b5ed-6deef233dc04")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR011")
 					(unit 1)
@@ -3446,7 +3518,7 @@
 			(uuid "c6a36b27-54ad-40a8-951a-d16170744a23")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR029")
 					(unit 1)
@@ -3512,7 +3584,7 @@
 			(uuid "d77443ad-aa81-40a3-873a-a9919957938d")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR05")
 					(unit 1)
@@ -3578,7 +3650,7 @@
 			(uuid "1195aa96-393d-4b6f-b3c6-a00d797dba5d")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR027")
 					(unit 1)
@@ -3641,12 +3713,21 @@
 				(hide yes)
 			)
 		)
-		(property "SCLC" "C5613"
-			(at 169.926 46.228 0)
+		(property "LCSC" "C5613"
+			(at 170.18 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "SCLC" ""
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "16"
@@ -3698,7 +3779,7 @@
 			(uuid "2bebf14a-e0c4-4a1b-84bb-4e3e92893dcf")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "U2")
 					(unit 1)
@@ -3766,7 +3847,7 @@
 			(uuid "ade7e6b8-e15f-4a26-86f9-6c1654b9ad88")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR020")
 					(unit 1)
@@ -3834,7 +3915,7 @@
 			(uuid "4474ff9a-07ec-47e6-8418-c0207c8a66b7")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR028")
 					(unit 1)
@@ -3900,7 +3981,7 @@
 			(uuid "0df970aa-8613-407b-b839-85c39e0296ee")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR02")
 					(unit 1)
@@ -3968,7 +4049,7 @@
 			(uuid "2add9f0c-d512-4c92-8e23-0c352d1f7af5")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR014")
 					(unit 1)
@@ -4031,12 +4112,21 @@
 				(hide yes)
 			)
 		)
-		(property "SCLC" "C5613"
-			(at 222.504 46.482 0)
+		(property "LCSC" "C5613"
+			(at 221.996 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "SCLC" ""
+			(at 215.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "16"
@@ -4088,7 +4178,7 @@
 			(uuid "de7d200c-128a-45c1-b7b3-81e0d64b3648")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "U4")
 					(unit 1)
@@ -4151,12 +4241,21 @@
 				(hide yes)
 			)
 		)
-		(property "SCLC" "C5613"
-			(at 116.84 46.228 0)
+		(property "LCSC" "C5613"
+			(at 116.586 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "SCLC" ""
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "16"
@@ -4208,7 +4307,7 @@
 			(uuid "623d60b2-7c30-4b56-8576-63d5bb0c3d50")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "U3")
 					(unit 1)
@@ -4274,7 +4373,7 @@
 			(uuid "5afc5cb5-75b9-45c8-85f7-1baee71c57e5")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR013")
 					(unit 1)
@@ -4346,6 +4445,15 @@
 				(justify left)
 			)
 		)
+		(property "SCLC" ""
+			(at 97.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dda82184-f456-4ac0-a737-ab8f05c50e5f")
 		)
@@ -4353,7 +4461,7 @@
 			(uuid "bf7b3c32-5422-4b16-9f6a-587803ce5c9a")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "C5")
 					(unit 1)
@@ -4421,7 +4529,7 @@
 			(uuid "14ad3096-7020-4e3a-8a1d-44d7e80c103c")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR03")
 					(unit 1)
@@ -4489,7 +4597,7 @@
 			(uuid "264352fe-dc8a-4d2b-ba80-920a92753a0b")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR018")
 					(unit 1)
@@ -4552,12 +4660,21 @@
 				(hide yes)
 			)
 		)
-		(property "SCLC" "C5613"
+		(property "LCSC" "C5613"
 			(at 64.77 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "SCLC" ""
+			(at 58.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "16"
@@ -4609,7 +4726,7 @@
 			(uuid "745a82e4-55b4-4aa8-a52b-05a7cb6375c3")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "U1")
 					(unit 1)
@@ -4675,7 +4792,7 @@
 			(uuid "4bdcc5db-4928-4b61-82c3-7a7a286f8d25")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR025")
 					(unit 1)
@@ -4741,7 +4858,7 @@
 			(uuid "66af26a4-b784-4878-8a16-08236075a91a")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR015")
 					(unit 1)
@@ -4809,7 +4926,7 @@
 			(uuid "85926bb2-b1a2-4894-b789-250578ce4ea6")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR04")
 					(unit 1)
@@ -4877,7 +4994,7 @@
 			(uuid "4836266c-0e64-4eb1-a5b4-0def992ccd77")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR026")
 					(unit 1)
@@ -4943,7 +5060,7 @@
 			(uuid "09b91a7f-33bd-4649-9c33-0748f8139960")
 		)
 		(instances
-			(project "Input-Shifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a/3f53b650-c1b4-41fb-b756-02f2bd50b88e"
 					(reference "#PWR022")
 					(unit 1)

@@ -5368,6 +5368,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 50.8 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a"
@@ -5442,6 +5451,15 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
+			(at 223.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
 			(at 223.52 62.23 0)
 			(effects
 				(font
@@ -5674,6 +5692,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 260.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75d53a78-55ef-4077-8f42-1bc326de3540")
 		)
@@ -5762,6 +5789,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 260.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b526b654-54eb-4d8d-89ae-1e7b830714f3")
 		)
@@ -5842,6 +5878,15 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
+			(at 260.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
 			(at 260.35 128.27 0)
 			(effects
 				(font
@@ -5986,6 +6031,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 69.85 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a"
@@ -6060,6 +6114,15 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
+			(at 260.35 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
 			(at 260.35 46.99 0)
 			(effects
 				(font
@@ -6156,6 +6219,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 223.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ba3ef56-fcf0-4089-9ed8-cf2b252663e7")
 		)
@@ -6244,6 +6316,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 260.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94c94d09-2d74-4da3-85d0-e44259ecce14")
 		)
@@ -6324,6 +6405,15 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
+			(at 223.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
 			(at 223.52 135.89 0)
 			(effects
 				(font
@@ -6488,6 +6578,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 260.35 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e30f8e83-6450-43e3-aae2-01ec045a5417")
 		)
@@ -6568,6 +6667,15 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
+			(at 260.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
 			(at 260.35 148.59 0)
 			(effects
 				(font
@@ -6664,6 +6772,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 223.52 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91c076d8-9620-4143-a696-625663f5367b")
 		)
@@ -6744,6 +6861,15 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
+			(at 223.52 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
 			(at 223.52 113.03 0)
 			(effects
 				(font
@@ -6840,6 +6966,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 260.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72b88aba-15f3-4ea9-8ff7-4ff3cd511259")
 		)
@@ -6920,6 +7055,15 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
+			(at 260.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
 			(at 260.35 105.41 0)
 			(effects
 				(font
@@ -7016,6 +7160,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 260.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4525504c-e526-4a8d-bfd8-fa7c5f025cfd")
 		)
@@ -7096,6 +7249,15 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
+			(at 260.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
 			(at 260.35 113.03 0)
 			(effects
 				(font
@@ -7192,6 +7354,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e3458e1-fc17-4cdb-81fd-46ec5d4b4f99")
 		)
@@ -7272,6 +7443,15 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
+			(at 260.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
 			(at 260.35 54.61 0)
 			(effects
 				(font
@@ -7368,6 +7548,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 223.52 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92df1128-7705-416a-9b34-7ca38839f1d7")
 		)
@@ -7448,6 +7637,15 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
+			(at 223.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
 			(at 223.52 148.59 0)
 			(effects
 				(font
@@ -7612,6 +7810,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 260.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc5d63ed-db32-498b-97f4-9186afc1686d")
 		)
@@ -7692,6 +7899,15 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
+			(at 223.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
 			(at 223.52 69.85 0)
 			(effects
 				(font
@@ -7788,6 +8004,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 223.52 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70879343-290e-4659-b061-3c3b251ad720")
 		)
@@ -7862,6 +8087,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "SCLC" ""
+			(at 26.67 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7943,6 +8177,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 88.9 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a"
@@ -7999,6 +8242,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 31.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
 			(at 31.75 182.88 0)
 			(effects
 				(font
@@ -8081,6 +8333,15 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
+			(at 223.52 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
 			(at 223.52 105.41 0)
 			(effects
 				(font
@@ -8177,6 +8438,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 260.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42da447b-8e8e-4487-a7c3-db4c7fd9abf1")
 		)
@@ -8257,6 +8527,15 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
+			(at 223.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
 			(at 223.52 76.2 0)
 			(effects
 				(font
@@ -8353,6 +8632,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 223.52 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f6db63a-4f2a-4c38-ad41-b5b6fca572fd")
 		)
@@ -8433,6 +8721,15 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
+			(at 260.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
 			(at 260.35 82.55 0)
 			(effects
 				(font
@@ -8529,6 +8826,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 260.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9001d7e7-b90f-4d33-979e-afeae884614e")
 		)
@@ -8609,6 +8915,15 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
+			(at 223.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCLC" ""
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8773,6 +9088,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 223.52 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ad8e66c-f8c8-4352-9b8c-61b04b4a6164")
 		)
@@ -8861,6 +9185,15 @@
 				(hide yes)
 			)
 		)
+		(property "SCLC" ""
+			(at 223.52 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "deb0900e-b89c-409f-9fd9-8dbf27163638")
 		)
@@ -8911,7 +9244,7 @@
 			)
 		)
 		(instances
-			(project "InputShifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a"
 					(page "3")
 				)
@@ -8943,7 +9276,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ative_parts.kicad_sch"
+		(property "Sheetfile" "active_parts.kicad_sch"
 			(at 87.63 90.7546 0)
 			(effects
 				(font
@@ -8953,7 +9286,7 @@
 			)
 		)
 		(instances
-			(project "InputShifter-Board"
+			(project "input-shifter-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a"
 					(page "2")
 				)
