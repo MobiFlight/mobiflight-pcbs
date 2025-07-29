@@ -103,9 +103,9 @@ The LED driver board is designed to work best together with the [MobiFlight Prot
 ### MobiFlight Prototyping Board
 The prototyping board comes with the required cables to make connection super easy.
 
-* **Connect the 5-pin wire** from the breakout board to the MobiFlight Prototyping Board's 5-pin connector labeled **Output Shifter**
+* **Connect the 5-pin wire** from the breakout board to the MobiFlight Prototyping Board's 5-pin connector labeled **Shift-Register 1**
 * **Connect the 2-pin wires** to the MobiFlight Prototyping Board's 2-pin connectors **LED1**, **LED2**, **LED3** and/or **LED4** if the LED's should be dimmed
-* **Upload led driver board configuration** to the MobiFlight Prototyping Board - [Download multiplexer-config (mfmc)](prototyping-board.led-driver.mfmc)
+* **Upload led driver board configuration** to the MobiFlight Prototyping Board - [Download multiplexer-config (mfmc)](https://raw.githubusercontent.com/MobiFlight/mobiflight-pcbs/refs/heads/main/led-driver-board/prototyping-board.led-driver.mfmc)
 
 All pins on the LED driver will now work correctly!
 
