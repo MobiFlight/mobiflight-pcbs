@@ -17,13 +17,25 @@ Connection coming from your Mobiflight board.
 * Pin4 - Clock
 * Pin5 - Data In
 
+### Potentiometer Dim 1-8
+With this potentiometer the max. intensity of LED's 1-8 can be adjusted.
+
+### Potentiometer Dim 9-16
+With this potentiometer the max. intensity of LED's 9-16 can be adjusted.
+
+### Potentiometer Dim 17-24
+With this potentiometer the max. intensity of LED's 17-24 can be adjusted.
+
+### Potentiometer Dim 25-32
+With this potentiometer the max. intensity of LED's 25-32 can be adjusted.
+
 ### PWM 1-8
 Connection coming from your Mobiflight board.
 
 * Pin1 - GND
 * Pin2 - PWM Signal pin
 
-Without any connection the LED's 1-8 are driven with max. intensity
+Without any connection the LED's 1-8 are driven with intensity adjusted with the potentiometer.
 
 ### PWM 9-16
 Connection coming from your Mobiflight board.
@@ -31,7 +43,7 @@ Connection coming from your Mobiflight board.
 * Pin1 - GND
 * Pin2 - PWM Signal pin
 
-Without any connection the LED's 9-16 are driven with max. intensity
+Without any connection the LED's 1-8 are driven with intensity adjusted with the potentiometer.
 
 ### PWM 17-24
 Connection coming from your Mobiflight board.
@@ -39,7 +51,7 @@ Connection coming from your Mobiflight board.
 * Pin1 - GND
 * Pin2 - PWM Signal pin
 
-Without any connection the LED's 17-24 are driven with max. intensity
+Without any connection the LED's 1-8 are driven with intensity adjusted with the potentiometer.
 
 ### PWM 25-32
 Connection coming from your Mobiflight board.
@@ -47,7 +59,7 @@ Connection coming from your Mobiflight board.
 * Pin1 - GND
 * Pin2 - PWM Signal pin
 
-Without any connection the LED's 25-32 are driven with max. intensity
+Without any connection the LED's 1-8 are driven with intensity adjusted with the potentiometer.
 
 ### EXT PWR
 A power supply **must** be connected. The input voltage can be from 5V up to 12V.
@@ -93,7 +105,7 @@ The prototyping board comes with the required cables to make connection super ea
 
 * **Connect the 5-pin wire** from the breakout board to the MobiFlight Prototyping Board's 5-pin connector labeled **Output Shifter**
 * **Connect the 2-pin wires** to the MobiFlight Prototyping Board's 2-pin connectors **LED1**, **LED2**, **LED3** and/or **LED4** if the LED's should be dimmed
-* **Upload led driver board configuration** to the MobiFlight Prototyping Board - [Download multiplexer-config (mfmc)](https://raw.githubusercontent.com/MobiFlight/mobiflight-pcbs/refs/heads/main/prototyping-board/prototyping-board.led-driver.mfmc)
+* **Upload led driver board configuration** to the MobiFlight Prototyping Board - [Download multiplexer-config (mfmc)](prototyping-board.led-driver.mfmc)
 
 All pins on the LED driver will now work correctly!
 
@@ -107,11 +119,9 @@ If you are using any of the supported microcontrollers, do the following:
 ![image](https://github.com/MobiFlight/mobiflight-pcbs/assets/2587818/d38acea9-0853-4c9f-adc7-96773ab6a843)
 
 #### Board configuration
-You should first add one multiplexer device with the four data pins configured as follows, and select also the pin connected to Data0. Data1 will be assigned to a another Multiplexer device we add after this one.
+Add one output shifter device with the three data pins configured as follows and choose four times 8 bit.
 
-![226143462-3bedf9fe-c78f-402c-b73f-0bc42e2be1f8](https://github.com/MobiFlight/mobiflight-pcbs/assets/2587818/4343863f-7fe1-492a-b9ed-07e8d59b0a64)
-
-For the second multiplexer add another multiplexer device from the menu, the four selector pins will be the same, and the **data pin** will a unique one for the second multiplexer, D7 for example.
+![Top View](board-configuration.png)
 
 Click "Upload config" and your device should work.
 
@@ -121,10 +131,6 @@ Click "Upload config" and your device should work.
 
 ## Case
 You can print a case for the board [using this STL file](breakout-multiplexer-case.stl) for better handling and look:
-
-![Case Preview](breakout-multiplexer-case-preview.png)
-
-![Case Preview](breakout-multiplexer-case-preview-2.png)
 
 ## Additional information
 
