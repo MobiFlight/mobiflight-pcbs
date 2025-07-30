@@ -116,7 +116,7 @@ If you are using any of the supported microcontrollers, do the following:
 * Connect the first two pins on the **Data In** connector to **GND**, **5V** and the three remaining pins to free output-capable pins. For an Arduino Mega that could be, eg. D2, D3 D4 and D5. 
 * Connect four input-capable pins to Data0 to Data3 connectors - first pin is **GND** and is not necessarily required, second pin is PWM pin. You can verify by looking on the backside of the circuit board where the pins are labeled. 
 
-![image](https://github.com/MobiFlight/mobiflight-pcbs/assets/2587818/d38acea9-0853-4c9f-adc7-96773ab6a843)
+![image](wiring-diagram.png)
 
 #### Board configuration
 Add one output shifter device with the three data pins configured as follows and choose four times 8 bit.
