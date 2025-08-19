@@ -109,6 +109,8 @@ The prototyping board comes with the required cables to make connection super ea
 
 All pins on the LED driver will now work correctly!
 
+![image](wiring-diagram-prototyping-board.png)
+
 ### Direct connection
 If you are using any of the supported microcontrollers, do the following:
 
@@ -116,7 +118,7 @@ If you are using any of the supported microcontrollers, do the following:
 * Connect the first two pins on the **Data In** connector to **GND**, **5V** and the three remaining pins to free output-capable pins. For an Arduino Mega that could be, eg. D2, D3 D4 and D5. 
 * Connect four input-capable pins to Data0 to Data3 connectors - first pin is **GND** and is not necessarily required, second pin is PWM pin. You can verify by looking on the backside of the circuit board where the pins are labeled. 
 
-![image](wiring-diagram.png)
+![image](wiring-diagram-mega.png)
 
 #### Board configuration
 Add one output shifter device with the three data pins configured as follows and choose four times 8 bit.
