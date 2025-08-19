@@ -44,7 +44,7 @@ If you are using any of the supported microcontrollers, do the following:
 ![image](wiring-diagram-mega.png)
 
 #### Board configuration
-Add one output shifter device with the three data pins configured as follows and choose four times 8 bit.
+Add one input shifter device with the three data pins configured as follows and choose four times 8 bit.
 
 ![Top View](board-configuration.png)
 
