@@ -33,13 +33,15 @@ The prototyping board comes with the required cables to make connection super ea
 
 All inputs on the Input shifter will now work correctly!
 
+![image](wiring-diagram-prototype-board.png)
+
 ### Direct connection
 If you are using any of the supported microcontrollers, do the following:
 
 #### Wiring
 * Connect the first two pins on the **Data In** connector to **GND**, **5V** and the three remaining pins to free output-capable pins. For an Arduino Mega that could be, eg. D2, D3 D4 and D5. 
 
-![image](wiring-diagram.png)
+![image](wiring-diagram-mega.png)
 
 #### Board configuration
 Add one output shifter device with the three data pins configured as follows and choose four times 8 bit.
