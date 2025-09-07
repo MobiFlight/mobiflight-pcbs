@@ -7265,6 +7265,12 @@
 		(uuid "131889aa-9b09-4063-8aa5-b0cd375e5c2a")
 	)
 	(junction
+		(at 46.99 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23b00a70-466f-40c3-8d0d-fac0dd199e7e")
+	)
+	(junction
 		(at 247.65 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7462,12 +7468,6 @@
 		(color 0 0 0 0)
 		(uuid "f7ab31db-a80f-4d2f-9d5f-a4808408e8ae")
 	)
-	(junction
-		(at 36.83 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffe30f06-3d5c-4ff9-9ebe-f38dab360d92")
-	)
 	(wire
 		(pts
 			(xy 189.23 59.69) (xy 193.04 59.69)
@@ -7600,16 +7600,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 30.48) (xy 36.83 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c26aad9-38f9-416d-b485-48ee5798805a")
-	)
-	(wire
-		(pts
 			(xy 152.4 133.35) (xy 152.4 137.16)
 		)
 		(stroke
@@ -7700,7 +7690,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 27.94) (xy 52.07 27.94)
+			(xy 43.18 27.94) (xy 46.99 27.94)
 		)
 		(stroke
 			(width 0)
@@ -8410,7 +8400,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 38.1) (xy 36.83 39.37)
+			(xy 46.99 38.1) (xy 46.99 39.37)
 		)
 		(stroke
 			(width 0)
@@ -8477,16 +8467,6 @@
 			(type default)
 		)
 		(uuid "8d2593a2-8603-4a73-a40d-3080337746f2")
-	)
-	(wire
-		(pts
-			(xy 33.02 27.94) (xy 36.83 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ff5b921-fd3a-48cb-8d79-eed9936bd297")
 	)
 	(wire
 		(pts
@@ -8680,7 +8660,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 27.94) (xy 40.64 27.94)
+			(xy 33.02 27.94) (xy 35.56 27.94)
 		)
 		(stroke
 			(width 0)
@@ -8717,6 +8697,16 @@
 			(type default)
 		)
 		(uuid "b474b746-47af-4a50-907d-7fc5fe379494")
+	)
+	(wire
+		(pts
+			(xy 46.99 27.94) (xy 52.07 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4899cde-d76d-4168-81cc-71bd37a1430b")
 	)
 	(wire
 		(pts
@@ -8947,6 +8937,16 @@
 			(type default)
 		)
 		(uuid "d1242148-34d4-4b5c-b647-fe97ec2a51cf")
+	)
+	(wire
+		(pts
+			(xy 46.99 27.94) (xy 46.99 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d419d69b-ac0d-4272-bd4c-8a44b07d9678")
 	)
 	(wire
 		(pts
@@ -12541,7 +12541,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 39.37 0)
+		(at 46.99 39.37 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12551,7 +12551,7 @@
 		(fields_autoplaced yes)
 		(uuid "32c34b55-05c1-442d-a8c0-6faa9c3d4545")
 		(property "Reference" "#PWR029"
-			(at 36.83 45.72 0)
+			(at 46.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12560,7 +12560,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 40.6399 0)
+			(at 49.53 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12569,7 +12569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 39.37 0)
+			(at 46.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12578,7 +12578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 39.37 0)
+			(at 46.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12587,7 +12587,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 39.37 0)
+			(at 46.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13590,10 +13590,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4d05e25d-5306-46b2-8cbe-84ee299153fc")
 		(property "Reference" "J102"
-			(at 28.575 17.78 0)
+			(at 24.13 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13601,7 +13600,7 @@
 			)
 		)
 		(property "Value" "PWR"
-			(at 28.575 20.32 0)
+			(at 24.13 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13636,7 +13635,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 28.575 22.86 0)
+			(at 24.384 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14614,7 +14613,7 @@
 	)
 	(symbol
 		(lib_id "Own_Library:D_Schottky_B5819W-SL")
-		(at 44.45 27.94 180)
+		(at 39.37 27.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14622,7 +14621,7 @@
 		(dnp no)
 		(uuid "63a7dee6-0968-4386-a1dc-0f966a6ee85e")
 		(property "Reference" "D1"
-			(at 44.45 21.336 0)
+			(at 39.37 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14630,15 +14629,16 @@
 			)
 		)
 		(property "Value" "D_Schottky_B5819W-SL"
-			(at 46.736 23.368 0)
+			(at 41.656 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 44.45 27.94 0)
+			(at 39.37 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14647,7 +14647,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 27.94 0)
+			(at 39.37 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14656,29 +14656,20 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 44.45 27.94 0)
+			(at 39.37 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 47.752 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "LCSC" "C8598"
-			(at 44.45 27.94 0)
+			(at 39.624 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17358,7 +17349,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 36.83 34.29 0)
+		(at 46.99 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17367,7 +17358,7 @@
 		(fields_autoplaced yes)
 		(uuid "c15d15d8-3b8a-40a5-89e0-862849a283e1")
 		(property "Reference" "C5"
-			(at 40.64 32.1309 0)
+			(at 50.8 32.1309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17376,7 +17367,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 40.64 34.6709 0)
+			(at 50.8 34.6709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17385,7 +17376,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
-			(at 37.7952 38.1 0)
+			(at 47.9552 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17394,7 +17385,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 34.29 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17403,7 +17394,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 36.83 34.29 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17412,7 +17403,7 @@
 			)
 		)
 		(property "LCSC" "C123253"
-			(at 36.83 34.29 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
