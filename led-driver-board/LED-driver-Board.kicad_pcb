@@ -3591,7 +3591,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C58391"
+		(property "LCSC" "C118903"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15328,7 +15328,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C58391"
+		(property "LCSC" "C118903"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17416,7 +17416,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C58391"
+		(property "LCSC" "C118903"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23100,7 +23100,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C58391"
+		(property "LCSC" "C118903"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26550,7 +26550,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "PWM 25-32"
+	(gr_text "PWM 24-31"
 		(at 132.48 62.74 0)
 		(layer "F.SilkS")
 		(uuid "2d0b038f-570e-4a19-98db-b2cb85dc1bd8")
@@ -26577,7 +26577,7 @@
 		)
 	)
 	(gr_text "LED7"
-		(at 80.6 137.22 0)
+		(at 80.6 137.35 0)
 		(layer "F.SilkS")
 		(uuid "6df6a280-3d50-4b46-8ade-76f0efb279ed")
 		(effects
@@ -26590,7 +26590,7 @@
 		)
 	)
 	(gr_text "LED23"
-		(at 115.1 137.24 0)
+		(at 115.1 137.35 0)
 		(layer "F.SilkS")
 		(uuid "6f2d2451-d159-4ea9-b45c-006cf348546e")
 		(effects
@@ -26615,8 +26615,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "PWM 1-8"
-		(at 79.75 62.74 0)
+	(gr_text "PWM 0-7"
+		(at 79.67 62.69 0)
 		(layer "F.SilkS")
 		(uuid "88182be9-a35e-4b39-8446-cd71c33e6e08")
 		(effects
@@ -26639,7 +26639,7 @@
 			)
 		)
 	)
-	(gr_text "PWM 17-24"
+	(gr_text "PWM 16-23"
 		(at 114.05 62.74 0)
 		(layer "F.SilkS")
 		(uuid "b6f987dc-cd2b-47b9-b274-23591f9ec432")
@@ -26666,7 +26666,7 @@
 		)
 	)
 	(gr_text "LED8"
-		(at 106.035 82.815 0)
+		(at 106.035 82 0)
 		(layer "F.SilkS")
 		(uuid "c1177b29-e60f-4bc3-a870-0b8fa9d7ae6f")
 		(effects
@@ -26692,7 +26692,7 @@
 		)
 	)
 	(gr_text "LED15"
-		(at 97.28 137.38 0)
+		(at 97.28 137.35 0)
 		(layer "F.SilkS")
 		(uuid "c7ef71fe-2908-47da-bc5d-5f6eec4004c9")
 		(effects
@@ -26704,8 +26704,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "PWM 9-16"
-		(at 97.34 62.74 0)
+	(gr_text "PWM 8-15"
+		(at 97.27 62.69 0)
 		(layer "F.SilkS")
 		(uuid "cc484fac-1c47-48b0-a20e-845c78dd9b23")
 		(effects
@@ -26718,7 +26718,7 @@
 		)
 	)
 	(gr_text "LED16"
-		(at 123.115 82.025 0)
+		(at 123.115 82 0)
 		(layer "F.SilkS")
 		(uuid "e4b75e01-bb6f-4e36-ab72-67097ce91d19")
 		(effects
@@ -26757,7 +26757,7 @@
 		)
 	)
 	(gr_text "LED0"
-		(at 87.585 82.165 0)
+		(at 87.585 82 0)
 		(layer "F.SilkS")
 		(uuid "f2e2c297-4208-4da1-a29e-099c4082dea2")
 		(effects
@@ -26767,6 +26767,18 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "5V-12V"
+		(at 80.42 123.51 0)
+		(layer "B.SilkS")
+		(uuid "0710e561-6245-4cac-ae04-9b457ffeac92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "5V"
@@ -26827,6 +26839,18 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 79.039048 126.11 0)
+		(layer "B.SilkS")
+		(uuid "922c8aad-926c-49cc-a894-1df812eb3c04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "Clock"
@@ -27574,7 +27598,7 @@
 		(uuid "9f944f08-dca9-4d63-bdfb-2fc26308b5b8")
 	)
 	(via
-		(at 71.93 132.71)
+		(at 77.58 131.9)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")

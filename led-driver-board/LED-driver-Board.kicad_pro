@@ -604,12 +604,6 @@
           "label": "Beschreibung",
           "name": "Description",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLCPCB",
-          "name": "JLCPCB",
-          "show": true
         }
       ],
       "filter_string": "",

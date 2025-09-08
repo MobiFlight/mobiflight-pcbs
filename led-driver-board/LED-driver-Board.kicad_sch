@@ -7236,7 +7236,7 @@
 		)
 		(uuid "1f858bef-576f-4ff9-8c08-a413ef88eca0")
 	)
-	(text "01/2025"
+	(text "09/2025"
 		(exclude_from_sim no)
 		(at 211.328 193.294 0)
 		(effects
@@ -11273,7 +11273,7 @@
 	)
 	(symbol
 		(lib_id "_MobiFlight:MountingHole 3.2mm")
-		(at 50.8 182.88 0)
+		(at 39.37 191.77 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -11282,7 +11282,7 @@
 		(fields_autoplaced yes)
 		(uuid "075dc412-b341-43ef-838f-5517b166dc35")
 		(property "Reference" "H2"
-			(at 53.34 181.6099 0)
+			(at 41.91 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11291,7 +11291,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 53.34 184.1499 0)
+			(at 41.91 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11300,7 +11300,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 50.8 182.88 0)
+			(at 39.37 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11309,7 +11309,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 182.88 0)
+			(at 39.37 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11318,7 +11318,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 50.8 182.88 0)
+			(at 39.37 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11834,7 +11834,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C58391"
+		(property "LCSC" "C118903"
 			(at 95.25 73.6599 0)
 			(effects
 				(font
@@ -12743,7 +12743,7 @@
 	)
 	(symbol
 		(lib_id "_MobiFlight:MountingHole 3.2mm")
-		(at 69.85 182.88 0)
+		(at 58.42 191.77 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -12752,7 +12752,7 @@
 		(fields_autoplaced yes)
 		(uuid "379d347e-3dcd-4269-888c-26d32039081a")
 		(property "Reference" "H3"
-			(at 72.39 181.6099 0)
+			(at 60.96 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12761,7 +12761,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 72.39 184.1499 0)
+			(at 60.96 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12770,7 +12770,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 69.85 182.88 0)
+			(at 58.42 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12779,7 +12779,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 182.88 0)
+			(at 58.42 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12788,7 +12788,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 69.85 182.88 0)
+			(at 58.42 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15807,7 +15807,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C58391"
+		(property "LCSC" "C118903"
 			(at 100.33 137.1599 0)
 			(effects
 				(font
@@ -15889,7 +15889,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C58391"
+		(property "LCSC" "C118903"
 			(at 158.75 135.8899 0)
 			(effects
 				(font
@@ -17562,7 +17562,7 @@
 	)
 	(symbol
 		(lib_id "_MobiFlight:MountingHole 3.2mm")
-		(at 88.9 182.88 0)
+		(at 77.47 191.77 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -17571,7 +17571,7 @@
 		(fields_autoplaced yes)
 		(uuid "c85f040c-30a3-40d5-bf8a-6ee03d921c46")
 		(property "Reference" "H4"
-			(at 91.44 181.6099 0)
+			(at 80.01 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17580,7 +17580,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 91.44 184.1499 0)
+			(at 80.01 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17589,7 +17589,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 88.9 182.88 0)
+			(at 77.47 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17598,7 +17598,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 182.88 0)
+			(at 77.47 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17607,7 +17607,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 88.9 182.88 0)
+			(at 77.47 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17745,7 +17745,7 @@
 	)
 	(symbol
 		(lib_id "_MobiFlight:MountingHole 3.2mm")
-		(at 31.75 182.88 0)
+		(at 20.32 191.77 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -17754,7 +17754,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4eb6860-572a-46f7-b623-1dbcf0b0c30c")
 		(property "Reference" "H1"
-			(at 34.29 181.6099 0)
+			(at 22.86 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17763,7 +17763,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 34.29 184.1499 0)
+			(at 22.86 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17772,7 +17772,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 31.75 182.88 0)
+			(at 20.32 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17781,7 +17781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 182.88 0)
+			(at 20.32 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17790,7 +17790,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 31.75 182.88 0)
+			(at 20.32 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19005,7 +19005,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C58391"
+		(property "LCSC" "C118903"
 			(at 154.94 71.1199 0)
 			(effects
 				(font
