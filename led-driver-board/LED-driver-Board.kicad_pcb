@@ -199,7 +199,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "470"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "71daa2d4-d8b0-4a15-a3a7-9e2e939bcba8")
@@ -236,7 +236,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17408"
+		(property "LCSC" "C17710"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3538,14 +3538,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "_Own_Library:Potentiometer_Bochen_3362P_Vertical"
+	(footprint "_MobiFlight:Potentiometer_Bochen_3362P_Vertical"
 		(layer "F.Cu")
 		(uuid "298ee48b-a8f9-4d14-9ea3-ea5535bc2ab4")
 		(at 82.97 71.21 180)
 		(descr "Potentiometer, vertical, Bochen 3362P, https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588892584400072704")
 		(tags "Potentiometer vertical Bochen 3362P")
 		(property "Reference" "RV1"
-			(at -0.06 -7.09 0)
+			(at -0.06 -7.09 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0252ce88-6a72-42b9-ab4c-6cc6eb168020")
@@ -3557,7 +3557,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at -0.06 2.01 0)
+			(at -0.06 2.01 180)
 			(layer "F.Fab")
 			(uuid "5f7c8e9a-5682-47ed-b918-36f0be954cf2")
 			(effects
@@ -3568,7 +3568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fbb51f86-4987-4ef8-b9c2-23835b1f4ca5")
@@ -3580,7 +3580,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3b0fab54-f132-4224-8bb5-0976214e8ef1")
@@ -3596,7 +3596,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "778ce0b1-4875-4a07-aa9c-611702ac41a7")
+			(uuid "df5b1ea5-1b99-467d-a606-2c778c3e6a30")
 			(effects
 				(font
 					(size 1 1)
@@ -3617,7 +3617,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4f15680e-50b3-413f-8c49-538ac278ebf7")
+			(uuid "afba8a05-d5d0-4527-8ea3-63822fc0347e")
 		)
 		(fp_line
 			(start 3.55 -5.95)
@@ -3627,7 +3627,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6b658b10-5091-4bf3-b8ba-8c0a61debd3d")
+			(uuid "97fbaea0-2618-4a4b-8c2d-d72670b0380e")
 		)
 		(fp_line
 			(start 0.382 -5.95)
@@ -3637,7 +3637,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c3299653-cf61-410b-b6cd-7b86545d2bbb")
+			(uuid "7a333311-4bee-4c8c-a57d-5bc45adfa132")
 		)
 		(fp_line
 			(start -0.382 0.87)
@@ -3647,7 +3647,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bc006f7b-f517-45ff-978a-eefa1993d5a8")
+			(uuid "67edd708-86ad-40b4-b232-1cf0c069d6ad")
 		)
 		(fp_line
 			(start -3.67 0.87)
@@ -3657,7 +3657,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b70c0b07-2347-4cf3-8877-5d2be0cdabb8")
+			(uuid "39f477bc-e4ac-4dd5-b2d9-ea766cee3f1d")
 		)
 		(fp_line
 			(start -3.67 -5.95)
@@ -3667,7 +3667,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ad5d43ed-3429-4b8b-86ea-fa56cb48501a")
+			(uuid "e78f3d3f-c706-4607-99b1-9d6f6fd6ea8e")
 		)
 		(fp_rect
 			(start -3.81 -6.09)
@@ -3678,7 +3678,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "278d52aa-787a-468c-95fb-a23f0289d231")
+			(uuid "d5abcc5f-460f-4615-9f58-9df96c79b0bc")
 		)
 		(fp_line
 			(start 0.24 -3.665)
@@ -3688,7 +3688,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "526fc490-1c61-4838-a6fd-a9c683847ac0")
+			(uuid "74caaa09-36bf-4981-84cd-09f783b7d7df")
 		)
 		(fp_line
 			(start -0.885 -2.54)
@@ -3698,7 +3698,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "24134208-0db7-4a61-a1fd-e250a116167d")
+			(uuid "90d0c50a-0a87-4eb8-a62a-fbb4afca223d")
 		)
 		(fp_rect
 			(start -3.56 -5.84)
@@ -3709,7 +3709,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "4582ea36-f682-471c-8730-5fe6e49238ec")
+			(uuid "a57418ef-6a57-4b5f-9dbe-b31c1f5350a4")
 		)
 		(fp_circle
 			(center 0.24 -2.54)
@@ -3720,10 +3720,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "b810966f-32c3-4f34-b3ac-50d1154ba993")
+			(uuid "06e0b794-90de-4f1b-bcb9-8aae9d7bf92e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.56 -2.54 90)
+			(at -2.56 -2.54 270)
 			(layer "F.Fab")
 			(uuid "149d7ed8-8a3f-40c3-af22-823421a5c5e6")
 			(effects
@@ -3767,7 +3767,7 @@
 			(uuid "92f6daec-c0b6-4bc4-8311-decc50edf53a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_OWN_LIB_DIR}/3D Files/Potentiometer_Bochen_3362P-1-502.step"
+		(model "${KICAD_MOBIFLIGHT_DIR}/3D files/Potentiometer_Bochen_3362P-1-502.step"
 			(offset
 				(xyz 8.65 6.27 -1.5)
 			)
@@ -15275,14 +15275,14 @@
 			)
 		)
 	)
-	(footprint "_Own_Library:Potentiometer_Bochen_3362P_Vertical"
+	(footprint "_MobiFlight:Potentiometer_Bochen_3362P_Vertical"
 		(layer "F.Cu")
 		(uuid "a34ea595-4ed6-4633-baf9-ad76247aacf0")
 		(at 101.57 71.18 180)
 		(descr "Potentiometer, vertical, Bochen 3362P, https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588892584400072704")
 		(tags "Potentiometer vertical Bochen 3362P")
 		(property "Reference" "RV2"
-			(at -0.06 -7.09 0)
+			(at -0.06 -7.09 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "abc9ab54-e17d-4606-adc4-25461999b766")
@@ -15294,7 +15294,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at -0.06 2.01 0)
+			(at -0.06 2.01 180)
 			(layer "F.Fab")
 			(uuid "aae9015b-4f55-4413-aca7-80413502d83b")
 			(effects
@@ -15305,7 +15305,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6ddd95b0-2d6e-4737-aa59-cfca287ac68f")
@@ -15317,7 +15317,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e57957b-cab0-4bea-9990-f7496a6834c6")
@@ -15333,7 +15333,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c84c5cda-c730-4679-88c9-e58c775cfc32")
+			(uuid "2e4da7d9-87b1-4e6b-846a-9da2eb917089")
 			(effects
 				(font
 					(size 1 1)
@@ -15354,7 +15354,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ded696a5-d4ad-4998-bbf9-2f2263e2210a")
+			(uuid "153110e6-b906-4219-b25d-ad370f217b30")
 		)
 		(fp_line
 			(start 3.55 -5.95)
@@ -15364,7 +15364,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "294ca985-57a0-444f-8359-709c5403ca95")
+			(uuid "92050aa4-08bd-4666-8f9a-6e3f79634bf4")
 		)
 		(fp_line
 			(start 0.382 -5.95)
@@ -15374,7 +15374,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "28ee091e-2e48-409d-8a56-e7139a8e4336")
+			(uuid "f4b1afdf-2913-4d4d-a79e-e420818f61d1")
 		)
 		(fp_line
 			(start -0.382 0.87)
@@ -15384,7 +15384,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a6d6c0e1-c28f-40f3-a581-856e7824f530")
+			(uuid "1a14e670-7c73-48bf-937a-af4dd52d2c19")
 		)
 		(fp_line
 			(start -3.67 0.87)
@@ -15394,7 +15394,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "92d9a984-5d68-4e05-a33c-f858f338cac3")
+			(uuid "81bfaa78-9786-491f-91b2-be553aed9ea4")
 		)
 		(fp_line
 			(start -3.67 -5.95)
@@ -15404,7 +15404,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3d0ecb29-e584-4f7e-83e4-89140a9982d7")
+			(uuid "9445b828-7519-4d12-ade2-5dcf37681cd3")
 		)
 		(fp_rect
 			(start -3.81 -6.09)
@@ -15415,7 +15415,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "3ca58c43-86e4-4a0a-bed9-9a07eef53400")
+			(uuid "4cc91220-276b-4613-8970-3fcae43d9828")
 		)
 		(fp_line
 			(start 0.24 -3.665)
@@ -15425,7 +15425,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4d8b5d78-32fc-4d20-b430-a10dbdf3a804")
+			(uuid "7a83bafd-e6b5-449a-9ec1-2c6b64542761")
 		)
 		(fp_line
 			(start -0.885 -2.54)
@@ -15435,7 +15435,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0bc40de1-7797-46cf-82a6-7e8e64e2cc1a")
+			(uuid "a63b1614-5155-4346-b347-f2743f399882")
 		)
 		(fp_rect
 			(start -3.56 -5.84)
@@ -15446,7 +15446,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "2d989793-a605-4df1-8c93-0a51d783d6e1")
+			(uuid "2ff86303-520a-42c1-be03-ed74dc39fe92")
 		)
 		(fp_circle
 			(center 0.24 -2.54)
@@ -15457,10 +15457,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "806e86bf-d0b6-49b9-8c1a-6fb67ad6f95d")
+			(uuid "b1c2f304-7ec0-47e5-8036-f49c527e859f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.56 -2.54 90)
+			(at -2.56 -2.54 270)
 			(layer "F.Fab")
 			(uuid "fc8ab27c-63f9-492d-82e7-2471ac4e6a97")
 			(effects
@@ -15504,7 +15504,7 @@
 			(uuid "51e1aa7d-6de2-40cc-9662-cc7c8f6579db")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_OWN_LIB_DIR}/3D Files/Potentiometer_Bochen_3362P-1-502.step"
+		(model "${KICAD_MOBIFLIGHT_DIR}/3D files/Potentiometer_Bochen_3362P-1-502.step"
 			(offset
 				(xyz 8.65 6.27 -1.5)
 			)
@@ -16953,7 +16953,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "470"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "9c74bb66-aaac-4977-9d54-d0e206104620")
@@ -16990,7 +16990,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17408"
+		(property "LCSC" "C17710"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -17167,7 +17167,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "470"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "3673c135-13c9-4af6-9572-1a56012d58fc")
@@ -17204,7 +17204,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17408"
+		(property "LCSC" "C17710"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -17363,14 +17363,14 @@
 			)
 		)
 	)
-	(footprint "_Own_Library:Potentiometer_Bochen_3362P_Vertical"
+	(footprint "_MobiFlight:Potentiometer_Bochen_3362P_Vertical"
 		(layer "F.Cu")
 		(uuid "b6b15af6-8c74-4f6d-a04d-a95d93dd814a")
 		(at 137.15 71.05 180)
 		(descr "Potentiometer, vertical, Bochen 3362P, https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588892584400072704")
 		(tags "Potentiometer vertical Bochen 3362P")
 		(property "Reference" "RV4"
-			(at -0.06 -7.09 0)
+			(at -0.06 -7.09 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1852ea78-92f0-4bf3-bfe3-adc74c8fcbb8")
@@ -17382,7 +17382,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at -0.06 2.01 0)
+			(at -0.06 2.01 180)
 			(layer "F.Fab")
 			(uuid "3a94a9fb-7d1c-4129-825e-b1bb4d3f50da")
 			(effects
@@ -17393,7 +17393,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "80d4097d-f0c2-450e-9e42-83c5643fcbda")
@@ -17405,7 +17405,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cbf3399f-eba8-4e77-b876-691578436d8b")
@@ -17421,7 +17421,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51e7e009-9231-446a-8766-ec69d5c0ac1a")
+			(uuid "d8042be6-8c3d-4ac9-9217-39d9d1763d99")
 			(effects
 				(font
 					(size 1 1)
@@ -17442,7 +17442,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ab751ed5-4dbb-432a-9716-8ef4f7d1aee9")
+			(uuid "a1527978-8eb3-4077-9c91-f4c46c8688cb")
 		)
 		(fp_line
 			(start 3.55 -5.95)
@@ -17452,7 +17452,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8b77e2de-2f0f-4164-8bf1-46266f5c2310")
+			(uuid "9bad05cd-5e8a-4057-a8cf-7b94c2047db0")
 		)
 		(fp_line
 			(start 0.382 -5.95)
@@ -17462,7 +17462,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "02c4fe51-262b-4af5-a7cb-2f5c9803832c")
+			(uuid "ceb8ebe0-814d-44ef-afd3-13ab2363e867")
 		)
 		(fp_line
 			(start -0.382 0.87)
@@ -17472,7 +17472,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "513f7b62-0df8-4894-a895-39c0759139d7")
+			(uuid "2c69f2a0-f221-4d6d-965a-4fc8075667c8")
 		)
 		(fp_line
 			(start -3.67 0.87)
@@ -17482,7 +17482,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "93621890-835d-472d-837b-5d05f17540ed")
+			(uuid "75f50181-13fb-40a7-a0a4-faf15f16213b")
 		)
 		(fp_line
 			(start -3.67 -5.95)
@@ -17492,7 +17492,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "eb43ffa8-ff41-477c-9ae4-b9f5a3a5f0b4")
+			(uuid "91502b84-93cb-49e2-b2c3-db814f600232")
 		)
 		(fp_rect
 			(start -3.81 -6.09)
@@ -17503,7 +17503,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "4090095e-16b7-4f5b-ba6a-98ae35f213e9")
+			(uuid "f12943a9-a35e-4560-8ede-27a99d3a8349")
 		)
 		(fp_line
 			(start 0.24 -3.665)
@@ -17513,7 +17513,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cc17e816-d7a1-4d59-b552-70dc6cdc66c4")
+			(uuid "13ea2dda-25da-4dcd-a338-c38e4d8e4c4a")
 		)
 		(fp_line
 			(start -0.885 -2.54)
@@ -17523,7 +17523,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4893123a-e856-446e-a104-eec7f6429833")
+			(uuid "ec98523c-252d-4458-9835-ffe8297e9a86")
 		)
 		(fp_rect
 			(start -3.56 -5.84)
@@ -17534,7 +17534,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "f5317ed3-319c-4bf5-921d-8a9fd0a463e3")
+			(uuid "ec49afea-a3d0-4ca7-b0fb-288c67ce2742")
 		)
 		(fp_circle
 			(center 0.24 -2.54)
@@ -17545,10 +17545,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "1d9167f4-d5b4-43a4-99cc-a17218ba6b58")
+			(uuid "73d55010-4379-4bde-98c1-cb285b008dfd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.56 -2.54 90)
+			(at -2.56 -2.54 270)
 			(layer "F.Fab")
 			(uuid "0cf4b2cd-74f1-4530-9b54-d9a35d0b2a78")
 			(effects
@@ -17592,7 +17592,7 @@
 			(uuid "9d4581f6-8f5d-43fa-a6fd-e9e7e0eaf995")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_OWN_LIB_DIR}/3D Files/Potentiometer_Bochen_3362P-1-502.step"
+		(model "${KICAD_MOBIFLIGHT_DIR}/3D files/Potentiometer_Bochen_3362P-1-502.step"
 			(offset
 				(xyz 8.65 6.27 -1.5)
 			)
@@ -19028,7 +19028,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "470"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "5518cdc0-396c-4648-844b-1e316cdd0a65")
@@ -19065,7 +19065,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17408"
+		(property "LCSC" "C17710"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -23047,14 +23047,14 @@
 			)
 		)
 	)
-	(footprint "_Own_Library:Potentiometer_Bochen_3362P_Vertical"
+	(footprint "_MobiFlight:Potentiometer_Bochen_3362P_Vertical"
 		(layer "F.Cu")
 		(uuid "f27ffd3a-fd2d-48ad-bf58-b67408a5ccac")
 		(at 118.71 71.11 180)
 		(descr "Potentiometer, vertical, Bochen 3362P, https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588892584400072704")
 		(tags "Potentiometer vertical Bochen 3362P")
 		(property "Reference" "RV3"
-			(at -0.06 -7.09 0)
+			(at -0.06 -7.09 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ac6e091f-b313-46b7-aa39-04aa5e160026")
@@ -23066,7 +23066,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at -0.06 2.01 0)
+			(at -0.06 2.01 180)
 			(layer "F.Fab")
 			(uuid "c26cb67f-663f-4963-b828-eb1e879a1b31")
 			(effects
@@ -23077,7 +23077,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "290cf3ff-cfeb-4a37-9f78-2fc78484e113")
@@ -23089,7 +23089,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c993c655-4a80-450c-8982-a4208643ba31")
@@ -23105,7 +23105,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e18024e-f1f2-49a5-a685-fdc08f0bd061")
+			(uuid "a6ba39a9-4464-4eda-9840-de6ce33a0bf4")
 			(effects
 				(font
 					(size 1 1)
@@ -23126,7 +23126,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b83c47cb-8459-4d8f-88fc-12da16bb9e01")
+			(uuid "3e997319-efb5-4e45-9769-3348b2cc2608")
 		)
 		(fp_line
 			(start 3.55 -5.95)
@@ -23136,7 +23136,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "24002fac-40a7-4687-a11d-64924e663818")
+			(uuid "be238187-3c91-4a65-a441-87f281c3493b")
 		)
 		(fp_line
 			(start 0.382 -5.95)
@@ -23146,7 +23146,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "283462e6-ceed-4214-9d72-946d233fcac8")
+			(uuid "34441a55-b3f1-4ca0-b695-97cbf65dac57")
 		)
 		(fp_line
 			(start -0.382 0.87)
@@ -23156,7 +23156,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b6f68826-3515-4731-918e-ed68ceeb4cb7")
+			(uuid "5c1daaeb-c326-4b74-9574-d0d72f7b508c")
 		)
 		(fp_line
 			(start -3.67 0.87)
@@ -23166,7 +23166,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a289168b-ccf7-4269-9a60-c81aab2b30cf")
+			(uuid "e571e59b-ccb0-4319-8780-7e08bf9c35ae")
 		)
 		(fp_line
 			(start -3.67 -5.95)
@@ -23176,7 +23176,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8ab1a557-7d51-4192-a486-198a96c59dbe")
+			(uuid "0679a4db-15db-44e8-8cad-427e5f0b3818")
 		)
 		(fp_rect
 			(start -3.81 -6.09)
@@ -23187,7 +23187,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "002afd33-07ff-4f21-ac1f-b4c2fcc1f8e8")
+			(uuid "c112923e-7892-4a56-9dfc-f00f35ad11ac")
 		)
 		(fp_line
 			(start 0.24 -3.665)
@@ -23197,7 +23197,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "912ef315-74e0-4aa4-a1b1-72986ea9edb7")
+			(uuid "f96ec8ef-0399-4c6d-b511-1f3a94501e0c")
 		)
 		(fp_line
 			(start -0.885 -2.54)
@@ -23207,7 +23207,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "31a6516e-9ee7-478c-a790-a24f56a16748")
+			(uuid "c2fae70f-a69d-42b9-a5a4-25fe06e2c52d")
 		)
 		(fp_rect
 			(start -3.56 -5.84)
@@ -23218,7 +23218,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "dd0eef75-9810-4450-ba31-3d7e0b5f382a")
+			(uuid "ba7dd69f-26c9-4707-9972-9e293709a57b")
 		)
 		(fp_circle
 			(center 0.24 -2.54)
@@ -23229,10 +23229,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "81723709-8510-4cc2-a25f-d950ac28616a")
+			(uuid "07e09037-09c7-4b97-8879-978669be1f99")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.56 -2.54 90)
+			(at -2.56 -2.54 270)
 			(layer "F.Fab")
 			(uuid "38194eca-f266-4366-84fd-05deef2b0086")
 			(effects
@@ -23276,7 +23276,7 @@
 			(uuid "0917fa5b-ceb6-416b-a50d-c97a41dd9c5d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_OWN_LIB_DIR}/3D Files/Potentiometer_Bochen_3362P-1-502.step"
+		(model "${KICAD_MOBIFLIGHT_DIR}/3D files/Potentiometer_Bochen_3362P-1-502.step"
 			(offset
 				(xyz 8.65 6.27 -1.5)
 			)
