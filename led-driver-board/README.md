@@ -29,6 +29,14 @@ With this potentiometer the max. intensity of LED's 16-23 can be adjusted.
 ### Potentiometer Dim 24-31
 With this potentiometer the max. intensity of LED's 24-31 can be adjusted.
 
+### Range of current for outputs
+The maximal current to each LED is ~45mA, limited by an onboard resistor.
+The minimal current to each LED is ~4mA, limited by the potentiomer.
+Between ~45mA and ~4mA each current can be set by adjusting the potentiometer.
+
+![image](current_setting.png)
+(Diagram from the [LED driver datasheet](https://www.st.com/resource/en/datasheet/stap08dp05.pdf))
+
 ### PWM 0-7
 Connection coming from your Mobiflight board.
 
