@@ -21159,7 +21159,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20079"
+		(property "LCSC" "C24192"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
