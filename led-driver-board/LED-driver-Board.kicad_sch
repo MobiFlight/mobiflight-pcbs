@@ -5645,6 +5645,164 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Own_Library:D_Schottky_B5819W-SL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky_B5819W-SL"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB" "C8598"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_B5819W-SL_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_B5819W-SL_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "_MobiFlight:JST-XH_02_Pin_vertical"
 			(pin_names
 				(offset 1.016)
@@ -7078,7 +7236,7 @@
 		)
 		(uuid "1f858bef-576f-4ff9-8c08-a413ef88eca0")
 	)
-	(text "01/2025"
+	(text "09/2025"
 		(exclude_from_sim no)
 		(at 211.328 193.294 0)
 		(effects
@@ -7107,6 +7265,12 @@
 		(uuid "131889aa-9b09-4063-8aa5-b0cd375e5c2a")
 	)
 	(junction
+		(at 46.99 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23b00a70-466f-40c3-8d0d-fac0dd199e7e")
+	)
+	(junction
 		(at 247.65 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7117,12 +7281,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b4dce30-7918-4d68-bc4d-7fff84a5bf05")
-	)
-	(junction
-		(at 36.83 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d6fe48f-3104-4ef0-b1b0-dace6e601873")
 	)
 	(junction
 		(at 247.65 109.22)
@@ -7442,16 +7600,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 30.48) (xy 36.83 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c26aad9-38f9-416d-b485-48ee5798805a")
-	)
-	(wire
-		(pts
 			(xy 152.4 133.35) (xy 152.4 137.16)
 		)
 		(stroke
@@ -7542,6 +7690,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 27.94) (xy 46.99 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab227a5-bba1-405e-b822-ea6893e84ea0")
+	)
+	(wire
+		(pts
 			(xy 179.07 99.06) (xy 179.07 101.6)
 		)
 		(stroke
@@ -7622,7 +7780,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 39.37) (xy 49.53 25.4)
+			(xy 59.69 39.37) (xy 59.69 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7752,7 +7910,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 64.77) (xy 99.06 64.77)
+			(xy 92.71 64.77) (xy 99.06 64.77)
 		)
 		(stroke
 			(width 0)
@@ -8242,7 +8400,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 38.1) (xy 36.83 39.37)
+			(xy 46.99 38.1) (xy 46.99 39.37)
 		)
 		(stroke
 			(width 0)
@@ -8252,7 +8410,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 67.31) (xy 96.52 64.77)
+			(xy 92.71 67.31) (xy 92.71 64.77)
 		)
 		(stroke
 			(width 0)
@@ -8309,16 +8467,6 @@
 			(type default)
 		)
 		(uuid "8d2593a2-8603-4a73-a40d-3080337746f2")
-	)
-	(wire
-		(pts
-			(xy 33.02 27.94) (xy 36.83 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ff5b921-fd3a-48cb-8d79-eed9936bd297")
 	)
 	(wire
 		(pts
@@ -8472,16 +8620,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 27.94) (xy 40.64 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab219252-d9bf-4e91-9e17-c3f763c22d33")
-	)
-	(wire
-		(pts
 			(xy 148.59 130.81) (xy 148.59 106.68)
 		)
 		(stroke
@@ -8512,13 +8650,23 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 25.4) (xy 33.02 25.4)
+			(xy 59.69 25.4) (xy 33.02 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "acdef4b3-f387-424d-b24c-4a55648d0020")
+	)
+	(wire
+		(pts
+			(xy 33.02 27.94) (xy 35.56 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef7e674-8206-4d73-bbfb-07c4c18f13a7")
 	)
 	(wire
 		(pts
@@ -8549,6 +8697,16 @@
 			(type default)
 		)
 		(uuid "b474b746-47af-4a50-907d-7fc5fe379494")
+	)
+	(wire
+		(pts
+			(xy 46.99 27.94) (xy 52.07 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4899cde-d76d-4168-81cc-71bd37a1430b")
 	)
 	(wire
 		(pts
@@ -8779,6 +8937,16 @@
 			(type default)
 		)
 		(uuid "d1242148-34d4-4b5c-b647-fe97ec2a51cf")
+	)
+	(wire
+		(pts
+			(xy 46.99 27.94) (xy 46.99 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d419d69b-ac0d-4272-bd4c-8a44b07d9678")
 	)
 	(wire
 		(pts
@@ -9032,7 +9200,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 71.12) (xy 92.71 74.93)
+			(xy 88.9 71.12) (xy 88.9 74.93)
 		)
 		(stroke
 			(width 0)
@@ -11105,7 +11273,7 @@
 	)
 	(symbol
 		(lib_id "_MobiFlight:MountingHole 3.2mm")
-		(at 50.8 182.88 0)
+		(at 39.37 191.77 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -11114,7 +11282,7 @@
 		(fields_autoplaced yes)
 		(uuid "075dc412-b341-43ef-838f-5517b166dc35")
 		(property "Reference" "H2"
-			(at 53.34 181.6099 0)
+			(at 41.91 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11123,7 +11291,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 53.34 184.1499 0)
+			(at 41.91 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11132,7 +11300,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 50.8 182.88 0)
+			(at 39.37 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11141,7 +11309,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 182.88 0)
+			(at 39.37 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11150,7 +11318,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 50.8 182.88 0)
+			(at 39.37 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11613,7 +11781,7 @@
 	)
 	(symbol
 		(lib_id "_MobiFlight:R_Potentiometer_Trim_5k_Bourns")
-		(at 96.52 71.12 180)
+		(at 92.71 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11622,7 +11790,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e593ed3-b954-47c0-9da9-727dd10889df")
 		(property "Reference" "RV1"
-			(at 99.06 68.5799 0)
+			(at 95.25 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11631,7 +11799,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 99.06 71.1199 0)
+			(at 95.25 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11639,8 +11807,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_MobiFlight:Potentiometer_Bourns_3214J_Horizontal"
-			(at 96.52 71.12 0)
+		(property "Footprint" "mobiflight-footprints:Potentiometer_Bochen_3362P_Vertical"
+			(at 92.71 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11649,7 +11817,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 71.12 0)
+			(at 92.71 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11658,7 +11826,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
-			(at 96.52 71.12 0)
+			(at 92.71 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11666,8 +11834,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C58391"
-			(at 99.06 73.6599 0)
+		(property "LCSC" "C118903"
+			(at 95.25 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12223,7 +12391,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "470"
 			(at 104.902 128.27 90)
 			(effects
 				(font
@@ -12258,7 +12426,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17408"
+		(property "LCSC" "C17710"
 			(at 105.41 125.73 90)
 			(effects
 				(font
@@ -12373,7 +12541,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 39.37 0)
+		(at 46.99 39.37 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12383,7 +12551,7 @@
 		(fields_autoplaced yes)
 		(uuid "32c34b55-05c1-442d-a8c0-6faa9c3d4545")
 		(property "Reference" "#PWR029"
-			(at 36.83 45.72 0)
+			(at 46.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12392,7 +12560,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 40.6399 0)
+			(at 49.53 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12401,7 +12569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 39.37 0)
+			(at 46.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12410,7 +12578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 39.37 0)
+			(at 46.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12419,7 +12587,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 39.37 0)
+			(at 46.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12575,7 +12743,7 @@
 	)
 	(symbol
 		(lib_id "_MobiFlight:MountingHole 3.2mm")
-		(at 69.85 182.88 0)
+		(at 58.42 191.77 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -12584,7 +12752,7 @@
 		(fields_autoplaced yes)
 		(uuid "379d347e-3dcd-4269-888c-26d32039081a")
 		(property "Reference" "H3"
-			(at 72.39 181.6099 0)
+			(at 60.96 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12593,7 +12761,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 72.39 184.1499 0)
+			(at 60.96 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12602,7 +12770,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 69.85 182.88 0)
+			(at 58.42 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12611,7 +12779,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 182.88 0)
+			(at 58.42 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12620,7 +12788,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 69.85 182.88 0)
+			(at 58.42 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12731,7 +12899,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "470"
 			(at 162.052 64.77 90)
 			(effects
 				(font
@@ -12766,7 +12934,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17408"
+		(property "LCSC" "C17710"
 			(at 162.56 62.23 90)
 			(effects
 				(font
@@ -13422,10 +13590,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4d05e25d-5306-46b2-8cbe-84ee299153fc")
 		(property "Reference" "J102"
-			(at 28.575 17.78 0)
+			(at 24.13 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13433,7 +13600,7 @@
 			)
 		)
 		(property "Value" "PWR"
-			(at 28.575 20.32 0)
+			(at 24.13 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13467,8 +13634,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C20079"
-			(at 28.575 22.86 0)
+		(property "LCSC" "C24192"
+			(at 24.384 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14200,7 +14367,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 39.37 0)
+		(at 59.69 39.37 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14210,7 +14377,7 @@
 		(fields_autoplaced yes)
 		(uuid "60fa0c29-bc93-487d-b189-e6199a7c5b72")
 		(property "Reference" "#PWR028"
-			(at 49.53 45.72 0)
+			(at 59.69 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14219,7 +14386,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 40.6399 0)
+			(at 62.23 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14228,7 +14395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 39.37 0)
+			(at 59.69 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14237,7 +14404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 39.37 0)
+			(at 59.69 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14246,7 +14413,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 39.37 0)
+			(at 59.69 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14445,6 +14612,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Own_Library:D_Schottky_B5819W-SL")
+		(at 39.37 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63a7dee6-0968-4386-a1dc-0f966a6ee85e")
+		(property "Reference" "D1"
+			(at 39.37 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky_B5819W-SL"
+			(at 41.656 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 39.37 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 39.37 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8598"
+			(at 39.624 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6aeb388e-1001-4bf3-b476-3ef7a3af62cd")
+		)
+		(pin "1"
+			(uuid "dc3d7762-6b18-4020-a0f9-bed9965757c6")
+		)
+		(instances
+			(project ""
+				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 43.18 113.03 180)
 		(unit 1)
@@ -14611,7 +14854,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 40.64 27.94 270)
+		(at 52.07 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14619,7 +14862,7 @@
 		(dnp no)
 		(uuid "6f1e7c4c-316a-4e99-af75-8ae3b0907da9")
 		(property "Reference" "#PWR06"
-			(at 36.83 27.94 0)
+			(at 48.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14628,7 +14871,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 44.45 27.9399 90)
+			(at 55.88 27.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14637,7 +14880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 27.94 0)
+			(at 52.07 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14646,7 +14889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 27.94 0)
+			(at 52.07 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14655,7 +14898,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 40.64 27.94 0)
+			(at 52.07 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15377,7 +15620,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 74.93 0)
+		(at 88.9 74.93 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15386,7 +15629,7 @@
 		(dnp no)
 		(uuid "871a41de-67eb-4c41-86a8-66b81052302f")
 		(property "Reference" "#PWR018"
-			(at 92.71 81.28 0)
+			(at 88.9 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15395,7 +15638,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.868 76.2 0)
+			(at 83.058 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15404,7 +15647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 74.93 0)
+			(at 88.9 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15413,7 +15656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 74.93 0)
+			(at 88.9 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15422,7 +15665,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 74.93 0)
+			(at 88.9 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15537,7 +15780,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_MobiFlight:Potentiometer_Bourns_3214J_Horizontal"
+		(property "Footprint" "mobiflight-footprints:Potentiometer_Bochen_3362P_Vertical"
 			(at 97.79 134.62 0)
 			(effects
 				(font
@@ -15564,7 +15807,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C58391"
+		(property "LCSC" "C118903"
 			(at 100.33 137.1599 0)
 			(effects
 				(font
@@ -15619,7 +15862,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_MobiFlight:Potentiometer_Bourns_3214J_Horizontal"
+		(property "Footprint" "mobiflight-footprints:Potentiometer_Bochen_3362P_Vertical"
 			(at 156.21 133.35 0)
 			(effects
 				(font
@@ -15646,7 +15889,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C58391"
+		(property "LCSC" "C118903"
 			(at 158.75 135.8899 0)
 			(effects
 				(font
@@ -15675,7 +15918,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 74.93 0)
+		(at 92.71 74.93 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15685,7 +15928,7 @@
 		(fields_autoplaced yes)
 		(uuid "939eb45b-e1b9-4290-b7b1-12c38d1e9402")
 		(property "Reference" "#PWR012"
-			(at 96.52 81.28 0)
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15694,7 +15937,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 76.1999 0)
+			(at 95.25 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15703,7 +15946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 74.93 0)
+			(at 92.71 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15712,7 +15955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 74.93 0)
+			(at 92.71 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15721,7 +15964,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 74.93 0)
+			(at 92.71 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16475,7 +16718,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "470"
 			(at 102.362 67.31 90)
 			(effects
 				(font
@@ -16510,7 +16753,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17408"
+		(property "LCSC" "C17710"
 			(at 102.87 64.77 90)
 			(effects
 				(font
@@ -17106,7 +17349,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 36.83 34.29 0)
+		(at 46.99 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17115,7 +17358,7 @@
 		(fields_autoplaced yes)
 		(uuid "c15d15d8-3b8a-40a5-89e0-862849a283e1")
 		(property "Reference" "C5"
-			(at 40.64 32.1309 0)
+			(at 50.8 32.1309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17124,7 +17367,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 40.64 34.6709 0)
+			(at 50.8 34.6709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17133,7 +17376,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
-			(at 37.7952 38.1 0)
+			(at 47.9552 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17142,7 +17385,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 34.29 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17151,7 +17394,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 36.83 34.29 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17160,7 +17403,7 @@
 			)
 		)
 		(property "LCSC" "C123253"
-			(at 36.83 34.29 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17319,7 +17562,7 @@
 	)
 	(symbol
 		(lib_id "_MobiFlight:MountingHole 3.2mm")
-		(at 88.9 182.88 0)
+		(at 77.47 191.77 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -17328,7 +17571,7 @@
 		(fields_autoplaced yes)
 		(uuid "c85f040c-30a3-40d5-bf8a-6ee03d921c46")
 		(property "Reference" "H4"
-			(at 91.44 181.6099 0)
+			(at 80.01 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17337,7 +17580,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 91.44 184.1499 0)
+			(at 80.01 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17346,7 +17589,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 88.9 182.88 0)
+			(at 77.47 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17355,7 +17598,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 182.88 0)
+			(at 77.47 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17364,7 +17607,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 88.9 182.88 0)
+			(at 77.47 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17502,7 +17745,7 @@
 	)
 	(symbol
 		(lib_id "_MobiFlight:MountingHole 3.2mm")
-		(at 31.75 182.88 0)
+		(at 20.32 191.77 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -17511,7 +17754,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4eb6860-572a-46f7-b623-1dbcf0b0c30c")
 		(property "Reference" "H1"
-			(at 34.29 181.6099 0)
+			(at 22.86 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17520,7 +17763,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 34.29 184.1499 0)
+			(at 22.86 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17529,7 +17772,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 31.75 182.88 0)
+			(at 20.32 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17538,7 +17781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 182.88 0)
+			(at 20.32 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17547,7 +17790,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 31.75 182.88 0)
+			(at 20.32 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18648,7 +18891,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "470"
 			(at 162.052 127 90)
 			(effects
 				(font
@@ -18683,7 +18926,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17408"
+		(property "LCSC" "C17710"
 			(at 162.56 124.46 90)
 			(effects
 				(font
@@ -18735,7 +18978,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_MobiFlight:Potentiometer_Bourns_3214J_Horizontal"
+		(property "Footprint" "mobiflight-footprints:Potentiometer_Bochen_3362P_Vertical"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -18762,7 +19005,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C58391"
+		(property "LCSC" "C118903"
 			(at 154.94 71.1199 0)
 			(effects
 				(font

@@ -17,19 +17,27 @@ Connection coming from your Mobiflight board.
 * Pin4 - Clock
 * Pin5 - Data In
 
-### Potentiometer Dim 1-8
-With this potentiometer the max. intensity of LED's 1-8 can be adjusted.
+### Potentiometer Dim 0-7
+With this potentiometer the max. intensity of LED's 0-7 can be adjusted.
 
-### Potentiometer Dim 9-16
-With this potentiometer the max. intensity of LED's 9-16 can be adjusted.
+### Potentiometer Dim 8-15
+With this potentiometer the max. intensity of LED's 8-15 can be adjusted.
 
-### Potentiometer Dim 17-24
-With this potentiometer the max. intensity of LED's 17-24 can be adjusted.
+### Potentiometer Dim 16-23
+With this potentiometer the max. intensity of LED's 16-23 can be adjusted.
 
-### Potentiometer Dim 25-32
-With this potentiometer the max. intensity of LED's 25-32 can be adjusted.
+### Potentiometer Dim 24-31
+With this potentiometer the max. intensity of LED's 24-31 can be adjusted.
 
-### PWM 1-8
+### Range of current for outputs
+The maximal current to each LED is ~45mA, limited by an onboard resistor.
+The minimal current to each LED is ~4mA, limited by the potentiomer.
+Between ~45mA and ~4mA each current can be set by adjusting the potentiometer.
+
+![image](current_setting.png)
+(Diagram from the [LED driver datasheet](https://www.st.com/resource/en/datasheet/stap08dp05.pdf))
+
+### PWM 0-7
 Connection coming from your Mobiflight board.
 
 * Pin1 - GND
@@ -37,7 +45,7 @@ Connection coming from your Mobiflight board.
 
 Without any connection the LED's 1-8 are driven with intensity adjusted with the potentiometer.
 
-### PWM 9-16
+### PWM 8-15
 Connection coming from your Mobiflight board.
 
 * Pin1 - GND
@@ -45,7 +53,7 @@ Connection coming from your Mobiflight board.
 
 Without any connection the LED's 1-8 are driven with intensity adjusted with the potentiometer.
 
-### PWM 17-24
+### PWM 16-23
 Connection coming from your Mobiflight board.
 
 * Pin1 - GND
@@ -53,7 +61,7 @@ Connection coming from your Mobiflight board.
 
 Without any connection the LED's 1-8 are driven with intensity adjusted with the potentiometer.
 
-### PWM 25-32
+### PWM 24-31
 Connection coming from your Mobiflight board.
 
 * Pin1 - GND
@@ -65,7 +73,7 @@ Without any connection the LED's 1-8 are driven with intensity adjusted with the
 A power supply **must** be connected. The input voltage can be from 5V up to 12V.
 Connect to the Prototyping Board only if the maximal current for all LED's switched ON will not exceed 400mA!
 
-### LED 1-8
+### LED 0-7
 First row of connectors for LED's:
 
 * Pin1 - Cathode of LED
@@ -73,7 +81,7 @@ First row of connectors for LED's:
 
 Polarity **does** matter for LED's.
 
-### LED 9-16
+### LED 8-15
 Second row of connectors for LED's:
 
 * Pin1 - Cathode of LED
@@ -81,7 +89,7 @@ Second row of connectors for LED's:
 
 Polarity **does** matter for LED's.
 
-### LED 17-24
+### LED 16-23
 Third row of connectors for LED's:
 
 * Pin1 - Cathode of LED
@@ -89,7 +97,7 @@ Third row of connectors for LED's:
 
 Polarity **does** matter for LED's.
 
-### LED 25-32
+### LED 24-31
 Fourth row of connectors for LED's:
 
 * Pin1 - Cathode of LED
