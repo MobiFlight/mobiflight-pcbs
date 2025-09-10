@@ -11807,7 +11807,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_MobiFlight:Potentiometer_Bochen_3362P_Vertical"
+		(property "Footprint" "mobiflight-footprints:Potentiometer_Bochen_3362P_Vertical"
 			(at 92.71 71.12 0)
 			(effects
 				(font
@@ -15780,7 +15780,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_MobiFlight:Potentiometer_Bochen_3362P_Vertical"
+		(property "Footprint" "mobiflight-footprints:Potentiometer_Bochen_3362P_Vertical"
 			(at 97.79 134.62 0)
 			(effects
 				(font
@@ -15862,7 +15862,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_MobiFlight:Potentiometer_Bochen_3362P_Vertical"
+		(property "Footprint" "mobiflight-footprints:Potentiometer_Bochen_3362P_Vertical"
 			(at 156.21 133.35 0)
 			(effects
 				(font
@@ -18978,7 +18978,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_MobiFlight:Potentiometer_Bochen_3362P_Vertical"
+		(property "Footprint" "mobiflight-footprints:Potentiometer_Bochen_3362P_Vertical"
 			(at 152.4 68.58 0)
 			(effects
 				(font
