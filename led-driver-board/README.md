@@ -70,8 +70,10 @@ Connection coming from your Mobiflight board.
 Without any connection the LED's 1-8 are driven with intensity adjusted with the potentiometer.
 
 ### EXT PWR
-A power supply **must** be connected. The input voltage can be from 5V up to 12V.
-Connect to the Prototyping Board only if the maximal current for all LED's switched ON will not exceed 400mA!
+From version 1.3 the board is also supplied from the Prototype Board by the shift register connector.
+An external power supply can also be connected. The input voltage can be from 5V up to 12V.
+If all LED's consume more than 400mA, an external power supply **must** be connected.
+Supply from the Prototyping Board only if the maximal current for all LED's switched ON will not exceed 400mA!
 
 ### LED 0-7
 First row of connectors for LED's:
