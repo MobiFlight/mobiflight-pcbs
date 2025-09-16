@@ -7468,6 +7468,12 @@
 		(color 0 0 0 0)
 		(uuid "f7ab31db-a80f-4d2f-9d5f-a4808408e8ae")
 	)
+	(junction
+		(at 39.37 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f90a7cb0-f332-4424-a1cb-eb54ec02391a")
+	)
 	(wire
 		(pts
 			(xy 189.23 59.69) (xy 193.04 59.69)
@@ -8190,6 +8196,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 57.15) (xy 73.66 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649835e1-3a91-4ea3-a616-89accdc72f3e")
+	)
+	(wire
+		(pts
 			(xy 162.56 49.53) (xy 168.91 49.53)
 		)
 		(stroke
@@ -8477,6 +8493,16 @@
 			(type default)
 		)
 		(uuid "915f9f90-f2ea-4319-a893-15df243ea171")
+	)
+	(wire
+		(pts
+			(xy 39.37 57.15) (xy 58.42 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "930ca472-2132-414a-8c3c-4439b4b219af")
 	)
 	(wire
 		(pts
@@ -15127,6 +15153,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Own_Library:D_Schottky_B5819W-SL")
+		(at 62.23 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7027c7c9-1072-46fb-83db-1d49c36c5836")
+		(property "Reference" "D2"
+			(at 62.23 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky_B5819W-SL"
+			(at 64.516 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 62.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 62.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8598"
+			(at 62.484 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "775cc2cc-690b-416c-a51e-f92d5e50a1b1")
+		)
+		(pin "1"
+			(uuid "6d5143cb-0d84-455a-9b3f-ae1069b44df8")
+		)
+		(instances
+			(project "LED-driver-Board"
+				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "JST-XH_02_Pin_vertical_24")
 		(lib_id "_MobiFlight:JST-XH_02_Pin_vertical")
 		(at 264.16 73.66 0)
@@ -15299,6 +15401,72 @@
 			(project "LED-driver-board"
 				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 73.66 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d915f2a-7cfe-488a-bcb0-b4bdc430ad2f")
+		(property "Reference" "#PWR038"
+			(at 69.85 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 77.47 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa6c3f0f-08e2-49c7-a5e3-ac8d95c6f257")
+		)
+		(instances
+			(project "LED-driver-Board"
+				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
