@@ -11807,16 +11807,16 @@
 	)
 	(symbol
 		(lib_id "_MobiFlight:R_Potentiometer_Trim_5k_Bourns")
-		(at 92.71 71.12 180)
+		(at 92.71 71.12 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1e593ed3-b954-47c0-9da9-727dd10889df")
 		(property "Reference" "RV1"
-			(at 95.25 68.5799 0)
+			(at 95.25 73.6601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11825,7 +11825,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 95.25 71.1199 0)
+			(at 95.25 71.1201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11861,7 +11861,7 @@
 			)
 		)
 		(property "LCSC" "C118903"
-			(at 95.25 73.6599 0)
+			(at 95.25 68.5801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15922,16 +15922,16 @@
 	)
 	(symbol
 		(lib_id "_MobiFlight:R_Potentiometer_Trim_5k_Bourns")
-		(at 97.79 134.62 180)
+		(at 97.79 134.62 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "91d6c3d3-e13e-43dc-a5fe-9161076b6748")
 		(property "Reference" "RV3"
-			(at 100.33 132.0799 0)
+			(at 100.33 137.1601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15940,7 +15940,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 100.33 134.6199 0)
+			(at 100.33 134.6201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15976,7 +15976,7 @@
 			)
 		)
 		(property "LCSC" "C118903"
-			(at 100.33 137.1599 0)
+			(at 100.33 132.0801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16004,16 +16004,16 @@
 	)
 	(symbol
 		(lib_id "_MobiFlight:R_Potentiometer_Trim_5k_Bourns")
-		(at 156.21 133.35 180)
+		(at 156.21 133.35 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9370e248-4306-4b88-ab69-4928ac0cc6a8")
 		(property "Reference" "RV4"
-			(at 158.75 130.8099 0)
+			(at 158.75 135.8901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16022,7 +16022,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 158.75 133.3499 0)
+			(at 158.75 133.3501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16058,7 +16058,7 @@
 			)
 		)
 		(property "LCSC" "C118903"
-			(at 158.75 135.8899 0)
+			(at 158.75 130.8101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19120,16 +19120,16 @@
 	)
 	(symbol
 		(lib_id "_MobiFlight:R_Potentiometer_Trim_5k_Bourns")
-		(at 152.4 68.58 180)
+		(at 152.4 68.58 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f9cdde12-4095-4e78-bf20-5804ee65f4a7")
 		(property "Reference" "RV2"
-			(at 154.94 66.0399 0)
+			(at 154.94 71.1201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19138,7 +19138,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 154.94 68.5799 0)
+			(at 154.94 68.5801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19174,7 +19174,7 @@
 			)
 		)
 		(property "LCSC" "C118903"
-			(at 154.94 71.1199 0)
+			(at 154.94 66.0401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
