@@ -43,7 +43,7 @@ Connection coming from your Mobiflight board.
 * Pin1 - GND
 * Pin2 - PWM Signal pin
 
-Without any connection the LED's 1-8 are driven with intensity adjusted with the potentiometer.
+Without any connection the LED's 0-7 are driven with intensity adjusted with the potentiometer.
 
 ### PWM 8-15
 Connection coming from your Mobiflight board.
@@ -51,7 +51,7 @@ Connection coming from your Mobiflight board.
 * Pin1 - GND
 * Pin2 - PWM Signal pin
 
-Without any connection the LED's 1-8 are driven with intensity adjusted with the potentiometer.
+Without any connection the LED's 8-15 are driven with intensity adjusted with the potentiometer.
 
 ### PWM 16-23
 Connection coming from your Mobiflight board.
@@ -59,7 +59,7 @@ Connection coming from your Mobiflight board.
 * Pin1 - GND
 * Pin2 - PWM Signal pin
 
-Without any connection the LED's 1-8 are driven with intensity adjusted with the potentiometer.
+Without any connection the LED's 16-23 are driven with intensity adjusted with the potentiometer.
 
 ### PWM 24-31
 Connection coming from your Mobiflight board.
@@ -67,7 +67,7 @@ Connection coming from your Mobiflight board.
 * Pin1 - GND
 * Pin2 - PWM Signal pin
 
-Without any connection the LED's 1-8 are driven with intensity adjusted with the potentiometer.
+Without any connection the LED's 24-31 are driven with intensity adjusted with the potentiometer.
 
 ### EXT PWR
 From version 1.3 the board is also supplied from the Prototype Board by the shift register connector.
