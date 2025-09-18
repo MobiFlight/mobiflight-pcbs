@@ -479,8 +479,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "mobiflight-library",
+      "_MobiFlight_Footprints"
+    ],
+    "pinned_symbol_libs": [
+      "mobiflight-library"
+    ]
   },
   "meta": {
     "filename": "LED-driver-Board.kicad_pro",
