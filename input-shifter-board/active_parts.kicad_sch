@@ -2630,15 +2630,6 @@
 				(hide yes)
 			)
 		)
-		(property "SCLC" ""
-			(at 60.96 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "df1b8f63-41de-4893-b59b-7ae3318867fe")
 		)
@@ -2710,15 +2701,6 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 49.53 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SCLC" ""
 			(at 49.53 142.24 0)
 			(effects
 				(font
@@ -2806,15 +2788,6 @@
 				(hide yes)
 			)
 		)
-		(property "SCLC" ""
-			(at 83.82 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "35eb217e-494e-4c6c-a8bc-7eb39fdd9e30")
 		)
@@ -2886,15 +2859,6 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 72.39 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SCLC" ""
 			(at 72.39 142.24 0)
 			(effects
 				(font
@@ -3721,15 +3685,6 @@
 				)
 			)
 		)
-		(property "SCLC" ""
-			(at 163.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "16"
 			(uuid "3ca452c1-c69c-441f-b9c4-0c6cafd7662b")
 		)
@@ -4120,15 +4075,6 @@
 				)
 			)
 		)
-		(property "SCLC" ""
-			(at 215.9 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "16"
 			(uuid "b1d75ce8-1154-40de-9b5b-92bcb2b7c006")
 		)
@@ -4247,15 +4193,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "SCLC" ""
-			(at 110.49 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "16"
@@ -4443,15 +4380,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "SCLC" ""
-			(at 97.79 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4666,15 +4594,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "SCLC" ""
-			(at 58.42 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "16"

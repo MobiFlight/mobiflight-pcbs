@@ -231,7 +231,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -257,9 +257,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69da9a9e-4a6a-4c5b-b05f-4481848c6888")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1230a478-09de-4374-9d41-f56fa2e3ad95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/43cb2b5f-949a-4b5c-b0ac-03e3ef741fc6")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -446,7 +472,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -472,9 +498,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1221859-7214-4003-a9ae-7cd78f80d52f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e57620b-6640-4567-aa80-05b1b6c488d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/58fa7e15-b8b0-4e0f-b7e0-cfaebdb29061")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -661,7 +713,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -699,9 +751,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a1bee31-2df1-4a36-80a4-b92f1feeea4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/c87487f5-1a2e-499f-b612-7ba2416ff99d")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -875,7 +940,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -929,8 +994,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/420b12ac-2fd8-4033-8f57-2b047d03b4f4")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -940,7 +1005,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5a7a041f-fa73-4222-a101-98b3700dba8d")
+			(uuid "3e01f890-c9a5-4417-b74e-c8f2eb9aa4c2")
 		)
 		(fp_line
 			(start -2.56 -2.46)
@@ -950,7 +1015,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "91662d78-48c2-4150-b8a7-8432938c37f3")
+			(uuid "51b2f568-9dbc-48da-9c1b-40388ccfdedd")
 		)
 		(fp_line
 			(start -2.56 3.51)
@@ -960,7 +1025,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "472af778-092b-4cff-8fbb-f10843049305")
+			(uuid "6e022799-7a9d-471e-aa25-e664e9ff3bd4")
 		)
 		(fp_line
 			(start -2.55 -2.45)
@@ -970,7 +1035,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c8e97114-9790-4904-8716-d2580cbdab90")
+			(uuid "b54f8db3-96b1-4b89-845f-3ca7d197660a")
 		)
 		(fp_line
 			(start -2.55 -1.7)
@@ -980,7 +1045,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "84852a69-fd1e-4574-82e4-5e2d160d8fec")
+			(uuid "5f066375-910f-443d-98c1-710b40e01c23")
 		)
 		(fp_line
 			(start -2.55 -0.2)
@@ -990,7 +1055,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7ba42276-2448-490b-8554-8cde2f140914")
+			(uuid "c2c9fa48-b8be-4a8c-a5c2-be614804f43d")
 		)
 		(fp_line
 			(start -1.8 -0.2)
@@ -1000,7 +1065,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "81afc9a7-2cf5-4525-bb29-f19c5dfd3aaa")
+			(uuid "c13a9860-ab2e-41d8-98f9-1c55db336067")
 		)
 		(fp_line
 			(start -1.8 2.75)
@@ -1010,7 +1075,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fdc8545b-b238-42b0-abed-ed5c85c00887")
+			(uuid "0c41ed1b-6e52-4434-aefa-27043cb8dbed")
 		)
 		(fp_line
 			(start -1.6 -2.75)
@@ -1020,7 +1085,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a391acec-7bcc-4053-92bb-f8482a92448d")
+			(uuid "bf1b2747-92fa-49b4-8147-230dc2bae85c")
 		)
 		(fp_line
 			(start -0.75 -2.45)
@@ -1030,7 +1095,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ac56dd75-1504-4a06-a104-c7b6fbfdb0e5")
+			(uuid "e72e74e8-2ebd-44e6-9de3-72031ca0c4de")
 		)
 		(fp_line
 			(start -0.75 -1.7)
@@ -1040,7 +1105,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d7c53fb6-ccc3-4cee-ae91-fb1e22a908d3")
+			(uuid "6e3f772f-1d3e-49c8-bcca-141e2c4bc69f")
 		)
 		(fp_line
 			(start 0.75 -2.45)
@@ -1050,7 +1115,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5875e7cc-1d54-481f-a6fb-8026780972df")
+			(uuid "68d43afe-4f94-41a5-bae0-39d6c24db3a3")
 		)
 		(fp_line
 			(start 0.75 -1.7)
@@ -1060,7 +1125,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4cce13d1-00da-4df8-966f-dd9fac0a5c00")
+			(uuid "b2a40a8a-18d4-4b02-9388-d287aeeaceb5")
 		)
 		(fp_line
 			(start 1.75 -2.45)
@@ -1070,7 +1135,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7f8c5223-92d4-4976-842e-063fa10334bf")
+			(uuid "303b2ec0-2dbd-4b4d-bdbd-c3c70c0bd606")
 		)
 		(fp_line
 			(start 1.75 -1.7)
@@ -1080,7 +1145,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0f7f41ed-10d1-4cb6-9a8f-ca5f983a52ff")
+			(uuid "4596ba41-bd85-4acf-9b12-c198807fee29")
 		)
 		(fp_line
 			(start 3.25 -2.45)
@@ -1090,7 +1155,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f9a059e7-94bd-46d8-be10-86ce77a56d39")
+			(uuid "ca85883b-03a7-455d-bb8f-8432e7eef3ba")
 		)
 		(fp_line
 			(start 3.25 -1.7)
@@ -1100,7 +1165,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6c77fff0-591e-4635-a07e-aae28a302e0b")
+			(uuid "a7a708ca-e006-448e-b0ce-240478c8df11")
 		)
 		(fp_line
 			(start 4.3 -0.2)
@@ -1110,7 +1175,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ad8470bc-c8ff-4f55-830c-477bba42fb47")
+			(uuid "8b10dc27-e08c-44a8-aa6e-eebaa915a3a6")
 		)
 		(fp_line
 			(start 4.3 2.75)
@@ -1120,7 +1185,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a8c38ced-80bb-4d07-ab64-82fac7fcb4b9")
+			(uuid "319ecbe6-f978-42ad-b41f-640f6bc630c1")
 		)
 		(fp_line
 			(start 5.05 -2.45)
@@ -1130,7 +1195,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8e6b86b5-cf78-452d-831f-3d83151ee70b")
+			(uuid "6aa21f75-4f56-4cde-83a5-0dd6bf1b2cc6")
 		)
 		(fp_line
 			(start 5.05 -1.7)
@@ -1140,7 +1205,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "887822f2-bec4-43ab-a1e9-73f47eb17b76")
+			(uuid "734b276c-c956-4f41-aa0b-eaa094f19045")
 		)
 		(fp_line
 			(start 5.05 -0.2)
@@ -1150,7 +1215,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c6a06e23-c594-4e25-acaa-ac0b684ec572")
+			(uuid "64bc2047-5010-4141-bd29-9b5e0ed1041c")
 		)
 		(fp_line
 			(start 5.06 -2.46)
@@ -1160,7 +1225,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "31bef6b1-ae8d-4858-a2f2-247d358bf31b")
+			(uuid "5ff99689-1435-494c-a8ad-ee12586527fc")
 		)
 		(fp_line
 			(start 5.06 3.51)
@@ -1170,7 +1235,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8896941e-505d-42fe-b116-3b7fcb38324a")
+			(uuid "24f6dee5-dcbb-4745-97db-2e5e26457d02")
 		)
 		(fp_line
 			(start -2.95 -2.85)
@@ -1180,7 +1245,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "741f06e6-16fa-4498-9893-cee6be6183a1")
+			(uuid "4a6c318a-605e-4c09-b8cf-04ce4e93d36a")
 		)
 		(fp_line
 			(start -2.95 3.9)
@@ -1190,7 +1255,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "2fabc8a5-4cc3-46a9-a9e8-f8e6f5170eb4")
+			(uuid "c02f49d1-a2e6-4019-99fe-2d5bc87386e5")
 		)
 		(fp_line
 			(start 5.45 -2.85)
@@ -1200,7 +1265,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "41f310ca-0ed8-42fe-80ba-194df1e20443")
+			(uuid "2a1a31ed-1ab4-4c84-9175-4b8c895c656d")
 		)
 		(fp_line
 			(start 5.45 3.9)
@@ -1210,7 +1275,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "69088309-03d0-4614-82c7-1b59a25aa69d")
+			(uuid "5de4701c-3800-4a5e-87b7-3854592518d0")
 		)
 		(fp_line
 			(start -2.45 -2.35)
@@ -1220,7 +1285,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2337e157-876d-41fa-a236-d52744b459e5")
+			(uuid "3143c3d7-866d-437e-8525-db700ef9a59d")
 		)
 		(fp_line
 			(start -2.45 3.4)
@@ -1230,7 +1295,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f430b0ff-077d-43ed-986d-a0612f638c8c")
+			(uuid "fed15adc-77ae-4015-8912-fa91fb8c6d4f")
 		)
 		(fp_line
 			(start -0.625 -2.35)
@@ -1240,7 +1305,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "151bf399-1140-4e42-913b-1520dfe5a8ee")
+			(uuid "e1ac7256-5ffb-449a-93fd-3a728e5ccbea")
 		)
 		(fp_line
 			(start 0 -1.35)
@@ -1250,7 +1315,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "00086d99-6c6c-441f-9452-c9d3a1e0d70b")
+			(uuid "96c14ae9-e128-456d-8f75-883d2daaf311")
 		)
 		(fp_line
 			(start 4.95 -2.35)
@@ -1260,7 +1325,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "77d2de53-c143-4d9e-b5b2-3d50070ff92b")
+			(uuid "5afad9b8-5820-4a7f-aa80-bb9ab3861e8b")
 		)
 		(fp_line
 			(start 4.95 3.4)
@@ -1270,7 +1335,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b72c697c-4f7d-4486-b2e3-18a3f73bf075")
+			(uuid "7b0a9418-e0d8-432c-aeee-65e09c3a9bc9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.25 2.7 0)
+			(layer "F.Fab")
+			(uuid "79576f04-451b-41c6-a7da-c013e64478ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
@@ -1296,7 +1372,7 @@
 			(uuid "8ff64d5b-8b64-4e5c-82da-bd8223346ce3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1337,7 +1413,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1363,9 +1439,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "599bc281-ec38-4966-851a-00f0b8215fb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b93f6fa0-e9e3-487c-839b-206ce91f4b4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/c2128781-b0e8-4ba5-85f1-9599f112c8af")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -1540,7 +1642,7 @@
 				)
 			)
 		)
-		(property "Value" "BUTTON8"
+		(property "Value" "BUTTON7"
 			(at 1.1498 4.3218 0)
 			(layer "F.SilkS")
 			(uuid "6d219d1a-9893-4257-8728-54668d39ed84")
@@ -1551,7 +1653,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1605,8 +1707,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fdd539f5-8534-4b2a-956c-92749bd0bd9b")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -1616,7 +1718,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "25057604-0f09-4e60-b2dc-30d9a7f0910e")
+			(uuid "1f96cc78-e658-41a4-beba-8a7515bf87a0")
 		)
 		(fp_line
 			(start -2.56 -2.46)
@@ -1626,7 +1728,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fb07e035-5a89-4ae2-ad8a-dfb360c6a1ff")
+			(uuid "8c0d69c1-daf0-492c-a0db-91bff4e146a2")
 		)
 		(fp_line
 			(start -2.56 3.51)
@@ -1636,7 +1738,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4f705af9-19a5-43e8-bf67-19085f487e59")
+			(uuid "2bfddce8-746b-4668-834a-c4c7f30b1cf4")
 		)
 		(fp_line
 			(start -2.55 -2.45)
@@ -1646,7 +1748,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "552dad97-20b6-40f0-95fe-a20bfcb4fe17")
+			(uuid "98c73b00-35aa-406a-8bde-c862d5b58ece")
 		)
 		(fp_line
 			(start -2.55 -1.7)
@@ -1656,7 +1758,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fe9f3f15-047f-4db5-87c7-0aaeba457fd8")
+			(uuid "5d4bc72a-d5b3-4c9c-a8b1-6ac04a204e84")
 		)
 		(fp_line
 			(start -2.55 -0.2)
@@ -1666,7 +1768,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c9c24e74-ba98-4743-a198-ed03b48e58db")
+			(uuid "8c178d0b-902d-452d-a3b4-60de70c9b4c9")
 		)
 		(fp_line
 			(start -1.8 -0.2)
@@ -1676,7 +1778,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "673213dc-3348-43cd-90c6-d03d37b08d7a")
+			(uuid "ce888c3f-6b9a-406e-b50e-da306b59d6ba")
 		)
 		(fp_line
 			(start -1.8 2.75)
@@ -1686,7 +1788,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "34a6182f-548a-4d75-afa5-e33d9beed750")
+			(uuid "ec4a16f0-fcb8-497f-a024-d86d8ea6f79c")
 		)
 		(fp_line
 			(start -1.6 -2.75)
@@ -1696,7 +1798,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e4b195bc-8b8b-4950-9e62-abea523df938")
+			(uuid "72193e2a-72b9-4ded-b428-2ae7a303f40b")
 		)
 		(fp_line
 			(start -0.75 -2.45)
@@ -1706,7 +1808,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6af76890-17bc-49f1-b8fd-0df006c49440")
+			(uuid "c4bfd69f-27eb-4049-9083-bc0ef7ed1a96")
 		)
 		(fp_line
 			(start -0.75 -1.7)
@@ -1716,7 +1818,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "94e8e79e-fe58-429a-ab2a-109719064c1e")
+			(uuid "74440132-35ec-4abe-9f84-30f5d05eea4c")
 		)
 		(fp_line
 			(start 0.75 -2.45)
@@ -1726,7 +1828,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4a825799-f368-43ca-8c3c-272047ee3b44")
+			(uuid "c4e848bc-1fa1-4449-acbc-d9a11f204b23")
 		)
 		(fp_line
 			(start 0.75 -1.7)
@@ -1736,7 +1838,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d158e551-5414-40dd-af2d-6d275d202849")
+			(uuid "0d6f984e-16a7-407f-8045-a7088b832142")
 		)
 		(fp_line
 			(start 1.75 -2.45)
@@ -1746,7 +1848,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8a6ed6db-2287-45ee-9a0f-3575cc3c627c")
+			(uuid "55152f27-78d5-4e33-842e-4865967305b6")
 		)
 		(fp_line
 			(start 1.75 -1.7)
@@ -1756,7 +1858,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f659297d-0e3c-4f34-9fbc-ed6b610af617")
+			(uuid "9fa261b4-c10d-4d2e-9326-0ef3a9706655")
 		)
 		(fp_line
 			(start 3.25 -2.45)
@@ -1766,7 +1868,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5cb72483-7f91-4323-934c-25ef0991f8db")
+			(uuid "9adb2c0d-fd80-409c-8941-83f1c784ef71")
 		)
 		(fp_line
 			(start 3.25 -1.7)
@@ -1776,7 +1878,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "aff38ed2-fd09-4e6d-bd37-b935bfcf7c4b")
+			(uuid "1587472b-4b40-4c51-b63a-e0cba99636b4")
 		)
 		(fp_line
 			(start 4.3 -0.2)
@@ -1786,7 +1888,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "392c1b0b-52e4-4f67-93ba-1edf4b7b2cf6")
+			(uuid "dde479de-8268-4191-ab61-1dbb489b68bd")
 		)
 		(fp_line
 			(start 4.3 2.75)
@@ -1796,7 +1898,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c2bb6efa-0e5e-43a2-af9e-1933026825e1")
+			(uuid "0299edc6-0bdd-4e52-bd72-86e5151107c0")
 		)
 		(fp_line
 			(start 5.05 -2.45)
@@ -1806,7 +1908,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "464c23f2-5b46-40a8-afb8-42661acc3df1")
+			(uuid "f2960a0a-ad5c-4757-8854-cfc674eea69c")
 		)
 		(fp_line
 			(start 5.05 -1.7)
@@ -1816,7 +1918,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "25521c57-d678-46a7-97ae-8f2e3f251817")
+			(uuid "03db48ec-065e-4aff-9123-d80e0b6b4636")
 		)
 		(fp_line
 			(start 5.05 -0.2)
@@ -1826,7 +1928,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9aac3545-0ba6-4989-b256-1004b773da9a")
+			(uuid "1c7274cf-76ae-48af-ac8a-cf4b70602070")
 		)
 		(fp_line
 			(start 5.06 -2.46)
@@ -1836,7 +1938,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f2a501fb-bc37-49bd-8068-748554f9e6f8")
+			(uuid "0db65918-7563-4f1f-952a-35925f9577dd")
 		)
 		(fp_line
 			(start 5.06 3.51)
@@ -1846,7 +1948,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1abc6518-0160-4aa4-93bf-fb6f7728b24f")
+			(uuid "02efb4c7-2398-4486-8816-ecf8e6f6d684")
 		)
 		(fp_line
 			(start -2.95 -2.85)
@@ -1856,7 +1958,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b38b5a7d-7b8a-4322-8aba-950cfe57f358")
+			(uuid "eedc3623-ddce-46ba-b1ea-ad9463fa9fb6")
 		)
 		(fp_line
 			(start -2.95 3.9)
@@ -1866,7 +1968,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "60c44431-f3da-4132-832c-169f0c1a4277")
+			(uuid "f9ecf414-5286-4512-b564-3d604a359951")
 		)
 		(fp_line
 			(start 5.45 -2.85)
@@ -1876,7 +1978,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c4a7415d-610f-4713-9382-69527eee113c")
+			(uuid "cd434774-e3db-46db-a479-3e472c099ba4")
 		)
 		(fp_line
 			(start 5.45 3.9)
@@ -1886,7 +1988,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "307df507-7819-48fd-9b43-ebd6acc0d8eb")
+			(uuid "836a9ba7-f8d3-40c5-9012-8655138d28ba")
 		)
 		(fp_line
 			(start -2.45 -2.35)
@@ -1896,7 +1998,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d2877ec7-ec28-488e-a428-0d5241d97d5c")
+			(uuid "0a6e52e9-f16f-4d70-ac3f-d2c42bbeec14")
 		)
 		(fp_line
 			(start -2.45 3.4)
@@ -1906,7 +2008,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "db522d14-3839-4308-aba7-996911543c2f")
+			(uuid "1246511c-4266-4da4-8631-1ae18e13df92")
 		)
 		(fp_line
 			(start -0.625 -2.35)
@@ -1916,7 +2018,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b05ce9f5-f352-4928-aa71-25890d86f6ef")
+			(uuid "633f85b7-9756-4496-8c35-f30d1d640183")
 		)
 		(fp_line
 			(start 0 -1.35)
@@ -1926,7 +2028,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "94a0b656-9df0-43a8-99a0-419c2f4601f7")
+			(uuid "f464a986-e7c2-42d9-bb1b-d2c0f14f4b74")
 		)
 		(fp_line
 			(start 4.95 -2.35)
@@ -1936,7 +2038,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a825724e-904e-4aeb-a70c-2e908e4b78d8")
+			(uuid "c6bef5e7-d136-4d83-99ff-d3c9d749632a")
 		)
 		(fp_line
 			(start 4.95 3.4)
@@ -1946,7 +2048,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8a7610eb-bd56-4e0b-979f-d5f70088128d")
+			(uuid "f06c192a-9cb2-4ab4-8c85-eaaac2246e43")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.25 2.7 0)
+			(layer "F.Fab")
+			(uuid "6c25b9fb-292a-4492-9d63-5076c5ccc056")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
@@ -1972,7 +2085,7 @@
 			(uuid "9beea055-ee99-48bb-be06-9c797fab6cf8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2013,7 +2126,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2067,8 +2180,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/61ec6c7a-c450-4fb9-bc7a-40213337b150")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -2475,7 +2588,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2513,9 +2626,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b77783cb-fe74-4204-94ff-7af57d9eaced")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/ecdc5727-4d9a-466f-bf3a-0543919b210e")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2689,7 +2815,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2727,9 +2853,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b3d58ac-11e3-43fc-9b4d-a3c475854447")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/1d66adcb-d065-4c22-9e60-006098c0e978")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2903,7 +3042,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2929,9 +3068,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "102e8911-1ba8-49bc-ac90-8f7d905d7b26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18c08e92-0be6-436c-a459-dba573780d75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/9607b87e-d8ce-40f4-981a-566b89b82888")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -3118,7 +3283,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3172,8 +3337,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6fdd696a-58c8-4cde-ba3a-e84ecc3334ff")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -3580,7 +3745,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3606,9 +3771,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbf076d3-57d1-43e2-b745-6a6aa91a88fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b863e19-2647-462d-9417-8616dbec8a06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/74108c78-398d-4ff0-9526-7f467c62cbaa")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3782,7 +3973,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3820,9 +4011,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75bbad27-c86f-4f1c-95ce-f0905a6960c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/27596901-9b91-4d23-b4ae-7bc4233e1abd")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3984,7 +4188,7 @@
 				)
 			)
 		)
-		(property "Value" "BUTTON1"
+		(property "Value" "BUTTON0"
 			(at 1.448 -3.842 0)
 			(layer "F.SilkS")
 			(uuid "08c9eaf1-d329-49e3-8fc7-0651d1db66fe")
@@ -3995,7 +4199,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4049,8 +4253,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/583a29d3-aba0-4c6f-aeb5-5039aa46aeb6")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -4060,7 +4264,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0fabe1ef-a413-49a2-86d6-f4be856c1417")
+			(uuid "46cce0a5-ea30-4cfd-9ab2-cdb93bd518d2")
 		)
 		(fp_line
 			(start -2.56 -2.46)
@@ -4070,7 +4274,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "60d35f4e-0c05-4b16-b687-5beeb6f1d426")
+			(uuid "60614f0f-4814-4964-b22b-645e377c8884")
 		)
 		(fp_line
 			(start -2.56 3.51)
@@ -4080,7 +4284,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "39ffcfd2-7ad9-4ae5-96bc-0202247b0e43")
+			(uuid "f9cc5f55-eb33-4ad2-a34d-17f8bc6e8a3f")
 		)
 		(fp_line
 			(start -2.55 -2.45)
@@ -4090,7 +4294,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c273d150-d348-4da2-b1a0-7e960e1620f4")
+			(uuid "f71dccb2-c5ca-479f-b3da-8c68f001695c")
 		)
 		(fp_line
 			(start -2.55 -1.7)
@@ -4100,7 +4304,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "83ad56fe-19e3-4b5b-bbf5-607bc9a12b8d")
+			(uuid "00919283-7693-475a-852b-9a72a5f16654")
 		)
 		(fp_line
 			(start -2.55 -0.2)
@@ -4110,7 +4314,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c6f3ce64-e5ac-4180-8359-b595fd0cb5e9")
+			(uuid "e99b58a1-26a2-458e-879f-34f39de6085e")
 		)
 		(fp_line
 			(start -1.8 -0.2)
@@ -4120,7 +4324,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8e9e9d21-53da-4c0a-97f8-3e02add71c8a")
+			(uuid "bbbda5c1-09fd-45e2-8b92-8e905ec1ecec")
 		)
 		(fp_line
 			(start -1.8 2.75)
@@ -4130,7 +4334,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "592e3ead-273a-44cc-b80c-f982b9e59431")
+			(uuid "19de3795-f7ea-4450-a80a-3201458031de")
 		)
 		(fp_line
 			(start -1.6 -2.75)
@@ -4140,7 +4344,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "71d5be5c-2eb2-4dc4-a117-3d1ee8b63224")
+			(uuid "ce15390c-5261-41c9-a28e-c55ca525f4b1")
 		)
 		(fp_line
 			(start -0.75 -2.45)
@@ -4150,7 +4354,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e3da9102-c93e-440c-80af-211014919103")
+			(uuid "969f63dc-2376-43ee-8760-3aad81167d34")
 		)
 		(fp_line
 			(start -0.75 -1.7)
@@ -4160,7 +4364,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e3a8bd11-aced-4d64-a768-a4d5e658553e")
+			(uuid "26c54f7c-2ec7-4060-99dc-be842706f0f6")
 		)
 		(fp_line
 			(start 0.75 -2.45)
@@ -4170,7 +4374,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5610e031-e678-4c3b-82c8-09221200ffae")
+			(uuid "a1e47ab1-a470-4d35-817d-a28c5b9c2c09")
 		)
 		(fp_line
 			(start 0.75 -1.7)
@@ -4180,7 +4384,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d6772871-60c5-46db-b23b-942a2e202cb2")
+			(uuid "82ca0033-0f9c-4aff-b544-ac79dc300e40")
 		)
 		(fp_line
 			(start 1.75 -2.45)
@@ -4190,7 +4394,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8b7f3a67-2a9c-45ec-9679-1c0f0ba18d48")
+			(uuid "468dd76e-4f9a-4441-add7-efa0e99bb227")
 		)
 		(fp_line
 			(start 1.75 -1.7)
@@ -4200,7 +4404,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dd58d088-d61b-401c-b93a-0c37e10bd5d7")
+			(uuid "6f6c5813-d3e8-4320-924d-d542cd8c49e8")
 		)
 		(fp_line
 			(start 3.25 -2.45)
@@ -4210,7 +4414,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "18b922c5-f57f-49c5-9675-97b481efc06d")
+			(uuid "5236fe1c-cca0-47b4-8bde-c73bb26028dc")
 		)
 		(fp_line
 			(start 3.25 -1.7)
@@ -4220,7 +4424,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "577265c1-9771-4f73-a9f0-2a203a5773ab")
+			(uuid "4c5f17be-aaa4-42e0-8051-ffe3e0a82918")
 		)
 		(fp_line
 			(start 4.3 -0.2)
@@ -4230,7 +4434,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "28ced440-3e3c-4e90-8a4e-80add66cacf5")
+			(uuid "e6f365e4-4707-4e0c-b534-354ab4039391")
 		)
 		(fp_line
 			(start 4.3 2.75)
@@ -4240,7 +4444,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2ae11487-0a5f-475f-bb2f-5c0e7b04689d")
+			(uuid "c9768354-00fb-4298-85b4-a4329f8bede3")
 		)
 		(fp_line
 			(start 5.05 -2.45)
@@ -4250,7 +4454,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "192063f7-255a-47e4-84db-aa2e570a969a")
+			(uuid "415c20aa-dd71-490d-82e0-49c93383eb4d")
 		)
 		(fp_line
 			(start 5.05 -1.7)
@@ -4260,7 +4464,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7e209095-8094-4146-b535-2c7b5d30d508")
+			(uuid "3feb5b47-835a-4bcb-a033-16fc365b6c17")
 		)
 		(fp_line
 			(start 5.05 -0.2)
@@ -4270,7 +4474,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d832b06e-3af3-47c4-8ed6-33da33e4e104")
+			(uuid "9fb64dc7-4064-4af4-b938-3b49b29bbcde")
 		)
 		(fp_line
 			(start 5.06 -2.46)
@@ -4280,7 +4484,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "86658514-9bf8-4c82-8364-b8a4c6b615e5")
+			(uuid "3d3bcd5b-d94e-480a-b58d-569251e8ab67")
 		)
 		(fp_line
 			(start 5.06 3.51)
@@ -4290,7 +4494,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6f8f8dcc-0468-45f8-b2fe-aa766de8b570")
+			(uuid "925adada-15e2-481c-ba9d-cd9e24cb5d32")
 		)
 		(fp_line
 			(start -2.95 -2.85)
@@ -4300,7 +4504,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bc38df1d-87dd-423a-829c-2127a4fa0baf")
+			(uuid "2c2d1eb1-224c-4460-a269-6a0f100e43a8")
 		)
 		(fp_line
 			(start -2.95 3.9)
@@ -4310,7 +4514,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7cb36d0b-284a-4127-9343-e7fcd2ee3934")
+			(uuid "52bbe7db-17e0-475a-bc46-0f5d8a1f8b88")
 		)
 		(fp_line
 			(start 5.45 -2.85)
@@ -4320,7 +4524,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7ea9c453-3df9-4e00-b040-a257d5b3dec3")
+			(uuid "a9901d25-33f8-4fa2-9c12-815f4bce715a")
 		)
 		(fp_line
 			(start 5.45 3.9)
@@ -4330,7 +4534,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "49298ed7-49b9-4726-b005-04f704342a2e")
+			(uuid "2017b924-6788-42b7-94ee-c0de90138114")
 		)
 		(fp_line
 			(start -2.45 -2.35)
@@ -4340,7 +4544,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "03dbdd85-061f-4a42-ab65-edaf439866b4")
+			(uuid "1ad49897-75f2-4174-8e67-f79af03cb99f")
 		)
 		(fp_line
 			(start -2.45 3.4)
@@ -4350,7 +4554,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b37373bf-f3bb-42f7-8f4f-3a3f81d4e6ec")
+			(uuid "65cf48a0-698f-40df-94f6-8e06e340435e")
 		)
 		(fp_line
 			(start -0.625 -2.35)
@@ -4360,7 +4564,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "20ba13a8-1ef2-4b69-831e-3fe0b2142b15")
+			(uuid "4f07fc74-8b51-48bf-a2e4-08a9e65da7aa")
 		)
 		(fp_line
 			(start 0 -1.35)
@@ -4370,7 +4574,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3d410e41-26d4-4f25-a334-fc05cb51e6a5")
+			(uuid "15500b54-6216-417a-8499-34834cbe5f95")
 		)
 		(fp_line
 			(start 4.95 -2.35)
@@ -4380,7 +4584,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9c426569-a90f-4f4d-b21c-b5de63e4b7c2")
+			(uuid "7a0f2c48-b445-440a-a13c-ce08a17a20ac")
 		)
 		(fp_line
 			(start 4.95 3.4)
@@ -4390,7 +4594,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "195ad623-3070-4c41-8380-a52d7ed1d9b3")
+			(uuid "c44c2fed-c3a3-4251-9b51-026c32d26071")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.25 2.7 0)
+			(layer "F.Fab")
+			(uuid "6b18a850-57d8-42fd-a373-59dac2ff0bf1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
@@ -4416,7 +4631,7 @@
 			(uuid "0e6cc4e8-5e16-4d22-8b91-9f8f9233d6e6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4481,7 +4696,7 @@
 				)
 			)
 		)
-		(property "SCLC" "C5613"
+		(property "SCLC" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4494,10 +4709,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5613"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3785311-30d5-44eb-bb0c-2ce466359cce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP?16* SO*16*3.9x9.9mm*P1.27mm* SSOP*16*5.3x6.2mm*P0.65mm* TSSOP*16*4.4x5mm*P0.65*")
 		(path "/3f53b650-c1b4-41fb-b756-02f2bd50b88e/c1f02ccd-05d5-45e0-8b15-a3df8bf4abe9")
-		(sheetname "Shifter")
-		(sheetfile "ative_parts.kicad_sch")
+		(sheetname "/Shifter/")
+		(sheetfile "active_parts.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 5.06)
@@ -4934,7 +5162,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4960,10 +5188,23 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9b4b6eb-1680-4071-b6d5-ebb1eda6fc4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/d4eb6860-572a-46f7-b623-1dbcf0b0c30c")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -5037,7 +5278,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5063,9 +5304,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b900324-4efd-4e78-b15a-1242f9bac1a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c98b2f6-f855-4529-a7cb-d1f41747e727")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/5923a659-dda7-4e7e-9176-f6c072b2a100")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -5252,7 +5519,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5278,9 +5545,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1869fdb2-7707-40f4-8ad6-3fdbca522e8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71cdd17d-e3fd-427a-a4cc-eb0618782045")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/363028c8-4039-4c06-b0dd-c82d1e46b865")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5454,7 +5747,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5480,9 +5773,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ba4ed09-0aed-48aa-a6b2-b3f5e7d947e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6d7e685-1b97-4925-8e87-1e083413ed7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/cb5a3963-1246-43fa-af0c-9f11dd58a0d7")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5656,7 +5975,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5694,9 +6013,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d12a7b7b-298f-4b3e-93b8-d8cbfca5bb64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/5da678a6-fa13-4a5f-97c0-ab2562dd0add")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5870,7 +6202,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5908,9 +6240,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "715b9137-ed6d-4694-a94b-073554ec9610")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/a4cb8375-d729-4ce9-99a3-ac941e224017")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6084,7 +6429,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6110,9 +6455,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ae2c840-751e-4e27-9a22-56eafdd67018")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3560af9c-16c4-4b88-bf02-de78d09a68ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/0cb23477-e0c1-4601-ab40-195f3557370a")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6286,7 +6657,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6312,9 +6683,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6efc700-337d-4927-9f1f-be5cf365fb6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fe401fc-3a57-40a8-9474-c52235d53ae3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/ca51e3fd-4467-47b9-87ec-ee596d68e7a5")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6488,7 +6885,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6514,9 +6911,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93eaa33f-04d2-43c1-913a-f9b86f3cc77a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93298a7e-2e55-49f0-a8aa-f91534c2d2d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/9debd70d-03e6-4ae1-ac2d-09e453f1b89c")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -6703,7 +7126,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6729,9 +7152,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b0ac808-5238-45ff-b895-14a992f90b69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "818d49f3-0607-462c-9fb4-1969e60c9a6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/2009cc1c-478a-46bf-885e-714ce8a5d177")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6905,7 +7354,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6931,9 +7380,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d57d3246-6c5e-4419-9c5f-530982a335a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2113e1c4-b51d-4647-be93-458cf04bb186")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/cbd74b8c-0908-4d33-ae06-d9d94529ef73")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7107,7 +7582,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7145,9 +7620,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c84f590-d6bb-4b7c-8b8a-baac007edc22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/c8c92232-4f9f-4f8b-a9ad-7968f8a2cdea")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7321,7 +7809,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7347,9 +7835,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52f737bb-f855-444e-b471-8bc2bae324e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83421bfa-8356-4a22-b16c-838da4717df4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/24a0b691-6746-42cf-a6a1-03bea8f412f9")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7547,7 +8061,7 @@
 				)
 			)
 		)
-		(property "SCLC" "C5613"
+		(property "SCLC" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7560,10 +8074,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5613"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6e2b4e1-baa4-4de7-b631-a981776d9308")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP?16* SO*16*3.9x9.9mm*P1.27mm* SSOP*16*5.3x6.2mm*P0.65mm* TSSOP*16*4.4x5mm*P0.65*")
 		(path "/3f53b650-c1b4-41fb-b756-02f2bd50b88e/aea15be9-98a1-4d65-a9db-3cce75cfbe28")
-		(sheetname "Shifter")
-		(sheetfile "ative_parts.kicad_sch")
+		(sheetname "/Shifter/")
+		(sheetfile "active_parts.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -5.06)
@@ -8000,7 +8527,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8026,10 +8553,23 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d8fb7b2-8588-4fd0-ab4f-14a97b4313ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/379d347e-3dcd-4269-888c-26d32039081a")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -8103,7 +8643,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8129,9 +8669,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7947d099-478d-4596-87de-01c368094b9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cd111a1-11f4-414c-bdf4-0c08546f1439")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/abfb5a52-2f63-47b4-a0eb-dacc96c156ea")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8305,7 +8871,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8343,9 +8909,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71c1abb6-c23d-461e-86d5-c97898ce98a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/9bb207bd-c777-4d40-9545-a64aae748ac9")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8519,7 +9098,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8573,8 +9152,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/dcbce8eb-f505-4dea-898d-1a34e46aae43")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -8981,7 +9560,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9019,9 +9598,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "895acfe1-835e-4360-a0f3-96627a6e7393")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/731d64db-8c6f-4ab9-96da-d461f540b99c")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9195,7 +9787,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9249,8 +9841,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3167cb4f-5367-4d89-9ca5-97a4c9e43e15")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -9694,10 +10286,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5613"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ad97568-fa31-4631-938c-b5bc90debbce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP?16* SO*16*3.9x9.9mm*P1.27mm* SSOP*16*5.3x6.2mm*P0.65mm* TSSOP*16*4.4x5mm*P0.65*")
 		(path "/3f53b650-c1b4-41fb-b756-02f2bd50b88e/e3e416da-e79a-4255-bd41-d84e0c9726f1")
-		(sheetname "Shifter")
-		(sheetfile "ative_parts.kicad_sch")
+		(sheetname "/Shifter/")
+		(sheetfile "active_parts.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 5.06)
@@ -10134,7 +10739,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10160,9 +10765,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "232d7a8d-b443-4f46-a09e-4684335bd097")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3553b55-debd-4ad8-a1a9-bb100a00ffa3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/5baf9980-98ee-4247-9189-064c9fded41f")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10336,7 +10967,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10362,9 +10993,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bfbc578-2159-42bc-9c11-3f17b79eda44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f93e4f90-8e2f-48fe-8957-c309d7eef736")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/501c5a39-c005-4d51-8eb5-c4397ffeba38")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10538,7 +11195,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10592,8 +11249,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9e242a05-9ee3-40bd-8797-da62e5ba2fac")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -10603,7 +11260,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c7fca565-bc23-4c5d-b4e2-e0ad2d46408a")
+			(uuid "93eeffd9-3bc6-465e-a661-84b979e22bd4")
 		)
 		(fp_line
 			(start -2.56 -2.46)
@@ -10613,7 +11270,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "062c4870-0f3c-497a-a271-b151cf44eb71")
+			(uuid "809f1a56-b569-4f11-935f-5be79e9366aa")
 		)
 		(fp_line
 			(start -2.56 3.51)
@@ -10623,7 +11280,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "264f20d6-094f-4cea-aa7b-fa59055d5610")
+			(uuid "42edfd12-a645-479f-9dd8-dbca7d2e6ae2")
 		)
 		(fp_line
 			(start -2.55 -2.45)
@@ -10633,7 +11290,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "538d69b0-c042-49ce-95e5-a167a3905cd3")
+			(uuid "08adedca-9342-49fb-8584-ed861b197f9f")
 		)
 		(fp_line
 			(start -2.55 -1.7)
@@ -10643,7 +11300,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "92da4cdd-428b-4d23-960e-8d2f495abea7")
+			(uuid "ce61967f-55e6-4fb4-b382-957e877847f6")
 		)
 		(fp_line
 			(start -2.55 -0.2)
@@ -10653,7 +11310,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fa91b9dd-b0e7-49c3-aa7a-015bed3dd882")
+			(uuid "2edb0806-9216-4ba1-8591-6a270fefd2cf")
 		)
 		(fp_line
 			(start -1.8 -0.2)
@@ -10663,7 +11320,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "242965fe-6adc-4a8b-95cb-2fe4a967693b")
+			(uuid "bab9981d-4eb1-434a-9d5e-2644d6fea996")
 		)
 		(fp_line
 			(start -1.8 2.75)
@@ -10673,7 +11330,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1ba8d5fa-d079-495b-af50-f8c67856f887")
+			(uuid "e3698313-a5fb-40a5-b604-7896ed4fb1da")
 		)
 		(fp_line
 			(start -1.6 -2.75)
@@ -10683,7 +11340,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c2db8181-0ca1-4a50-a2a9-cfddc5ed15b1")
+			(uuid "7735035c-5418-4945-a98c-2da9c1a905fc")
 		)
 		(fp_line
 			(start -0.75 -2.45)
@@ -10693,7 +11350,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ae4d8992-ef87-4f8a-8f04-54546d019874")
+			(uuid "20589d7e-fc1f-45c1-978a-fcf5d62f91aa")
 		)
 		(fp_line
 			(start -0.75 -1.7)
@@ -10703,7 +11360,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cba4ed8a-60b6-43a1-a51e-9b185f8af9e1")
+			(uuid "085c8139-cc9f-40b5-91d4-a013254d62b5")
 		)
 		(fp_line
 			(start 0.75 -2.45)
@@ -10713,7 +11370,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fbcbc9e0-a9b4-408f-90d1-f62dd396372c")
+			(uuid "472077c5-c55e-4fdd-af02-15729ccfde51")
 		)
 		(fp_line
 			(start 0.75 -1.7)
@@ -10723,7 +11380,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "efb7b69e-467e-49cc-9097-c4b5388e38a7")
+			(uuid "fd72ec03-8d63-451f-a77c-391e54c54568")
 		)
 		(fp_line
 			(start 1.75 -2.45)
@@ -10733,7 +11390,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ce1d778a-7bd3-4bbf-8454-a6cdd8c69ace")
+			(uuid "fe56cc3e-7531-423b-8678-84e431595f3e")
 		)
 		(fp_line
 			(start 1.75 -1.7)
@@ -10743,7 +11400,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "76ccb5ca-7e89-4e1a-aad4-ab4b2cea9609")
+			(uuid "a51315fa-de3b-447b-89e5-b3e4b51d3650")
 		)
 		(fp_line
 			(start 3.25 -2.45)
@@ -10753,7 +11410,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "015c8f02-3cbe-4dfa-9731-04d7b0cfd623")
+			(uuid "7464cfb0-29f4-4e4e-a04d-6275f9ab9178")
 		)
 		(fp_line
 			(start 3.25 -1.7)
@@ -10763,7 +11420,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "06d7dc23-b116-47dc-bf1a-4a32b9d11099")
+			(uuid "86ffd34f-8205-4365-973d-ee88ca6497af")
 		)
 		(fp_line
 			(start 4.3 -0.2)
@@ -10773,7 +11430,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1653e737-5fcd-4bb0-a5ae-5084009e2081")
+			(uuid "4609ca4a-f791-4c97-b21d-98393c2fbb85")
 		)
 		(fp_line
 			(start 4.3 2.75)
@@ -10783,7 +11440,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3328bec5-54a4-4b3c-afd4-fc6f33e0f9c9")
+			(uuid "24c99861-a882-47d0-b77d-fbb6b2cab81b")
 		)
 		(fp_line
 			(start 5.05 -2.45)
@@ -10793,7 +11450,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6b20a85c-1f8b-4556-bb5c-8fb87d241b94")
+			(uuid "90c218f8-fa11-4f15-883e-260bc808d5f4")
 		)
 		(fp_line
 			(start 5.05 -1.7)
@@ -10803,7 +11460,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e861ec28-6623-4925-b21d-19c417eaef9d")
+			(uuid "715018cd-107c-4444-af96-9adfe4ede25f")
 		)
 		(fp_line
 			(start 5.05 -0.2)
@@ -10813,7 +11470,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cdca51bb-921b-4a2b-9bba-a3e6299ab2dc")
+			(uuid "efb8f207-836b-491f-9caf-0e2987603843")
 		)
 		(fp_line
 			(start 5.06 -2.46)
@@ -10823,7 +11480,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e4110f2f-4a02-4ed0-9ad7-dc1a03169c3e")
+			(uuid "45ff0fb7-1943-4271-b597-dbf14f6a0f05")
 		)
 		(fp_line
 			(start 5.06 3.51)
@@ -10833,7 +11490,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "79243045-7d59-4248-a71f-8a7de5f97db9")
+			(uuid "b2b846db-7251-43c7-a52b-c8025a22a669")
 		)
 		(fp_line
 			(start -2.95 -2.85)
@@ -10843,7 +11500,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "11b6aed6-437b-48df-8c77-5defa439f64f")
+			(uuid "e5d751a7-57c4-4fcd-9aad-03e9f4231236")
 		)
 		(fp_line
 			(start -2.95 3.9)
@@ -10853,7 +11510,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b3e246d3-48b6-4c8a-8dfd-a6c078eae2c0")
+			(uuid "ca654411-79c4-4a4c-954a-ad0bbb5f2ee9")
 		)
 		(fp_line
 			(start 5.45 -2.85)
@@ -10863,7 +11520,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bf83fd31-ebec-45d5-bbc8-0c0c254e7b01")
+			(uuid "f5fdd95f-efcd-4a06-97d1-d2b5531069cc")
 		)
 		(fp_line
 			(start 5.45 3.9)
@@ -10873,7 +11530,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5e0d112c-6623-4967-b42f-a5baee81e628")
+			(uuid "35538394-493b-4823-88a6-a2cdb55a5536")
 		)
 		(fp_line
 			(start -2.45 -2.35)
@@ -10883,7 +11540,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7c03218c-86a8-4fb4-a390-1b70a29e00b7")
+			(uuid "2dc0779f-1b13-4b85-ab52-7ade6a16a285")
 		)
 		(fp_line
 			(start -2.45 3.4)
@@ -10893,7 +11550,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8d810241-c9bc-410c-b4db-fb3569284a43")
+			(uuid "ead5c5f5-fe3d-4cf6-9e1e-90264ec04b1f")
 		)
 		(fp_line
 			(start -0.625 -2.35)
@@ -10903,7 +11560,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4b5c08c8-29c6-43ae-9e4b-cb084e964d1a")
+			(uuid "9c70ffbc-7460-48f0-abda-c8c775eaa0aa")
 		)
 		(fp_line
 			(start 0 -1.35)
@@ -10913,7 +11570,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2a810b5a-7d42-489a-9e98-efa12e9bbab3")
+			(uuid "781ec61e-a4b8-4ba1-86b1-394e7559ee41")
 		)
 		(fp_line
 			(start 4.95 -2.35)
@@ -10923,7 +11580,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9be50bb4-be43-4944-9d13-873156a1ebc0")
+			(uuid "e3107852-9324-436d-8ccf-0cb0f4398b33")
 		)
 		(fp_line
 			(start 4.95 3.4)
@@ -10933,7 +11590,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "48cf405b-1e52-4313-aab0-04337477fba8")
+			(uuid "10e1a7a8-b843-4abe-a6b2-f28602c4e018")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.25 2.7 0)
+			(layer "F.Fab")
+			(uuid "b9862d64-b543-4f48-9324-f393fc6181ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
@@ -10959,7 +11627,7 @@
 			(uuid "b940be70-32db-4aa9-9d26-272f176db7f2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11000,7 +11668,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11026,9 +11694,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "240bbc7f-92ab-49e6-9aa1-fe82485fd770")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbc741e7-5fe8-4f56-91cf-538966a03a2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/3e588767-624f-4f7a-b826-98e7b1fb4ee4")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -11215,7 +11909,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11241,9 +11935,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe6f0039-6af2-41c2-96d0-91a6d7252591")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "619e2229-7b29-4be3-aa29-91a511258b4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/0ee464a3-1bec-4234-ad0a-d775dec8a8a5")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11417,7 +12137,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11443,9 +12163,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7489b756-f099-4096-98e5-e3cb43f786e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "110a5dec-395f-4253-b061-9ccaf2847e3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/ad42c0fe-012d-4772-a01b-541d5b53e6ec")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -11632,7 +12378,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11670,10 +12416,23 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bce6ba0e-dd7d-435d-a239-6197dc18ced2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3f53b650-c1b4-41fb-b756-02f2bd50b88e/0e2fe157-1fe8-436a-a8a8-487eea1ab262")
-		(sheetname "Shifter")
-		(sheetfile "ative_parts.kicad_sch")
+		(sheetname "/Shifter/")
+		(sheetfile "active_parts.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -11846,7 +12605,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11872,9 +12631,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb1b72e6-8354-4ac8-8ad6-2d636d91efc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "560d9840-c6a4-4a0e-bf76-46209e617218")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/5a959623-33cf-49e2-92d2-3e140fc62328")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12048,7 +12833,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12086,9 +12871,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "288da0d1-a83a-489f-b4f7-893ba7f83119")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/617ec767-61f6-44ad-9300-837b50b35728")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12262,7 +13060,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12316,8 +13114,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0b7169d3-87e9-4f6d-bf59-a59b9f54e1a6")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -12327,7 +13125,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "baf2110c-1c9d-4ea7-81b9-4a0b5db38e7f")
+			(uuid "c0327786-d795-4cfb-9ded-955318c15d15")
 		)
 		(fp_line
 			(start -2.56 -2.46)
@@ -12337,7 +13135,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8631d057-3602-4058-9a2a-843f59804883")
+			(uuid "52eee89e-bb2c-43fb-9a53-2b8e2512bee9")
 		)
 		(fp_line
 			(start -2.56 3.51)
@@ -12347,7 +13145,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0ed2b516-8b3f-4a0d-b95b-c59c1f617d81")
+			(uuid "1469e6ad-36e0-4c46-ac69-8a0fa1bc55dd")
 		)
 		(fp_line
 			(start -2.55 -2.45)
@@ -12357,7 +13155,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1b1cdef8-d4ab-4434-86bd-1307677dde19")
+			(uuid "a7d6c9ab-49b9-4162-9f2e-e7b5531ebb8c")
 		)
 		(fp_line
 			(start -2.55 -1.7)
@@ -12367,7 +13165,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bd73b153-7354-46ed-bfc9-5799edf07c7a")
+			(uuid "65cdfa38-67ca-401a-ba50-07f9e862f519")
 		)
 		(fp_line
 			(start -2.55 -0.2)
@@ -12377,7 +13175,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4e7aa761-b349-465e-8337-75654986050e")
+			(uuid "f7737be7-0bd3-4706-a3c7-bc31a372c743")
 		)
 		(fp_line
 			(start -1.8 -0.2)
@@ -12387,7 +13185,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "08f2a8cb-44f2-44fe-83ec-0c71f2b2d406")
+			(uuid "e7604e6b-4304-4d53-a957-31719ba288f0")
 		)
 		(fp_line
 			(start -1.8 2.75)
@@ -12397,7 +13195,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cda9dea7-9d86-4f73-bd7e-5e2462ed7d3f")
+			(uuid "c3efa035-cb5c-4c99-ac29-154386e466d3")
 		)
 		(fp_line
 			(start -1.6 -2.75)
@@ -12407,7 +13205,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e50a064e-9dec-4499-8d77-089fbf4a89a7")
+			(uuid "f06526ad-236d-4221-a513-b04f1fd75674")
 		)
 		(fp_line
 			(start -0.75 -2.45)
@@ -12417,7 +13215,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d8c7e0d7-5568-4aac-a105-c1fba838d460")
+			(uuid "899890aa-a1d3-4909-8450-ed74f6d6bf95")
 		)
 		(fp_line
 			(start -0.75 -1.7)
@@ -12427,7 +13225,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b550e3f0-6acd-4dfb-907a-9d1b997bcd5c")
+			(uuid "5918de6f-18a7-47cc-9353-b73a252f6dd4")
 		)
 		(fp_line
 			(start 0.75 -2.45)
@@ -12437,7 +13235,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "64a584cd-e8f2-4df1-b32e-87a7e0ccb428")
+			(uuid "50d5fa5f-80d0-426c-9c3b-b25afbd2a8f7")
 		)
 		(fp_line
 			(start 0.75 -1.7)
@@ -12447,7 +13245,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d2740fe5-8159-456c-b7f1-5fb8c58f899e")
+			(uuid "6de44110-e66c-49d0-9679-368c57dcad04")
 		)
 		(fp_line
 			(start 1.75 -2.45)
@@ -12457,7 +13255,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e9bdf6ad-1bdd-4a40-a369-ae1cb2a5a63c")
+			(uuid "6488dc13-7655-4cc9-9312-1087204f676a")
 		)
 		(fp_line
 			(start 1.75 -1.7)
@@ -12467,7 +13265,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dbb4a726-a7c4-41b0-b668-64b6aa1e3e07")
+			(uuid "fe0826d7-c083-4a34-b354-540998c6c8fd")
 		)
 		(fp_line
 			(start 3.25 -2.45)
@@ -12477,7 +13275,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "82959cf2-4690-437a-ae19-3b32d50544a0")
+			(uuid "98b5e004-601b-49f9-849d-8c8f01ec556c")
 		)
 		(fp_line
 			(start 3.25 -1.7)
@@ -12487,7 +13285,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5412a249-c52a-4bd8-83e8-1d78f03e794c")
+			(uuid "705eb0c4-295d-46ae-a50a-0cfcf379763e")
 		)
 		(fp_line
 			(start 4.3 -0.2)
@@ -12497,7 +13295,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "49637e34-6080-49fd-a6b1-5c5653ca5049")
+			(uuid "3bb5cd5b-33c5-48f9-ab29-dfc0d591dc9e")
 		)
 		(fp_line
 			(start 4.3 2.75)
@@ -12507,7 +13305,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1f36c49b-a2d7-4317-8774-393a05a37932")
+			(uuid "c2c7b66e-caff-44d2-805d-5fdc982e594f")
 		)
 		(fp_line
 			(start 5.05 -2.45)
@@ -12517,7 +13315,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "18e26369-b1b3-450a-9005-e16c0ef33c0c")
+			(uuid "22444d3d-b44d-4e74-98bc-08bf9c1fac3b")
 		)
 		(fp_line
 			(start 5.05 -1.7)
@@ -12527,7 +13325,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "87f6ec73-4a33-444d-8e55-1468a14064a5")
+			(uuid "e2fe2fd4-e99e-4b00-865c-428f49d338b8")
 		)
 		(fp_line
 			(start 5.05 -0.2)
@@ -12537,7 +13335,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b03223d0-af39-4fd0-8d94-477d592f60d5")
+			(uuid "5475819c-ac9c-4a36-9e59-936e97feaaf1")
 		)
 		(fp_line
 			(start 5.06 -2.46)
@@ -12547,7 +13345,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "464fec22-2271-48c3-8672-0391a5d73195")
+			(uuid "119d64d6-47ac-4e68-8190-9a0af1475bb0")
 		)
 		(fp_line
 			(start 5.06 3.51)
@@ -12557,7 +13355,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fa3eec21-76d3-4fba-b74a-593eb894ed32")
+			(uuid "e49bf23b-0c15-47c9-b930-1f24d36135b3")
 		)
 		(fp_line
 			(start -2.95 -2.85)
@@ -12567,7 +13365,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d6d194d5-8955-411e-b286-3e291bbb17af")
+			(uuid "ab1e9b4a-a391-40d8-9e45-6ef4e071aeb0")
 		)
 		(fp_line
 			(start -2.95 3.9)
@@ -12577,7 +13375,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "caa9a3be-8038-45d8-a81f-b937685831cb")
+			(uuid "d6a6aa2b-05ad-4812-9ff2-a9f34713053a")
 		)
 		(fp_line
 			(start 5.45 -2.85)
@@ -12587,7 +13385,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0635b804-b5c3-4ae4-9330-48a96b3eb2e4")
+			(uuid "f7bc7988-c98a-40c3-ac83-3564df1dae46")
 		)
 		(fp_line
 			(start 5.45 3.9)
@@ -12597,7 +13395,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1232f0fe-0099-43eb-b756-f871aa766940")
+			(uuid "726a13dd-cade-4da7-93f2-d5e286b8d739")
 		)
 		(fp_line
 			(start -2.45 -2.35)
@@ -12607,7 +13405,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "23fce00f-6767-4a56-85c6-6cc719bd4cd3")
+			(uuid "dbc6df98-5ea4-4d4d-bef0-ffed69d4d3e0")
 		)
 		(fp_line
 			(start -2.45 3.4)
@@ -12617,7 +13415,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "14d92b1e-1bf3-42fe-a1b8-40c2cefed35d")
+			(uuid "072571ea-9e90-42b2-9b4d-7aa55987f9d6")
 		)
 		(fp_line
 			(start -0.625 -2.35)
@@ -12627,7 +13425,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2b0605cd-fdc3-4347-82ed-4bc1c97a07b4")
+			(uuid "71028769-d9e8-4b1a-91bb-52d7b1b9f520")
 		)
 		(fp_line
 			(start 0 -1.35)
@@ -12637,7 +13435,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1f89e00e-1e8f-445a-83cd-96fdc1f15040")
+			(uuid "bfaa9e8f-f4ca-400f-baa1-50b562ae34d9")
 		)
 		(fp_line
 			(start 4.95 -2.35)
@@ -12647,7 +13445,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3ff11d51-d18c-4fae-8180-64ceac461975")
+			(uuid "984a76d0-801e-4b07-9575-a0952f02a1f1")
 		)
 		(fp_line
 			(start 4.95 3.4)
@@ -12657,7 +13455,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "baf7e580-7dcc-4979-b336-04c295bdd365")
+			(uuid "d64af3cd-9dce-4048-a839-4f4de868a35a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -0.889 2.032 0)
@@ -12694,7 +13492,7 @@
 			(uuid "b1a5bb5e-6d50-468f-8e5a-12db7200aad4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12735,7 +13533,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12773,9 +13571,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0abb256b-29c1-4b42-86b8-08d4a8e0cf5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/9543ac62-fa65-4f1f-9699-442b0d65182d")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12949,7 +13760,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12975,9 +13786,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d341f87-7387-438a-bd57-680df37afe72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be245f33-2d1e-4fab-bcac-798589027e15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/cac1a5eb-a267-4b89-91b3-8892792e3803")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -13164,7 +14001,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13202,9 +14039,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6284d712-0639-4ea6-9b09-fd76bbbc8c70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/8337c251-4411-4464-8bd6-36de86e8a6df")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13378,7 +14228,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13404,9 +14254,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be5c006a-547b-4a69-8e4d-8c1df6bd52c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c0d8c10-aeff-4636-b328-ec9e5920ff16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/34c6b4e3-4f22-4221-a1fb-e1a787c10fd7")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -13582,7 +14458,7 @@
 				)
 			)
 		)
-		(property "Value" "70"
+		(property "Value" "470"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "facd1c75-ec2a-4bcc-aa49-0d8b599ab838")
@@ -13593,7 +14469,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13631,9 +14507,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "640e770f-e4b2-4edf-8989-b24f50945d44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/b912bad9-62cc-4435-835f-311e12146185")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13807,7 +14696,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13833,9 +14722,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "535cc990-baa0-4cb5-aedd-59a0e45f45df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "857fad0b-b108-4e8d-8fbc-526378a8394b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/ff55e7cb-d634-413b-b7e5-098db609f14a")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -14022,7 +14937,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14076,8 +14991,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e12061d6-477e-439e-b2e5-a2385d055fef")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -14087,7 +15002,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8b4bbefb-9358-4eae-8202-14f8ff2c900d")
+			(uuid "5f2d5ccd-9b97-4937-8868-fe5025128029")
 		)
 		(fp_line
 			(start -2.56 -2.46)
@@ -14097,7 +15012,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0856dd3e-8aba-4eb9-b1ca-167bfb639a7b")
+			(uuid "181725c6-2911-4308-88cf-bda83b65b4d1")
 		)
 		(fp_line
 			(start -2.56 3.51)
@@ -14107,7 +15022,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "93d680a2-03b3-4799-8075-e22dacbd7c16")
+			(uuid "74f116f3-c5c0-422e-9b6b-3e5d155b51a5")
 		)
 		(fp_line
 			(start -2.55 -2.45)
@@ -14117,7 +15032,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f7efd7a5-b64a-44ab-9ffd-73b1c25f50ec")
+			(uuid "30295c25-fda1-4908-a9a9-ddd9749243a7")
 		)
 		(fp_line
 			(start -2.55 -1.7)
@@ -14127,7 +15042,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e07fc1cf-259e-4e76-813c-c145c27aaaa5")
+			(uuid "d0015e0a-9b99-4b79-af94-e1bdaa75fc49")
 		)
 		(fp_line
 			(start -2.55 -0.2)
@@ -14137,7 +15052,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3d673057-5980-42bc-9bba-29524a187653")
+			(uuid "25e77b21-03bf-4d1b-9a9c-ced15010ac76")
 		)
 		(fp_line
 			(start -1.8 -0.2)
@@ -14147,7 +15062,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6c86bcb6-3c9a-427b-8412-cd60800901ca")
+			(uuid "538d5ea4-d39e-48fc-a64f-7119c3b4625b")
 		)
 		(fp_line
 			(start -1.8 2.75)
@@ -14157,7 +15072,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "72a17509-96eb-4e94-94c8-2d94ef9ab3b7")
+			(uuid "73d562be-aaa0-49ea-ab01-2a515b0d24fa")
 		)
 		(fp_line
 			(start -1.6 -2.75)
@@ -14167,7 +15082,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6fa8a90e-6b33-4a93-a67e-e5bbe29cfdaf")
+			(uuid "6b791322-dd49-4978-a638-b0e35cece3ef")
 		)
 		(fp_line
 			(start -0.75 -2.45)
@@ -14177,7 +15092,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3f0f3a7f-1c7f-4006-8473-905e476f2278")
+			(uuid "62d1a3ed-d355-4e1b-8f24-f1177855be58")
 		)
 		(fp_line
 			(start -0.75 -1.7)
@@ -14187,7 +15102,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6f5710d4-98f5-4be3-b80c-109ba5de5d87")
+			(uuid "1231e546-51a4-4499-ab6d-1ba4cef8cc13")
 		)
 		(fp_line
 			(start 0.75 -2.45)
@@ -14197,7 +15112,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a3678a5a-a6cd-4b73-b9e7-3ed891602e7d")
+			(uuid "b12351c7-c9d3-4c2f-ad53-93d5fde384d0")
 		)
 		(fp_line
 			(start 0.75 -1.7)
@@ -14207,7 +15122,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "93334b36-8d90-42cb-809e-8a43a922481d")
+			(uuid "6bff229b-b0bd-496f-8943-eabd928e423e")
 		)
 		(fp_line
 			(start 1.75 -2.45)
@@ -14217,7 +15132,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a09917fa-4e78-487d-bf1f-0d5666d38303")
+			(uuid "1ab2a128-f159-4f71-9082-3ec3e189dfef")
 		)
 		(fp_line
 			(start 1.75 -1.7)
@@ -14227,7 +15142,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b01d6d02-e0a0-44ca-bc87-f390fad79eca")
+			(uuid "c2bd89c8-c7c2-4e3a-92f5-38a85458864b")
 		)
 		(fp_line
 			(start 3.25 -2.45)
@@ -14237,7 +15152,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fe7786bf-04d5-4937-930a-a976486cac7d")
+			(uuid "8265b870-3e18-44bb-a42f-dfae58e12a1c")
 		)
 		(fp_line
 			(start 3.25 -1.7)
@@ -14247,7 +15162,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "45fc0e66-3307-4798-bd01-28988e31a736")
+			(uuid "ad42ffff-fbf9-480e-aecc-baaf26f12b2b")
 		)
 		(fp_line
 			(start 4.3 -0.2)
@@ -14257,7 +15172,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e618294a-f3b4-4107-b837-7da35b35e77d")
+			(uuid "39dde2b7-446d-4521-b2db-02048966c8d2")
 		)
 		(fp_line
 			(start 4.3 2.75)
@@ -14267,7 +15182,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1e87f0ab-715a-4b1f-bbb9-f4362299b77e")
+			(uuid "a9e1bb17-cf64-43d0-86aa-4ecef82af876")
 		)
 		(fp_line
 			(start 5.05 -2.45)
@@ -14277,7 +15192,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "827c834d-5946-4d49-947a-c79aa6386acf")
+			(uuid "e033b7ec-d82b-4b68-ab3b-d2d8d5f829f9")
 		)
 		(fp_line
 			(start 5.05 -1.7)
@@ -14287,7 +15202,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a7b423bf-a46f-43b3-b746-7b165f9ade51")
+			(uuid "91323db4-f4cb-4a21-a209-979ae3a95769")
 		)
 		(fp_line
 			(start 5.05 -0.2)
@@ -14297,7 +15212,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2c6e04fe-e716-4db5-9b7a-8fba30da8d1d")
+			(uuid "5a39a918-b8d0-4e99-baab-58c016fc36cb")
 		)
 		(fp_line
 			(start 5.06 -2.46)
@@ -14307,7 +15222,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "da0e343b-692c-4311-a3fd-9f3347830a1e")
+			(uuid "bb5d1276-0108-4323-a3b6-9a2c9b4c3592")
 		)
 		(fp_line
 			(start 5.06 3.51)
@@ -14317,7 +15232,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6f12a2cc-9801-4ed1-85d2-4e513e45ecf8")
+			(uuid "eac81b35-f3dd-4ef2-beb0-9d4617fa141d")
 		)
 		(fp_line
 			(start -2.95 -2.85)
@@ -14327,7 +15242,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d2784f7a-1d39-4b38-b9b2-09152527faf2")
+			(uuid "151f7672-390e-4e86-a304-a813277cba97")
 		)
 		(fp_line
 			(start -2.95 3.9)
@@ -14337,7 +15252,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6c665d3e-8673-4de0-b18a-3b5888a339b0")
+			(uuid "faa25b62-8127-4660-9119-724becdb4ed0")
 		)
 		(fp_line
 			(start 5.45 -2.85)
@@ -14347,7 +15262,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "77e8e4bf-800d-47d1-aab7-f7cfc93fcd09")
+			(uuid "59afc07e-4855-4fcc-a2a4-54c93318a292")
 		)
 		(fp_line
 			(start 5.45 3.9)
@@ -14357,7 +15272,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c6aebcba-0b60-4c07-8ad2-603710e7ec85")
+			(uuid "6f6ee077-6d97-4375-983b-b94b1ebeb236")
 		)
 		(fp_line
 			(start -2.45 -2.35)
@@ -14367,7 +15282,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b0090d35-82c2-4ea0-bb97-19cd511c9b9a")
+			(uuid "89fc8206-195e-4329-be70-5804f7085aa8")
 		)
 		(fp_line
 			(start -2.45 3.4)
@@ -14377,7 +15292,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a65526ee-49d4-480c-a182-8fdbe5532c5f")
+			(uuid "e8fa6003-aa98-4da8-8f75-afc569f633d1")
 		)
 		(fp_line
 			(start -0.625 -2.35)
@@ -14387,7 +15302,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f0fc6739-4d64-48d5-ae0b-c3fadaa4d011")
+			(uuid "73d32e90-df8c-4a11-8663-29396f43640e")
 		)
 		(fp_line
 			(start 0 -1.35)
@@ -14397,7 +15312,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "695a7a6e-86f8-4826-b330-cec61d342919")
+			(uuid "1a8df79c-3e69-4e36-8024-b8e70065f345")
 		)
 		(fp_line
 			(start 4.95 -2.35)
@@ -14407,7 +15322,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "aa98d5e7-8c3b-4374-8baa-b10c5af98e68")
+			(uuid "aadd7242-6063-44cb-bd8c-2549bf6d33fe")
 		)
 		(fp_line
 			(start 4.95 3.4)
@@ -14417,7 +15332,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ec31fc1e-822f-430f-86bc-11be0694ead0")
+			(uuid "a0662cf7-2759-4af9-8390-ab26c07ef598")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.25 2.7 0)
+			(layer "F.Fab")
+			(uuid "41749a76-f5e8-4715-8b72-d43c0c8ff251")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
@@ -14443,7 +15369,7 @@
 			(uuid "56cb8acc-985d-4859-8058-68ab49a5c85d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14484,7 +15410,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14522,9 +15448,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "460e7578-6ad9-4803-8353-37bcbaec0455")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/89cf4394-9565-4c12-8fb6-9fdeee2da27b")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14686,7 +15625,7 @@
 				)
 			)
 		)
-		(property "Value" "BUTTON16"
+		(property "Value" "BUTTON15"
 			(at 1.0878 4.4742 0)
 			(layer "F.SilkS")
 			(uuid "ca982ad7-e0ff-439a-a814-8793d70a74aa")
@@ -14697,7 +15636,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14751,8 +15690,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/859af7a7-b49f-458d-b7d1-0edff08c03cf")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -15159,7 +16098,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15185,9 +16124,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f612b00-b4f0-4bd4-9b17-cb6d18dad707")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c727bb9-6803-4f7f-9d84-6517394d47f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/47d5ec19-e3c8-4fa1-9673-000248a51835")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15361,7 +16326,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15387,9 +16352,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7517f1cd-b757-4bb9-9a93-01037d4b380a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2baafe1c-e418-4800-b7e7-85481dbf4a4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/68aefabb-036d-4c26-9787-bbca8e5ba4c8")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15563,7 +16554,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15617,8 +16608,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/74e67356-3211-406a-bf22-044228036822")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -16025,7 +17016,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16051,9 +17042,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb6a5550-b3f4-4102-8768-eeeefabfb75a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8799d116-e7f9-47dc-b271-caff67ae20e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/fd038321-312e-43d0-af17-8dd60300e4af")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -16240,7 +17257,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16266,9 +17283,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8a4c063-fa53-49d7-818d-c0a80aa8cd1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78870efe-0fd8-49b3-83d3-bdf30b558862")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/cc5ef3b4-f85d-444e-b3b0-2701f7b2f7de")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16442,7 +17485,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16480,9 +17523,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd4e398c-5ba6-4077-8aaa-502b4a5d7618")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/ad6c1b1d-e239-4af1-99cf-0b276c4c4aaa")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16656,7 +17712,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16682,9 +17738,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "041f92c5-a881-4418-a85e-18a3ad1733b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83773ee6-0f2c-4c66-86ab-a7015eae2ef2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/04a10f02-c992-4514-b09d-444ba2042e55")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16858,7 +17940,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16912,8 +17994,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ac7cd4e9-e627-4e20-9ff0-67afc479e249")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -16923,7 +18005,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fd0fc2fc-aa06-4550-8822-b18c4e1119e1")
+			(uuid "11c3e44e-4369-42bb-bd09-43d10d1ac814")
 		)
 		(fp_line
 			(start -2.56 -2.46)
@@ -16933,7 +18015,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "15b9e526-be17-43a2-a18d-75fbe9946b58")
+			(uuid "65d7a22e-2896-4502-8e0f-76f0be012e24")
 		)
 		(fp_line
 			(start -2.56 3.51)
@@ -16943,7 +18025,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6fa2b9a0-e648-4f63-8949-b6812c3c3706")
+			(uuid "89c6ce22-2520-4659-aac9-dc78b6b4f772")
 		)
 		(fp_line
 			(start -2.55 -2.45)
@@ -16953,7 +18035,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7b63303e-52c2-4b8e-bbb6-c1b22322a788")
+			(uuid "1f234d79-c9e7-4013-b6fe-eea2b847392c")
 		)
 		(fp_line
 			(start -2.55 -1.7)
@@ -16963,7 +18045,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a7370af9-1f6b-4b73-8f9d-6405496047a7")
+			(uuid "f7cc3569-28af-44c5-80e8-4b15f347dedc")
 		)
 		(fp_line
 			(start -2.55 -0.2)
@@ -16973,7 +18055,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a051f035-b098-4692-b07a-ead19124c35a")
+			(uuid "970875d5-9355-4d41-90aa-4d9d671061ed")
 		)
 		(fp_line
 			(start -1.8 -0.2)
@@ -16983,7 +18065,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2781c72d-5621-48f2-917e-17813e7cbb2e")
+			(uuid "5b8c8faf-8da1-431f-8138-d5c5d2c0a899")
 		)
 		(fp_line
 			(start -1.8 2.75)
@@ -16993,7 +18075,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6e9629bc-273b-49bc-b077-8d308ae1b66d")
+			(uuid "10340f47-7c32-4951-9880-f92a39d18343")
 		)
 		(fp_line
 			(start -1.6 -2.75)
@@ -17003,7 +18085,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e4b3f029-da65-49d6-be80-ae22ace5efc9")
+			(uuid "c64df5a9-b04d-4a45-87d3-c933870cdc35")
 		)
 		(fp_line
 			(start -0.75 -2.45)
@@ -17013,7 +18095,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4ad55aa2-c608-4035-9c18-511275d6fa8e")
+			(uuid "224638f4-df1e-4768-9e58-bb56248d175c")
 		)
 		(fp_line
 			(start -0.75 -1.7)
@@ -17023,7 +18105,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "aa85e2f3-7bcd-4871-a130-6d503d4fd7bb")
+			(uuid "1ec847eb-eb64-4b65-b0a0-a695966599fd")
 		)
 		(fp_line
 			(start 0.75 -2.45)
@@ -17033,7 +18115,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bec8a0ad-20dc-4227-86fb-ced3da4ef697")
+			(uuid "a0977cf0-bd56-4cd5-97d1-e50d1f230097")
 		)
 		(fp_line
 			(start 0.75 -1.7)
@@ -17043,7 +18125,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "99d8263b-1d84-4859-aa09-1c017ace16fd")
+			(uuid "c07fad65-10d2-4a0a-b602-f758ebedeca6")
 		)
 		(fp_line
 			(start 1.75 -2.45)
@@ -17053,7 +18135,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "aa4350c4-eb02-4126-9535-058dd121c8c5")
+			(uuid "eca929d8-d51e-4af7-9dc5-3f90e15e101b")
 		)
 		(fp_line
 			(start 1.75 -1.7)
@@ -17063,7 +18145,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ba263750-5d31-4bb7-bb7d-f8fc9fa21e7d")
+			(uuid "51284fc9-2394-465c-ac11-fa032b218562")
 		)
 		(fp_line
 			(start 3.25 -2.45)
@@ -17073,7 +18155,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "04b4b75b-c66a-45bc-9a1b-2e5bba4c34dd")
+			(uuid "e20db864-8592-418d-9df6-6e1fdf3a9ece")
 		)
 		(fp_line
 			(start 3.25 -1.7)
@@ -17083,7 +18165,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0e074c5b-e0d4-433b-96c8-58d6fbce1796")
+			(uuid "64a4a135-ac18-4bf2-9cff-24eb9a0aae87")
 		)
 		(fp_line
 			(start 4.3 -0.2)
@@ -17093,7 +18175,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0a9c775e-4546-4078-ac62-0253fdbdabbe")
+			(uuid "c1b21f2b-4e8d-415f-8474-650f24a5c151")
 		)
 		(fp_line
 			(start 4.3 2.75)
@@ -17103,7 +18185,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5d996fb4-2bb8-46ba-b2a5-fc52a6ffc279")
+			(uuid "fb390c72-c6f0-4808-b07b-9e7f08a27830")
 		)
 		(fp_line
 			(start 5.05 -2.45)
@@ -17113,7 +18195,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b220dfae-844a-401a-ba89-f9d8a4d39357")
+			(uuid "5f91d4f9-d656-4913-82ea-d2907eb1938c")
 		)
 		(fp_line
 			(start 5.05 -1.7)
@@ -17123,7 +18205,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3e1730c1-293d-4a52-a4e9-0cca048c7699")
+			(uuid "f947c559-5dce-46f9-94bc-0dbdd1bbedc2")
 		)
 		(fp_line
 			(start 5.05 -0.2)
@@ -17133,7 +18215,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ba3f75ac-c8a4-4c6a-b99e-14fb552ad2ad")
+			(uuid "2b994924-431f-4cdf-8fd6-877c9936c5c8")
 		)
 		(fp_line
 			(start 5.06 -2.46)
@@ -17143,7 +18225,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c803ef44-9237-4d13-a4a6-2f2af0d447c6")
+			(uuid "6f14fdf3-e054-44d9-a078-6c26ce3d3997")
 		)
 		(fp_line
 			(start 5.06 3.51)
@@ -17153,7 +18235,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b679a3b7-023c-48ab-be52-1a12d0d29e87")
+			(uuid "e7891cbd-9a49-474c-9115-948902076319")
 		)
 		(fp_line
 			(start -2.95 -2.85)
@@ -17163,7 +18245,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7aa17fa1-5427-4a84-a531-3e6958b511cd")
+			(uuid "1b24cb71-a53f-4206-bd08-31e2198688c2")
 		)
 		(fp_line
 			(start -2.95 3.9)
@@ -17173,7 +18255,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "2580689d-ec90-4470-ae58-75b83f2a8cb5")
+			(uuid "2931ac17-8504-421d-958f-ca5db4ab4490")
 		)
 		(fp_line
 			(start 5.45 -2.85)
@@ -17183,7 +18265,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f214fad2-fef6-4382-97b6-65f42766578f")
+			(uuid "c64bcf55-8e48-4f36-9905-b31864b3fd12")
 		)
 		(fp_line
 			(start 5.45 3.9)
@@ -17193,7 +18275,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a9cfa42a-6b72-4020-bed8-7658a1e8b787")
+			(uuid "6ba72187-9eaf-44d2-93eb-9d4c659a4c1b")
 		)
 		(fp_line
 			(start -2.45 -2.35)
@@ -17203,7 +18285,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "838b479c-3176-47e8-8bd2-3f98de9984be")
+			(uuid "50d20726-0c5a-48ad-a9c3-553acd22435b")
 		)
 		(fp_line
 			(start -2.45 3.4)
@@ -17213,7 +18295,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "855dad7c-a0b6-4844-832f-42f9fcfc152e")
+			(uuid "20cfb90f-ca19-49b5-8aa5-90dde22e18a0")
 		)
 		(fp_line
 			(start -0.625 -2.35)
@@ -17223,7 +18305,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "37077e84-2e02-4487-b575-982571a22655")
+			(uuid "3b85a75b-3868-4000-9bda-4bdd90cc4531")
 		)
 		(fp_line
 			(start 0 -1.35)
@@ -17233,7 +18315,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ae316994-4f81-4f29-b62e-df17ed9f0859")
+			(uuid "05c5ebc6-1f1e-49dc-98c1-b41597488001")
 		)
 		(fp_line
 			(start 4.95 -2.35)
@@ -17243,7 +18325,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bcf562e7-d84c-44c9-b233-6a89958512c9")
+			(uuid "968a6608-e226-417a-8432-76e3b992766c")
 		)
 		(fp_line
 			(start 4.95 3.4)
@@ -17253,7 +18335,18 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1d20a37f-b60e-435a-a989-254fe374195d")
+			(uuid "2a95a90f-d30b-491e-9bd0-c915a9fdaf36")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.25 2.7 0)
+			(layer "F.Fab")
+			(uuid "e6ddebed-e953-4549-b699-a68c431af0d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
@@ -17279,7 +18372,7 @@
 			(uuid "bdd5b26f-757b-41d6-a49a-1a66972c0b87")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17308,7 +18401,7 @@
 				)
 			)
 		)
-		(property "Value" "BUTTON32"
+		(property "Value" "BUTTON31"
 			(at 1.2692 4.525 0)
 			(layer "F.SilkS")
 			(uuid "97ab7a7a-f580-46d4-a757-59cf025b50c2")
@@ -17319,7 +18412,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17373,8 +18466,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/534cfe2c-ad72-44e4-a56b-43ad5672ff9f")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -17781,7 +18874,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17819,9 +18912,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e6e5c24-d154-498c-85b9-cdfa0d913eb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/c6fdf0c4-e3d3-4e19-8f5d-b65067c01454")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17995,7 +19101,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18021,9 +19127,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab48fdc6-ad4e-401f-a5fb-0502954f6907")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "235432f2-357f-4e76-82c8-e9802397c2c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/07a7c05d-1573-4979-aa63-6b4b5d79314b")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -18210,7 +19342,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18248,9 +19380,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9779d9b7-af54-4892-8f30-a266591132b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/2a0c638c-b97e-4fe1-a02f-59b2b716c99b")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18424,7 +19569,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18450,9 +19595,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcedc30f-e9ac-4be4-81db-0efb357d5426")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abe9071a-ac82-451b-9d53-fa3ff71e9dd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/2291cde9-1afa-450b-ba49-e2c81c8d5f40")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -18639,7 +19810,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18665,9 +19836,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea01962a-4652-406a-988e-b1512a939ca5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d984b85b-3323-41f8-b06e-2259a7c53f9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/af0ccfc3-7051-4c2e-ab5f-8cbd82652247")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19362,7 +20559,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19388,10 +20585,23 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6657999c-2042-449f-8e0b-0ac3f67a984c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/c85f040c-30a3-40d5-bf8a-6ee03d921c46")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -19465,7 +20675,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19491,9 +20701,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "593d9873-17b5-4244-9230-c955ac5cb930")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5696892a-b50b-4ee7-80b8-3d7549090093")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/a0d7bdda-f4c0-4dd7-ac17-916f1df5048c")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -19680,7 +20916,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19734,8 +20970,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e6aed402-5827-4313-8ed5-e1db326d7a2e")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -20142,7 +21378,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20168,9 +21404,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f859ee1-26e7-406f-87a1-ba77f95df794")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f71a785-0dad-4f30-8f79-45d71a47a86c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/5b8d0a3c-93fb-4f56-8d40-2305aa2b3f18")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -20357,7 +21619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20383,10 +21645,23 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7da4fe39-c7da-4aa9-b021-1df7f15525a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/075dc412-b341-43ef-838f-5517b166dc35")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -20460,7 +21735,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20514,8 +21789,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d7eb6d14-3933-4493-b451-01c0a21c01dd")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -20922,7 +22197,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20960,9 +22235,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e9d440a-3e0b-4422-8f2b-58d4b770baee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/d1ba9682-afc2-4a88-9f79-8d1f35546b40")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21136,7 +22424,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21162,9 +22450,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ad0387f-5194-47da-b7b6-aee795c566f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f02c2bb-cdb1-4a7f-8e06-c51c9873220b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/e75b8418-5fde-4072-b4cf-9612585f9d3f")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21338,7 +22652,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21364,9 +22678,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9793e973-c33f-43b1-9d4e-76cb17460c3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a6704fe-1057-4abc-bd61-b989c65924cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/72e14e15-2a82-4168-9af5-9602bff5e226")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -21541,7 +22881,7 @@
 				)
 			)
 		)
-		(property "Value" "BUTTON25"
+		(property "Value" "BUTTON24"
 			(at 0.924 -3.556 0)
 			(layer "F.SilkS")
 			(uuid "6bd58a8e-4c53-4bec-acc2-c2802a63c0a4")
@@ -21552,7 +22892,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21606,8 +22946,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6d3321c0-3b0b-40ca-bd49-dc00e2cf4c8d")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -22015,7 +23355,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22056,8 +23396,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b2f56ce8-d5a8-4bc8-bf4d-4a20fc80cd98")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -22497,7 +23837,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22523,9 +23863,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d8338d3-fb19-4666-8ecf-390c65638cee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2b60b84-1247-4c21-8e5f-5b569d5724b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/dcbf001b-2eb5-46cc-afce-7adc72d832c8")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -22712,7 +24078,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22738,9 +24104,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9f2fbc5-afa1-4fae-9264-81e1e1d705d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8aa696ae-47ce-4c0a-91f9-ac3b60270744")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/513b081e-bfcb-4c52-b84b-17a8efab5bb8")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22914,7 +24306,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22940,9 +24332,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "516e4a7f-8ae7-48f5-b5ba-a1c09737647e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fd2c2f1-ae7b-403f-941a-df342410a87c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/8105b168-c118-457c-8466-971122e4d154")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -23129,7 +24547,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23167,9 +24585,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bf34541-e8cf-4265-b9d9-78e2b82f62d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/2b18fb4d-a2f6-4ff2-af37-535b8cbb9c25")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23343,7 +24774,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23397,8 +24828,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/510ac574-7173-47ff-b534-06d67b6db5a0")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -23805,7 +25236,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23831,9 +25262,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c874477-db27-49c6-8655-eb0a8b663b0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb06efce-e274-4d98-b84b-07208c355160")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/75b65b2c-1d4f-4503-b06f-964f7a488bab")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23995,7 +25452,7 @@
 				)
 			)
 		)
-		(property "Value" "BUTTON9"
+		(property "Value" "BUTTON8"
 			(at 1.226 -3.81 0)
 			(layer "F.SilkS")
 			(uuid "1dd95b07-d5a3-4116-9c24-67f8e72a4b2c")
@@ -24006,7 +25463,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24060,8 +25517,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ee96d548-66ea-4696-8887-cf0e5dd2b0db")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -24468,7 +25925,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24507,10 +25964,23 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f0f178d-a702-4226-8df2-5a43b0b414fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/3f53b650-c1b4-41fb-b756-02f2bd50b88e/c97e94d0-8817-4806-b392-b22c5ac1e664")
-		(sheetname "Shifter")
-		(sheetfile "ative_parts.kicad_sch")
+		(sheetname "/Shifter/")
+		(sheetfile "active_parts.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.75 -1.51)
@@ -24703,7 +26173,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24757,8 +26227,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/84bb0aa3-c0ea-4e98-b8a8-6880eacda62f")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -25165,7 +26635,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25191,9 +26661,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8077cc87-19e0-4593-af11-02208ece147d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03f3526d-8fe0-4d98-a97b-04bbfaa30ca0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/b5277584-1550-48ff-8df7-5d5f162eb58f")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -25380,7 +26876,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25406,9 +26902,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cc070e1-b0d4-4fc0-8b2e-666987c89a00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fb290ad-b7bc-462b-b19e-b50ed21a87ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/2f187b86-6db8-4e77-a8ba-66c24e218373")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -25595,7 +27117,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25633,9 +27155,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "312e6ebe-50ff-4a1a-8f98-19cf57b4b421")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/53ef8708-fd78-4e40-a04f-87244a1ec9af")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25809,7 +27344,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25835,9 +27370,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e47bfef-2148-4f2d-b83f-5aa31c3095fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e464d336-6a3a-4be2-9082-f850bf47fd19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/db76526e-93aa-4c43-a1ba-82e286d65a13")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -26024,7 +27585,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26062,9 +27623,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "174d0f68-5e33-4893-9ff7-0fec87c8559e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/d2b668be-e045-4998-9785-05a4a627e494")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26238,7 +27812,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26292,8 +27866,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5960daf3-ea3f-457c-93f1-9a5126520115")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -26700,7 +28274,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26738,9 +28312,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0327df2d-ab10-47ff-831a-b8c6d1dda71b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/da212157-9d77-400b-8aae-4788d9366a75")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26914,7 +28501,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26952,9 +28539,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ecb7fd4-2d8d-4e22-abc6-8cbdae646e10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/9c0e58b2-e323-43db-be35-e3201144051c")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27128,7 +28728,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27182,8 +28782,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ec3b9a1a-18e7-48aa-88e1-f27a3c666db2")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -27590,7 +29190,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27616,9 +29216,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2548926a-a5ea-4779-ba86-c79620eef268")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dccbe3e7-4ed4-472b-87de-6fb812a83fdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/bf830a82-6a50-48b8-82df-aca9e5bcfcff")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27792,7 +29418,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27846,8 +29472,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/42ff3931-8f71-4cca-b619-483e7b119405")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -28254,7 +29880,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28280,9 +29906,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3923a70a-2592-41a3-a02d-52d96bced206")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ad31424-13f9-4a6b-a499-16907d91ff48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/852584e2-f007-4fa9-8fe3-eb99d47b6207")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -28469,7 +30121,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28507,9 +30159,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3ff68c0-b0fe-4e83-a508-16a17cb38df2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/a1ae2b44-faec-423b-99f5-1b5d52c188d0")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28683,7 +30348,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28709,9 +30374,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a80eb922-f488-4004-86a0-7a09d0a524ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87f9fc4e-069c-4457-be27-833498b0ac0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/e53fa50f-f763-4442-819f-a6e60cf81653")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -28898,7 +30589,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28936,9 +30627,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db8410e8-ffc0-4f4b-98aa-bb5de9e3044b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/c75fc28b-78f1-4b86-937b-8273861033b4")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -29112,7 +30816,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29138,9 +30842,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3c0a730-6671-4299-aa43-ccad99c91ab4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f948d20d-5dd5-44ec-a10c-5c19b8d7dac1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/2d107814-dc0a-4d7a-9d5e-997e5e0d61b3")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -29314,7 +31044,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29352,9 +31082,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "734fc59c-009a-400a-9187-0e6a7e3534fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/ba779a64-be51-43d1-b4a8-a250075a0a62")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -29528,7 +31271,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29566,9 +31309,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20059559-6391-408f-b13d-54f3ac215679")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/60f9bc22-134d-4146-86e0-1269a3b50ecb")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -29742,7 +31498,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29796,8 +31552,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f3df770c-a97a-4e6f-9443-e32411705e4b")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -29807,7 +31563,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7c45b71d-cdaf-4ea6-88e9-47ca94613878")
+			(uuid "9bf5d3db-b29b-4fee-9540-7d955895a1fe")
 		)
 		(fp_line
 			(start -2.56 -2.46)
@@ -29817,7 +31573,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d91e1324-75aa-4cf9-b3a8-a4bf5d742e9e")
+			(uuid "0dcc9ce1-12aa-4d07-b41e-78c855e82296")
 		)
 		(fp_line
 			(start -2.56 3.51)
@@ -29827,7 +31583,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "73ac71c7-d343-4de4-b891-383f80a4527f")
+			(uuid "4304922a-b898-47e5-b5c4-c24a945109c7")
 		)
 		(fp_line
 			(start -2.55 -2.45)
@@ -29837,7 +31593,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bd9e6ddb-b863-41c7-945e-df0f31480f85")
+			(uuid "58cbfb29-9316-437e-ba7b-50c2597f62e0")
 		)
 		(fp_line
 			(start -2.55 -1.7)
@@ -29847,7 +31603,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ac8a85a0-13ff-494d-a4df-cadb9f8276d2")
+			(uuid "f326c076-7538-4e8b-9c38-a25daf580b41")
 		)
 		(fp_line
 			(start -2.55 -0.2)
@@ -29857,7 +31613,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4a1fb024-3637-4425-80e3-29ac6dfa31bf")
+			(uuid "9c9f4db5-6cdb-41e2-ab0b-dd60950f5906")
 		)
 		(fp_line
 			(start -1.8 -0.2)
@@ -29867,7 +31623,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d4ce21d9-3f18-47a7-920d-7a66fceb39d0")
+			(uuid "f104a9e6-4787-4715-a7cc-50208b9af7b0")
 		)
 		(fp_line
 			(start -1.8 2.75)
@@ -29877,7 +31633,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a979dffa-deef-4dfb-b782-496df90bd197")
+			(uuid "d30abdc5-1c82-464b-b2e7-7a2b4cd16838")
 		)
 		(fp_line
 			(start -1.6 -2.75)
@@ -29887,7 +31643,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "42f603de-d127-43e7-a8d6-6e8f0ce5013e")
+			(uuid "a90689b6-03cb-4710-a1ea-035cd936757d")
 		)
 		(fp_line
 			(start -0.75 -2.45)
@@ -29897,7 +31653,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f90e53ac-6105-4616-aa73-569035225651")
+			(uuid "f07c6cef-a93f-4231-ac80-096b360ed9fe")
 		)
 		(fp_line
 			(start -0.75 -1.7)
@@ -29907,7 +31663,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "50fd7306-f85e-4b99-a470-3600153efb4d")
+			(uuid "4b29df5b-876e-4b4f-a65e-bc6d317fe8fc")
 		)
 		(fp_line
 			(start 0.75 -2.45)
@@ -29917,7 +31673,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7284778d-8d73-416e-b14c-41182d8bc8c4")
+			(uuid "f55629bd-2173-4916-9a04-ad806033da41")
 		)
 		(fp_line
 			(start 0.75 -1.7)
@@ -29927,7 +31683,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8999348b-bb38-49d6-b83f-9a418ef7faf2")
+			(uuid "8f9071d1-a322-425a-97a5-5f1fca34e672")
 		)
 		(fp_line
 			(start 1.75 -2.45)
@@ -29937,7 +31693,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "687aca7b-fe84-41c1-97d0-ce57e46d0d21")
+			(uuid "d0a5bbc6-f6fd-4631-ade7-3ac831de1f5a")
 		)
 		(fp_line
 			(start 1.75 -1.7)
@@ -29947,7 +31703,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "419737de-6217-4aca-87b6-d9b3633c350b")
+			(uuid "be6ea4b4-c249-47bc-921a-a4ced6b61425")
 		)
 		(fp_line
 			(start 3.25 -2.45)
@@ -29957,7 +31713,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fb99742c-9998-4afd-8791-996fa81f60d1")
+			(uuid "fbddaf83-3408-4558-b0c0-8eb25c04db0f")
 		)
 		(fp_line
 			(start 3.25 -1.7)
@@ -29967,7 +31723,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d375c51c-b7e8-4468-8433-2824da686611")
+			(uuid "0761f94d-c363-4236-91b7-61cd13086586")
 		)
 		(fp_line
 			(start 4.3 -0.2)
@@ -29977,7 +31733,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0296ac43-997b-48a6-beb6-61a112901267")
+			(uuid "a37a7ade-075a-4d7f-bf6e-ef1177d589fe")
 		)
 		(fp_line
 			(start 4.3 2.75)
@@ -29987,7 +31743,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4a9c7cf4-2273-4618-97b3-028dd6d0c0c4")
+			(uuid "5e2f6cba-4593-47cb-8ee3-d8ed78cbec26")
 		)
 		(fp_line
 			(start 5.05 -2.45)
@@ -29997,7 +31753,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6637ed4b-c6b6-412a-9d0c-301d508dd28c")
+			(uuid "603eb624-f0f7-480d-acbd-5fb3e17adc8f")
 		)
 		(fp_line
 			(start 5.05 -1.7)
@@ -30007,7 +31763,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c042764d-0783-4ee4-95db-9cd6b9068191")
+			(uuid "811a3139-9332-4843-bf72-2a60a6e4f946")
 		)
 		(fp_line
 			(start 5.05 -0.2)
@@ -30017,7 +31773,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1b226d11-83f1-4cdf-8953-e9ec176de743")
+			(uuid "5aa1a1ab-b618-41c3-904b-963717270d64")
 		)
 		(fp_line
 			(start 5.06 -2.46)
@@ -30027,7 +31783,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "370248d1-7512-48ab-83f0-132edc68fd86")
+			(uuid "91887482-b5a4-4eda-be44-963ed3cf1ed0")
 		)
 		(fp_line
 			(start 5.06 3.51)
@@ -30037,7 +31793,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f3b04887-9fc0-4ee8-b39d-fecae722e6e4")
+			(uuid "bf593c14-2342-40ac-961b-e90e4c4ec1b5")
 		)
 		(fp_line
 			(start -2.95 -2.85)
@@ -30047,7 +31803,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c64bc6c9-68fe-4cbb-b8e3-5d631f865d8b")
+			(uuid "43462e81-792c-4ba9-a231-e92e6ddf5eba")
 		)
 		(fp_line
 			(start -2.95 3.9)
@@ -30057,7 +31813,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b4353b00-3d00-494f-802b-9621ab602b34")
+			(uuid "a015e3c0-0d4d-4932-96f6-75a1a743275e")
 		)
 		(fp_line
 			(start 5.45 -2.85)
@@ -30067,7 +31823,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "346d7b51-9ddb-4603-b6bf-504b6156f3c2")
+			(uuid "3a0b60a7-c48c-4989-a0c5-38304382f803")
 		)
 		(fp_line
 			(start 5.45 3.9)
@@ -30077,7 +31833,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8fa4b99f-59f1-40b2-af9e-2988de08faa2")
+			(uuid "b286b13d-22a7-43a6-a812-31756ee8d93b")
 		)
 		(fp_line
 			(start -2.45 -2.35)
@@ -30087,7 +31843,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "127936d3-2eed-4a43-aeed-e3c10bf73e99")
+			(uuid "17ec5c6f-5def-4ea5-aebe-35abaeec7b66")
 		)
 		(fp_line
 			(start -2.45 3.4)
@@ -30097,7 +31853,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cb309c8f-6117-4846-a229-7136f5834e12")
+			(uuid "00f17d06-b5fa-4066-b56f-7fb43f6885c1")
 		)
 		(fp_line
 			(start -0.625 -2.35)
@@ -30107,7 +31863,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "875a6020-d1f4-4645-bc98-eb63344409f0")
+			(uuid "44519669-09f4-4f60-9b7f-5e770a9267a6")
 		)
 		(fp_line
 			(start 0 -1.35)
@@ -30117,7 +31873,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4cb05b42-b7ce-4e7b-909b-de409a09cf9a")
+			(uuid "30db8fd1-23bb-4042-ac10-70b197c6d6ae")
 		)
 		(fp_line
 			(start 4.95 -2.35)
@@ -30127,7 +31883,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "279f14f4-ba6d-4322-84fd-4010124e3cd5")
+			(uuid "41f99177-c192-4147-bba5-1ff1fca6ae8e")
 		)
 		(fp_line
 			(start 4.95 3.4)
@@ -30137,7 +31893,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ac284a81-db58-4a87-8049-3e1122f20d2a")
+			(uuid "fefd38de-5b4d-45df-8f6a-2ad52fd13e8f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -0.802 2.032 0)
@@ -30174,7 +31930,7 @@
 			(uuid "f17a5a8d-0554-4371-8013-4d5e0ad41d95")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30215,7 +31971,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30253,9 +32009,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8145f7f9-df45-4a73-9661-180aa4da58bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/27dd3327-06cb-42ba-9c82-7b8080a02e32")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30429,7 +32198,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30455,9 +32224,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "deb48b53-e0e6-4764-a6d1-6963e8668c94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03364a4e-bfdc-4bed-8c1e-14ed940053e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/b8a770e0-1590-4616-83be-0ced343a208a")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30655,7 +32450,7 @@
 				)
 			)
 		)
-		(property "SCLC" "C5613"
+		(property "SCLC" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30668,10 +32463,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5613"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "112e818a-2f10-4d2a-87d0-eec0c39704a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP?16* SO*16*3.9x9.9mm*P1.27mm* SSOP*16*5.3x6.2mm*P0.65mm* TSSOP*16*4.4x5mm*P0.65*")
 		(path "/3f53b650-c1b4-41fb-b756-02f2bd50b88e/c056d64a-abe5-4214-abbb-8a08b7445290")
-		(sheetname "Shifter")
-		(sheetfile "ative_parts.kicad_sch")
+		(sheetname "/Shifter/")
+		(sheetfile "active_parts.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -5.06)
@@ -31108,7 +32916,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31162,8 +32970,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/266c2b06-c982-4266-a2df-5bb85c9017ff")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -31570,7 +33378,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31624,8 +33432,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/61ed42fa-d968-42ca-b7ca-fe73c022f4c7")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -32032,7 +33840,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32058,9 +33866,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f35eb4a5-d295-4acc-96da-5ff7c707c75a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4587e72f-9256-47b9-a1c5-3fe8e65e89d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/255ee7de-9e2c-4a69-a9c6-63947868bc8f")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -32247,7 +34081,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32301,8 +34135,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/71714198-adc7-4626-9ced-28ce932a0cf9")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -32709,7 +34543,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32747,9 +34581,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a92f060-e694-45ce-9073-a3e4c70155b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/72a71a89-1b14-4357-9702-70df51decc6f")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -32923,7 +34770,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32977,8 +34824,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9b4f1936-3e29-4d3a-944d-2f4cdd9ac307")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -33385,7 +35232,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33411,9 +35258,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02040a94-918a-4663-aaa8-c69535fd7ea3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0f4cd7a-0fcb-4dbe-ae56-d28c8179d454")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/38f0cfc7-de83-4dfe-ab09-5a1354069366")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -33600,7 +35473,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33626,9 +35499,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43fd1bd4-1e0d-465e-b435-118041e53d02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac1b9ced-337e-49bc-bd87-cdf0cbc7d5f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/0299b18f-15d4-4a96-a46d-8d352d4b8d1b")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -33815,7 +35714,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33841,9 +35740,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95f77b61-4bd6-45d0-9c5a-0b59d03691ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51eba0e0-2984-4153-b5af-1c62d2fab4e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/632c9aac-c492-44ef-9844-19270cd6b0f1")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34017,7 +35942,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34055,10 +35980,23 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8151972c-1a31-4658-8923-9b3ee575a873")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3f53b650-c1b4-41fb-b756-02f2bd50b88e/01e05bef-26e3-46ac-ada2-cb2065638f5b")
-		(sheetname "Shifter")
-		(sheetfile "ative_parts.kicad_sch")
+		(sheetname "/Shifter/")
+		(sheetfile "active_parts.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -34231,7 +36169,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34285,8 +36223,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3f3bed03-f445-4615-9781-784a48cedf6d")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -34693,7 +36631,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34719,9 +36657,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4f8a762-2163-4b92-b8b4-dfedfc0a7a80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8116b8d8-fc42-41ef-ac08-5b3dcdbc8459")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/f33dcff6-2d68-40c1-a868-754c783a27bf")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -34908,7 +36872,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34946,10 +36910,23 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aae6a9fc-bc7c-4f6a-a277-fea1385de427")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3f53b650-c1b4-41fb-b756-02f2bd50b88e/073c4068-b6a1-472a-95f7-edcb655feda9")
-		(sheetname "Shifter")
-		(sheetfile "ative_parts.kicad_sch")
+		(sheetname "/Shifter/")
+		(sheetfile "active_parts.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -35122,7 +37099,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35160,9 +37137,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aca6c456-9122-46c0-a1d4-d0dafdb81577")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/19c32c26-87c1-4d4b-8692-7a7157bdcf05")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -35336,7 +37326,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35362,9 +37352,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3528f906-e372-473b-93ea-d5dd48ed4993")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6017fa7-5a4c-4bf5-9095-12f713450c23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/47086739-f076-4f22-a1eb-4d93d12c0d73")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -35551,7 +37567,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35577,9 +37593,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a50a53f4-7f28-48a5-b1cc-7647c987071f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77381bf9-063f-4176-b9a6-866cd4ec7dc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/7dfa0fa2-b948-4df4-86b9-079b6855d73a")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -35753,7 +37795,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35779,9 +37821,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19ac0944-5ade-495d-8f92-5c89499ebd65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52c44fe1-90ab-48a3-906f-1cd87983ea10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/80fd95ac-1656-4031-b500-4c65151fb2bb")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -35955,7 +38023,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35981,9 +38049,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cb7043f-cbd5-4883-941a-002d593bd2db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c50ef837-9a00-4518-8667-f654acb6bc88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/26d01775-a52e-4f1d-8863-93670c6fd890")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -36170,7 +38264,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36196,9 +38290,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a72a0ab4-f633-43bc-ba0f-2d2a552a3a43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eec7be33-f51a-4404-9e22-8bd9722db61c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/a6336e1f-15f5-420e-899e-acd2208d6660")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -36372,7 +38492,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36410,10 +38530,23 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61b61848-5fed-4e11-bcb6-eb82c8bd7e2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3f53b650-c1b4-41fb-b756-02f2bd50b88e/0899e84d-f466-457b-a2a8-dd1b60327e54")
-		(sheetname "Shifter")
-		(sheetfile "ative_parts.kicad_sch")
+		(sheetname "/Shifter/")
+		(sheetfile "active_parts.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -36586,7 +38719,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36612,9 +38745,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89856c81-e77a-44fc-a273-a53c072ac244")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "405d7a22-d0e4-42df-87ce-58e06989dbe4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/af0868b8-82f2-4401-9f22-44a401f84491")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -36776,7 +38935,7 @@
 				)
 			)
 		)
-		(property "Value" "BUTTON17"
+		(property "Value" "BUTTON16"
 			(at 1.075 -3.683 0)
 			(layer "F.SilkS")
 			(uuid "a0756030-753e-4525-a3bd-8230d51dc041")
@@ -36787,7 +38946,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36841,8 +39000,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1f2749ff-21d5-4dd0-a23c-f2b86a841085")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -37249,7 +39408,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37287,9 +39446,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e16a89b1-6865-45e4-afee-6beff61a4c2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/35405a42-083a-4c52-af38-55bf09fea587")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37463,7 +39635,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37489,9 +39661,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae9de441-a048-40de-98dc-63d5273cc249")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fb81a88-1088-456e-81bd-9b2b50a356a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/c89da57a-054d-4d13-aa70-99d1f67e00ec")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37665,7 +39863,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37691,9 +39889,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c87915af-ede7-4c86-bc65-d6ccf4ef8eb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ce8063c-cda3-43c2-a799-3530dc4ceb29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/a81dda18-185b-4fcd-8d52-3a20c4624658")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37867,7 +40091,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37893,9 +40117,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56ba91a9-9fcf-41a8-b893-48f582219553")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dce59ae0-43f1-44d6-893e-6652db053510")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/d5fd2851-426a-4094-a3ef-b234b9ede3d5")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -38082,7 +40332,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38108,9 +40358,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74e1e9ed-c3a5-40cb-a3c7-c3e2408215f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05aaaea1-2328-4980-b4b4-0f3fdedb91b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/3abb1c39-30ba-4e80-b6de-885302471f06")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -38284,7 +40560,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38322,9 +40598,22 @@
 				)
 			)
 		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8567e25a-9a47-4ec2-a9ea-42f4d1b5a561")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/7259064d-fd43-4175-a23b-c3fb1ac3e963")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -38498,7 +40787,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38552,8 +40841,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/42c3e999-2f0d-444f-8a30-2e2e3831e5e0")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -38948,7 +41237,7 @@
 				)
 			)
 		)
-		(property "Value" "BUTTON24"
+		(property "Value" "BUTTON23"
 			(at 1.1518 4.6774 0)
 			(layer "F.SilkS")
 			(uuid "7696ce62-5396-4c0f-89ec-e4404201ebfd")
@@ -38959,7 +41248,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39013,8 +41302,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ea28fb8f-1353-429a-84a3-4bf6f37db78d")
-		(sheetname "Root")
-		(sheetfile "Input-Shifter-Board.kicad_sch")
+		(sheetname "/")
+		(sheetfile "input-shifter-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -39421,7 +41710,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39447,9 +41736,35 @@
 				)
 			)
 		)
+		(property "LCSC" "C130722"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ae92692-a696-4def-81b8-a19b0cfcba1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SCLC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "900787b6-0e6a-48da-b31e-c57659cc2841")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0a45b5a1-c82c-497c-b054-2533e6e3b05c/a6a25855-7482-44e2-895e-4c594209474d")
-		(sheetname "LED's")
+		(sheetname "/LED's/")
 		(sheetfile "LEDs.kicad_sch")
 		(attr smd)
 		(fp_circle
