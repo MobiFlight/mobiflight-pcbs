@@ -1611,7 +1611,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "JST-XH_06_vertical"
+	(symbol "JST-XH_06_Pin_vertical"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -1627,16 +1627,17 @@
 				)
 			)
 		)
-		(property "Value" "JST-XH_06_vertical"
+		(property "Value" "JST-XH_06_Pin_vertical"
 			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x06_P2.50mm_Vertical"
-			(at 0 0 0)
+			(at 0.254 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,7 +1655,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 0 0 0)
+			(at -2.032 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,7 +1689,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "JST-XH_06_vertical_1_1"
+		(symbol "JST-XH_06_Pin_vertical_1_1"
 			(rectangle
 				(start 0.8636 5.207)
 				(end 0 4.953)
