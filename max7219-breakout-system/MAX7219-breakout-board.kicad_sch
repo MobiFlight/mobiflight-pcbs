@@ -8228,7 +8228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mobiflight-library:IDC-Header_2x08_P2.54mm_Vertical"
+		(property "Footprint" "MobiFlight:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 109.22 142.24 0)
 			(effects
 				(font
@@ -8336,7 +8336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mobiflight-library:IDC-Header_2x08_P2.54mm_Vertical"
+		(property "Footprint" "MobiFlight:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 109.22 172.085 0)
 			(effects
 				(font
@@ -8716,7 +8716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mobiflight-library:IDC-Header_2x08_P2.54mm_Vertical"
+		(property "Footprint" "MobiFlight:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 224.79 144.78 0)
 			(effects
 				(font
@@ -8824,7 +8824,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mobiflight-library:IDC-Header_2x08_P2.54mm_Vertical"
+		(property "Footprint" "MobiFlight:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 224.79 171.45 0)
 			(effects
 				(font
@@ -9204,7 +9204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mobiflight-library:IDC-Header_2x08_P2.54mm_Vertical"
+		(property "Footprint" "MobiFlight:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 358.775 145.415 0)
 			(effects
 				(font
@@ -9312,7 +9312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mobiflight-library:IDC-Header_2x08_P2.54mm_Vertical"
+		(property "Footprint" "MobiFlight:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 358.775 172.085 0)
 			(effects
 				(font
@@ -9692,7 +9692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mobiflight-library:IDC-Header_2x08_P2.54mm_Vertical"
+		(property "Footprint" "MobiFlight:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 495.3 144.78 0)
 			(effects
 				(font
@@ -9800,7 +9800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mobiflight-library:IDC-Header_2x08_P2.54mm_Vertical"
+		(property "Footprint" "MobiFlight:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 495.3 171.45 0)
 			(effects
 				(font
