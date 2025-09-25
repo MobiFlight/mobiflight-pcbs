@@ -1213,7 +1213,90 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MEGA_PRO_EMBED_CH340G___ATMEGA2560:MEGA_PRO_EMBED_CH340G___ATMEGA2560"
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "mobiflight-library:MEGA_PRO_EMBED_CH340G___ATMEGA2560"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1224,7 +1307,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U1"
-				(at -64.262 1.1684 90)
+				(at 75.184 4.9784 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1233,7 +1316,7 @@
 				)
 			)
 			(property "Value" "MEGA_PRO_EMBED_CH340G___ATMEGA2560"
-				(at -64.262 -1.143 90)
+				(at 0.508 13.462 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1241,7 +1324,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "MODULE_MEGA_PRO_EMBED_CH340G_:_ATMEGA2560"
+			(property "Footprint" "MobiFlight:Mega_2560_mini"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1267,7 +1350,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "PARTREV" "12/May/2017"
@@ -1308,14 +1390,6 @@
 					)
 					(justify left bottom)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(symbol "MEGA_PRO_EMBED_CH340G___ATMEGA2560_0_0"
@@ -2876,89 +2950,6 @@
 								(size 1.016 1.016)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -11671,11 +11662,11 @@
 		)
 	)
 	(symbol
-		(lib_id "MEGA_PRO_EMBED_CH340G___ATMEGA2560:MEGA_PRO_EMBED_CH340G___ATMEGA2560")
+		(lib_id "mobiflight-library:MEGA_PRO_EMBED_CH340G___ATMEGA2560")
 		(at 50.292 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613f7aca")
@@ -11697,7 +11688,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MODULE_MEGA_PRO_EMBED_CH340G_:_ATMEGA2560"
+		(property "Footprint" "MobiFlight:Mega_2560_mini"
 			(at 50.292 101.6 0)
 			(effects
 				(font

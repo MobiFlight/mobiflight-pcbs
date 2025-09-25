@@ -59,16 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|29423869|31116401|00000000-0000-0000-0000-0000613882fa|63d8a727-2e3f-47cb-8683-8594d113dabb",
-          ""
-        ],
-        [
-          "courtyards_overlap|29423869|31116401|63d8a727-2e3f-47cb-8683-8594d113dabb|00000000-0000-0000-0000-0000613882fa",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -95,7 +86,7 @@
         "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
-        "isolated_copper": "warning",
+        "isolated_copper": "ignore",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
