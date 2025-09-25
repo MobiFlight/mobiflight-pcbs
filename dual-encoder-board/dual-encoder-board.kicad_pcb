@@ -165,7 +165,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -177,7 +177,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -189,7 +189,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/afd2d753-ec0f-4699-a932-2e075254f9e5")
+		(sheetname "/")
 		(sheetfile "dual-encoder-board.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -434,7 +436,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -446,7 +448,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -458,7 +460,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/33641487-c4ff-4a53-8c2a-2f84f6ab0d9b")
+		(sheetname "/")
 		(sheetfile "dual-encoder-board.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -544,7 +548,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -556,7 +560,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -568,7 +572,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/626aa119-381c-45a9-b4d7-8cea2ea28f86")
+		(sheetname "/")
 		(sheetfile "dual-encoder-board.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -654,7 +660,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -666,7 +672,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -678,7 +684,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/9c33dac7-66b2-4cdd-a0fc-ef1e5d2e59c7")
+		(sheetname "/")
 		(sheetfile "dual-encoder-board.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -734,7 +742,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MobiFlight:EC11EBB24C03"
+	(footprint "MobiFlight:EC11EBB24C03_oval"
 		(layer "F.Cu")
 		(uuid "f414bb6b-ec83-4c15-83a7-ec1ff0d6b653")
 		(at 117.994914 66.070016 180)
@@ -764,7 +772,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/EC11EBB24C03.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -897,6 +905,7 @@
 			)
 		)
 		(path "/f2da196b-1129-45ff-87a9-766c61c1c675")
+		(sheetname "/")
 		(sheetfile "dual-encoder-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -907,7 +916,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "663fe187-daf0-474a-8edc-2c91738de5d9")
+			(uuid "0274a15e-9131-448d-b57a-d2e7fc03eb3d")
 		)
 		(fp_line
 			(start 6 -2.75)
@@ -917,7 +926,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6739d6ba-67c6-4791-8929-189099db07ea")
+			(uuid "5d3d06b7-9d6f-4321-8e9b-cdf923a8d072")
 		)
 		(fp_line
 			(start 5.25 6)
@@ -927,7 +936,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "8eec2f3c-8dca-4ced-bbcb-4dae9acc9d5a")
+			(uuid "c895d614-cda6-4737-bdef-e2156f66b0cf")
 		)
 		(fp_line
 			(start -2.5 0.25)
@@ -937,7 +946,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "085ec2a2-7bfa-4bd7-8dbb-58b97d9542ed")
+			(uuid "36777a0f-c099-414f-9d71-622461d509d2")
 		)
 		(fp_line
 			(start -5.25 -6)
@@ -947,7 +956,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "643c2913-16a5-4db0-a182-7e6211b28e8c")
+			(uuid "bf6b539a-f001-4b95-aef6-686e127d4469")
 		)
 		(fp_line
 			(start -6 2.75)
@@ -957,7 +966,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "aa497213-d7d1-4874-8ce7-561c325e4d78")
+			(uuid "7deae17a-6e05-446c-91b6-74a34198824a")
 		)
 		(fp_line
 			(start -6 -2.75)
@@ -967,7 +976,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d25bb06f-498d-40fe-9a82-c797da51e670")
+			(uuid "3e2e736e-a386-463c-accd-4f9fcdedd314")
 		)
 		(fp_arc
 			(start 6 5.25)
@@ -978,7 +987,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ffc9b976-e077-4845-b141-5af2e5c53034")
+			(uuid "2cba5f0f-63ce-48c1-9e84-f35e2294a215")
 		)
 		(fp_arc
 			(start 5.25 -6)
@@ -989,7 +998,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "eb46abb6-c389-4156-87c1-ff7d73475f5a")
+			(uuid "6050c921-f1a4-494e-bcdd-05b7d8edaa49")
 		)
 		(fp_arc
 			(start -5.25 6)
@@ -1000,7 +1009,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "12164e6d-6d2a-46d4-b85f-c1a6ceb91c63")
+			(uuid "d994dd2c-68a1-4afa-b96e-feb717f02cd3")
 		)
 		(fp_arc
 			(start -6 -5.25)
@@ -1011,7 +1020,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "47a8f501-f1ca-41d3-a1ed-85a079572a58")
+			(uuid "a9b25725-b6ab-4634-a569-86ed9900148f")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1022,7 +1031,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "d4240299-57cd-4c65-bc50-a8af4606fda9")
+			(uuid "d75f1dd0-d796-4554-a5f2-8c01f0e05cb4")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1033,7 +1042,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "81138640-696a-498c-98d8-5a34aee6b5a5")
+			(uuid "4fb637a1-593b-44b5-bb5e-b5c255cf3b28")
 		)
 		(fp_line
 			(start 7.62 7.62)
@@ -1043,7 +1052,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b0b85f16-0aad-4e6e-a117-172a69077851")
+			(uuid "7e15c93a-4eeb-4ef1-9ddf-145d2931698a")
 		)
 		(fp_line
 			(start 7.62 -7.62)
@@ -1053,7 +1062,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cdef1886-be9a-43c2-957e-ca46f81d6f32")
+			(uuid "5e095e6f-571e-442a-81de-154cadc6030a")
 		)
 		(fp_line
 			(start 5.08 10.16)
@@ -1063,7 +1072,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "230b8057-bc9e-48ae-970d-0fffe3d5efaf")
+			(uuid "41b20388-0c0b-4463-8051-07f7797bca05")
 		)
 		(fp_line
 			(start 5.08 7.62)
@@ -1073,7 +1082,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bf6f1efd-fe5d-4ea6-a222-7e9a30659321")
+			(uuid "ed7abb2b-f747-47ce-97cf-4b404506913d")
 		)
 		(fp_line
 			(start 5.08 -7.62)
@@ -1083,7 +1092,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5c7ceb63-7da0-46e6-978d-ce27e23e3dab")
+			(uuid "44f4c724-6408-45de-bb2d-95e7a242992b")
 		)
 		(fp_line
 			(start 5.08 -12.7)
@@ -1093,7 +1102,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "52182925-2227-4e16-a648-c50a51a00386")
+			(uuid "150345c4-4cbb-43c0-8e79-989097092f6e")
 		)
 		(fp_line
 			(start -5.08 10.16)
@@ -1103,7 +1112,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0bcb0994-95fe-4314-8bcc-3a409ded72e4")
+			(uuid "611db7c8-ed74-40eb-9fc1-47be652ffc2d")
 		)
 		(fp_line
 			(start -5.08 7.62)
@@ -1113,7 +1122,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4787122c-52f9-44a3-81dc-78e0e2704d3a")
+			(uuid "0a47c0f5-eb77-4c7b-b79c-99c759de9a78")
 		)
 		(fp_line
 			(start -5.08 -7.62)
@@ -1123,7 +1132,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f31c83c9-011b-4d95-a2ec-5119052f677f")
+			(uuid "13d45919-6e1b-4b19-a294-a6e9b6821b83")
 		)
 		(fp_line
 			(start -5.08 -12.7)
@@ -1133,7 +1142,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "15db704b-c0cc-46d8-a116-1808008e3c4a")
+			(uuid "e1974d04-0ca4-4560-b84f-e739db10c6e3")
 		)
 		(fp_line
 			(start -7.62 7.62)
@@ -1143,7 +1152,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "12ace9a2-ea97-42cd-bbeb-d91cf34745fb")
+			(uuid "908acb52-5060-47af-8313-6ac476e2acf8")
 		)
 		(fp_line
 			(start -7.62 -7.62)
@@ -1153,7 +1162,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0f9a78c9-9545-439f-9eaf-22f725e2f91f")
+			(uuid "460a28fc-a8ab-487d-ba38-3bd9e6b2fea5")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -4.399369 -4.79217 0)
@@ -1293,7 +1302,7 @@
 			(uuid "b7b24e20-b96a-4213-b295-6679247ae660")
 		)
 		(group ""
-			(uuid "607f33a4-c580-43aa-91e3-fda0065c69e5")
+			(uuid "76fea7b3-5d31-47a9-ad72-931295c5de0b")
 			(members "b7b24e20-b96a-4213-b295-6679247ae660" "f222078c-4d25-4c29-b95f-a6822ac38a0a")
 		)
 		(embedded_fonts no)
@@ -1341,7 +1350,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1353,7 +1362,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1365,7 +1374,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3f2afa64-5c7c-474a-b1a2-0c259185c144")
+		(sheetname "/")
 		(sheetfile "dual-encoder-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1798,7 +1809,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1810,7 +1821,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1822,7 +1833,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ac7b8338-d8bb-4e94-ac47-228b205b8457")
+		(sheetname "/")
 		(sheetfile "dual-encoder-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3755,18 +3768,6 @@
 				(size 0.8 0.8)
 				(thickness 0.2)
 			)
-		)
-	)
-	(gr_text "JLCJLCJLCJLC"
-		(at 117.994914 78.770016 0)
-		(layer "B.SilkS")
-		(uuid "1fe82239-7204-4825-a8c7-5479c5fb1b3e")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-			(justify mirror)
 		)
 	)
 	(gr_text "G  B       A Btn"
