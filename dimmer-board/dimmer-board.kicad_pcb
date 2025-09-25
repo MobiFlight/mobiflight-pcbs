@@ -165,7 +165,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -177,7 +177,7 @@
 				)
 			)
 		)
-		(property "Description" "1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -225,7 +225,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "D*SMA*")
 		(path "/a1d8e707-3835-49be-982b-1f32491adf19")
+		(sheetname "/")
 		(sheetfile "dimmer-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -471,7 +473,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -483,7 +485,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -495,7 +497,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/0749de20-cda7-442f-9a07-02c38ed18966")
+		(sheetname "/")
 		(sheetfile "dimmer-board.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -591,7 +595,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -603,7 +607,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -615,7 +619,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/1f2a6380-3ece-4791-9b8e-9a7b7d1e6ab4")
+		(sheetname "/")
 		(sheetfile "dimmer-board.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -711,7 +717,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1808311530_MATSUKI-ME60N03_C165232.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -723,7 +729,7 @@
 				)
 			)
 		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -759,7 +765,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?220*")
 		(path "/ab533961-d255-4f82-bbc7-3a1edb8560c1")
+		(sheetname "/")
 		(sheetfile "dimmer-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1038,7 +1046,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1050,7 +1058,7 @@
 				)
 			)
 		)
-		(property "Description" "1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1098,7 +1106,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "D*SMA*")
 		(path "/8f7135f2-8f6f-4c2a-82ac-c840dc739660")
+		(sheetname "/")
 		(sheetfile "dimmer-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1344,7 +1354,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1356,7 +1366,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1380,7 +1390,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/e0ff3df0-c43a-43ca-95a7-da1c443574b2")
+		(sheetname "/")
 		(sheetfile "dimmer-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1554,7 +1566,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1808311530_MATSUKI-ME60N03_C165232.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1566,7 +1578,7 @@
 				)
 			)
 		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1602,7 +1614,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?220*")
 		(path "/526d2123-f3d0-4e07-9318-12eae239193a")
+		(sheetname "/")
 		(sheetfile "dimmer-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1852,14 +1866,14 @@
 			)
 		)
 	)
-	(footprint "TerminalBlock:TerminalBlock_bornier-4_P5.08mm"
+	(footprint "MobiFlight:TerminalBlock_bornier-4_P5.08mm"
 		(layer "F.Cu")
 		(uuid "c05326e6-a0d9-4be5-9c30-d6934d973aaf")
 		(at 108.671872 122.225 -90)
 		(descr "simple 4-pin terminal block, pitch 5.08mm, revamped version of bornier4")
 		(tags "terminal block bornier4")
 		(property "Reference" "J5"
-			(at 19.05 2.321872 0)
+			(at 7.6 -4.8 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "36625b98-a1a0-4560-b3e0-1ec2ecd2c576")
@@ -1871,7 +1885,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x04"
-			(at 7.62 1.905 90)
+			(at 7.6 4.75 270)
 			(layer "F.Fab")
 			(uuid "dadea4b2-5c39-43f9-b996-7250b862d98b")
 			(effects
@@ -1881,8 +1895,9 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 90)
+		(property "Datasheet" "~"
+			(at 0 0 270)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "149c035b-9c5d-46f2-8fd1-5af54dfddfab")
@@ -1893,8 +1908,9 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "32cd483f-cedc-43f1-bd6c-5f7a15ae6dfa")
@@ -1906,10 +1922,11 @@
 			)
 		)
 		(property "LCSC" "C3034542"
-			(at -13.553128 230.896872 0)
+			(at 0 0 270)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea0fe0c5-377f-49cb-afbe-06272d2c592c")
+			(uuid "e00bd3d5-a601-482e-967b-90db436b9665")
 			(effects
 				(font
 					(size 1 1)
@@ -1917,7 +1934,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/c4d4831f-7960-41ce-b3e3-8102762a2e67")
+		(sheetname "/")
 		(sheetfile "dimmer-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1928,7 +1947,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a64ab877-7982-4c01-a350-924106a04b07")
+			(uuid "7fab32cb-abad-4c7c-a98e-12d8ddebe73d")
 		)
 		(fp_line
 			(start 17.78 3.81)
@@ -1938,7 +1957,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0ed73f84-531d-46b5-a873-7a39941862af")
+			(uuid "fd41d272-cc23-41b3-a279-5b4537539ed2")
 		)
 		(fp_line
 			(start 17.78 2.54)
@@ -1948,7 +1967,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ceaff8cd-021c-4bf4-aa70-0cfab8193617")
+			(uuid "23950a32-1808-4146-9769-4f4064092250")
 		)
 		(fp_line
 			(start -2.54 -3.81)
@@ -1958,7 +1977,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d53253b5-1257-4b52-bec0-76ae6aee861e")
+			(uuid "04043a1c-714d-432e-a22a-4a26badefb51")
 		)
 		(fp_line
 			(start -2.54 -3.81)
@@ -1968,7 +1987,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e23e32a8-5f8f-4ee4-a560-df76075c2b8e")
+			(uuid "0cc386c1-0ef1-47cd-842e-ed4d5423a277")
 		)
 		(fp_line
 			(start 17.97 4)
@@ -1978,7 +1997,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0f45f1f9-c0ac-49cd-9b5c-e237e1b5488a")
+			(uuid "991ec5f0-5c84-48c9-846f-d285b2ac3d49")
 		)
 		(fp_line
 			(start 17.97 4)
@@ -1988,7 +2007,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1152e87d-872e-4a11-9a88-3d0f7c43bbdc")
+			(uuid "a070a099-2836-461c-b59d-9b142728a91e")
 		)
 		(fp_line
 			(start -2.73 -4)
@@ -1998,7 +2017,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7471f8bf-304f-4783-98f5-9850676be357")
+			(uuid "95d2ac51-2cc3-49a0-ace2-343aa746366e")
 		)
 		(fp_line
 			(start -2.73 -4)
@@ -2008,7 +2027,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "66254dd4-b86c-43b4-b3c4-7e728467e8d6")
+			(uuid "c5b867d9-e573-486b-91eb-dc8e45340814")
 		)
 		(fp_line
 			(start -2.48 3.75)
@@ -2018,7 +2037,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e864cbf3-0085-4346-bf23-cf16efb51739")
+			(uuid "bb62dbf7-5a43-4a26-95a4-1f3b4e6d8f62")
 		)
 		(fp_line
 			(start -2.43 3.75)
@@ -2028,7 +2047,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "07d90809-e5ac-43e1-a737-c199045004b1")
+			(uuid "f7c0ce39-1a12-4406-87a8-929dfc282649")
 		)
 		(fp_line
 			(start 17.72 3.75)
@@ -2038,7 +2057,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9fae51f1-e47a-4de1-82f9-7f4dbc4955ed")
+			(uuid "ccebaad0-5f59-4cb7-9a12-103086dfbafc")
 		)
 		(fp_line
 			(start -2.48 2.55)
@@ -2048,7 +2067,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cf081150-3f10-4735-b0fb-4cdc09babb7e")
+			(uuid "ed921962-ea8e-4707-b68c-67aca29a9f71")
 		)
 		(fp_line
 			(start -2.48 -3.75)
@@ -2058,7 +2077,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a01eee76-0d4f-4076-b167-5936c99bd887")
+			(uuid "e5d91112-7ec9-4449-b9e0-0d83675ac72f")
 		)
 		(fp_line
 			(start 17.72 -3.75)
@@ -2068,10 +2087,10 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a55b8807-f087-4c98-b38e-c219bde9a463")
+			(uuid "dee701f3-3bda-4b03-ac80-677e86c1348b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 0 90)
+			(at 7.62 0 270)
 			(layer "F.Fab")
 			(uuid "796db7b8-cd24-4bef-89c3-2b25819a0749")
 			(effects
@@ -2126,15 +2145,15 @@
 			(uuid "7d70aebb-ea29-49dd-b36a-4ad1303e8009")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-4_P5.08mm.step"
+		(model "${KICAD_MOBIFLIGHT_LIBRARY_DIR}/3D-Files/Degson_ScrewTerminal_DG301-5.0-04.stp"
 			(offset
-				(xyz 7.619999886 0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -2167,7 +2186,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2179,7 +2198,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2203,7 +2222,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/5597481d-b332-4001-99e8-e27e7d9767b8")
+		(sheetname "/")
 		(sheetfile "dimmer-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2377,7 +2398,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2389,7 +2410,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2413,7 +2434,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4435308f-4969-490b-a0ab-962ac5c1d087")
+		(sheetname "/")
 		(sheetfile "dimmer-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2587,7 +2610,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2599,7 +2622,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2611,7 +2634,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/37ae00ce-8706-4b6c-9db8-cccb04ddd523")
+		(sheetname "/")
 		(sheetfile "dimmer-board.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -2678,14 +2703,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+	(footprint "MobiFlight:TerminalBlock_bornier-2_P5.08mm"
 		(layer "F.Cu")
 		(uuid "e5bfd45c-5025-429e-954f-4646cba34b8e")
 		(at 108.671872 110.16 -90)
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J3"
-			(at 6.985 -5.298128 0)
+			(at 2.54 -5.08 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c48c21d8-6d0b-4af8-9d7d-04a18f8a42ac")
@@ -2697,7 +2722,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 2.54 -3.75 90)
+			(at 2.54 5.08 270)
 			(layer "F.Fab")
 			(uuid "00aa915c-700e-4848-b6ce-98f8d454cc02")
 			(effects
@@ -2707,8 +2732,9 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 90)
+		(property "Datasheet" "~"
+			(at 0 0 270)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3bb167a6-8162-4625-9e22-98a389f5e8a5")
@@ -2719,8 +2745,9 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "12b533c9-a636-42db-b640-f97affe49471")
@@ -2732,10 +2759,11 @@
 			)
 		)
 		(property "LCSC" "C395882"
-			(at -1.488128 218.831872 0)
+			(at 0 0 270)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "beddef8c-0819-47a9-a544-208226e11d70")
+			(uuid "f495c19a-85fb-4ab7-98df-498c77eb7ec6")
 			(effects
 				(font
 					(size 1 1)
@@ -2743,7 +2771,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/9ff40b56-fd2e-4ec1-ab8f-d7523699b500")
+		(sheetname "/")
 		(sheetfile "dimmer-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2754,7 +2784,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6f2dbb26-58eb-47a1-9fae-0dfaf083470d")
+			(uuid "9e31e7c7-cc7c-4f46-8588-d2b8e3fa1d82")
 		)
 		(fp_line
 			(start 7.62 3.81)
@@ -2764,7 +2794,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9322a1d6-635b-4ce3-b2f7-222048133c75")
+			(uuid "bd369d3a-4cf6-4f3d-83f3-5569d01e962e")
 		)
 		(fp_line
 			(start 7.62 2.54)
@@ -2774,7 +2804,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "07e605da-4f9c-496a-97b6-12628db014d5")
+			(uuid "309e4178-e0a0-4c0a-b28e-809dec40408d")
 		)
 		(fp_line
 			(start -2.54 -3.81)
@@ -2784,7 +2814,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8f04585a-5cb0-4fae-9a4a-1e731da8c8d7")
+			(uuid "ac473204-3bc8-45a5-8e14-32fa8618799c")
 		)
 		(fp_line
 			(start 7.62 -3.81)
@@ -2794,7 +2824,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d9acda69-b378-4293-9a94-e096beae29a9")
+			(uuid "59490081-7726-4005-94ba-91a7f9cd27a0")
 		)
 		(fp_line
 			(start 7.79 4)
@@ -2804,7 +2834,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c4d86621-402a-4827-8906-9e16803bbc05")
+			(uuid "0e5871d5-81ff-4e90-81aa-7d874fec4f96")
 		)
 		(fp_line
 			(start 7.79 4)
@@ -2814,7 +2844,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ce54488c-66a2-435b-ad48-5ddf5d560e8a")
+			(uuid "cc5e0f24-9644-4c38-ac5e-5c8cfa5413fe")
 		)
 		(fp_line
 			(start -2.71 -4)
@@ -2824,7 +2854,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9b36953e-708d-409f-90c7-485169655d1f")
+			(uuid "1006b70a-e40b-475d-8d27-46e0202ad30b")
 		)
 		(fp_line
 			(start -2.71 -4)
@@ -2834,7 +2864,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c7b19a05-48b7-403e-9a55-f33039da8768")
+			(uuid "521ba960-30fa-400d-95f2-75dc3ed9e607")
 		)
 		(fp_line
 			(start -2.46 3.75)
@@ -2844,7 +2874,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f54f1693-a1b8-4849-85ba-158e9a723d11")
+			(uuid "1880f09c-7760-433f-9d21-28afd1836d81")
 		)
 		(fp_line
 			(start 7.54 3.75)
@@ -2854,7 +2884,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8a37468c-0c15-4a4d-be48-7ece9755cf1f")
+			(uuid "31be6315-e040-4a40-94f2-1330deb1b3b6")
 		)
 		(fp_line
 			(start -2.41 2.55)
@@ -2864,7 +2894,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ee84bb72-a66e-4dd8-b577-19afebeeb459")
+			(uuid "17d2ae1d-c3e0-4ab3-9b79-c5814567cf80")
 		)
 		(fp_line
 			(start -2.46 -3.75)
@@ -2874,7 +2904,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f00323b3-5f0c-42b1-8a9c-06bb3fe7487e")
+			(uuid "483ee8ee-dd84-45a0-a132-d0ba200ab8c9")
 		)
 		(fp_line
 			(start 7.54 -3.75)
@@ -2884,10 +2914,10 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "81544638-4dc0-450d-abb8-2e2888716fdc")
+			(uuid "a52a6028-ff69-45fe-bb8e-7cd4ec456968")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 90)
+			(at 2.54 0 270)
 			(layer "F.Fab")
 			(uuid "a7281c42-df13-48bc-810a-3b1004efd7b8")
 			(effects
@@ -2920,15 +2950,15 @@
 			(uuid "6344db0b-8193-416f-b550-8861ab88a38b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.step"
+		(model "${KICAD_MOBIFLIGHT_LIBRARY_DIR}/3D-Files/Degson_ScrewTerminal_DG301-5.0-02.stp"
 			(offset
-				(xyz 2.539999962 0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -2961,7 +2991,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2973,7 +3003,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2985,7 +3015,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/d3c5d75a-d62f-4aa4-8dc1-a907a83f893e")
+		(sheetname "/")
 		(sheetfile "dimmer-board.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -3081,7 +3113,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3093,7 +3125,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3117,7 +3149,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8faa6d0d-a333-430b-a254-5d65a1f3101a")
+		(sheetname "/")
 		(sheetfile "dimmer-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3292,7 +3326,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3304,7 +3338,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3316,7 +3350,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3f5b21f0-0285-4704-8bbf-a697999b7257")
+		(sheetname "/")
 		(sheetfile "dimmer-board.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
@@ -3557,7 +3593,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3569,7 +3605,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3581,7 +3617,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9b86c91a-3f72-4af3-beb1-4ac815351cc5")
+		(sheetname "/")
 		(sheetfile "dimmer-board.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
@@ -9055,86 +9093,6 @@
 		(fill yes)
 		(layer "B.SilkS")
 		(uuid "f25a4cfb-d5de-4db9-bf3a-4a898380b19c")
-	)
-	(gr_line
-		(start 79.299 147.625)
-		(end 79.299 138.735)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "53e4740d-8877-45f6-ab44-50ec12588509")
-	)
-	(gr_line
-		(start 92.634 147.625)
-		(end 79.299 147.625)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "556cf23c-299b-4f67-9a25-a41fb8b5982d")
-	)
-	(gr_line
-		(start 79.299 138.735)
-		(end 92.634 138.735)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "77f9193c-b405-498d-930b-ec247e51bb7e")
-	)
-	(gr_line
-		(start 74.854 118.415)
-		(end 74.854 106.985)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "886b3496-76f8-498c-900d-2acfeb3f3b58")
-	)
-	(gr_line
-		(start 92.634 138.735)
-		(end 92.634 147.625)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "92b33026-7cad-45d2-b531-7f20adda205b")
-	)
-	(gr_line
-		(start 90.729 106.985)
-		(end 90.729 118.415)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "bf6edab4-3acb-4a87-b344-4fa26a7ce1ab")
-	)
-	(gr_line
-		(start 74.854 106.985)
-		(end 90.729 106.985)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "da3f2702-9f42-46a9-b5f9-abfc74e86759")
-	)
-	(gr_line
-		(start 90.729 118.415)
-		(end 74.854 118.415)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "fde342e7-23e6-43a1-9afe-f71547964d5d")
 	)
 	(gr_line
 		(start 93.650378 143.228965)

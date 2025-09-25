@@ -3886,7 +3886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+		(property "Footprint" "MobiFlight:TerminalBlock_bornier-2_P5.08mm"
 			(at 69.85 66.04 0)
 			(effects
 				(font
@@ -4152,7 +4152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm"
+		(property "Footprint" "MobiFlight:TerminalBlock_bornier-4_P5.08mm"
 			(at 69.85 95.25 0)
 			(effects
 				(font
