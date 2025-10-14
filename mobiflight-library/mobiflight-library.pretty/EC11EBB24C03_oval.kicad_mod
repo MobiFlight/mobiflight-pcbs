@@ -1,0 +1,544 @@
+(footprint "EC11EBB24C03_oval"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "EC11E")
+	(tags "Undefined or Miscellaneous")
+	(property "Reference" "U1"
+		(at -4.438649 4.83145 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c2fa7b14-3383-4f92-9857-a804daf91416")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "EC11EBB24C03_oval"
+		(at -0.353357 -13.902519 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1ba21c7f-f305-42ff-aa9e-0fa9d592d4f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4401e388-6848-4e8d-bfb2-0e6200421a74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Alps 15 Pulse Incremental Mechanical Rotary Encoder with a 3.5 (Inner Shaft) mm, 6 (Outer Shaft) mm"
+		(at 235.989828 132.140032 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a12d1b0-7f87-42e4-b044-7dff85a5ce6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 235.989828 132.140032 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3307451-c494-41a6-a812-ff25217641bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 235.989828 132.140032 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adfab93b-7917-444f-9856-a5d03dbf1555")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "33"
+		(at 235.989828 132.140032 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd7a3929-d2c7-4727-86cf-2dfb0bb81a6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "ALPS Electric"
+		(at 235.989828 132.140032 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "222ff5bf-1d46-499a-b5f2-6df15ef7a8b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "EC11EBB24C03"
+		(at 235.989828 132.140032 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3bf3fe5-b57a-496e-a3d0-f4bbd612680d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "688-EC11EBB24C03"
+		(at 235.989828 132.140032 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2237c18-358e-4b4c-99ef-ed6fd5539098")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/EC11EBB24C03?qs=m0BA540hBPc5hAJ6UyzIrA%3D%3D"
+		(at 235.989828 132.140032 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "185343f0-7bdd-4d42-afe0-2408a91ec05a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Testing Part Number" ""
+		(at 235.989828 132.140032 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3817917e-2f3c-43a2-b699-599def882c1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Testing Price/Stock" ""
+		(at 235.989828 132.140032 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bae7096-a5fa-444c-b989-3eeed2245be7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6 -2.75)
+		(end -6 -5.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2015ad5e-928f-4e53-b2e5-43fe81eac401")
+	)
+	(fp_line
+		(start -6 2.75)
+		(end -6 5.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7e6e3a11-cccb-47a2-b59a-4393b7d087f9")
+	)
+	(fp_line
+		(start -5.25 -6)
+		(end 5.25 -6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "12be0454-69ec-45a1-948c-bcb406a37dbb")
+	)
+	(fp_line
+		(start -2.5 0.25)
+		(end 1.75 -1.75)
+		(stroke
+			(width 0.22)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c536262-639f-4b52-b057-8a8a51732785")
+	)
+	(fp_line
+		(start 5.25 6)
+		(end -5.25 6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "96c34395-02f7-432a-9ad8-061cf386d542")
+	)
+	(fp_line
+		(start 6 -2.75)
+		(end 6 -5.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "19b7ffb0-c46e-4dd4-b79a-d1bcaaac6543")
+	)
+	(fp_line
+		(start 6 2.75)
+		(end 6 5.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3d89e018-f82a-457c-9bbe-4b7db63d2fc8")
+	)
+	(fp_arc
+		(start -6 -5.25)
+		(mid -5.78033 -5.78033)
+		(end -5.25 -6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8e6cabcb-44a7-4b25-8d3d-65dd5df7a05c")
+	)
+	(fp_arc
+		(start -5.25 6)
+		(mid -5.78033 5.78033)
+		(end -6 5.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a2a44a5c-6bb4-4d71-bc72-a4004a15ea07")
+	)
+	(fp_arc
+		(start 5.25 -6)
+		(mid 5.78033 -5.78033)
+		(end 6 -5.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "91f56607-f117-4721-914d-c13d03d67aa5")
+	)
+	(fp_arc
+		(start 6 5.25)
+		(mid 5.78033 5.78033)
+		(end 5.25 6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c3faa3e1-daf1-4566-99e4-c20c4d3498c2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.22)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2eaffb9b-9123-40dd-993b-9cb8e57a224e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.592102 0)
+		(stroke
+			(width 0.22)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a3c9e15a-3ca4-4c61-9761-adeb305f6b60")
+	)
+	(fp_line
+		(start -7.62 -7.62)
+		(end -5.08 -7.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f9494d8c-413d-4f4b-b18e-84c0a4d0b927")
+	)
+	(fp_line
+		(start -7.62 7.62)
+		(end -7.62 -7.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2af26c91-b167-41fe-8a8d-2946eeb8c253")
+	)
+	(fp_line
+		(start -5.08 -12.7)
+		(end 5.08 -12.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4e90d8f-e057-4c1c-8e26-088118964dfa")
+	)
+	(fp_line
+		(start -5.08 -7.62)
+		(end -5.08 -12.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff684f76-dfe0-4f70-bdc8-57b66089b5a7")
+	)
+	(fp_line
+		(start -5.08 7.62)
+		(end -7.62 7.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80719a06-f264-491b-af5e-e74f17f7428d")
+	)
+	(fp_line
+		(start -5.08 10.16)
+		(end -5.08 7.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43801c3b-1000-4b5a-ad84-1efd1163af4d")
+	)
+	(fp_line
+		(start 5.08 -12.7)
+		(end 5.08 -7.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a42f7817-1b26-4181-b1c8-734522eeaeb1")
+	)
+	(fp_line
+		(start 5.08 -7.62)
+		(end 7.62 -7.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "31800af2-9047-4bc2-b9eb-a054e2751f7a")
+	)
+	(fp_line
+		(start 5.08 7.62)
+		(end 5.08 10.16)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2a985eb-0ab4-4cde-a2f1-b1148a21b49c")
+	)
+	(fp_line
+		(start 5.08 10.16)
+		(end -5.08 10.16)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "30c2c93a-4b8a-4106-9a6c-fa377bbfbe99")
+	)
+	(fp_line
+		(start 7.62 -7.62)
+		(end 7.62 7.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5208f0b2-ac67-43e4-9702-16deed7d77b9")
+	)
+	(fp_line
+		(start 7.62 7.62)
+		(end 5.08 7.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "79ab0388-cad2-4fe5-a615-549f29c20dff")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -4.399369 -4.79217 180)
+		(layer "F.Fab")
+		(uuid "f1eebfc3-678e-4160-8cc2-ac9592c6ca8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "A1" thru_hole oval
+		(at -2.54 7.62)
+		(size 1.8 2.2)
+		(drill 1.1
+			(offset 0 0.3)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "08f55b89-db95-4399-8731-9bfe3a88ceb8")
+	)
+	(pad "A2" thru_hole oval
+		(at -2.58 -10.12)
+		(size 1.8 2.2)
+		(drill 1.1
+			(offset 0 -0.3)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "458e840b-00b5-420d-9fbb-8372c8d9bf5e")
+	)
+	(pad "B1" thru_hole oval
+		(at 2.46 7.62)
+		(size 1.8 2.2)
+		(drill 1.1
+			(offset 0 0.3)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7f3934ae-37b3-4da9-b798-ea0e0020f5f1")
+	)
+	(pad "B2" thru_hole oval
+		(at 2.5 -10.12)
+		(size 1.8 2.2)
+		(drill 1.1
+			(offset 0 -0.3)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "684c6bb3-1a2d-48a5-a461-099b8b26b97e")
+	)
+	(pad "C1" thru_hole oval
+		(at -0.04 7.62)
+		(size 1.8 2.2)
+		(drill 1.1
+			(offset 0 0.3)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "92d43f6c-f1d6-49a3-89ca-c2af758d44da")
+	)
+	(pad "C2" thru_hole oval
+		(at -0.04 -10.12)
+		(size 1.8 2.2)
+		(drill 1.1
+			(offset 0 -0.3)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e9968b27-e7f1-4e92-b086-dea512ebd080")
+	)
+	(pad "D1" thru_hole oval
+		(at -2.54 -7.62)
+		(size 1.8 2.2)
+		(drill 1.1
+			(offset 0 0.3)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c7fbba34-1efc-4691-9551-e6cecff97d0d")
+	)
+	(pad "E1" thru_hole oval
+		(at 2.46 -7.62)
+		(size 1.8 2.2)
+		(drill 1.1
+			(offset 0 0.3)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6d076a2b-4cf1-4cf3-933e-506b64036560")
+	)
+	(pad "MH1" thru_hole oval
+		(at -5.5 0)
+		(size 3 4.5)
+		(drill oval 1.7 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0a949225-2eec-4afe-8c10-2e768fd56132")
+	)
+	(pad "MH2" thru_hole oval
+		(at 5.5 0)
+		(size 3 4.5)
+		(drill oval 1.7 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "94d954ad-0b00-48ce-aec5-e12401ac04c3")
+	)
+	(group ""
+		(uuid "a35524d2-8f2b-46cc-9baa-3281fbdfb973")
+		(members "0a949225-2eec-4afe-8c10-2e768fd56132" "94d954ad-0b00-48ce-aec5-e12401ac04c3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_MOBIFLIGHT_LIBRARY_DIR}/3D-Files/Encoder Dual Axis With Button EC11EBB24C03.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
