@@ -292,7 +292,7 @@
 		(uuid "cc3e09e2-232b-4826-aa79-e19bc91e38da")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_OWN_LIB_DIR}/3D Files/SMD Button K2-1808SN-A4SW-01.step"
+	(model "${KICAD_MOBIFLIGHT_LIBRARY_DIR}/3D-Files/SMD Button K2-1808SN-A4SW-01.step"
 		(offset
 			(xyz 0 0 0)
 		)
