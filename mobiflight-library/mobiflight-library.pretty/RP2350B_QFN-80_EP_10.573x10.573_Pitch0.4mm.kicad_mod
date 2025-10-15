@@ -983,7 +983,7 @@
 		(uuid "a6397cb3-4690-4c87-8db5-e812f4edcc46")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_OWN_LIB_DIR}/3D Files/RP2350B-QFN80.wrl"
+	(model "${KICAD_MOBIFLIGHT_LIBRARY_DIR}/3D-Files/RP2350B-QFN80.step"
 		(offset
 			(xyz 0 0 0)
 		)
