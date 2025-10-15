@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "pins 1mm more to left"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -201,9 +201,9 @@
 		(uuid "f221443f-6fbc-486b-bbda-c0a3bb2f0aa6")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_MOBIFLIGHT_DIR}/3D files/Potentiometer_Bochen_3362P-1-502.step"
+	(model "${KICAD_MOBIFLIGHT_LIBRARY_DIR}/3D-Files/Potentiometer_Bochen_3362P-1-502.step"
 		(offset
-			(xyz 8.65 6.27 -1.5)
+			(xyz 7.65 6.27 -1.5)
 		)
 		(scale
 			(xyz 1 1 1)
