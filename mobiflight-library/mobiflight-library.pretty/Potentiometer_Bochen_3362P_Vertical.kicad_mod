@@ -1,0 +1,215 @@
+(footprint "Potentiometer_Bochen_3362P_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, vertical, Bochen 3362P, https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588892584400072704")
+	(tags "Potentiometer vertical Bochen 3362P")
+	(property "Reference" "REF**"
+		(at -0.06 -7.09 0)
+		(layer "F.SilkS")
+		(uuid "4c7746dc-86fe-4cef-92b8-c4e3e0331655")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Potentiometer_Bochen_3362P_Vertical"
+		(at -0.06 2.01 0)
+		(layer "F.Fab")
+		(uuid "3768385e-0d27-424e-a08e-56d1db2d3f3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d64804d0-59e1-4537-ad16-0a7d501adc83")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6daaf873-366a-41cb-b138-a3aad97d492b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.67 -5.95)
+		(end -0.382 -5.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e72d8270-f274-413a-97fd-86221031fda6")
+	)
+	(fp_line
+		(start -3.67 0.87)
+		(end -3.67 -5.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ece68b1e-ddc5-4e97-aed0-7a12383ff3da")
+	)
+	(fp_line
+		(start -0.382 0.87)
+		(end -3.67 0.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ce22e46-ba6e-47a6-b8f9-fe2e8cff9a92")
+	)
+	(fp_line
+		(start 0.382 -5.95)
+		(end 3.55 -5.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95e6aeb0-5e66-42e5-ac9a-ec64e5bb4ba2")
+	)
+	(fp_line
+		(start 3.55 -5.95)
+		(end 3.55 0.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58010d1b-46bb-4873-865e-9710c75d66c3")
+	)
+	(fp_line
+		(start 3.55 0.87)
+		(end 0.382 0.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bd0cfc9-9667-41b8-a98f-0287797cd5c4")
+	)
+	(fp_rect
+		(start -3.81 -6.09)
+		(end 3.69 1.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "79e271ee-3154-423f-b615-49941afb15a6")
+	)
+	(fp_line
+		(start -0.885 -2.54)
+		(end 1.365 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49490340-a774-4e55-8444-96a0b2f6f728")
+	)
+	(fp_line
+		(start 0.24 -3.665)
+		(end 0.24 -1.415)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24b2fee9-62b7-485b-8c3f-3df995a2fc38")
+	)
+	(fp_rect
+		(start -3.56 -5.84)
+		(end 3.44 0.76)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "67064bea-81e9-45c9-87fe-c781cd2fba72")
+	)
+	(fp_circle
+		(center 0.24 -2.54)
+		(end 1.74 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8961ebb6-16b1-4f0d-911f-28a559ab1af3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.56 -2.54 90)
+		(layer "F.Fab")
+		(uuid "d05bfa33-4c2f-437f-9f10-d97648c60892")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1 0)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "41eefc88-eda3-407d-b0ce-ed8ac2450492")
+	)
+	(pad "2" thru_hole circle
+		(at 1.54 -2.54)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f4b6978e-a6e0-4c6d-a959-39ad6270a1f3")
+	)
+	(pad "3" thru_hole circle
+		(at -1 -5.08)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f221443f-6fbc-486b-bbda-c0a3bb2f0aa6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_MOBIFLIGHT_DIR}/3D files/Potentiometer_Bochen_3362P-1-502.step"
+		(offset
+			(xyz 8.65 6.27 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
