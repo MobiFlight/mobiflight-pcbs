@@ -877,6 +877,333 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "mobiflight-library:C_Polarized_Tantal_47u"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Tantal_47u"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C123253"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Tantal_47u_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_Tantal_47u_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "mobiflight-library:D_Schottky_B5819W-SL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky_B5819W-SL"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C8598"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_B5819W-SL_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_B5819W-SL_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mobiflight-library:JST-XH_02_Pin_vertical"
 			(pin_names
 				(offset 1.016)
@@ -1569,7 +1896,13 @@
 		)
 	)
 	(junction
-		(at 179.07 30.48)
+		(at 138.43 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13a29dc4-5bc6-4bbc-936a-e694fdfb002e")
+	)
+	(junction
+		(at 187.96 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58917844-0340-4f8a-8524-c1ccbccef97b")
@@ -1588,7 +1921,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 30.48) (xy 179.07 30.48)
+			(xy 173.99 30.48) (xy 187.96 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1598,13 +1931,33 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 30.48) (xy 148.59 30.48)
+			(xy 138.43 43.18) (xy 140.97 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232fdf9d-adf2-4161-b52c-bb9356b319a1")
+	)
+	(wire
+		(pts
+			(xy 119.38 30.48) (xy 132.08 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2d34721c-1e81-4e05-8c0b-2e2ea2135538")
+	)
+	(wire
+		(pts
+			(xy 119.38 33.02) (xy 129.54 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2f2939-7140-4697-b9b6-2814645f6ab0")
 	)
 	(wire
 		(pts
@@ -1638,6 +1991,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 53.34) (xy 138.43 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b95043-84bd-47fe-a70a-3184e7e1cbdf")
+	)
+	(wire
+		(pts
 			(xy 26.67 121.92) (xy 29.21 121.92)
 		)
 		(stroke
@@ -1655,6 +2018,16 @@
 			(type default)
 		)
 		(uuid "577609fb-2c6c-4173-8c55-15da2a31a60b")
+	)
+	(wire
+		(pts
+			(xy 129.54 33.02) (xy 129.54 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583182c0-325c-4a88-b542-c769d8f5bfa7")
 	)
 	(wire
 		(pts
@@ -1698,7 +2071,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 28.194) (xy 179.07 30.48)
+			(xy 187.96 28.194) (xy 187.96 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1728,6 +2101,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 43.18) (xy 138.43 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a07e3a5-79ec-4f4c-906d-b091f589892e")
+	)
+	(wire
+		(pts
 			(xy 27.94 29.21) (xy 27.94 33.02)
 		)
 		(stroke
@@ -1735,6 +2118,16 @@
 			(type default)
 		)
 		(uuid "b23479dc-9e6f-4c78-859d-83a37c8f42c4")
+	)
+	(wire
+		(pts
+			(xy 137.16 43.18) (xy 138.43 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6458e3b-b41e-45a7-8bd4-4661f4533aec")
 	)
 	(wire
 		(pts
@@ -1854,7 +2247,7 @@
 	)
 	(global_label "pinGnd"
 		(shape input)
-		(at 200.66 69.85 0)
+		(at 200.66 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1864,7 +2257,7 @@
 		)
 		(uuid "0a1e67c7-81d2-4e80-aad6-e1351c239f7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.5441 69.7706 0)
+			(at 209.5441 88.8206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,7 +2269,7 @@
 	)
 	(global_label "pinGnd"
 		(shape input)
-		(at 269.24 69.85 0)
+		(at 269.24 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1886,7 +2279,7 @@
 		)
 		(uuid "0aff6fd9-64e9-47bb-be36-deb0f1c95cd3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.1241 69.7706 0)
+			(at 278.1241 88.8206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +2313,7 @@
 	)
 	(global_label "pinGnd"
 		(shape input)
-		(at 222.25 69.85 0)
+		(at 222.25 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1930,7 +2323,7 @@
 		)
 		(uuid "148f140f-a3cc-44cc-9927-ca56f303a7d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.1341 69.7706 0)
+			(at 231.1341 88.8206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +2357,7 @@
 	)
 	(global_label "pinGnd"
 		(shape input)
-		(at 158.75 86.36 0)
+		(at 158.75 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1974,7 +2367,7 @@
 		)
 		(uuid "19c2a976-3eac-45d9-aeac-447093a34f1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.6341 86.2806 0)
+			(at 167.6341 105.3306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2423,7 @@
 	)
 	(global_label "sig3"
 		(shape input)
-		(at 135.89 43.18 0)
+		(at 119.38 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2040,7 +2433,7 @@
 		)
 		(uuid "1ae91580-a58b-431c-a42d-81106a5a3ef3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2945 43.1006 0)
+			(at 125.7845 43.1006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,7 +2599,7 @@
 	)
 	(global_label "btn6"
 		(shape input)
-		(at 246.38 72.39 0)
+		(at 246.38 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2216,7 +2609,7 @@
 		)
 		(uuid "282f0dd2-9c93-4af2-8518-9401a5d2f8c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.0264 72.3106 0)
+			(at 253.0264 91.3606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +2687,7 @@
 	)
 	(global_label "btn8"
 		(shape input)
-		(at 119.38 88.9 0)
+		(at 119.38 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2304,7 +2697,7 @@
 		)
 		(uuid "344cffd4-4898-4ffc-b6c6-441b6494709c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.0264 88.8206 0)
+			(at 126.0264 107.8706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,7 +2885,7 @@
 	)
 	(global_label "btn14"
 		(shape input)
-		(at 246.38 88.9 0)
+		(at 246.38 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2502,7 +2895,7 @@
 		)
 		(uuid "4ccbbad9-5823-45f8-a200-f7306763889e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.236 88.8206 0)
+			(at 254.236 107.8706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +3083,7 @@
 	)
 	(global_label "pinVCC"
 		(shape input)
-		(at 135.89 33.02 0)
+		(at 140.97 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2700,7 +3093,7 @@
 		)
 		(uuid "605a8948-61c6-46e9-abbe-f8b6e14f354e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.8345 32.9406 0)
+			(at 149.9145 43.1006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,7 +3171,7 @@
 	)
 	(global_label "pinGnd"
 		(shape input)
-		(at 158.75 69.85 0)
+		(at 158.75 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2788,7 +3181,7 @@
 		)
 		(uuid "6d0cc78a-62d7-4a10-93ad-d3cc19873b90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.6341 69.7706 0)
+			(at 167.6341 88.8206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +3259,7 @@
 	)
 	(global_label "pinGnd"
 		(shape input)
-		(at 200.66 86.36 0)
+		(at 200.66 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2876,7 +3269,7 @@
 		)
 		(uuid "779b4399-288a-492c-ae71-7613767b5755")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.5441 86.2806 0)
+			(at 209.5441 105.3306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +3281,7 @@
 	)
 	(global_label "btn3"
 		(shape input)
-		(at 179.07 72.39 0)
+		(at 179.07 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2898,7 +3291,7 @@
 		)
 		(uuid "79e96f12-2fff-4158-8a48-d63d12b723e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.7164 72.3106 0)
+			(at 185.7164 91.3606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +3303,7 @@
 	)
 	(global_label "pinGnd"
 		(shape input)
-		(at 119.38 86.36 0)
+		(at 119.38 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2920,7 +3313,7 @@
 		)
 		(uuid "7b228e81-5361-47a5-8a81-936fde201084")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.2641 86.2806 0)
+			(at 128.2641 105.3306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +3347,7 @@
 	)
 	(global_label "sig0"
 		(shape input)
-		(at 135.89 35.56 0)
+		(at 119.38 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2964,7 +3357,7 @@
 		)
 		(uuid "7d774bf0-31fa-4c1b-b634-adfc8ce5632e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2945 35.4806 0)
+			(at 125.7845 35.4806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,7 +3369,7 @@
 	)
 	(global_label "btn7"
 		(shape input)
-		(at 269.24 72.39 0)
+		(at 269.24 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2986,7 +3379,7 @@
 		)
 		(uuid "8057d85e-cc98-4d54-9aa9-f6a601148557")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.8864 72.3106 0)
+			(at 275.8864 91.3606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,7 +3545,7 @@
 	)
 	(global_label "btn15"
 		(shape input)
-		(at 269.24 88.9 0)
+		(at 269.24 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3162,7 +3555,7 @@
 		)
 		(uuid "8f177251-3a4f-45f6-b925-0aab961eb479")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.096 88.8206 0)
+			(at 277.096 107.8706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,7 +3589,7 @@
 	)
 	(global_label "btn0"
 		(shape input)
-		(at 119.38 72.39 0)
+		(at 119.38 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3206,7 +3599,7 @@
 		)
 		(uuid "9026b746-0b58-454e-87cc-4cb5edc6bdb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.0264 72.3106 0)
+			(at 126.0264 91.3606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3611,7 @@
 	)
 	(global_label "btn5"
 		(shape input)
-		(at 222.25 72.39 0)
+		(at 222.25 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3228,7 +3621,7 @@
 		)
 		(uuid "9189b431-2c3b-4032-a95c-e22d9f435aa3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.8964 72.3106 0)
+			(at 228.8964 91.3606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,7 +3633,7 @@
 	)
 	(global_label "sig0"
 		(shape input)
-		(at 165.1 35.56 0)
+		(at 173.99 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3250,7 +3643,7 @@
 		)
 		(uuid "93c3edd2-ff43-4e21-9f23-152b03f0d8d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.5045 35.4806 0)
+			(at 180.3945 35.4806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,7 +3721,7 @@
 	)
 	(global_label "sig2"
 		(shape input)
-		(at 135.89 40.64 0)
+		(at 119.38 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3338,7 +3731,7 @@
 		)
 		(uuid "9932b271-d277-4527-8489-93d747f54012")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2945 40.5606 0)
+			(at 125.7845 40.5606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,7 +3743,7 @@
 	)
 	(global_label "btn4"
 		(shape input)
-		(at 200.66 72.39 0)
+		(at 200.66 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3360,7 +3753,7 @@
 		)
 		(uuid "9ac62b2f-dcc9-4f69-8103-02a057b1fb3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.3064 72.3106 0)
+			(at 207.3064 91.3606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3853,7 @@
 	)
 	(global_label "pinGnd"
 		(shape input)
-		(at 139.7 69.85 0)
+		(at 139.7 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3470,7 +3863,7 @@
 		)
 		(uuid "a5274983-6e81-44f6-969e-1f2d64b9792d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.5841 69.7706 0)
+			(at 148.5841 88.8206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,7 +3919,7 @@
 	)
 	(global_label "sig1"
 		(shape input)
-		(at 165.1 38.1 0)
+		(at 173.99 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3536,7 +3929,7 @@
 		)
 		(uuid "a841cdf1-387d-48a0-b6ca-f1bcf306bfda")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.5045 38.0206 0)
+			(at 180.3945 38.0206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,7 +3985,7 @@
 	)
 	(global_label "btn10"
 		(shape input)
-		(at 158.75 88.9 0)
+		(at 158.75 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3602,7 +3995,7 @@
 		)
 		(uuid "ac934f36-74c4-4895-870c-adb036e900cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.606 88.8206 0)
+			(at 166.606 107.8706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,7 +4007,7 @@
 	)
 	(global_label "pinGnd"
 		(shape input)
-		(at 246.38 86.36 0)
+		(at 246.38 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3624,7 +4017,7 @@
 		)
 		(uuid "ad7ead64-5ce1-4076-82f0-4b3b31543999")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.2641 86.2806 0)
+			(at 255.2641 105.3306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3636,7 +4029,7 @@
 	)
 	(global_label "pinGnd"
 		(shape input)
-		(at 119.38 69.85 0)
+		(at 119.38 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3646,7 +4039,7 @@
 		)
 		(uuid "af17b34e-4cf0-4a98-a039-c75563802fc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.2641 69.7706 0)
+			(at 128.2641 88.8206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,7 +4051,7 @@
 	)
 	(global_label "pinGnd"
 		(shape input)
-		(at 269.24 86.36 0)
+		(at 269.24 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3668,7 +4061,7 @@
 		)
 		(uuid "afed1168-9999-4645-a1c8-f4094b922668")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.1241 86.2806 0)
+			(at 278.1241 105.3306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +4249,7 @@
 	)
 	(global_label "pinGnd"
 		(shape input)
-		(at 179.07 69.85 0)
+		(at 179.07 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3866,7 +4259,7 @@
 		)
 		(uuid "c6dacd1a-c8f7-4a1f-894c-6a30542ef528")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.9541 69.7706 0)
+			(at 187.9541 88.8206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +4315,7 @@
 	)
 	(global_label "pinGnd"
 		(shape input)
-		(at 246.38 69.85 0)
+		(at 246.38 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3932,7 +4325,7 @@
 		)
 		(uuid "cf760079-c3a9-446f-9c88-4cc1c74cfcb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.2641 69.7706 0)
+			(at 255.2641 88.8206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,7 +4381,7 @@
 	)
 	(global_label "btn2"
 		(shape input)
-		(at 158.75 72.39 0)
+		(at 158.75 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3998,7 +4391,7 @@
 		)
 		(uuid "d0e868f7-67fc-464f-a33b-a15ccf630c02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.3964 72.3106 0)
+			(at 165.3964 91.3606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +4491,7 @@
 	)
 	(global_label "btn9"
 		(shape input)
-		(at 139.7 88.9 0)
+		(at 139.7 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4108,7 +4501,7 @@
 		)
 		(uuid "daebc4e0-4864-4828-964d-73ea00b26720")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.3464 88.8206 0)
+			(at 146.3464 107.8706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +4601,7 @@
 	)
 	(global_label "pinGnd"
 		(shape input)
-		(at 139.7 86.36 0)
+		(at 139.7 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4218,7 +4611,7 @@
 		)
 		(uuid "e2c14550-a867-4bdc-acd9-acb9793f6a35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.5841 86.2806 0)
+			(at 148.5841 105.3306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,7 +4645,7 @@
 	)
 	(global_label "pinGnd"
 		(shape input)
-		(at 222.25 86.36 0)
+		(at 222.25 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4262,7 +4655,7 @@
 		)
 		(uuid "e65cfe24-96f4-460c-9698-7bc63aeffc4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.1341 86.2806 0)
+			(at 231.1341 105.3306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,7 +4667,7 @@
 	)
 	(global_label "pinGnd"
 		(shape input)
-		(at 179.07 86.36 0)
+		(at 179.07 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4284,7 +4677,7 @@
 		)
 		(uuid "e93a6030-3e85-43d3-be46-18ad913a908f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.9541 86.2806 0)
+			(at 187.9541 105.3306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4296,7 +4689,7 @@
 	)
 	(global_label "btn12"
 		(shape input)
-		(at 200.66 88.9 0)
+		(at 200.66 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4306,7 +4699,7 @@
 		)
 		(uuid "e9734e10-eca7-49f5-ba34-7e18af1ca6d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.516 88.8206 0)
+			(at 208.516 107.8706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +4711,7 @@
 	)
 	(global_label "btn13"
 		(shape input)
-		(at 222.25 88.9 0)
+		(at 222.25 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4328,7 +4721,7 @@
 		)
 		(uuid "eabc9561-cfcb-469d-b8c6-8ed59906222b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.106 88.8206 0)
+			(at 230.106 107.8706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +4733,7 @@
 	)
 	(global_label "sig3"
 		(shape input)
-		(at 165.1 43.18 0)
+		(at 173.99 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4350,7 +4743,7 @@
 		)
 		(uuid "eaf38d5d-b94b-431e-8fe2-2253acd48ba6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.5045 43.1006 0)
+			(at 180.3945 43.1006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +4799,7 @@
 	)
 	(global_label "pinVCC"
 		(shape input)
-		(at 165.1 33.02 0)
+		(at 173.99 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4416,7 +4809,7 @@
 		)
 		(uuid "f06622e0-3f90-481b-9fc6-fdf9d671dddf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.0445 32.9406 0)
+			(at 182.9345 32.9406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,7 +4821,7 @@
 	)
 	(global_label "btn1"
 		(shape input)
-		(at 139.7 72.39 0)
+		(at 139.7 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4438,7 +4831,7 @@
 		)
 		(uuid "f3ba8335-d2b4-49bb-84d9-4f1e0e27c446")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.3464 72.3106 0)
+			(at 146.3464 91.3606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4560,7 +4953,7 @@
 	)
 	(global_label "sig2"
 		(shape input)
-		(at 165.1 40.64 0)
+		(at 173.99 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4570,7 +4963,7 @@
 		)
 		(uuid "f66a9742-718d-42d3-90b8-9106a8427c4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.5045 40.5606 0)
+			(at 180.3945 40.5606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +4997,7 @@
 	)
 	(global_label "sig1"
 		(shape input)
-		(at 135.89 38.1 0)
+		(at 119.38 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4614,7 +5007,7 @@
 		)
 		(uuid "f6e915b2-602d-491d-8adf-b7e11a697e05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.2945 38.0206 0)
+			(at 125.7845 38.0206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +5041,7 @@
 	)
 	(global_label "btn11"
 		(shape input)
-		(at 179.07 88.9 0)
+		(at 179.07 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4658,7 +5051,7 @@
 		)
 		(uuid "fed9aded-586e-44a9-aa8b-6e97a457deb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.926 88.8206 0)
+			(at 186.926 107.8706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5484,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
-		(at 195.58 69.85 0)
+		(at 195.58 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5099,7 +5492,7 @@
 		(dnp no)
 		(uuid "1a1b274c-d3c0-4718-b005-cda083f7ff09")
 		(property "Reference" "J9"
-			(at 196.215 61.722 0)
+			(at 196.215 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,7 +5500,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Male"
-			(at 196.215 64.262 0)
+			(at 196.215 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5508,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 195.58 69.85 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,7 +5517,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 69.85 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,7 +5526,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 195.58 69.85 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5142,7 +5535,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
-			(at 195.58 69.85 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5151,7 +5544,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 196.85 66.548 0)
+			(at 196.85 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +5652,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
-		(at 217.17 86.36 0)
+		(at 217.17 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5267,7 +5660,7 @@
 		(dnp no)
 		(uuid "243a1d1b-db3f-4dc5-87a4-234c4c3fce1f")
 		(property "Reference" "J18"
-			(at 217.932 78.232 0)
+			(at 217.932 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,7 +5668,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Male"
-			(at 217.932 80.772 0)
+			(at 217.932 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5283,7 +5676,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 217.17 86.36 0)
+			(at 217.17 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,7 +5685,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 86.36 0)
+			(at 217.17 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,7 +5694,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 217.17 86.36 0)
+			(at 217.17 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +5703,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
-			(at 217.17 86.36 0)
+			(at 217.17 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,7 +5712,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 218.567 83.058 0)
+			(at 218.567 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +5736,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 30.48 0)
+		(at 187.96 30.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5353,7 +5746,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a7bb6a2-caa6-4b8c-95a4-7c20a323037e")
 		(property "Reference" "#PWR0102"
-			(at 179.07 36.83 0)
+			(at 187.96 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,7 +5755,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 31.7499 0)
+			(at 190.5 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,7 +5764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 30.48 0)
+			(at 187.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 30.48 0)
+			(at 187.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5389,7 +5782,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 30.48 0)
+			(at 187.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +5947,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_06_Pin_vertical")
-		(at 130.81 35.56 0)
+		(at 114.3 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5562,7 +5955,7 @@
 		(dnp no)
 		(uuid "3351cd20-7c63-4e4e-a08d-ca5dddee579d")
 		(property "Reference" "J1"
-			(at 132.08 22.606 0)
+			(at 115.57 22.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +5963,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Male"
-			(at 132.08 25.146 0)
+			(at 115.57 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5578,7 +5971,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x06_P2.50mm_Vertical"
-			(at 131.064 26.924 0)
+			(at 114.554 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5587,7 +5980,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 35.56 0)
+			(at 114.3 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,7 +5989,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 128.778 23.876 0)
+			(at 112.268 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,7 +5998,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "0"
-			(at 130.81 35.56 0)
+			(at 114.3 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +6007,7 @@
 			)
 		)
 		(property "LCSC" "C5663"
-			(at 132.08 27.432 0)
+			(at 115.57 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6108,6 +6501,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 138.43 55.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49eca26b-7d68-4a10-b943-f79084bee817")
+		(property "Reference" "#PWR01"
+			(at 138.43 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52ce21b4-fa18-478d-9f85-7c977ddc2cbc")
+		)
+		(instances
+			(project "mf-breakout-74hc4067-smd"
+				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
 		(at 219.71 36.83 0)
 		(unit 1)
@@ -6193,7 +6653,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
-		(at 153.67 86.36 0)
+		(at 153.67 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6201,7 +6661,7 @@
 		(dnp no)
 		(uuid "4d14b2d6-7257-407e-a502-51c4c412c7d0")
 		(property "Reference" "J15"
-			(at 154.432 78.232 0)
+			(at 154.432 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6209,7 +6669,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Male"
-			(at 154.432 80.772 0)
+			(at 154.432 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +6677,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 153.67 86.36 0)
+			(at 153.67 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6226,7 +6686,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 86.36 0)
+			(at 153.67 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,7 +6695,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 153.67 86.36 0)
+			(at 153.67 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,7 +6704,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
-			(at 153.67 86.36 0)
+			(at 153.67 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6713,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 155.067 83.058 0)
+			(at 155.067 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,7 +6816,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
-		(at 153.67 69.85 0)
+		(at 153.67 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6364,7 +6824,7 @@
 		(dnp no)
 		(uuid "549b6557-4bec-44bd-a293-3495ab6c5622")
 		(property "Reference" "J7"
-			(at 154.305 61.722 0)
+			(at 154.305 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6372,7 +6832,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Male"
-			(at 154.305 64.262 0)
+			(at 154.305 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6380,7 +6840,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 153.67 69.85 0)
+			(at 153.67 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6389,7 +6849,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 69.85 0)
+			(at 153.67 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6398,7 +6858,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 153.67 69.85 0)
+			(at 153.67 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6407,7 +6867,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
-			(at 153.67 69.85 0)
+			(at 153.67 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,7 +6876,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 154.94 66.548 0)
+			(at 154.94 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +7116,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
-		(at 264.16 69.85 0)
+		(at 264.16 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6664,7 +7124,7 @@
 		(dnp no)
 		(uuid "5dab0cf8-bd90-4a2c-ab05-dd20a1832168")
 		(property "Reference" "J12"
-			(at 264.795 61.722 0)
+			(at 264.795 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +7132,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Male"
-			(at 264.795 64.262 0)
+			(at 264.795 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6680,7 +7140,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 264.16 69.85 0)
+			(at 264.16 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6689,7 +7149,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 69.85 0)
+			(at 264.16 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +7158,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 264.16 69.85 0)
+			(at 264.16 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +7167,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
-			(at 264.16 69.85 0)
+			(at 264.16 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,7 +7176,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 265.43 66.548 0)
+			(at 265.43 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +7200,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
-		(at 241.3 86.36 0)
+		(at 241.3 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6748,7 +7208,7 @@
 		(dnp no)
 		(uuid "5df5781f-1ee3-48e6-b1a3-4b5af61b7508")
 		(property "Reference" "J19"
-			(at 242.062 78.232 0)
+			(at 242.062 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,7 +7216,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Male"
-			(at 242.062 80.772 0)
+			(at 242.062 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6764,7 +7224,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 241.3 86.36 0)
+			(at 241.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6773,7 +7233,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 86.36 0)
+			(at 241.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6782,7 +7242,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 241.3 86.36 0)
+			(at 241.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6791,7 +7251,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
-			(at 241.3 86.36 0)
+			(at 241.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6800,7 +7260,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 242.697 83.058 0)
+			(at 242.697 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6824,7 +7284,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 30.48 0)
+		(at 132.08 30.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6834,7 +7294,7 @@
 		(fields_autoplaced yes)
 		(uuid "732f2c55-4b27-4bea-a58a-bd0ff6d5aba5")
 		(property "Reference" "#PWR0101"
-			(at 148.59 36.83 0)
+			(at 132.08 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +7303,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 31.7499 0)
+			(at 134.62 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,7 +7312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 30.48 0)
+			(at 132.08 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +7321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 30.48 0)
+			(at 132.08 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,7 +7330,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 30.48 0)
+			(at 132.08 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6891,7 +7351,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
-		(at 173.99 69.85 0)
+		(at 173.99 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6899,7 +7359,7 @@
 		(dnp no)
 		(uuid "73bc9d4e-5553-438c-8b94-378aa0244686")
 		(property "Reference" "J8"
-			(at 174.625 61.722 0)
+			(at 174.625 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,7 +7367,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Male"
-			(at 174.625 64.262 0)
+			(at 174.625 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,7 +7375,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 173.99 69.85 0)
+			(at 173.99 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6924,7 +7384,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 69.85 0)
+			(at 173.99 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +7393,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 173.99 69.85 0)
+			(at 173.99 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6942,7 +7402,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
-			(at 173.99 69.85 0)
+			(at 173.99 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6951,7 +7411,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 175.26 66.548 0)
+			(at 175.26 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6975,7 +7435,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
-		(at 134.62 86.36 0)
+		(at 134.62 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6983,7 +7443,7 @@
 		(dnp no)
 		(uuid "75763449-493c-4cbf-9fdf-2db11a2eafa8")
 		(property "Reference" "J14"
-			(at 135.382 78.232 0)
+			(at 135.382 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6991,7 +7451,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Male"
-			(at 135.382 80.772 0)
+			(at 135.382 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6999,7 +7459,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 134.62 86.36 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7008,7 +7468,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 86.36 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7017,7 +7477,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 134.62 86.36 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,7 +7486,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
-			(at 134.62 86.36 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +7495,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 136.017 83.058 0)
+			(at 136.017 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7059,7 +7519,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
-		(at 217.17 69.85 0)
+		(at 217.17 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7067,7 +7527,7 @@
 		(dnp no)
 		(uuid "790a0060-e531-4fb0-9d6b-a2bc9275e5c0")
 		(property "Reference" "J10"
-			(at 217.805 61.722 0)
+			(at 217.805 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7075,7 +7535,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Male"
-			(at 217.805 64.262 0)
+			(at 217.805 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7083,7 +7543,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 217.17 69.85 0)
+			(at 217.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7092,7 +7552,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 69.85 0)
+			(at 217.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7101,7 +7561,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 217.17 69.85 0)
+			(at 217.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7110,7 +7570,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
-			(at 217.17 69.85 0)
+			(at 217.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7119,7 +7579,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 218.44 66.548 0)
+			(at 218.44 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7143,7 +7603,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
-		(at 264.16 86.36 0)
+		(at 264.16 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7151,7 +7611,7 @@
 		(dnp no)
 		(uuid "7a1baea4-e6aa-4aed-88b6-6f87da798375")
 		(property "Reference" "J20"
-			(at 264.922 78.232 0)
+			(at 264.922 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7159,7 +7619,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Male"
-			(at 264.922 80.772 0)
+			(at 264.922 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +7627,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 264.16 86.36 0)
+			(at 264.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7176,7 +7636,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 86.36 0)
+			(at 264.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7185,7 +7645,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 264.16 86.36 0)
+			(at 264.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7194,7 +7654,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
-			(at 264.16 86.36 0)
+			(at 264.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7203,7 +7663,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 265.557 83.058 0)
+			(at 265.557 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7305,7 +7765,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
-		(at 173.99 86.36 0)
+		(at 173.99 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7313,7 +7773,7 @@
 		(dnp no)
 		(uuid "838378c2-6c0f-4444-80f9-1bcf8557b9ba")
 		(property "Reference" "J16"
-			(at 174.752 78.232 0)
+			(at 174.752 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7321,7 +7781,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Male"
-			(at 174.752 80.772 0)
+			(at 174.752 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,7 +7789,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 173.99 86.36 0)
+			(at 173.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +7798,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 86.36 0)
+			(at 173.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7807,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 173.99 86.36 0)
+			(at 173.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +7816,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
-			(at 173.99 86.36 0)
+			(at 173.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7365,7 +7825,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 175.387 83.058 0)
+			(at 175.387 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7557,7 +8017,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
-		(at 114.3 86.36 0)
+		(at 114.3 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7565,7 +8025,7 @@
 		(dnp no)
 		(uuid "a11f4f36-9c81-4596-88be-a4eacd64e147")
 		(property "Reference" "J13"
-			(at 115.062 78.232 0)
+			(at 115.062 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7573,7 +8033,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Male"
-			(at 115.062 80.772 0)
+			(at 115.062 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7581,7 +8041,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 114.3 86.36 0)
+			(at 114.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7590,7 +8050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 86.36 0)
+			(at 114.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7599,7 +8059,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 114.3 86.36 0)
+			(at 114.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,7 +8068,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
-			(at 114.3 86.36 0)
+			(at 114.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7617,7 +8077,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 115.697 83.058 0)
+			(at 115.697 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7641,7 +8101,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
-		(at 114.3 69.85 0)
+		(at 114.3 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7649,7 +8109,7 @@
 		(dnp no)
 		(uuid "aa08452d-e107-43fb-b731-ed40bb37b9bb")
 		(property "Reference" "J5"
-			(at 114.935 61.722 0)
+			(at 114.935 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,7 +8117,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Male"
-			(at 114.935 64.262 0)
+			(at 114.935 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +8125,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 114.3 69.85 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,7 +8134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 69.85 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,7 +8143,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 114.3 69.85 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,7 +8152,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
-			(at 114.3 69.85 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,7 +8161,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 115.57 66.548 0)
+			(at 115.57 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7808,6 +8268,81 @@
 		)
 	)
 	(symbol
+		(lib_id "mobiflight-library:D_Schottky_B5819W-SL")
+		(at 133.35 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af94f88b-a6f1-4bd7-b6ee-7ebb68761c58")
+		(property "Reference" "D1"
+			(at 133.6675 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky_B5819W-SL"
+			(at 142.24 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 133.35 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 133.35 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8598"
+			(at 134.112 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dca8d31d-3041-46cd-a91a-bc02ef6f3f2b")
+		)
+		(pin "1"
+			(uuid "7fce3c67-045c-40fe-b5d8-ace705a3c545")
+		)
+		(instances
+			(project ""
+				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
 		(at 114.3 148.59 0)
 		(unit 1)
@@ -7893,7 +8428,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
-		(at 195.58 86.36 0)
+		(at 195.58 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7901,7 +8436,7 @@
 		(dnp no)
 		(uuid "b4d05fbe-3b9e-4a77-b296-b9a038194c27")
 		(property "Reference" "J17"
-			(at 196.342 78.232 0)
+			(at 196.342 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7909,7 +8444,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Male"
-			(at 196.342 80.772 0)
+			(at 196.342 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7917,7 +8452,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 195.58 86.36 0)
+			(at 195.58 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,7 +8461,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 86.36 0)
+			(at 195.58 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7935,7 +8470,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 195.58 86.36 0)
+			(at 195.58 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7944,7 +8479,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
-			(at 195.58 86.36 0)
+			(at 195.58 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7953,7 +8488,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 196.977 83.058 0)
+			(at 196.977 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7977,7 +8512,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_06_Pin_vertical")
-		(at 160.02 35.56 0)
+		(at 168.91 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7985,7 +8520,7 @@
 		(dnp no)
 		(uuid "bb61f213-2e84-4831-aa47-8a018fd898ea")
 		(property "Reference" "J2"
-			(at 160.782 22.606 0)
+			(at 169.672 22.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7993,7 +8528,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Male"
-			(at 160.782 25.146 0)
+			(at 169.672 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8001,7 +8536,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x06_P2.50mm_Vertical"
-			(at 160.274 26.924 0)
+			(at 169.164 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8010,7 +8545,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 35.56 0)
+			(at 168.91 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8019,7 +8554,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 157.988 23.876 0)
+			(at 166.878 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8028,7 +8563,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "0"
-			(at 160.02 35.56 0)
+			(at 168.91 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8037,7 +8572,7 @@
 			)
 		)
 		(property "LCSC" "C5663"
-			(at 161.544 27.432 0)
+			(at 170.434 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,7 +8771,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
-		(at 134.62 69.85 0)
+		(at 134.62 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8244,7 +8779,7 @@
 		(dnp no)
 		(uuid "c239692d-17fb-4493-b663-b0666c1f64bf")
 		(property "Reference" "J6"
-			(at 135.255 61.722 0)
+			(at 135.255 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8252,7 +8787,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Male"
-			(at 135.255 64.262 0)
+			(at 135.255 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,7 +8795,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 134.62 69.85 0)
+			(at 134.62 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8269,7 +8804,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 69.85 0)
+			(at 134.62 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,7 +8813,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 134.62 69.85 0)
+			(at 134.62 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8287,7 +8822,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
-			(at 134.62 69.85 0)
+			(at 134.62 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8296,7 +8831,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 135.89 66.548 0)
+			(at 135.89 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8466,6 +9001,85 @@
 		)
 	)
 	(symbol
+		(lib_id "mobiflight-library:C_Polarized_Tantal_47u")
+		(at 138.43 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d08c48b4-6fa9-4d31-9a65-eca4c6b4019c")
+		(property "Reference" "C3"
+			(at 142.24 46.1009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized_Tantal_47u"
+			(at 142.24 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
+			(at 139.3952 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 138.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C123253"
+			(at 142.24 51.1809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "e4fadb9d-e288-4e0e-b21a-f064d583e957")
+		)
+		(pin "2"
+			(uuid "296b9046-4de8-4e0b-ab4e-4c70a0b60c7a")
+		)
+		(instances
+			(project ""
+				(path "/ccc8ec4d-9580-4747-92fb-909c048b260a"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 24.13 189.23 0)
 		(unit 1)
@@ -8608,7 +9222,7 @@
 	)
 	(symbol
 		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
-		(at 241.3 69.85 0)
+		(at 241.3 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8616,7 +9230,7 @@
 		(dnp no)
 		(uuid "d630fd4a-9746-4e44-8120-daec46c1cb8e")
 		(property "Reference" "J11"
-			(at 241.935 61.722 0)
+			(at 241.935 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8624,7 +9238,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Male"
-			(at 241.935 64.262 0)
+			(at 241.935 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8632,7 +9246,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 241.3 69.85 0)
+			(at 241.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8641,7 +9255,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 69.85 0)
+			(at 241.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +9264,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 241.3 69.85 0)
+			(at 241.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +9273,7 @@
 			)
 		)
 		(property "JLC Rotation Offset" "180"
-			(at 241.3 69.85 0)
+			(at 241.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,7 +9282,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 242.57 66.548 0)
+			(at 242.57 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8860,7 +9474,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 179.07 28.194 0)
+		(at 187.96 28.194 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8869,7 +9483,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5ff2dea-2033-4b1c-b1bc-0690fffa35e3")
 		(property "Reference" "#FLG0101"
-			(at 179.07 26.289 0)
+			(at 187.96 26.289 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8878,7 +9492,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 179.07 22.86 0)
+			(at 187.96 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8886,7 +9500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 28.194 0)
+			(at 187.96 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8895,7 +9509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 28.194 0)
+			(at 187.96 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8904,7 +9518,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 28.194 0)
+			(at 187.96 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
