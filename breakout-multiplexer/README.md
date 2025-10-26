@@ -75,11 +75,6 @@ Second row of connectors for input devices buttons and switches:
 
 Polarity doesn't matter for switches.
 
-## Mounting of 74HC4067 modules
-![Mounting orientation 74HC4067 modules](breakout-multiplexer-74hc4067.png)
-
-As one can see on the picture, the 74HC4067 are mounted with the silkscreen facing up. Due to the asymmetric connectors, the orientation cannot be confused.
-
 ## Connecting and wiring
 The multiplexer prototyping board is designed to work best together with the [MobiFlight Prototyping Board](https://shop.mobiflight.com/product/prototyping-board-v2). Of course, you can also connect it directly to any of the supported microcontrollers.
 
