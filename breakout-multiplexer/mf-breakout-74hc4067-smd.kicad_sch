@@ -1914,6 +1914,12 @@
 		(uuid "83fd696d-8f34-485a-9f12-8fd99f89e929")
 	)
 	(junction
+		(at 129.54 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d59268d-4a92-49c1-9671-4fb89eb8ddca")
+	)
+	(junction
 		(at 27.94 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2021,13 +2027,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 33.02) (xy 129.54 43.18)
+			(xy 129.54 33.02) (xy 129.54 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "583182c0-325c-4a88-b542-c769d8f5bfa7")
+	)
+	(wire
+		(pts
+			(xy 129.54 35.56) (xy 140.97 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6d5325-0c76-451e-8e22-16ef933aecd3")
 	)
 	(wire
 		(pts
@@ -2148,6 +2164,16 @@
 			(type default)
 		)
 		(uuid "da166bbc-13ee-45d6-9f57-582b16d0046c")
+	)
+	(wire
+		(pts
+			(xy 129.54 35.56) (xy 129.54 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc232499-eb3d-4eac-996c-c0603e664585")
 	)
 	(wire
 		(pts
@@ -4269,6 +4295,28 @@
 			)
 		)
 	)
+	(global_label "VCC"
+		(shape input)
+		(at 140.97 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7267b44-65d5-499f-966f-d71bebfda417")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.5838 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "btn20"
 		(shape input)
 		(at 54.61 116.84 0)
@@ -4797,7 +4845,7 @@
 			)
 		)
 	)
-	(global_label "pinVCC"
+	(global_label "VCC"
 		(shape input)
 		(at 173.99 33.02 0)
 		(fields_autoplaced yes)
@@ -4809,7 +4857,7 @@
 		)
 		(uuid "f06622e0-3f90-481b-9fc6-fdf9d671dddf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.9345 32.9406 0)
+			(at 180.6038 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
