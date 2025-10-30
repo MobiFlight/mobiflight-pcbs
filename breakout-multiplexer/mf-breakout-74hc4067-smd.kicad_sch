@@ -351,7 +351,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "mobiflight-library:CD74HC4067SM"
+		(symbol "MobiFlight:CD74HC4067SM"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -877,6 +877,497 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MobiFlight:JST-XH_02_Pin_vertical"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JST-XH_02_Pin_vertical"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C20079"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JST-XH_02_Pin_vertical_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MobiFlight:JST-XH_06_Pin_vertical"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JST-XH_06_Pin_vertical"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x06_P2.50mm_Vertical"
+				(at 0.254 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at -2.032 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C5663"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JST-XH_06_Pin_vertical_1_1"
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mobiflight-library:C_Polarized_Tantal_47u"
 			(pin_numbers
 				(hide yes)
@@ -1194,497 +1685,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "mobiflight-library:JST-XH_02_Pin_vertical"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "JST-XH_02_Pin_vertical"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C20079"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "JST-XH_02_Pin_vertical_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "mobiflight-library:JST-XH_06_Pin_vertical"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "JST-XH_06_Pin_vertical"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x06_P2.50mm_Vertical"
-				(at 0.254 8.636 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x06, script generated"
-				(at -2.032 11.684 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SCLC" "C5663"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "JST-XH_06_Pin_vertical_1_1"
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5132,7 +5132,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 241.3 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5193,7 +5193,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 242.062 145.288 0)
+			(at 241.808 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5216,7 +5216,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 264.16 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5277,7 +5277,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 264.922 145.288 0)
+			(at 264.668 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,7 +5363,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 217.17 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5424,7 +5424,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 217.297 145.542 0)
+			(at 217.678 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,7 +5447,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 195.58 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5508,7 +5508,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 196.342 145.288 0)
+			(at 196.088 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5531,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 195.58 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5592,7 +5592,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 196.85 85.598 0)
+			(at 196.342 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +5615,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 173.99 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5676,7 +5676,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 174.752 129.032 0)
+			(at 174.498 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,7 +5699,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 217.17 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5760,7 +5760,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 218.567 102.108 0)
+			(at 217.932 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,7 +5850,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:CD74HC4067SM")
+		(lib_id "MobiFlight:CD74HC4067SM")
 		(at 41.91 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5905,11 +5905,12 @@
 			)
 		)
 		(property "LCSC" "C98457"
-			(at 47.752 110.744 0)
+			(at 41.91 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "20"
@@ -5994,7 +5995,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_06_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_06_Pin_vertical")
 		(at 114.3 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6055,7 +6056,7 @@
 			)
 		)
 		(property "LCSC" "C5663"
-			(at 115.57 27.432 0)
+			(at 115.062 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6154,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:CD74HC4067SM")
+		(lib_id "MobiFlight:CD74HC4067SM")
 		(at 41.91 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6208,11 +6209,12 @@
 			)
 		)
 		(property "LCSC" "C98457"
-			(at 47.752 34.29 0)
+			(at 41.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "20"
@@ -6297,7 +6299,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 173.99 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6358,7 +6360,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 174.752 145.288 0)
+			(at 174.498 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,7 +6383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 195.58 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6442,7 +6444,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 196.342 129.032 0)
+			(at 196.088 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,7 +6467,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 264.16 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6526,7 +6528,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 264.922 129.032 0)
+			(at 264.668 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6616,7 +6618,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 219.71 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6677,7 +6679,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 220.98 33.528 0)
+			(at 220.726 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +6702,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 153.67 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6761,7 +6763,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 155.067 102.108 0)
+			(at 154.432 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6863,7 +6865,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 153.67 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6924,7 +6926,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 154.94 85.598 0)
+			(at 154.432 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,7 +6949,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 153.67 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7008,7 +7010,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 154.432 145.288 0)
+			(at 154.178 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7163,7 +7165,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 264.16 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7224,7 +7226,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 265.43 85.598 0)
+			(at 264.922 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7247,7 +7249,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 241.3 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7308,7 +7310,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 242.697 102.108 0)
+			(at 242.062 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7398,7 +7400,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 173.99 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7459,7 +7461,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 175.26 85.598 0)
+			(at 174.752 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7482,7 +7484,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 134.62 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7543,7 +7545,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 136.017 102.108 0)
+			(at 135.382 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +7568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 217.17 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7627,7 +7629,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 218.44 85.598 0)
+			(at 217.932 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7650,7 +7652,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 264.16 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7711,7 +7713,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 265.557 102.108 0)
+			(at 264.922 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7812,7 +7814,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 173.99 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7873,7 +7875,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 175.387 102.108 0)
+			(at 174.752 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,7 +7898,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 217.17 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7957,7 +7959,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 217.932 129.032 0)
+			(at 217.678 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7980,7 +7982,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 243.84 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8041,7 +8043,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 245.11 33.528 0)
+			(at 244.602 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8064,7 +8066,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 114.3 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8125,7 +8127,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 115.697 102.108 0)
+			(at 115.062 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8148,7 +8150,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 114.3 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8209,7 +8211,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 115.57 85.598 0)
+			(at 115.062 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8232,7 +8234,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 114.3 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8293,7 +8295,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 115.062 129.032 0)
+			(at 114.808 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,7 +8393,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 114.3 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8452,7 +8454,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 115.062 145.288 0)
+			(at 114.808 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,7 +8477,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 195.58 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8536,7 +8538,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 196.977 102.108 0)
+			(at 196.342 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8559,7 +8561,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_06_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_06_Pin_vertical")
 		(at 168.91 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8620,7 +8622,7 @@
 			)
 		)
 		(property "LCSC" "C5663"
-			(at 170.434 27.432 0)
+			(at 169.926 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8655,7 +8657,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 134.62 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8716,7 +8718,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 135.382 129.032 0)
+			(at 135.128 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8818,7 +8820,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 134.62 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8879,7 +8881,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 135.89 85.598 0)
+			(at 135.382 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8965,7 +8967,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 241.3 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9026,7 +9028,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 242.062 129.032 0)
+			(at 241.808 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9269,7 +9271,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 241.3 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9330,7 +9332,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 242.57 85.598 0)
+			(at 242.062 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9353,7 +9355,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 134.62 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9414,7 +9416,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 135.382 145.288 0)
+			(at 134.62 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9437,7 +9439,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mobiflight-library:JST-XH_02_Pin_vertical")
+		(lib_id "MobiFlight:JST-XH_02_Pin_vertical")
 		(at 153.67 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9498,7 +9500,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 154.432 129.032 0)
+			(at 154.178 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
