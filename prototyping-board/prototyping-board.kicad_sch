@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MobiFlight Prototyping Board")
-		(date "09.12.2022")
-		(rev "2.1")
+		(date "2025-11-02")
+		(rev "2.2")
 		(company "mobiflight community")
 		(comment 1 "stephan hoeltig")
 		(comment 2 "sebastian moebius")
@@ -6438,6 +6438,28 @@
 			)
 		)
 	)
+	(global_label "BTN06"
+		(shape input)
+		(at 252.73 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69cae3b0-e464-4c26-878d-23577c525fa4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.4119 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5VD"
 		(shape input)
 		(at 110.998 29.21 270)
@@ -6869,28 +6891,6 @@
 		(uuid "8de677b8-bd86-475e-985e-3906be21242b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 20.5963 98.9806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ENC4-SW"
-		(shape input)
-		(at 252.73 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8f106ebc-70fb-4222-b9ce-87590b6048d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.2067 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7776,28 +7776,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ENC4-SW"
-		(shape input)
-		(at 50.8 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b7f46ab9-6249-494d-bc09-b94638c5ad73")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.2767 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
