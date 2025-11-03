@@ -5331,7 +5331,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 241.935 143.002 0)
 			(effects
 				(font
@@ -5415,7 +5415,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 264.795 143.002 0)
 			(effects
 				(font
@@ -5562,7 +5562,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 217.932 143.002 0)
 			(effects
 				(font
@@ -5646,7 +5646,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 196.215 143.002 0)
 			(effects
 				(font
@@ -5730,7 +5730,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 196.215 83.312 0)
 			(effects
 				(font
@@ -5814,7 +5814,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 174.625 126.746 0)
 			(effects
 				(font
@@ -5898,7 +5898,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 217.932 99.822 0)
 			(effects
 				(font
@@ -6272,7 +6272,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06_Male"
+		(property "Value" "JST-XH_06_Pin_vertical"
 			(at 115.57 25.146 0)
 			(effects
 				(font
@@ -6280,7 +6280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x06_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 			(at 114.554 26.924 0)
 			(effects
 				(font
@@ -6576,7 +6576,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 174.625 143.002 0)
 			(effects
 				(font
@@ -6660,7 +6660,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 196.215 126.746 0)
 			(effects
 				(font
@@ -6744,7 +6744,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 264.795 126.746 0)
 			(effects
 				(font
@@ -6895,7 +6895,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 154.432 99.822 0)
 			(effects
 				(font
@@ -7058,7 +7058,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 154.305 83.312 0)
 			(effects
 				(font
@@ -7142,7 +7142,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 154.305 143.002 0)
 			(effects
 				(font
@@ -7358,7 +7358,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 264.795 83.312 0)
 			(effects
 				(font
@@ -7442,7 +7442,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 242.062 99.822 0)
 			(effects
 				(font
@@ -7593,7 +7593,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 174.625 83.312 0)
 			(effects
 				(font
@@ -7677,7 +7677,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 135.382 99.822 0)
 			(effects
 				(font
@@ -7761,7 +7761,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 217.805 83.312 0)
 			(effects
 				(font
@@ -7845,7 +7845,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 264.922 99.822 0)
 			(effects
 				(font
@@ -8007,7 +8007,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 174.752 99.822 0)
 			(effects
 				(font
@@ -8091,7 +8091,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 217.805 126.746 0)
 			(effects
 				(font
@@ -8175,7 +8175,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 115.062 99.822 0)
 			(effects
 				(font
@@ -8259,7 +8259,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 114.935 83.312 0)
 			(effects
 				(font
@@ -8343,7 +8343,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 114.935 126.746 0)
 			(effects
 				(font
@@ -8502,7 +8502,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 114.935 143.002 0)
 			(effects
 				(font
@@ -8586,7 +8586,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 196.342 99.822 0)
 			(effects
 				(font
@@ -8670,7 +8670,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06_Male"
+		(property "Value" "JST-XH_06_Pin_vertical"
 			(at 169.672 25.146 0)
 			(effects
 				(font
@@ -8678,7 +8678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x06_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 			(at 169.164 26.924 0)
 			(effects
 				(font
@@ -8766,7 +8766,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 135.255 126.746 0)
 			(effects
 				(font
@@ -8929,7 +8929,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 135.255 83.312 0)
 			(effects
 				(font
@@ -9076,7 +9076,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 241.935 126.746 0)
 			(effects
 				(font
@@ -9380,7 +9380,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 241.935 83.312 0)
 			(effects
 				(font
@@ -9464,7 +9464,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 135.255 143.002 0)
 			(effects
 				(font
@@ -9509,7 +9509,7 @@
 			)
 		)
 		(property "LCSC" "C20079"
-			(at 134.62 148.59 0)
+			(at 136.652 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9548,7 +9548,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "JST-XH_02_Pin_vertical"
 			(at 154.305 126.746 0)
 			(effects
 				(font
