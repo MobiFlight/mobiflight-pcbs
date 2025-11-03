@@ -22,6 +22,8 @@ Simple buttons that connect with just two wires.
 
 Left pin is Ground, right pin is VCC.
 
+**IMPORTANT** Button 6 is shared with 4th Encoder Push Button
+
 ### LEDs 1 - 6
 All LEDs are using PWM enabled pins and can be dimmed in MobiFlight.
 It is recommended to add an apropriate resistor for you LED. 
@@ -55,7 +57,7 @@ More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-
 * 4th pin CS,
 * 5th pin CLK
 
-### Encoder 1-3
+### Encoder 1-4
 Connect a Encoder with Push Button function.
 More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#encoders
 
@@ -63,6 +65,8 @@ More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-
 * 2nd pin Left Pin (A)
 * 3rd pin Right Pin (B)
 * 4th pin Push Button
+
+**IMPORTANT** 4th Encoder Push Button is shared with Button 6
 
 ### Pot 1 - 3
 Connect a Potentiometer or other analog input device.
