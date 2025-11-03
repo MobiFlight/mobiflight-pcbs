@@ -2895,6 +2895,165 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MobiFlight:Switch_SMD_5x5_Wuerth"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Switch_SMD_5x5_Wuerth"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MobiFlight:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C92589"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Switch_SMD_5x5_Wuerth_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mobiflight:LOGO"
 			(pin_names
 				(offset 1.016)
@@ -3720,6 +3879,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 246.38 127)
+		(end 279.4 156.845)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b71579c9-56cd-4487-a73b-21733dfa01f3)
+	)
 	(text "SWITCH 6\nON-OFF-ON"
 		(exclude_from_sim no)
 		(at 137.16 76.2 0)
@@ -3755,7 +3926,7 @@
 	)
 	(text "Analog 3"
 		(exclude_from_sim no)
-		(at 209.296 148.8694 0)
+		(at 200.406 148.8694 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3854,7 +4025,7 @@
 	)
 	(text "Analog 1"
 		(exclude_from_sim no)
-		(at 237.998 148.6154 0)
+		(at 229.108 148.6154 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3909,7 +4080,7 @@
 	)
 	(text "Analog 2"
 		(exclude_from_sim no)
-		(at 221.869 148.717 0)
+		(at 212.979 148.717 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4175,10 +4346,6 @@
 		(uuid "cce1eb66-b3e2-43ae-9196-7489cfe307d4")
 	)
 	(no_connect
-		(at 30.48 53.34)
-		(uuid "03f57fb4-32a3-4bc6-85b9-fd8ece4a9592")
-	)
-	(no_connect
 		(at 30.48 60.96)
 		(uuid "6e435cd4-da2b-4602-a0aa-5dd988834dff")
 	)
@@ -4266,7 +4433,7 @@
 	)
 	(polyline
 		(pts
-			(xy 205.74 127) (xy 250.19 127)
+			(xy 196.85 127) (xy 241.3 127)
 		)
 		(stroke
 			(width 0)
@@ -4316,7 +4483,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.19 127) (xy 250.19 156.845)
+			(xy 241.3 127) (xy 241.3 156.845)
 		)
 		(stroke
 			(width 0)
@@ -4426,7 +4593,7 @@
 	)
 	(polyline
 		(pts
-			(xy 205.74 127) (xy 205.74 156.845)
+			(xy 196.85 127) (xy 196.85 156.845)
 		)
 		(stroke
 			(width 0)
@@ -4566,7 +4733,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.19 156.845) (xy 205.74 156.845)
+			(xy 241.3 156.845) (xy 196.85 156.845)
 		)
 		(stroke
 			(width 0)
@@ -4826,6 +4993,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 143.51) (xy 274.32 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca079ed-3378-4786-9273-ead98eb1771b")
+	)
+	(wire
+		(pts
 			(xy 66.04 48.26) (xy 68.58 48.26)
 		)
 		(stroke
@@ -4843,6 +5020,16 @@
 			(type default)
 		)
 		(uuid "da93ef4c-fbc6-4fe3-9a2d-eb4b9e3bf264")
+	)
+	(wire
+		(pts
+			(xy 269.24 143.51) (xy 274.32 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e476b345-80aa-4b67-ad0d-bc2fd91b843a")
 	)
 	(polyline
 		(pts
@@ -4908,7 +5095,7 @@
 	)
 	(global_label "+5VD"
 		(shape input)
-		(at 210.82 138.43 90)
+		(at 201.93 138.43 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4918,7 +5105,7 @@
 		)
 		(uuid "02ccfb4d-c7a9-43ad-b2ea-93f4c1ed9c09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.8994 130.9653 90)
+			(at 202.0094 130.9653 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,7 +5205,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 229.87 138.43 90)
+		(at 220.98 138.43 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5028,7 +5215,7 @@
 		)
 		(uuid "08a083c6-676e-4513-9241-3398f8b3dcf7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.7906 132.2353 90)
+			(at 220.9006 132.2353 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,7 +6371,7 @@
 	)
 	(global_label "+5VD"
 		(shape input)
-		(at 237.49 138.43 90)
+		(at 228.6 138.43 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6194,7 +6381,7 @@
 		)
 		(uuid "4c132a70-387f-4ef3-92ce-18d53f0586f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.5694 130.9653 90)
+			(at 228.6794 130.9653 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6844,7 +7031,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 215.9 138.43 90)
+		(at 207.01 138.43 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6854,7 +7041,7 @@
 		)
 		(uuid "7d6cf366-9dba-44b9-a840-1c35a31aabcd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.8206 132.2353 90)
+			(at 206.9306 132.2353 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,6 +7091,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 274.32 147.32 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81bb8d4c-e4c1-4c17-9d70-5609d54427e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.32 153.5215 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7876,6 +8085,28 @@
 			)
 		)
 	)
+	(global_label "Reset"
+		(shape input)
+		(at 30.48 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2820963-d8fb-4e91-9ba4-a166bb5d5d1b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.948 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW07-3"
 		(shape input)
 		(at 160.02 82.55 0)
@@ -8140,6 +8371,28 @@
 			)
 		)
 	)
+	(global_label "Reset"
+		(shape input)
+		(at 259.08 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c314785d-11a3-4e09-9050-5eb53e6fde36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.548 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SHIFT_SPI_2"
 		(shape input)
 		(at 173.99 143.51 90)
@@ -8164,7 +8417,7 @@
 	)
 	(global_label "POT1"
 		(shape input)
-		(at 240.03 138.43 90)
+		(at 231.14 138.43 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8174,7 +8427,7 @@
 		)
 		(uuid "c5a12c22-c53d-4c0e-b9e8-24554a2835c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.1094 131.3282 90)
+			(at 231.2194 131.3282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8538,7 +8791,7 @@
 	)
 	(global_label "POT2"
 		(shape input)
-		(at 227.33 138.43 90)
+		(at 218.44 138.43 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8548,7 +8801,7 @@
 		)
 		(uuid "d71fc555-f8d8-468b-a322-c6ca0a7b3f99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.4094 131.3282 90)
+			(at 218.5194 131.3282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,7 +9033,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 242.57 138.43 90)
+		(at 233.68 138.43 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8790,7 +9043,7 @@
 		)
 		(uuid "eae00c5d-5f14-4064-a4a8-860e25da14cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.4906 132.2353 90)
+			(at 233.6006 132.2353 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9022,7 +9275,7 @@
 	)
 	(global_label "POT3"
 		(shape input)
-		(at 213.36 138.43 90)
+		(at 204.47 138.43 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9032,7 +9285,7 @@
 		)
 		(uuid "f9b0c85d-8b18-44b4-8467-bb25e9048fe8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.4394 131.3282 90)
+			(at 204.5494 131.3282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9110,7 +9363,7 @@
 	)
 	(global_label "+5VD"
 		(shape input)
-		(at 224.79 138.43 90)
+		(at 215.9 138.43 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9120,7 +9373,7 @@
 		)
 		(uuid "fdf57948-9b0f-4162-99c6-3a71a7d1ae99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.8694 130.9653 90)
+			(at 215.9794 130.9653 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11226,7 +11479,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 240.03 143.51 270)
+		(at 231.14 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11234,7 +11487,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061385404")
 		(property "Reference" "J33"
-			(at 237.49 150.0886 90)
+			(at 228.6 150.0886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11243,7 +11496,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 237.49 152.4 90)
+			(at 228.6 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11252,7 +11505,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 240.03 143.51 0)
+			(at 231.14 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11261,7 +11514,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 143.51 0)
+			(at 231.14 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11270,7 +11523,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 143.51 0)
+			(at 231.14 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11278,7 +11531,7 @@
 			)
 		)
 		(property "LCSC" "C2316"
-			(at 240.03 143.51 0)
+			(at 231.14 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11306,7 +11559,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 227.33 143.51 270)
+		(at 218.44 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11314,7 +11567,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061386a6a")
 		(property "Reference" "J34"
-			(at 221.361 150.1902 90)
+			(at 212.471 150.1902 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11323,7 +11576,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 221.361 152.5016 90)
+			(at 212.471 152.5016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11332,7 +11585,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 227.33 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11341,7 +11594,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11350,7 +11603,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11358,7 +11611,7 @@
 			)
 		)
 		(property "LCSC" "C2316"
-			(at 227.33 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11386,7 +11639,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 213.36 143.51 270)
+		(at 204.47 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11394,7 +11647,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061387635")
 		(property "Reference" "J35"
-			(at 208.534 150.114 90)
+			(at 199.644 150.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11403,7 +11656,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 208.534 152.4254 90)
+			(at 199.644 152.4254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11412,7 +11665,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 213.36 143.51 0)
+			(at 204.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11421,7 +11674,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 143.51 0)
+			(at 204.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11430,7 +11683,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 143.51 0)
+			(at 204.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11438,7 +11691,7 @@
 			)
 		)
 		(property "LCSC" "C2316"
-			(at 213.36 143.51 0)
+			(at 204.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11982,7 +12235,7 @@
 		(at 48.26 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613f7aca")
@@ -13148,6 +13401,83 @@
 			(project "prototyping-board"
 				(path "/fd470e95-4861-44fe-b1e4-6d8a7c66e144"
 					(reference "#FLG0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MobiFlight:Switch_SMD_5x5_Wuerth")
+		(at 264.16 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad44c360-86e6-427e-a02c-f4a8b7a4ab71")
+		(property "Reference" "SW1"
+			(at 264.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SMD_5x5_Wuerth"
+			(at 264.16 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MobiFlight:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
+			(at 264.16 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 264.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C92589"
+			(at 264.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56e5a936-6e71-41c6-8092-c3de02a9e2fe")
+		)
+		(pin "1"
+			(uuid "b1079c0d-90ab-490b-89dd-566d6ddfe4a0")
+		)
+		(instances
+			(project ""
+				(path "/fd470e95-4861-44fe-b1e4-6d8a7c66e144"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
