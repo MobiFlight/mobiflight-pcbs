@@ -2981,12 +2981,12 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U1"
-			(at 75.184 4.9784 90)
+			(at -0.254 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "MEGA_PRO_EMBED_CH340G___ATMEGA2560"
@@ -3068,8 +3068,8 @@
 		)
 		(symbol "MEGA_PRO_EMBED_CH340G___ATMEGA2560_0_0"
 			(rectangle
-				(start -12.7 -63.5)
-				(end 12.7 63.5)
+				(start -12.7 67.31)
+				(end 12.7 -59.69)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3780,8 +3780,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 60.96 180)
+			(pin power_in line
+				(at 17.78 63.5 180)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -3798,7 +3798,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at 17.78 60.96 180)
 				(length 5.08)
 				(name "VIN"
@@ -3835,7 +3835,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 58.42 180)
+				(at 17.78 55.88 180)
 				(length 5.08)
 				(name "5V"
 					(effects
@@ -3853,25 +3853,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 58.42 180)
-				(length 5.08)
-				(name "5V"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5V_3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 55.88 180)
+				(at 17.78 53.34 180)
 				(length 5.08)
 				(name "3V3"
 					(effects
@@ -3889,7 +3871,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 55.88 180)
+				(at 17.78 50.8 180)
 				(length 5.08)
 				(name "3V3"
 					(effects
@@ -3906,8 +3888,62 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 17.78 48.26 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "GND_1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 45.72 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "GND_2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 43.18 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "GND_3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at 17.78 50.8 180)
+				(at 17.78 38.1 180)
 				(length 5.08)
 				(name "AREF"
 					(effects
@@ -3925,7 +3961,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 48.26 180)
+				(at 17.78 35.56 180)
 				(length 5.08)
 				(name "TX"
 					(effects
@@ -3943,7 +3979,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 45.72 180)
+				(at 17.78 33.02 180)
 				(length 5.08)
 				(name "RX"
 					(effects
@@ -4565,60 +4601,6 @@
 					)
 				)
 				(number "A14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -60.96 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "GND_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -60.96 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "GND_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -60.96 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "GND_3"
 					(effects
 						(font
 							(size 1.016 1.016)
