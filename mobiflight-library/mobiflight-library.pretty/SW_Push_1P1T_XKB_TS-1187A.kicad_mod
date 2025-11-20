@@ -457,7 +457,7 @@
 		(uuid "0320eeb2-6a91-4d2d-9032-8bc9cc0cb72d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_OWN_LIB_DIR}/3D Files/SMD Button XKB_TS-1187A-B-A-B.step"
+	(model "${KICAD_MOBIFLIGHT_LIBRARY_DIR}/3D-Files/SMD Button XKB_TS-1187A-B-A-B.step"
 		(offset
 			(xyz -2.4 7.35 -1.6)
 		)

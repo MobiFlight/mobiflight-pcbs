@@ -314,7 +314,7 @@
 		(uuid "9c529b82-031c-4250-acb5-c54cb0f473c6")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_MOBIFLIGHT_DIR}/3D files/Bourns/3314j-1-103e.stp"
+	(model "${KICAD_MOBIFLIGHT_LIBRARY_DIR}/3D-Files/Potentiometer_Bourns_3314j-1-103e.stp"
 		(offset
 			(xyz 2.159 -2.286 0)
 		)
