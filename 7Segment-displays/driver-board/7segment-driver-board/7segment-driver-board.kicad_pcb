@@ -4597,8 +4597,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "MobiFlight\nV1.0"
-		(at 108.593764 117.4 0)
+	(gr_text "www.MobiFlight.com\nV1.0"
+		(at 108.593763 117.398774 0)
 		(layer "B.SilkS")
 		(uuid "fa220ce9-978c-4aef-b493-1f23e66cc30b")
 		(effects
