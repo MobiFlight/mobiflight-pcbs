@@ -5645,6 +5645,178 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MobiFlight:R_Potentiometer_Trim_Bochen_5k"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim_Bochen_5k"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MobiFlight:Potentiometer_Bochen_3362P_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C118903"
+				(at 5.842 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_Bochen_5k_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_Bochen_5k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Own_Library:D_Schottky_B5819W-SL"
 			(pin_numbers
 				(hide yes)
@@ -6330,178 +6502,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "_MobiFlight:R_Potentiometer_Trim_5k_Bourns"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer_Trim_5k_Bourns"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "_MobiFlight:Potentiometer_Bourns_3214J_Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Trim-potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C58391"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "resistor variable trimpot trimmer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_Trim_5k_Bourns_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.762) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_Trim_5k_Bourns_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -11806,7 +11806,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_MobiFlight:R_Potentiometer_Trim_5k_Bourns")
+		(lib_id "MobiFlight:R_Potentiometer_Trim_Bochen_5k")
 		(at 92.71 71.12 0)
 		(mirror y)
 		(unit 1)
@@ -11833,7 +11833,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mobiflight-footprints:Potentiometer_Bochen_3362P_Vertical"
+		(property "Footprint" "MobiFlight:Potentiometer_Bochen_3362P_Vertical"
 			(at 92.71 71.12 0)
 			(effects
 				(font
@@ -11851,7 +11851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Trim-potentiometer"
+		(property "Description" "Potentiometer"
 			(at 92.71 71.12 0)
 			(effects
 				(font
@@ -11861,12 +11861,11 @@
 			)
 		)
 		(property "LCSC" "C118903"
-			(at 95.25 68.5801 0)
+			(at 85.852 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(pin "3"
@@ -15921,7 +15920,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_MobiFlight:R_Potentiometer_Trim_5k_Bourns")
+		(lib_id "MobiFlight:R_Potentiometer_Trim_Bochen_5k")
 		(at 97.79 134.62 0)
 		(mirror y)
 		(unit 1)
@@ -15948,7 +15947,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mobiflight-footprints:Potentiometer_Bochen_3362P_Vertical"
+		(property "Footprint" "MobiFlight:Potentiometer_Bochen_3362P_Vertical"
 			(at 97.79 134.62 0)
 			(effects
 				(font
@@ -15966,7 +15965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Trim-potentiometer"
+		(property "Description" "Potentiometer"
 			(at 97.79 134.62 0)
 			(effects
 				(font
@@ -15976,12 +15975,11 @@
 			)
 		)
 		(property "LCSC" "C118903"
-			(at 100.33 132.0801 0)
+			(at 104.394 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(pin "3"
@@ -16003,7 +16001,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_MobiFlight:R_Potentiometer_Trim_5k_Bourns")
+		(lib_id "MobiFlight:R_Potentiometer_Trim_Bochen_5k")
 		(at 156.21 133.35 0)
 		(mirror y)
 		(unit 1)
@@ -16030,7 +16028,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mobiflight-footprints:Potentiometer_Bochen_3362P_Vertical"
+		(property "Footprint" "MobiFlight:Potentiometer_Bochen_3362P_Vertical"
 			(at 156.21 133.35 0)
 			(effects
 				(font
@@ -16048,7 +16046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Trim-potentiometer"
+		(property "Description" "Potentiometer"
 			(at 156.21 133.35 0)
 			(effects
 				(font
@@ -16058,12 +16056,11 @@
 			)
 		)
 		(property "LCSC" "C118903"
-			(at 158.75 130.8101 0)
+			(at 163.068 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(pin "3"
@@ -19119,7 +19116,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_MobiFlight:R_Potentiometer_Trim_5k_Bourns")
+		(lib_id "MobiFlight:R_Potentiometer_Trim_Bochen_5k")
 		(at 152.4 68.58 0)
 		(mirror y)
 		(unit 1)
@@ -19146,7 +19143,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mobiflight-footprints:Potentiometer_Bochen_3362P_Vertical"
+		(property "Footprint" "MobiFlight:Potentiometer_Bochen_3362P_Vertical"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -19164,7 +19161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Trim-potentiometer"
+		(property "Description" "Potentiometer"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -19174,12 +19171,11 @@
 			)
 		)
 		(property "LCSC" "C118903"
-			(at 154.94 66.0401 0)
+			(at 156.972 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(pin "3"
