@@ -594,12 +594,6 @@
         },
         {
           "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HIEGHT",
-          "name": "MAXIMUM_PACKAGE_HIEGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "PARTREV",
           "name": "PARTREV",
           "show": false

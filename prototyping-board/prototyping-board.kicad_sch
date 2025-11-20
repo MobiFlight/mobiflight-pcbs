@@ -12295,16 +12295,6 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 48.26 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 48.26 104.14 0)
 			(effects
