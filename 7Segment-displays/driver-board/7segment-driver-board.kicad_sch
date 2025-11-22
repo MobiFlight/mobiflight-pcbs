@@ -3565,7 +3565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D0-D5"
+		(property "Value" "Display"
 			(at 234.95 100.33 0)
 			(effects
 				(font
@@ -4077,7 +4077,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "LCSC" "C14663"
 			(at 93.98 111.76 0)
 			(effects
 				(font
