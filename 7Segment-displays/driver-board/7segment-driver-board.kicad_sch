@@ -2341,16 +2341,16 @@
 		(uuid "68a9b445-7d45-474c-bd92-04152e722039")
 	)
 	(junction
+		(at 93.98 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f6a1bc9-68f7-46ea-93fe-1c792578937e")
+	)
+	(junction
 		(at 67.31 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7d51e7f-c8a5-42e6-aafa-df0f82bc280f")
-	)
-	(junction
-		(at 93.98 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6c5820b-8529-4531-95f7-192e39582761")
 	)
 	(wire
 		(pts
@@ -2644,16 +2644,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 66.04) (xy 66.04 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "758b323d-2350-4ff7-9673-ce5fa9e12012")
-	)
-	(wire
-		(pts
 			(xy 82.55 102.87) (xy 83.82 102.87)
 		)
 		(stroke
@@ -2764,13 +2754,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 66.04) (xy 86.36 66.04)
+			(xy 93.98 102.87) (xy 102.87 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9be3a62f-1b02-40a8-b284-37a0ca4e9d1e")
+		(uuid "9986b929-9ca5-470f-8c67-86d4043c64ca")
 	)
 	(wire
 		(pts
@@ -2834,17 +2824,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 102.87) (xy 104.14 102.87)
+			(xy 93.98 66.04) (xy 93.98 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b464f072-4c74-4dc7-a1ef-031b29e00d07")
+		(uuid "b5e05b66-b2a0-4787-b024-93ac9464a7ed")
 	)
 	(wire
 		(pts
-			(xy 104.14 99.06) (xy 104.14 102.87)
+			(xy 120.65 96.52) (xy 120.65 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2924,6 +2914,26 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 66.04) (xy 93.98 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e5f0ef-7816-4097-8826-6c6a1371e68c")
+	)
+	(wire
+		(pts
+			(xy 110.49 102.87) (xy 120.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cabb10ba-f10e-4e24-931a-a0451ceeba4e")
+	)
+	(wire
+		(pts
 			(xy 170.18 95.25) (xy 184.15 95.25)
 		)
 		(stroke
@@ -2981,16 +2991,6 @@
 			(type default)
 		)
 		(uuid "dff8097e-e759-4056-b974-007fbe81b2c9")
-	)
-	(wire
-		(pts
-			(xy 86.36 63.5) (xy 86.36 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e18f5f90-62f2-4fb4-9ce5-acd1da727ea4")
 	)
 	(wire
 		(pts
@@ -4508,72 +4508,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 86.36 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e178ee2-bc00-4014-aa64-07d280ad87ab")
-		(property "Reference" "#PWR01"
-			(at 86.36 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 86.36 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 86.36 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74f5f50a-2cbf-4d49-bee6-43e6dd452bd8")
-		)
-		(instances
-			(project ""
-				(path "/b8e54105-45c0-4c95-bf62-731045c48d4c"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MobiFlight:C_Polarized_Tantal_47u")
 		(at 83.82 111.76 0)
 		(unit 1)
@@ -4763,7 +4697,7 @@
 	)
 	(symbol
 		(lib_id "MobiFlight:D_Schottky_B5819W-SL")
-		(at 69.85 66.04 180)
+		(at 106.68 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4772,7 +4706,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e07c4c7-9500-41da-bcc6-46f9c5e0233d")
 		(property "Reference" "D2"
-			(at 70.1675 57.15 0)
+			(at 106.9975 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,7 +4714,7 @@
 			)
 		)
 		(property "Value" "D_Schottky_B5819W-SL"
-			(at 70.1675 59.69 0)
+			(at 106.9975 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +4722,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 69.85 66.04 0)
+			(at 106.68 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,7 +4731,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 66.04 0)
+			(at 106.68 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,7 +4740,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 69.85 66.04 0)
+			(at 106.68 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,7 +4749,7 @@
 			)
 		)
 		(property "LCSC" "C8598"
-			(at 70.1675 62.23 0)
+			(at 106.9975 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +4981,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 104.14 99.06 0)
+		(at 120.65 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5056,7 +4990,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd0eba49-7e9c-4fef-a78c-7ad2ad628ca0")
 		(property "Reference" "#PWR05"
-			(at 104.14 102.87 0)
+			(at 120.65 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5065,7 +4999,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 104.14 93.98 0)
+			(at 120.65 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 99.06 0)
+			(at 120.65 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 99.06 0)
+			(at 120.65 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5025,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 104.14 99.06 0)
+			(at 120.65 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
