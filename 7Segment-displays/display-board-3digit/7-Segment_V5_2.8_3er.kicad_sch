@@ -3,7 +3,13 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
-	(paper "A4")
+	(paper "A5")
+	(title_block
+		(title "7 Segment Display Module, 3 digits")
+		(date "2025-11")
+		(rev "V5.2")
+		(company "MobiFlight")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x08_Odd_Even"
 			(pin_names
@@ -553,12 +559,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Display_Character:7Segment 3 digit common cathode STH"
+		(symbol "MobiFlight:7Segment 3 digit common cathode STH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -24.13 13.97 0)
+			(property "Reference" "U1"
+				(at 0 16.6665 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -566,14 +572,14 @@
 				)
 			)
 			(property "Value" "7Segment 3 digit common cathode STH"
-				(at 17.78 13.97 0)
+				(at 0 13.8914 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Display_7Segment:CC36-12SURKWA STH"
+			(property "Footprint" "MobiFlight:STH_7_3 Digits_0.28_CC"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -591,13 +597,12 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "4 digit 7 segment hyper red LED, common anode"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "display LED 7-segment"
@@ -1202,12 +1207,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "MobiFlight:MountingHole 3.2mm"
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 5.08 0)
@@ -1217,7 +1222,7 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole"
+			(property "Value" "MountingHole 3.2mm"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -1225,7 +1230,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1270,7 +1275,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole 3.2mm_0_1"
 				(circle
 					(center 0 0)
 					(radius 1.27)
@@ -1286,40 +1291,29 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "23.02.23"
-		(exclude_from_sim no)
-		(at 208.28 193.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3710a8c-69ba-4b05-93cb-d56190abb03e")
-	)
 	(no_connect
-		(at 129.54 91.44)
+		(at 99.06 82.55)
 		(uuid "0c14d21a-3e4e-4691-a93a-1ca7a2097a03")
 	)
 	(no_connect
-		(at 129.54 93.98)
+		(at 99.06 85.09)
 		(uuid "6ee7d2de-047e-40cf-8ded-ac861f5f8aeb")
 	)
 	(no_connect
-		(at 129.54 81.28)
+		(at 99.06 72.39)
 		(uuid "6ee7d2de-047e-40cf-8ded-ac861f5f8aec")
 	)
 	(no_connect
-		(at 129.54 99.06)
+		(at 99.06 90.17)
 		(uuid "6ee7d2de-047e-40cf-8ded-ac861f5f8aed")
 	)
 	(no_connect
-		(at 129.54 96.52)
+		(at 99.06 87.63)
 		(uuid "6ee7d2de-047e-40cf-8ded-ac861f5f8aee")
 	)
 	(wire
 		(pts
-			(xy 160.274 58.42) (xy 160.274 88.9)
+			(xy 129.794 49.53) (xy 129.794 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1329,7 +1323,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82) (xy 129.54 83.82)
+			(xy 124.46 74.93) (xy 99.06 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1339,7 +1333,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 48.26) (xy 93.98 81.28)
+			(xy 63.5 39.37) (xy 63.5 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1349,7 +1343,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 81.28) (xy 116.84 81.28)
+			(xy 63.5 72.39) (xy 86.36 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1359,7 +1353,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.274 88.9) (xy 129.54 88.9)
+			(xy 129.794 80.01) (xy 99.06 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1369,7 +1363,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 99.06) (xy 76.2 66.04)
+			(xy 45.72 90.17) (xy 45.72 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1379,7 +1373,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 99.06) (xy 76.2 99.06)
+			(xy 86.36 90.17) (xy 45.72 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1389,7 +1383,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 55.88) (xy 96.52 55.88)
+			(xy 55.88 46.99) (xy 66.04 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1399,7 +1393,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 63.5) (xy 78.74 63.5)
+			(xy 66.04 54.61) (xy 48.26 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1409,7 +1403,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 50.8) (xy 91.44 83.82)
+			(xy 60.96 41.91) (xy 60.96 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1419,7 +1413,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 50.8) (xy 91.44 50.8)
+			(xy 66.04 41.91) (xy 60.96 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1429,7 +1423,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 60.96) (xy 157.48 86.36)
+			(xy 127 52.07) (xy 127 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1439,7 +1433,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 58.42) (xy 83.82 91.44)
+			(xy 53.34 49.53) (xy 53.34 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1449,7 +1443,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 63.5) (xy 78.74 96.52)
+			(xy 48.26 54.61) (xy 48.26 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1459,7 +1453,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 58.42) (xy 160.274 58.42)
+			(xy 121.92 49.53) (xy 129.794 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1469,7 +1463,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 116.84 83.82)
+			(xy 60.96 74.93) (xy 86.36 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1479,7 +1473,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 154.94 63.5)
+			(xy 121.92 54.61) (xy 124.46 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1489,7 +1483,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 63.5) (xy 154.94 83.82)
+			(xy 124.46 54.61) (xy 124.46 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1499,7 +1493,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 53.34) (xy 88.9 86.36)
+			(xy 58.42 44.45) (xy 58.42 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1509,7 +1503,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 96.52) (xy 116.84 96.52)
+			(xy 48.26 87.63) (xy 86.36 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1519,7 +1513,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 93.98) (xy 81.28 60.96)
+			(xy 50.8 85.09) (xy 50.8 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1529,7 +1523,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 53.34) (xy 88.9 53.34)
+			(xy 66.04 44.45) (xy 58.42 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1539,7 +1533,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 60.96) (xy 96.52 60.96)
+			(xy 50.8 52.07) (xy 66.04 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1549,7 +1543,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 93.98) (xy 81.28 93.98)
+			(xy 86.36 85.09) (xy 50.8 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1559,7 +1553,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 86.36) (xy 116.84 86.36)
+			(xy 58.42 77.47) (xy 86.36 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1569,7 +1563,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 58.42) (xy 83.82 58.42)
+			(xy 66.04 49.53) (xy 53.34 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1579,7 +1573,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 66.04) (xy 96.52 66.04)
+			(xy 45.72 57.15) (xy 66.04 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1589,7 +1583,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 91.44) (xy 116.84 91.44)
+			(xy 53.34 82.55) (xy 86.36 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1599,7 +1593,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 48.26) (xy 93.98 48.26)
+			(xy 66.04 39.37) (xy 63.5 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1609,7 +1603,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 86.36) (xy 129.54 86.36)
+			(xy 127 77.47) (xy 99.06 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1619,7 +1613,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 88.9) (xy 86.36 55.88)
+			(xy 55.88 80.01) (xy 55.88 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1629,7 +1623,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 60.96) (xy 157.48 60.96)
+			(xy 121.92 52.07) (xy 127 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1639,7 +1633,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 88.9) (xy 86.36 88.9)
+			(xy 86.36 80.01) (xy 55.88 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1648,7 +1642,7 @@
 		(uuid "fa819a6e-c42e-434c-8836-9986bfe2d2ee")
 	)
 	(label "E"
-		(at 99.06 91.44 0)
+		(at 68.58 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1658,7 +1652,7 @@
 		(uuid "33068240-8bfc-478d-b510-24950e7d107d")
 	)
 	(label "DIG2"
-		(at 134.62 88.9 0)
+		(at 104.14 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1668,7 +1662,7 @@
 		(uuid "3fccbcb9-4ca4-4b5a-a058-dbf77716343b")
 	)
 	(label "A"
-		(at 99.06 81.28 0)
+		(at 68.58 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1678,7 +1672,7 @@
 		(uuid "4613c3b2-5dca-43aa-b4f9-b78365ea746c")
 	)
 	(label "DIG0"
-		(at 134.62 83.82 0)
+		(at 104.14 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1688,7 +1682,7 @@
 		(uuid "5269dd6e-3375-4918-9ca4-24a0785951a7")
 	)
 	(label "C"
-		(at 99.06 86.36 0)
+		(at 68.58 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1698,7 +1692,7 @@
 		(uuid "6e47fa31-4c5c-4987-8d16-a7694d007319")
 	)
 	(label "F"
-		(at 99.06 93.98 0)
+		(at 68.58 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1708,7 +1702,7 @@
 		(uuid "9639605c-eb26-44b5-bd83-4b5abfda70ee")
 	)
 	(label "D"
-		(at 99.06 88.9 0)
+		(at 68.58 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1718,7 +1712,7 @@
 		(uuid "b6bdc09b-57fa-4199-8e6a-95a834763f84")
 	)
 	(label "G"
-		(at 99.06 96.52 0)
+		(at 68.58 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1728,7 +1722,7 @@
 		(uuid "ccce0497-a389-44fa-9392-bed93e73a846")
 	)
 	(label "DIG1"
-		(at 134.62 86.36 0)
+		(at 104.14 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1738,7 +1732,7 @@
 		(uuid "d4e4a6d7-89a3-4b98-b30a-69c12b1c948d")
 	)
 	(label "B"
-		(at 99.06 83.82 0)
+		(at 68.58 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1748,7 +1742,7 @@
 		(uuid "d5a26c86-b5fb-4699-a65d-9e9ec776518a")
 	)
 	(label "DP"
-		(at 99.06 99.06 0)
+		(at 68.58 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1758,17 +1752,17 @@
 		(uuid "f2e15271-7825-42d6-9cdc-f443702105bd")
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 78.994 108.458 0)
+		(lib_id "MobiFlight:MountingHole 3.2mm")
+		(at 42.164 105.41 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46cbe85d-ff47-428e-b187-4ebd50a66e0c")
 		(property "Reference" "H1"
-			(at 81.534 107.5495 0)
+			(at 45.72 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +1771,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 81.534 110.3246 0)
+			(at 45.72 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,8 +1779,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 78.994 108.458 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 42.164 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,7 +1789,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.994 108.458 0)
+			(at 42.164 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,12 +1797,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 78.994 108.458 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 42.164 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -1822,7 +1817,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
-		(at 121.92 88.9 0)
+		(at 91.44 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1831,7 +1826,7 @@
 		(fields_autoplaced yes)
 		(uuid "797336a2-12e4-4dd0-a33e-dc6624c7dd5e")
 		(property "Reference" "J1"
-			(at 123.19 76.0435 0)
+			(at 92.71 67.1535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,7 +1834,7 @@
 			)
 		)
 		(property "Value" "Conn_02x08_Odd_Even"
-			(at 123.19 78.8186 0)
+			(at 92.71 69.9286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,7 +1842,7 @@
 			)
 		)
 		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
-			(at 121.92 88.9 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +1851,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 88.9 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +1860,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 88.9 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1930,8 +1925,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Display_Character:7Segment 3 digit common cathode STH")
-		(at 124.46 55.88 0)
+		(lib_id "MobiFlight:7Segment 3 digit common cathode STH")
+		(at 93.98 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1940,7 +1935,7 @@
 		(fields_autoplaced yes)
 		(uuid "92035a88-6c95-4a61-bd8a-cb8dd9e5018a")
 		(property "Reference" "U1"
-			(at 124.46 39.2135 0)
+			(at 93.98 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,15 +1943,15 @@
 			)
 		)
 		(property "Value" "7Segment 3 digit common cathode STH"
-			(at 124.46 41.9886 0)
+			(at 93.98 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Display_7Segment:STH_7_3 Digits_0.28_CC"
-			(at 124.46 71.12 0)
+		(property "Footprint" "MobiFlight:STH_7_3 Digits_0.28_CC"
+			(at 93.98 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,7 +1960,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12SURKWA(Ver.8A).pdf"
-			(at 113.538 55.118 0)
+			(at 83.058 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,7 +1969,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 55.88 0)
+			(at 93.98 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,17 +2019,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 92.71 108.458 0)
+		(lib_id "MobiFlight:MountingHole 3.2mm")
+		(at 55.88 105.41 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ff08661-8e9f-4ada-a725-f016115e7a02")
 		(property "Reference" "H2"
-			(at 95.25 107.5495 0)
+			(at 58.42 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,7 +2038,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 95.25 110.3246 0)
+			(at 58.42 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,8 +2046,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 92.71 108.458 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 55.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,7 +2056,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 108.458 0)
+			(at 55.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,12 +2064,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 92.71 108.458 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 55.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(instances
