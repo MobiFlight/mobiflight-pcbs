@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "36760d4a-f556-46ce-84f1-a1c51caf80df")
 	(paper "A4")
+	(title_block
+		(title "7 Segment Display Module, 4 digits")
+		(date "2025-11-27")
+		(rev "V5.2")
+		(company "MobiFlight")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x08_Odd_Even"
 			(pin_names
@@ -553,12 +559,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Display_Character:HDSM-443B_CC_2Digit_7Segment_STH"
+		(symbol "MobiFlight:HDSM-443B_CC_2Digit_7Segment_STH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -11.43 17.78 0)
+			(property "Reference" "U1"
+				(at 0 17.9365 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -566,14 +572,14 @@
 				)
 			)
 			(property "Value" "HDSM-443B_CC_2Digit_7Segment_STH"
-				(at 5.08 15.24 0)
+				(at 0 15.1614 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Display:HDSM-441B_HDSM-443B"
+			(property "Footprint" "MobiFlight:STH_7_2 Digits_0.28_CC"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -591,13 +597,12 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Double 7 segment Blue LED common cathode SMD mount"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "display LED 7-segment"
@@ -1257,6 +1262,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MobiFlight:MountingHole 3.2mm"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole 3.2mm"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole 3.2mm_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 73.66 73.66)
@@ -1265,16 +1353,16 @@
 		(uuid "429a924d-9478-4e08-8338-cca4eddb38c1")
 	)
 	(junction
-		(at 58.42 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c1eb2e6-7e18-47ec-a1b7-de726ae3f260")
-	)
-	(junction
 		(at 71.12 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "651a1a66-f774-4856-9f0f-8ca4f329baf3")
+	)
+	(junction
+		(at 58.42 88.646)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86625a57-3f4d-4aca-a74c-487015a02eda")
 	)
 	(junction
 		(at 55.88 91.44)
@@ -1494,7 +1582,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 60.96) (xy 58.42 88.9)
+			(xy 58.42 60.96) (xy 58.42 88.646)
 		)
 		(stroke
 			(width 0)
@@ -1524,7 +1612,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 60.96) (xy 144.78 89.154)
+			(xy 144.78 60.96) (xy 144.78 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1734,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 88.9) (xy 144.78 89.154)
+			(xy 58.42 88.646) (xy 144.78 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1944,6 +2032,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 88.646) (xy 58.42 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6f160b-3b40-454d-9fd6-df6ff6e30ae3")
+	)
+	(wire
+		(pts
 			(xy 182.88 63.5) (xy 185.42 63.5)
 		)
 		(stroke
@@ -2031,16 +2129,6 @@
 			(type default)
 		)
 		(uuid "fab775de-6ea7-4042-8409-2147c6ce844d")
-	)
-	(wire
-		(pts
-			(xy 58.42 88.9) (xy 58.42 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff9a0b05-c367-43a9-b2bd-2485bd563b7c")
 	)
 	(label "D"
 		(at 109.22 109.22 0)
@@ -2163,7 +2251,7 @@
 		(uuid "fda834a6-6b0e-4252-a25a-69a548ed90c8")
 	)
 	(symbol
-		(lib_id "Display_Character:HDSM-443B_CC_2Digit_7Segment_STH")
+		(lib_id "MobiFlight:HDSM-443B_CC_2Digit_7Segment_STH")
 		(at 167.64 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2173,7 +2261,7 @@
 		(fields_autoplaced yes)
 		(uuid "25e69933-f67e-4342-bb6f-a94359a68e3d")
 		(property "Reference" "U2"
-			(at 167.64 35.4035 0)
+			(at 167.64 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,14 +2269,14 @@
 			)
 		)
 		(property "Value" "HDSM-443B_CC_2Digit_7Segment_STH"
-			(at 167.64 38.1786 0)
+			(at 167.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Display_7Segment:STH_7_2 Digits_0.28_CC"
+		(property "Footprint" "MobiFlight:STH_7_2 Digits_0.28_CC"
 			(at 167.64 68.58 0)
 			(effects
 				(font
@@ -2248,6 +2336,70 @@
 			(project ""
 				(path "/36760d4a-f556-46ce-84f1-a1c51caf80df"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MobiFlight:MountingHole 3.2mm")
+		(at 38.1 167.64 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8aa0e34e-8083-4a90-9c66-f098271ada93")
+		(property "Reference" "H1"
+			(at 40.64 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole 3.2mm"
+			(at 40.64 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 38.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 38.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/36760d4a-f556-46ce-84f1-a1c51caf80df"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -2363,7 +2515,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Display_Character:HDSM-443B_CC_2Digit_7Segment_STH")
+		(lib_id "MobiFlight:HDSM-443B_CC_2Digit_7Segment_STH")
 		(at 91.44 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2373,7 +2525,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc15697d-87c4-4e3e-b992-4e8a539da5ad")
 		(property "Reference" "U1"
-			(at 91.44 35.4035 0)
+			(at 91.44 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,14 +2533,14 @@
 			)
 		)
 		(property "Value" "HDSM-443B_CC_2Digit_7Segment_STH"
-			(at 91.44 38.1786 0)
+			(at 91.44 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Display_7Segment:STH_7_2 Digits_0.28_CC"
+		(property "Footprint" "MobiFlight:STH_7_2 Digits_0.28_CC"
 			(at 91.44 68.58 0)
 			(effects
 				(font
@@ -2448,6 +2600,70 @@
 			(project ""
 				(path "/36760d4a-f556-46ce-84f1-a1c51caf80df"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MobiFlight:MountingHole 3.2mm")
+		(at 38.1 175.26 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdfcf70d-2a92-4de5-b855-8ccbed7da72f")
+		(property "Reference" "H2"
+			(at 40.64 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole 3.2mm"
+			(at 40.64 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 38.1 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 38.1 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "7-Segment_V5_2.8_4er"
+				(path "/36760d4a-f556-46ce-84f1-a1c51caf80df"
+					(reference "H2")
 					(unit 1)
 				)
 			)

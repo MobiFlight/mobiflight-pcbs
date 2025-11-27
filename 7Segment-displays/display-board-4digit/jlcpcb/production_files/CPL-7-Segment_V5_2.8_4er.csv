@@ -1,0 +1,4 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,Conn_02x08_Odd_Even,IDC-Header_2x08_P2.54mm_Vertical,95.872627,-59.6,90.0,bottom
+U1,HDSM-443B_CC_2Digit_7Segment_STH,STH_7_2 Digits_0.28_CC,102.873412,-59.653412,0.0,top
+U2,HDSM-443B_CC_2Digit_7Segment_STH,STH_7_2 Digits_0.28_CC,87.582612,-59.653412,0.0,top
