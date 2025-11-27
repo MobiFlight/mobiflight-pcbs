@@ -3537,6 +3537,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C3975153"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f49449bd-9597-48a3-a5d3-b017a7bcfa9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/00000000-0000-0000-0000-00005c671569")
 		(sheetname "/")
