@@ -559,7 +559,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MobiFlight:HDSM-443B_CC_2Digit_7Segment_STH"
+		(symbol "MobiFlight:7Segment 2 digit common cathode STH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -571,7 +571,7 @@
 					)
 				)
 			)
-			(property "Value" "HDSM-443B_CC_2Digit_7Segment_STH"
+			(property "Value" "7Segment 2 digit common cathode STH"
 				(at 0 15.1614 0)
 				(effects
 					(font
@@ -623,7 +623,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "HDSM-443B_CC_2Digit_7Segment_STH_0_1"
+			(symbol "7Segment 2 digit common cathode STH_0_1"
 				(rectangle
 					(start -12.7 13.97)
 					(end 12.7 -11.43)
@@ -1078,7 +1078,7 @@
 					)
 				)
 			)
-			(symbol "HDSM-443B_CC_2Digit_7Segment_STH_1_1"
+			(symbol "7Segment 2 digit common cathode STH_1_1"
 				(pin input line
 					(at -15.24 7.62 0)
 					(length 2.54)
@@ -2251,7 +2251,7 @@
 		(uuid "fda834a6-6b0e-4252-a25a-69a548ed90c8")
 	)
 	(symbol
-		(lib_id "MobiFlight:HDSM-443B_CC_2Digit_7Segment_STH")
+		(lib_id "MobiFlight:7Segment 2 digit common cathode STH")
 		(at 167.64 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2515,7 +2515,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MobiFlight:HDSM-443B_CC_2Digit_7Segment_STH")
+		(lib_id "MobiFlight:7Segment 2 digit common cathode STH")
 		(at 91.44 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)

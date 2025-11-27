@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
+	(title_block
+		(title "7 Segment Display Module, 6 digits")
+		(date "2025-11")
+		(rev "V5.2")
+		(company "MobiFlight")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x08_Odd_Even"
 			(pin_names
@@ -553,27 +559,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Display_Character:7Segment 3 digit CC_STH"
+		(symbol "MobiFlight:7Segment 3 digit common cathode STH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -24.13 13.97 0)
+			(property "Reference" "U1"
+				(at 0 16.6665 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "7Segment 3 digit CC_STH"
-				(at 17.78 13.97 0)
+			(property "Value" "7Segment 3 digit common cathode STH"
+				(at 0 13.8914 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Display_7Segment:CC36-12SURKWA STH"
+			(property "Footprint" "MobiFlight:STH_7_3 Digits_0.28_CC"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -591,13 +597,12 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "4 digit 7 segment hyper red LED, common anode"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "display LED 7-segment"
@@ -618,7 +623,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "7Segment 3 digit CC_STH_0_0"
+			(symbol "7Segment 3 digit common cathode STH_0_0"
 				(rectangle
 					(start -25.4 12.7)
 					(end 25.4 -12.7)
@@ -963,7 +968,7 @@
 					)
 				)
 			)
-			(symbol "7Segment 3 digit CC_STH_0_1"
+			(symbol "7Segment 3 digit common cathode STH_0_1"
 				(circle
 					(center -13.716 -3.81)
 					(radius 0.3556)
@@ -987,7 +992,7 @@
 					)
 				)
 			)
-			(symbol "7Segment 3 digit CC_STH_1_0"
+			(symbol "7Segment 3 digit common cathode STH_1_0"
 				(circle
 					(center 7.62 -4.064)
 					(radius 0.3556)
@@ -1000,7 +1005,7 @@
 					)
 				)
 			)
-			(symbol "7Segment 3 digit CC_STH_1_1"
+			(symbol "7Segment 3 digit common cathode STH_1_1"
 				(pin input line
 					(at -27.94 7.62 0)
 					(length 2.54)
@@ -1145,24 +1150,6 @@
 						)
 					)
 				)
-				(pin free line
-					(at 27.94 6.35 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 27.94 -2.54 180)
 					(length 2.54)
@@ -1215,6 +1202,89 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MobiFlight:MountingHole 3.2mm"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole 3.2mm"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole 3.2mm_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2218,7 +2288,7 @@
 		(uuid "ed030602-ad33-43c6-8797-055c5097d7b0")
 	)
 	(symbol
-		(lib_id "Display_Character:7Segment 3 digit CC_STH")
+		(lib_id "MobiFlight:7Segment 3 digit common cathode STH")
 		(at 205.74 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2228,7 +2298,7 @@
 		(fields_autoplaced yes)
 		(uuid "81d2ee11-627d-4ccc-8398-dc18bb2860f8")
 		(property "Reference" "U2"
-			(at 205.74 16.3535 0)
+			(at 205.74 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2236,14 +2306,14 @@
 			)
 		)
 		(property "Value" "7Segment 3 digit CC_STH"
-			(at 205.74 19.1286 0)
+			(at 205.74 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Display_7Segment:STH_7_3 Digits_0.28_CC"
+		(property "Footprint" "MobiFlight:STH_7_3 Digits_0.28_CC"
 			(at 205.74 48.26 0)
 			(effects
 				(font
@@ -2293,9 +2363,6 @@
 		(pin "5"
 			(uuid "49b6b563-e394-47d5-a80b-bda909a79e26")
 		)
-		(pin "6"
-			(uuid "10c1d7f7-3592-4409-981d-34c0dd7bd758")
-		)
 		(pin "7"
 			(uuid "d7afdb97-a7f1-4179-b6e1-69fa586362bc")
 		)
@@ -2315,7 +2382,71 @@
 		)
 	)
 	(symbol
-		(lib_id "Display_Character:7Segment 3 digit CC_STH")
+		(lib_id "MobiFlight:MountingHole 3.2mm")
+		(at 39.37 135.89 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fc84003-6fdb-4422-b944-649194acaa3c")
+		(property "Reference" "H1"
+			(at 41.91 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole 3.2mm"
+			(at 41.91 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MobiFlight:7Segment 3 digit common cathode STH")
 		(at 78.74 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2325,7 +2456,7 @@
 		(fields_autoplaced yes)
 		(uuid "a29f8df0-3fae-4edf-8d9c-bd5a875b13e3")
 		(property "Reference" "U1"
-			(at 78.74 16.3535 0)
+			(at 78.74 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,14 +2464,14 @@
 			)
 		)
 		(property "Value" "7Segment 3 digit CC_STH"
-			(at 78.74 19.1286 0)
+			(at 78.74 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Display_7Segment:STH_7_3 Digits_0.28_CC"
+		(property "Footprint" "MobiFlight:STH_7_3 Digits_0.28_CC"
 			(at 78.74 48.26 0)
 			(effects
 				(font
@@ -2389,9 +2520,6 @@
 		)
 		(pin "5"
 			(uuid "7afa54c4-2181-41d3-81f7-39efc497ecae")
-		)
-		(pin "6"
-			(uuid "609b9e1b-4e3b-42b7-ac76-a62ec4d0e7c7")
 		)
 		(pin "7"
 			(uuid "e54e5e19-1deb-49a9-8629-617db8e434c0")
@@ -2515,6 +2643,70 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MobiFlight:MountingHole 3.2mm")
+		(at 39.37 144.78 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c750ed6e-4b1d-4a9a-aa2c-d4bfada4ad1f")
+		(property "Reference" "H2"
+			(at 41.91 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole 3.2mm"
+			(at 41.91 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 39.37 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 39.37 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H2")
 					(unit 1)
 				)
 			)
