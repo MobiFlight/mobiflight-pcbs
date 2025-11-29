@@ -16,91 +16,86 @@ This board is optimized especially for **Mobiflight custom devices**, cockpit el
 |---------|--------------|------------------------|
 | MCU | ATmega328P (8-bit AVR) | RP2350A Dual-Core ARM Cortex-M33 |
 | Clock Speed | 16 MHz | **up to 150 MHz** |
-| Flash | 32 KB | **2 MB on-chip** |
+| Flash | 32 KB | **2 MB** |
 | RAM | 2 KB | **520 KB** |
 | USB | Mini-USB | **USB-C native** |
-| Bootloader | Reset double-tap | **Dedicated BOOT button** |
+| Bootloader | Double-tap reset | **BOOTSEL button** |
 | Logic Voltage | 5V | **3.3V with 5V-tolerant I/O** |
 | Analog Inputs | 8 | 4 (A0–A3) |
-| PWM Outputs | 6 | **16+** |
-| Interfaces | 1×I²C, 1×SPI, 1×UART | Multiple independent channels |
-| Mobiflight | Supported | **Fully supported / custom device ready** |
+| PWM | 6 | **16+** |
+| Mobiflight | Supported | **Fully supported** |
 
 ---
 
 ## ⭐ Highlights
 
-- **Full dual-core 150 MHz processing performance**
-- **Large memory**, ideal for OLED and multitasking display projects
-- **5V-tolerant GPIO**, perfect migration from Nano
-- **USB-C & Boot button** for easy flashing
+- **Massive performance boost** vs. Arduino Nano
+- **Large memory**, ideal for displays and custom scripts
+- **5V-tolerant GPIO**, ideal migration from Nano
+- **USB-C + Boot button**
 - **All pins available on dual header layout**
-- Runs **Mobiflight, CircuitPython, MicroPython and C/C++**
+- Runs **Mobiflight, MicroPython, CircuitPython, C/C++**
 
 ---
 
-## ⚡ Why PicoNano works so well with Mobiflight custom devices
+## ⚡ Why PicoNano is ideal for Mobiflight custom devices
 
-- Community cockpit modules often require:
-  - More RAM and Flash
-  - Higher-speed SPI / I²C
-  - Multiple displays (e.g., **SSD1306 OLED**, MAX7219 LED matrices)
-- Eliminates typical limitations of Arduino Nano (out-of-memory, flickering, very slow text rendering)
-- Extremely fast and stable with large display chains and LED drivers
+- More memory and speed for large device scripts
+- Smooth handling of multiple **OLED** displays
+- Great performance with **MAX7219 LED segments**
+- Eliminates low-RAM crashes and slow rendering familiar on Nano
 
 ---
 
 ## ⚠ Compatibility Limitations
 
-| Limitation | Explanation |
-|-----------|-------------|
-| Only 4 analog inputs | A0–A3 available; more require expansion IC |
-| 3.3V logic output | 5V-tolerant input but cannot source high-current loads |
-| External 5V recommended for LED drivers | e.g. MAX7219, LED modules |
-| Level shifting required for 5V digital peripherals | use BSS138-based modules |
+| Limitation | Detail |
+|-----------|--------|
+| Only 4 analog inputs | A0–A3 |
+| 3.3V logic | 5V-tolerant input, but cannot drive high-current |
+| External 5V recommended | for displays / LED drivers |
+| Level shifting required for 5V logic devices | e.g. MAX7219 |
 
 ---
 
 ## 🔌 Example Wiring — MAX7219 with PicoNano (via Level Shifter)
 
-PicoNano (RP2350A) → MAX7219 (via BSS138 Level Shifter)
--------------------------------------------------------
+**Signal connections**
+| PicoNano Pin | MAX7219 |
+|--------------|---------|
+| Pin 22 | DIN |
+| Pin 23 | CLK |
+| Pin 24 | CS |
+| Pin 25 | LOAD |
 
-Pin 22  → DIN
-Pin 23  → CLK
-Pin 24  → CS
-Pin 25  → LOAD
+**Power**
+| PicoNano / External | MAX7219 |
+|---------------------|----------|
+| 5V (Vin / USB 5V) | VCC |
+| GND | GND (shared) |
 
-Power:
-MAX7219 VCC → 5V External Supply or USB 5V (Vin)
-GND         → GND (shared with PicoNano)
+---
 
 ## Important Notes
 
-Use a BSS138-based bidirectional level shifter (MAX7219 requires 5V logic).
+- Use a **BSS138-based bidirectional level shifter** (MAX7219 requires **5V logic**)
+- MAX7219 must be powered from **5V**, not 3.3V
+- Pins **22–25** are suited for level-shifted SPI routing
+- Level shifters **cannot** supply high current → not suitable for LED strips, relays
 
-The MAX7219 must be powered from 5V, not 3.3V.
-
-Pins 22–25 are well-suited for level-shifted SPI routing.
-
-Level shifters cannot source high current → not suitable for LED strips, relays, or high-load devices.
+---
 
 ## 📦 Summary
 
-The PicoNano brings the familiar Nano format into the modern era:
+The **PicoNano** brings the Nano format into the modern age:
+- Huge performance & memory improvement
+- Ideal for Mobiflight custom devices
+- Perfect for display-heavy avionics panels
+- Fully breadboard friendly
 
-Massive processing headroom and memory
-
-Perfect match for Mobiflight custom device development
-
-Ideal for display-based avionics panels
-
-Fully breadboard-friendly
+---
 
 ## 🛠 Coming soon
-
-Pinout graphic (PNG + printable PDF)
-
-Wiring diagrams as images
-
-Board rendering + enclosure STL
+- Pinout graphic (PNG + PDF)
+- Wiring diagram image
+- Board render + enclosure STL
