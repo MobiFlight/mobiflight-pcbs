@@ -2358,7 +2358,7 @@
 		(layer "Edge.Cuts")
 		(uuid "ecd7cc35-c62f-4821-b112-dd5f689c7683")
 	)
-	(gr_text "MobiFlight Display System 2.8mm ${REVISION}"
+	(gr_text "MobiFlight Display System 5 Digits ${REVISION}"
 		(at 97.6084 61.5254 0)
 		(layer "F.SilkS")
 		(uuid "7f34b5b2-ee3d-4697-be45-f73e198e75ed")
