@@ -2030,16 +2030,16 @@
 		(layer "Edge.Cuts")
 		(uuid "eaa60bd3-3fe7-4968-bff3-896b9934b3be")
 	)
-	(gr_text "MobiFlight\nDisplay\nSystem\n2.8mm\n${REVISION}"
-		(at 121.158 60.96 0)
+	(gr_text "MobiFlight Display System 3 Digits ${REVISION}"
+		(at 116.16 59.38 0)
 		(layer "B.SilkS")
-		(uuid "75eb05e0-0a6f-4adc-ae16-0be4022c4fa5")
+		(uuid "3a7b9ea6-befb-4ec9-8207-60300f79e053")
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.125)
+				(thickness 0.15)
 			)
-			(justify mirror)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
