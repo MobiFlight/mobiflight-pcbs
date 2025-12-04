@@ -9,8 +9,8 @@
 	(paper "A5")
 	(title_block
 		(title "7 Segment Display Module, 6 digits")
-		(date "2025-11")
-		(rev "V5.2")
+		(date "2025-12")
+		(rev "V6.0")
 		(company "MobiFlight")
 	)
 	(layers
@@ -1325,7 +1325,7 @@
 	(footprint "MobiFlight:MobiFlight-Logo-Small"
 		(layer "B.Cu")
 		(uuid "93026a43-7a27-4a25-ae55-965009efb79c")
-		(at 114.09 61.43 180)
+		(at 112.52 63.95 180)
 		(property "Reference" "G2"
 			(at 0 0 0)
 			(layer "B.SilkS")
