@@ -52,13 +52,7 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -193,11 +187,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.2,
-        0.25
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -224,12 +214,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -475,7 +460,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "7-Segment_V5_4er.kicad_pro",
+    "filename": "3-digits.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -513,7 +498,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "7-Segment_V5_2.8_4er.dsn",
+      "specctra_dsn": "7-Segment_V5_2.8_3er.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
@@ -645,7 +630,7 @@
   },
   "sheets": [
     [
-      "36760d4a-f556-46ce-84f1-a1c51caf80df",
+      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       "Root"
     ]
   ],
