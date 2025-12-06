@@ -7,7 +7,7 @@
 	(title_block
 		(title "7-Segment Display Module 0.36, 3 Digits")
 		(date "2025-12")
-		(rev "V5.1")
+		(rev "V5.2")
 		(company "MobiFlight")
 		(comment 1 "P.L.+S.H.")
 	)
