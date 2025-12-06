@@ -5,9 +5,9 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A5")
 	(title_block
-		(title "7-Segment Display Module, 3 Digits")
+		(title "7-Segment Display Module 0.28, 3 Digits")
 		(date "2025-12")
-		(rev "V6.0")
+		(rev "V5.2")
 		(company "MobiFlight")
 	)
 	(lib_symbols

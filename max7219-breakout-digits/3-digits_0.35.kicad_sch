@@ -5,7 +5,7 @@
 	(uuid "e12e827e-36be-4503-8eef-6fc7e8bc5d49")
 	(paper "A5")
 	(title_block
-		(title "7-Segment Display Module, 3 Digits")
+		(title "7-Segment Display Module 0.35, 3 Digits")
 		(date "2025-12")
 		(rev "V5.1")
 		(company "MobiFlight")
@@ -560,11 +560,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MobiFlight:7Segment 3 digit common cathode STH"
+		(symbol "MobiFlight:7Segment 3 digit 0.35 common cathode STH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
+			(property "Reference" "U2"
 				(at 4.572 15.875 0)
 				(effects
 					(font
@@ -572,7 +572,7 @@
 					)
 				)
 			)
-			(property "Value" "7Segment 3 digit common cathode STH"
+			(property "Value" "7Segment 3 digit 0.35 common cathode STH"
 				(at 4.572 13.5636 0)
 				(effects
 					(font
@@ -580,7 +580,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Display_7Segment:SP42056STH"
+			(property "Footprint" "MobiFlight:STH_7_3 Digits_0.35_CC"
 				(at 3.556 -19.304 0)
 				(effects
 					(font
@@ -615,7 +615,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "7Segment 3 digit common cathode STH_0_1"
+			(symbol "7Segment 3 digit 0.35 common cathode STH_0_1"
 				(rectangle
 					(start -13.208 11.684)
 					(end 22.352 -16.764)
@@ -1165,7 +1165,7 @@
 					)
 				)
 			)
-			(symbol "7Segment 3 digit common cathode STH_1_1"
+			(symbol "7Segment 3 digit 0.35 common cathode STH_1_1"
 				(pin input line
 					(at -15.748 9.144 0)
 					(length 2.54)
@@ -1952,7 +1952,7 @@
 		(uuid "c1d83899-e380-49f9-a87d-8e78bc089ebf")
 	)
 	(symbol
-		(lib_id "MobiFlight:7Segment 3 digit common cathode STH")
+		(lib_id "MobiFlight:7Segment 3 digit 0.35 common cathode STH")
 		(at 71.628 44.704 0)
 		(unit 1)
 		(exclude_from_sim no)

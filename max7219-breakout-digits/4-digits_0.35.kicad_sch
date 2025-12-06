@@ -5,9 +5,9 @@
 	(uuid "8421e1b0-84ae-4b84-b056-bfca466bca8d")
 	(paper "A5")
 	(title_block
-		(title "7 Segment 4 Digits")
+		(title "7-Segment Display Module 0.35, 4 Digits")
 		(date "2025-12")
-		(rev "V5.1")
+		(rev "V5.2")
 		(company "MobiFlight")
 		(comment 1 "P.L.+S.H+")
 	)
@@ -560,27 +560,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MobiFlight:7Segment 2 digit common cathode STH"
+		(symbol "MobiFlight:7Segment 2 digit 0.35 common cathode STH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U1"
-				(at 0 17.9365 0)
+				(at 0 16.9418 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "7Segment 2 digit common cathode STH"
-				(at 0 15.1614 0)
+			(property "Value" "7Segment 2 digit 0.35 common cathode STH"
+				(at 0 14.6304 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "MobiFlight:STH_7_2 Digits_0.35_CC"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -590,7 +590,7 @@
 				)
 			)
 			(property "Datasheet" "https://docs.broadcom.com/docs/AV02-1589EN"
-				(at -2.54 16.51 0)
+				(at -5.588 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -606,15 +606,6 @@
 					)
 				)
 			)
-			(property "ki_keywords" "display LED 7-segment"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "ki_fp_filters" "*HDSM*441B*"
 				(at 0 0 0)
 				(effects
@@ -624,10 +615,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "7Segment 2 digit common cathode STH_0_1"
+			(symbol "7Segment 2 digit 0.35 common cathode STH_0_1"
 				(rectangle
-					(start -12.7 13.97)
-					(end 12.7 -11.43)
+					(start -12.7 12.7)
+					(end 12.7 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1079,7 +1070,7 @@
 					)
 				)
 			)
-			(symbol "7Segment 2 digit common cathode STH_1_1"
+			(symbol "7Segment 2 digit 0.35 common cathode STH_1_1"
 				(pin input line
 					(at -15.24 7.62 0)
 					(length 2.54)
@@ -1090,7 +1081,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1108,7 +1099,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1126,7 +1117,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1144,7 +1135,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1162,7 +1153,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1180,7 +1171,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1198,7 +1189,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1216,7 +1207,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1234,7 +1225,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1252,7 +1243,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2172,7 +2163,7 @@
 		(uuid "fb4e3c4b-cfba-4e53-8fc5-e5aaf7886bf3")
 	)
 	(symbol
-		(lib_id "MobiFlight:7Segment 2 digit common cathode STH")
+		(lib_id "MobiFlight:7Segment 2 digit 0.35 common cathode STH")
 		(at 66.04 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2206,7 +2197,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-1589EN"
-			(at 63.5 20.32 0)
+			(at 60.452 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +2253,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MobiFlight:7Segment 2 digit common cathode STH")
+		(lib_id "MobiFlight:7Segment 2 digit 0.35 common cathode STH")
 		(at 142.24 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2286,7 +2277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Display_7Segment:SN42056STH"
+		(property "Footprint" "MobiFlight:STH_7_2 Digits_0.35_CC"
 			(at 142.24 52.07 0)
 			(effects
 				(font
@@ -2296,7 +2287,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-1589EN"
-			(at 139.7 20.32 0)
+			(at 136.652 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
