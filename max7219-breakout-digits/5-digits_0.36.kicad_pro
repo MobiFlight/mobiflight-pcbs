@@ -461,7 +461,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "3-digits_0.35.kicad_pro",
+    "filename": "5-digits_0.36.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -496,11 +496,11 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "7-Segment_V5_3er.net",
+      "netlist": "7-Segment_V5_5er.net",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "7-Segment_V5_3er.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -570,24 +570,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -643,7 +631,7 @@
   },
   "sheets": [
     [
-      "e12e827e-36be-4503-8eef-6fc7e8bc5d49",
+      "06987888-28c9-4d7f-bfaf-5ac3d53221b4",
       "Root"
     ]
   ],

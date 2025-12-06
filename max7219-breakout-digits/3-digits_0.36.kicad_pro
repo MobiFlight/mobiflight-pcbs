@@ -119,6 +119,8 @@
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
+      "rule_severitieslegacy_courtyards_overlap": true,
+      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
@@ -459,7 +461,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "4-digits_0.35.kicad_pro",
+    "filename": "3-digits_0.36.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -494,11 +496,11 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "7-Segment_V5_3er.net",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "7-Segment_V5_3er.step",
       "svg": "",
       "vrml": ""
     },
@@ -568,12 +570,24 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -629,7 +643,7 @@
   },
   "sheets": [
     [
-      "8421e1b0-84ae-4b84-b056-bfca466bca8d",
+      "e12e827e-36be-4503-8eef-6fc7e8bc5d49",
       "Root"
     ]
   ],
