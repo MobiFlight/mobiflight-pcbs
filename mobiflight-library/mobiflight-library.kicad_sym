@@ -1083,7 +1083,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "7Segment 2 digit 0.35 common cathode STH"
+	(symbol "7Segment 2 digit 0.36 common cathode STH"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1095,7 +1095,7 @@
 				)
 			)
 		)
-		(property "Value" "7Segment 2 digit 0.35 common cathode STH"
+		(property "Value" "7Segment 2 digit 0.36 common cathode STH"
 			(at 0 14.6304 0)
 			(effects
 				(font
@@ -1103,7 +1103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MobiFlight:STH_7_2 Digits_0.35_CC"
+		(property "Footprint" "MobiFlight:STH_7_2 Digits_0.36_CC"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -1138,7 +1138,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "7Segment 2 digit 0.35 common cathode STH_0_1"
+		(symbol "7Segment 2 digit 0.36 common cathode STH_0_1"
 			(rectangle
 				(start -12.7 12.7)
 				(end 12.7 -12.7)
@@ -1593,7 +1593,7 @@
 				)
 			)
 		)
-		(symbol "7Segment 2 digit 0.35 common cathode STH_1_1"
+		(symbol "7Segment 2 digit 0.36 common cathode STH_1_1"
 			(pin input line
 				(at -15.24 7.62 0)
 				(length 2.54)
@@ -2602,7 +2602,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "7Segment 3 digit 0.35 common cathode STH"
+	(symbol "7Segment 3 digit 0.36 common cathode STH"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2614,7 +2614,7 @@
 				)
 			)
 		)
-		(property "Value" "7Segment 3 digit 0.35 common cathode STH"
+		(property "Value" "7Segment 3 digit 0.36 common cathode STH"
 			(at 4.572 13.5636 0)
 			(effects
 				(font
@@ -2622,7 +2622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MobiFlight:STH_7_3 Digits_0.35_CC"
+		(property "Footprint" "MobiFlight:STH_7_3 Digits_0.36_CC"
 			(at 3.556 -19.304 0)
 			(effects
 				(font
@@ -2657,7 +2657,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "7Segment 3 digit 0.35 common cathode STH_0_1"
+		(symbol "7Segment 3 digit 0.36 common cathode STH_0_1"
 			(rectangle
 				(start -13.208 11.684)
 				(end 22.352 -16.764)
@@ -3207,7 +3207,7 @@
 				)
 			)
 		)
-		(symbol "7Segment 3 digit 0.35 common cathode STH_1_1"
+		(symbol "7Segment 3 digit 0.36 common cathode STH_1_1"
 			(pin input line
 				(at -15.748 9.144 0)
 				(length 2.54)
