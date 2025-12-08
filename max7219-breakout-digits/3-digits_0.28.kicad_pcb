@@ -1397,7 +1397,7 @@
 			(at 1.27 6.1 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "5ea35ad5-5e71-4659-a3e8-cff99e438238")
+			(uuid "8ee6992b-39e8-44f6-b963-9591f86e925e")
 			(effects
 				(font
 					(size 1 1)
@@ -1410,7 +1410,7 @@
 			(at 1.27 -23.88 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2a3fea63-03cd-422d-a035-c25fd868c374")
+			(uuid "ee6e5f14-7832-45ae-85d2-62cafdba8097")
 			(effects
 				(font
 					(size 1 1)
@@ -1423,7 +1423,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "884786c7-b953-4055-917c-e4c9fc6b56d9")
+			(uuid "c15f892a-67c4-4795-a1d6-11e3b473f759")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,7 +1436,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a2da2841-efa5-4281-b61b-0c521116a954")
+			(uuid "215a6e92-2a6f-48e2-b12e-ab953cb43003")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,6 +2069,30 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "eaa60bd3-3fe7-4968-bff3-896b9934b3be")
+	)
+	(gr_text "Display"
+		(at 122.15 66.74 90)
+		(layer "F.SilkS" knockout)
+		(uuid "52205a9d-eb5b-4b17-a217-5d3dec924529")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "IDC"
+		(at 98.6 61.35681 90)
+		(layer "B.SilkS" knockout)
+		(uuid "13c32b08-9dc0-45d8-ae41-a519f23d8c87")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(gr_text "MobiFlight Display System 3 Digits ${REVISION}"
 		(at 116.16 59.38 0)

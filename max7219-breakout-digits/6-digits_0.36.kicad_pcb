@@ -1964,7 +1964,7 @@
 		(descr "Through hole IDC box header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
 		(tags "Through hole vertical IDC box header THT 2x08 2.54mm double row")
 		(property "Reference" "J1"
-			(at 1.27 6.1 270)
+			(at 1.27 6.1 90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "0f0d2089-7eab-467c-85b8-272bb3c58b99")
@@ -1977,8 +1977,9 @@
 			)
 		)
 		(property "Value" "Conn_02x08_Odd_Even"
-			(at 1.27 -23.88 270)
+			(at 1.27 -23.88 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "ecea9562-3834-4f9c-8b72-194e1119dc17")
 			(effects
 				(font
@@ -1989,7 +1990,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7cfb97aa-77a6-42a5-bcea-0285ffad99e0")
@@ -2001,7 +2002,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9ceff38b-d36d-46a3-987e-ff8611e90769")
@@ -3200,6 +3201,18 @@
 		(layer "Edge.Cuts")
 		(uuid "ff4f2e2f-b148-4552-8eee-1bf5b2048c09")
 	)
+	(gr_text "Displays"
+		(at 93.64 68.723239 90)
+		(layer "F.SilkS" knockout)
+		(uuid "c13cb1d0-1849-422e-ad10-8193c5e55da6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "P.L.+S.H."
 		(at 135.3741 59.003 0)
 		(layer "B.SilkS")
@@ -3222,6 +3235,18 @@
 				(thickness 0.25)
 			)
 			(justify mirror)
+		)
+	)
+	(gr_text "IDC"
+		(at 104.531727 63.347293 90)
+		(layer "B.SilkS" knockout)
+		(uuid "e462e2cd-5c3a-48eb-9ee0-85655197e3b5")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment

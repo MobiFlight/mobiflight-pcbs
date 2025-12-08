@@ -2417,6 +2417,30 @@
 		(layer "Edge.Cuts")
 		(uuid "ecd7cc35-c62f-4821-b112-dd5f689c7683")
 	)
+	(gr_text "Displays"
+		(at 114.25 70.245639 90)
+		(layer "F.SilkS" knockout)
+		(uuid "d289f624-3ca3-4316-b5fd-be88b2073d2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "IDC"
+		(at 86.001394 64.363615 90)
+		(layer "B.SilkS" knockout)
+		(uuid "4e1f164c-9152-4b06-85b4-8387c6833169")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "MobiFlight Display System 5 Digits ${REVISION}"
 		(at 96.1084 61.58 0)
 		(layer "B.SilkS")
