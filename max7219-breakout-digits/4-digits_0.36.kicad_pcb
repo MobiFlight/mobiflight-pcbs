@@ -2489,6 +2489,18 @@
 		(layer "Edge.Cuts")
 		(uuid "f24b66b4-45fc-4e7b-bc4d-d13b5ccb77d9")
 	)
+	(gr_text "Displays"
+		(at 82.5 62.317839 90)
+		(layer "F.SilkS" knockout)
+		(uuid "2f671aea-ef84-4990-afab-acace1de19e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "P.L.+S.H."
 		(at 105.956 55.6256 0)
 		(layer "F.SilkS")
@@ -2510,6 +2522,18 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
+		)
+	)
+	(gr_text "IDC"
+		(at 85.17 56.44641 90)
+		(layer "B.SilkS" knockout)
+		(uuid "d77d6c7e-3196-4d34-ad35-36b56af2e36b")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment

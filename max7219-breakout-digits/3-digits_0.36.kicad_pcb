@@ -1410,6 +1410,7 @@
 		(property "Reference" "J1"
 			(at 1.5494 4.6228 270)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "db4a7b46-ced8-4a37-ab6a-b53627a3b77d")
 			(effects
 				(font
@@ -1422,6 +1423,7 @@
 		(property "Value" "Conn_02x08_Odd_Even"
 			(at 1.27 -23.88 270)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "30243030-2032-4470-bc0e-12eeb836a6d3")
 			(effects
 				(font
@@ -2149,6 +2151,18 @@
 			)
 		)
 	)
+	(gr_text "Display"
+		(at 117.15 60.315477 90)
+		(layer "F.SilkS" knockout)
+		(uuid "0de9b811-071f-45ef-957b-fd9ab2eb1b73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "MobiFlight Display System 3 Digits ${REVISION}"
 		(at 104.5 63.969551 0)
 		(layer "B.SilkS")
@@ -2159,6 +2173,18 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
+		)
+	)
+	(gr_text "IDC"
+		(at 93.106267 57.5 270)
+		(layer "B.SilkS" knockout)
+		(uuid "ecf63f30-3f08-49e4-be33-7274c0558e30")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
 		)
 	)
 	(segment
