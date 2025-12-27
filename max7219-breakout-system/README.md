@@ -88,7 +88,7 @@ The pins that are connected to pins on the MobiFlight board.
 
 ## MobiFlight Configuration
 ### Device configuration
-See [general documentation for more information](https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#7-segment-modules) on how to configure the 7-segment displays.
+See [general documentation for more information](https://docs.mobiflight.com/devices/seven-segment-display/configuring-output/) on how to configure the 7-segment displays.
 
 ### Output config
 
