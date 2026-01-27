@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "mobiflight-library")(type "KiCad")(uri "D:/projects/mobiflight-pcbs/mobiflight-library/mobiflight-library.pretty")(options "")(descr ""))
+)
