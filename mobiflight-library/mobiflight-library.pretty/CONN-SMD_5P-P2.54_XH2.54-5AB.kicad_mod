@@ -161,8 +161,8 @@
 		(uuid "1b763a81-6d62-444a-8231-553ea9bdcfd6")
 	)
 	(fp_circle
-		(center -7.7 4.4)
-		(end -7.4 4.4)
+		(center -6.54 2.04)
+		(end -6.24 2.04)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -170,17 +170,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "2eb13d9a-efca-4d3a-9550-e7e3c641592a")
-	)
-	(fp_circle
-		(center -5.4 4.6)
-		(end -5.15 4.6)
-		(stroke
-			(width 0.5)
-			(type solid)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "615541d5-d1b2-4095-9d88-5a58ff4db196")
 	)
 	(fp_circle
 		(center -8.75 3.42)
