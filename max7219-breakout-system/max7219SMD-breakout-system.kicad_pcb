@@ -10,7 +10,7 @@
 	(title_block
 		(title "MAX7219 Breakout System")
 		(date "2026-02")
-		(rev "3.0")
+		(rev "3.0.1")
 		(company "MobiFlight")
 	)
 	(layers
