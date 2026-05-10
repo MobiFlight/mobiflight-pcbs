@@ -27,13 +27,13 @@ Left pin is Ground, right pin is VCC.
 ### LEDs 1 - 6
 All LEDs are using PWM enabled pins and can be dimmed in MobiFlight.
 It is recommended to add an apropriate resistor for you LED. 
-More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#led--output
+[More information about LED output devices](https://docs.mobiflight.com/devices/led/).
 
 Left pin is Ground, right pin is VCC.
 
 ### Switch 1 - 5 (On-On)
 Connector is designed for On-On switches, two or three position switches.
-More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#buttons-and-switches
+[More information about buttons and switches](https://docs.mobiflight.com/devices/button-switch/).
 
 * Left pin is GND
 * middle pin is Button 1 
@@ -41,7 +41,7 @@ More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-
 
 ### Switch 6 - 10 (On-On)
 Connector is designed for On-On switches, two or three position switches.
-More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#buttons-and-switches
+[More information about buttons and switches](https://docs.mobiflight.com/devices/button-switch/).
 
 * left pin is GND,
 * middle pin is Button 1, 
@@ -49,7 +49,7 @@ More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-
 
 ### 7-Segment 1
 Connect a 7219MAX-chip based board to this pin.
-More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#7-segment-modules
+[More information about 7-segment displays](https://docs.mobiflight.com/devices/seven-segment-display/).
 
 * 1st pin GND,
 * 2nd pin VCC,
@@ -59,7 +59,7 @@ More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-
 
 ### Encoder 1-4
 Connect a Encoder with Push Button function.
-More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#encoders
+[More information about rotary encoders](https://docs.mobiflight.com/devices/encoder/).
 
 * 1st pin GND
 * 2nd pin Left Pin (A)
@@ -70,7 +70,7 @@ More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-
 
 ### Pot 1 - 3
 Connect a Potentiometer or other analog input device.
-More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#analog-inputs
+[More information about potentiometers](https://docs.mobiflight.com/devices/potentiometer/).
 
 * 1st pin GND
 * 2nd pin Signal
@@ -78,7 +78,7 @@ More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-
 
 ### Shift-Register 1-2
 Connect an output shift register.
-More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#output-shift-registers
+[More information about output shift registers](https://docs.mobiflight.com/devices/output-shift-register/).
 
 * 1st pin GND
 * 2nd pin VCC
@@ -87,14 +87,14 @@ More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-
 * 5th pin SPI (Data)
 
 ### Servo 1-2
-Connect a servo. More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#servos-motors
+Connect a servo. [More information about servos](https://docs.mobiflight.com/devices/servo/).
 
 * 1st pin GND 
 * 2nd pin VCC
 * 3rd pin DIN
 
 ### Stepper 1-2
-Connect a stepper. More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#stepper-motors
+Connect a stepper. [More information about stepper motors](https://docs.mobiflight.com/devices/stepper-motor/).
 
 * 1st pin GND
 * 2nd pin VCC
@@ -106,7 +106,7 @@ Connect a stepper. More information: https://github.com/MobiFlight/MobiFlight-Co
 Use an additional button pin for the Auto-Zero function.
 
 ### LCD Display 1-2
-Connect a LCD Display. More information: https://github.com/MobiFlight/MobiFlight-Connector/wiki/Input-and-Output-devices#lcd-displays
+Connect a LCD Display. [More information about LCD displays](https://docs.mobiflight.com/devices/lcd/).
 
 * 1st pin GND
 * 2nd pin VCC
