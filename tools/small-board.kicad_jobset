@@ -39,7 +39,7 @@
       "type": "pcb_export_3d"
     },
     {
-      "description": "Render PNG top",
+      "description": "Render top side as PNG",
       "id": "b05509a4-3ee6-4e5a-92db-384e42056b9c",
       "settings": {
         "anti_alias": true,
@@ -69,7 +69,7 @@
           0.0,
           0.0
         ],
-        "output_filename": "dual-encoder-board-top.png",
+        "output_filename": "${PROJECTNAME}-top.png",
         "pan_x": 0.0,
         "pan_y": 0.0,
         "pan_z": 0.0,
@@ -81,9 +81,9 @@
         "preset": "",
         "procedural_textures": true,
         "quality": "basic",
-        "rotation_x": -45.0,
+        "rotation_x": -10.0,
         "rotation_y": 0.0,
-        "rotation_z": -15.0,
+        "rotation_z": 5.0,
         "side": "top",
         "use_board_stackup_colors": true,
         "variant": "",
@@ -93,7 +93,7 @@
       "type": "pcb_render"
     },
     {
-      "description": "Render PNG bottom",
+      "description": "Render bottom side as PNG",
       "id": "aec91b92-ef80-4dee-97ad-51baaa439f22",
       "settings": {
         "anti_alias": true,
@@ -123,7 +123,7 @@
           0.0,
           0.0
         ],
-        "output_filename": "dual-encoder-board-bottom.png",
+        "output_filename": "${PROJECTNAME}-bottom.png",
         "pan_x": 0.0,
         "pan_y": 0.0,
         "pan_z": 0.0,
@@ -156,7 +156,7 @@
         "drawing_sheet": "",
         "format": "pdf",
         "min_pen_width": 847,
-        "output_filename": "rotary-switch-board.pdf",
+        "output_filename": "${PROJECTNAME}-schematic.pdf",
         "page_size": "auto",
         "pdf_hierarchical_links": true,
         "pdf_metadata": true,
