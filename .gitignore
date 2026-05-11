@@ -6,3 +6,6 @@
 */jlcpcb
 *.wrl
 *.bak
+
+~*.lck
+_autosave*
