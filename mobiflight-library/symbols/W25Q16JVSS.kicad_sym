@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm"
+		(property "Footprint" "MobiFlight:Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
