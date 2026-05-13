@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Value" "JST-XH_02_Pin_vertical"
+		(property "Value" "JST-XH_02_Pin_vertical_red"
 			(at 0 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32,7 +32,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "MobiFlight:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical_red"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
