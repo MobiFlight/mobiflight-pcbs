@@ -55,8 +55,6 @@
 		)
 	)
 	(property ki_fp_filters "SWITCH_SR16*")
-	(sheetname "/")
-	(sheetfile "rotary-switch-board.kicad_sch")
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.890051 7.102462)
