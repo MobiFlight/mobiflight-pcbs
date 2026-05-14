@@ -1,5 +1,5 @@
 # MobiFlight Library
-This library contains some symbols and footprints used by the pcb designs in the mobiflight-pcbs repository. It requires [KiCad](https://www.kicad.org/) version 10 or later.
+This library contains some symbols and footprints used by the PCB designs in the mobiflight-pcbs repository. It requires [KiCad](https://www.kicad.org/) version 10 or later.
 
 To use this library, it needs to be added to your KiCad library tables.
 
