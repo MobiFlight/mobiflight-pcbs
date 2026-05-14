@@ -4,12 +4,12 @@ To use this library, create a new environment variable "KICAD_MOBIFLIGHT_LIBRARY
 ![image](path_library.png)
 
 # Symbols
-Open the Symbol-Editor and add a Symbol Library, name this library `MobiFlight` and navigate to the path `mobiflight-library.kicad_sym` which is in the folder `mobiflight-pcbs/mobiflight-library`.
+Open the Symbol-Editor and add a Symbol Library folder (press the down-arrow next to the folder icon) and choose *KiCad (Folder with .kicad_sym files)*, name this library `MobiFlight` and navigate to the folder `mobiflight-pcbs/mobiflight-library/symbols`.
 
 ![image](path_symbol_library.png)
 
 # Footprints
 
-Open the Footprint-Editor and add a Footprint Library, name this library `MobiFlight` and navigate to the path `mobiflight-library.pretty` which is in the folder `mobiflight-pcbs/mobiflight-library`.
+Open the Footprint-Editor and add a Footprint Library, name this library `MobiFlight` and navigate to the folder `mobiflight-pcbs/mobiflight-library/footprints`.
 
 ![image](path_footprint_library.png)
