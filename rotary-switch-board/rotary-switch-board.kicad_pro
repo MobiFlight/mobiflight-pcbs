@@ -557,7 +557,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "potentiometer-board.step",
+      "step": "rotary-switch-board.step",
       "svg": "",
       "vrml": ""
     },
