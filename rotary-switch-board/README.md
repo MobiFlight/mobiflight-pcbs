@@ -2,7 +2,7 @@
 
 This module uses the "SR16" rotary switch that can be found in 2 to 8 position variants, with 45 degree rotation between positions.
 
-![image](kicad-board-exports\rotary-switch-board-top.png)
+![image](kicad-board-exports/rotary-switch-board-top.png)
 
 The board has a resistor ladder and should be wired to an analog input like it was in the potentiometer. Each switch position will have a fixed analog value.
 
