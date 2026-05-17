@@ -18,7 +18,7 @@
 			(justify right)
 		)
 	)
-	(property "Value" "SW_SPST"
+	(property "Value" "SW_SPDT"
 		(at 0 12.065 180)
 		(layer "F.Fab")
 		(hide yes)
