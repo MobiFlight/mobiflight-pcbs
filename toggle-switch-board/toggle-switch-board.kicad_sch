@@ -1445,7 +1445,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "SW_SPDT"
 			(at 49.53 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
