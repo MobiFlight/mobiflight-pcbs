@@ -64,18 +64,7 @@
 		(symbol "PicoMega_0_1"
 			(rectangle
 				(start -43.18 26.162)
-				(end -20.32 -15.494)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -6.35 -35.56)
-				(end 5.588 -24.638)
+				(end -20.32 -17.78)
 				(stroke
 					(width 0)
 					(type default)
@@ -86,7 +75,7 @@
 			)
 			(rectangle
 				(start 20.32 26.162)
-				(end 43.18 -15.24)
+				(end 43.18 -17.78)
 				(stroke
 					(width 0)
 					(type default)
@@ -637,10 +626,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at -43.18 -13.97 0)
 				(length 2.54)
-				(name "GND"
+				(name "D22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -655,10 +644,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at -20.32 -13.97 180)
 				(length 2.54)
-				(name "GND"
+				(name "D23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -674,9 +663,9 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -35.56 90)
+				(at -43.18 -16.51 0)
 				(length 2.54)
-				(name "D22_LS"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -692,9 +681,9 @@
 				)
 			)
 			(pin power_in line
-				(at -1.27 -35.56 90)
+				(at -20.32 -16.51 180)
 				(length 2.54)
-				(name "D23_LS"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -710,9 +699,9 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -35.56 90)
+				(at 20.32 -16.51 0)
 				(length 2.54)
-				(name "D24_LS"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -728,9 +717,9 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 -35.56 90)
+				(at 43.18 -16.51 180)
 				(length 2.54)
-				(name "D25_LS"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -745,10 +734,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 20.32 -13.97 0)
 				(length 2.54)
-				(name "GND"
+				(name "D24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -763,10 +752,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 43.18 -13.97 180)
 				(length 2.54)
-				(name "GND"
+				(name "D25"
 					(effects
 						(font
 							(size 1.27 1.27)
