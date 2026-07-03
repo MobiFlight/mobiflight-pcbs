@@ -8,10 +8,10 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "RP2350B QFN-80 Minimal Design Example")
-		(date "2024-07-04")
-		(rev "REV3")
-		(company "Raspberry Pi Ltd")
+		(title "PicoMega")
+		(date "2026-07-03")
+		(rev "REV0")
+		(company "MobiFlight")
 	)
 	(layers
 		(0 "F.Cu" signal)

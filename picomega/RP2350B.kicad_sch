@@ -8507,6 +8507,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 49.53 114.3 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8609,6 +8610,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 49.53 124.46 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8710,6 +8712,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 43.18 127 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8786,6 +8789,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 92.71 38.735 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8862,6 +8866,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 92.71 78.74 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8940,6 +8945,7 @@
 		)
 		(property "Description" "Resistor"
 			(at 78.74 49.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9031,6 +9037,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 113.03 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9132,6 +9139,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 113.03 57.785 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9208,6 +9216,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 266.7 222.25 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9484,6 +9493,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 243.84 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9560,6 +9570,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 252.73 39.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9637,6 +9648,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 284.48 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9739,6 +9751,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 295.91 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9841,6 +9854,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 307.34 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9943,6 +9957,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 318.77 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10045,6 +10060,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 330.2 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10147,6 +10163,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 295.91 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10325,6 +10342,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 116.84 213.36 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10401,6 +10419,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 144.78 198.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10478,6 +10497,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 99.06 205.74 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10580,6 +10600,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 134.62 205.74 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10681,6 +10702,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 99.06 213.36 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10757,6 +10779,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 134.62 213.36 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10832,6 +10855,7 @@
 		)
 		(property "Description" "Resistor"
 			(at 82.55 124.46 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10955,6 +10979,7 @@
 		)
 		(property "SCLC" "C20625731"
 			(at 64.77 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11061,6 +11086,7 @@
 		)
 		(property "LCSC" "C2997432"
 			(at 45.72 195.58 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11197,6 +11223,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 295.91 68.58 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11477,6 +11504,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 273.05 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11579,6 +11607,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 341.63 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11778,6 +11807,7 @@
 		)
 		(property "LCSC" "C6186"
 			(at 116.84 196.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11895,6 +11925,7 @@
 		)
 		(property "LCSC" "C2843335"
 			(at 101.6 68.5799 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12004,6 +12035,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 64.77 130.81 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12288,6 +12320,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 144.78 213.36 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12461,6 +12494,7 @@
 		)
 		(property "LCSC" "C8598"
 			(at 77.47 200.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12630,6 +12664,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 144.78 205.74 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12731,6 +12766,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V1\""
 			(at 241.3 39.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12922,6 +12958,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 85.09 213.36 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12999,6 +13036,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 354.33 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13737,6 +13775,7 @@
 		)
 		(property "LCSC" "C42415655"
 			(at 268.8433 227.33 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14181,6 +14220,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 354.33 57.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
