@@ -42,3 +42,6 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# JLCPCB Production Files
+\jlcpcb\*
