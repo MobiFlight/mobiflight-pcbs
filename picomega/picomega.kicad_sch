@@ -11937,7 +11937,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "b7c5d3be-71a1-4038-bdc9-827bbde281fe")
-		(property "Sheetname" "RP2350B"
+		(property "Sheetname" "RP2354B"
 			(at 39.37 53.8984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11948,7 +11948,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "RP2350B.kicad_sch"
+		(property "Sheetfile" "RP2354B.kicad_sch"
 			(at 39.37 208.8646 0)
 			(show_name no)
 			(do_not_autoplace no)
