@@ -266,7 +266,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "REV0"
+      "sch_revision": "1.0.0"
     },
     "layer_pairs": [],
     "layer_presets": [],

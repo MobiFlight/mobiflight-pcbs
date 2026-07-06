@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "PicoMega")
-		(date "2025-10-10")
-		(rev "REV0")
+		(date "2026-07")
+		(rev "1.0.0")
 		(company "MobiFlight")
 	)
 	(lib_symbols
