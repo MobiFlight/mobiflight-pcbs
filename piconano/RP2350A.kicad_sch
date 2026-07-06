@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "RP2350A Template")
-		(date "2025-10-10")
-		(rev "REV0")
+		(date "2026-07")
+		(rev "1.0.0")
 		(company "MobiFlight")
 	)
 	(lib_symbols
@@ -7462,6 +7462,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 137.16 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9145,6 +9146,7 @@
 		)
 		(property "Description" "Inductor"
 			(at 147.32 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10657,6 +10659,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 124.46 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

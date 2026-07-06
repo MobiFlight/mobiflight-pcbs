@@ -5,9 +5,9 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
-		(title "RP2350A Template")
-		(date "2025-10-10")
-		(rev "REV0")
+		(title "PicoNano")
+		(date "2026-07")
+		(rev "1.0.0")
 		(company "MobiFlight")
 	)
 	(lib_symbols
@@ -3711,6 +3711,7 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 201.93 134.62 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4134,6 +4135,7 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 157.48 134.62 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
