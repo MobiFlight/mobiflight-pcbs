@@ -3007,258 +3007,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MobiFlight:W25Q16JVSS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -6.35 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "W25Q16JVSS"
-				(at 7.62 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SON:Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&DocNo=DA00-W25Q16JV.1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "16Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C2843335"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flash memory SPI"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*5.23x5.23mm*P1.27mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "W25Q16JVSS_0_1"
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "W25Q16JVSS_1_1"
-				(pin input line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "DO(IO1)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "DI(IO0)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "IO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+1V1"
 			(power global)
 			(pin_numbers
@@ -3668,6 +3416,18 @@
 		(uuid "17865761-9870-4fb2-9475-ebf844f24743")
 	)
 	(rectangle
+		(start 19.05 46.99)
+		(end 105.41 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "17cb1897-a0ce-482f-873a-0e2af58bdb2a")
+	)
+	(rectangle
 		(start 19.05 80.01)
 		(end 105.41 114.3)
 		(stroke
@@ -3745,6 +3505,17 @@
 		)
 		(uuid "615b9a29-6376-4ac1-8078-014d34adf8d4")
 	)
+	(text "BootSel"
+		(exclude_from_sim no)
+		(at 20.32 45.466 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ad7b14e-4dd7-4e68-a7e5-d3f84a7f369e")
+	)
 	(text "On a 1mm thick board, if we use 0.8mm wide tracks\non USB_DP and USB_DM, with a gap of 0.15mm between them,\nwe should get a differential characteristic impedance of\naround 90Ω as required for USB.\nOn a 1,6mm board 1mm tracks with a gap of 0.2mm is around 90Ohm."
 		(exclude_from_sim no)
 		(at 66.04 178.562 0)
@@ -3788,17 +3559,6 @@
 			(justify left bottom)
 		)
 		(uuid "cc0b75df-3244-4e10-8fda-dbb66a035381")
-	)
-	(text "Flash"
-		(exclude_from_sim no)
-		(at 18.415 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e452492d-035a-4361-8fab-fa3eca341746")
 	)
 	(text "Place one cap as close as\npossible to one DVDD"
 		(exclude_from_sim no)
@@ -4045,12 +3805,6 @@
 		(uuid "bd461584-231c-4e95-8162-bdd0d57c50e9")
 	)
 	(junction
-		(at 73.66 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca9a0a0f-1a72-4fab-bca9-dcb6e80026e8")
-	)
-	(junction
 		(at 207.01 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4171,16 +3925,6 @@
 			(type default)
 		)
 		(uuid "0392df2f-b1af-48ff-aa24-2cc5cb8498b9")
-	)
-	(wire
-		(pts
-			(xy 49.53 52.07) (xy 63.5 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "046b86e4-3f99-4b1b-8afc-2b7655e8b091")
 	)
 	(wire
 		(pts
@@ -4481,16 +4225,6 @@
 			(type default)
 		)
 		(uuid "25b28915-0f61-4ee0-9bfe-07f6764730d0")
-	)
-	(wire
-		(pts
-			(xy 73.66 27.94) (xy 73.66 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "263da285-41de-4988-ae91-446223e949e6")
 	)
 	(wire
 		(pts
@@ -4904,16 +4638,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 41.91) (xy 63.5 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59f2b60e-2b27-46d5-ad73-640286523b3d")
-	)
-	(wire
-		(pts
 			(xy 45.72 101.6) (xy 50.8 101.6)
 		)
 		(stroke
@@ -4971,16 +4695,6 @@
 			(type default)
 		)
 		(uuid "5f9d1aa0-c562-4be5-8427-924789f0eb0d")
-	)
-	(polyline
-		(pts
-			(xy 80.01 20.955) (xy 18.415 20.955)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6120d9af-4975-4d6c-b02f-672357f0f064")
 	)
 	(wire
 		(pts
@@ -5074,7 +4788,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 39.37) (xy 36.83 39.37)
+			(xy 49.53 59.69) (xy 54.61 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5144,16 +4858,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 29.21) (xy 73.66 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ccd433d-6c2a-4816-b21d-4a0768a4b1bf")
-	)
-	(wire
-		(pts
 			(xy 81.28 154.94) (xy 81.28 157.48)
 		)
 		(stroke
@@ -5171,16 +4875,6 @@
 			(type default)
 		)
 		(uuid "6e16d113-24e8-49b0-b02f-0f21a7ff4396")
-	)
-	(wire
-		(pts
-			(xy 73.66 29.21) (xy 73.66 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fb42456-9dab-4972-8502-1f64a5ef7f84")
 	)
 	(wire
 		(pts
@@ -5351,16 +5045,6 @@
 			(type default)
 		)
 		(uuid "7bb9529b-db39-41f7-b663-bc00042c0338")
-	)
-	(wire
-		(pts
-			(xy 73.66 59.69) (xy 73.66 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bf7f6d5-f931-4893-91e7-1f7639986720")
 	)
 	(wire
 		(pts
@@ -5644,16 +5328,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 38.1) (xy 92.71 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a383ae1e-3ba1-4761-8163-d95206e1b33b")
-	)
-	(wire
-		(pts
 			(xy 199.39 45.72) (xy 199.39 57.15)
 		)
 		(stroke
@@ -5812,16 +5486,6 @@
 		)
 		(uuid "b0953310-4a90-4e5e-8ee4-bc67ce3bd326")
 	)
-	(polyline
-		(pts
-			(xy 105.41 71.12) (xy 105.41 20.955)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b282f0ec-ccbe-4072-9792-7cf3291c0003")
-	)
 	(wire
 		(pts
 			(xy 212.09 45.72) (xy 215.9 45.72)
@@ -5924,16 +5588,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 44.45) (xy 63.5 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd72fe48-0065-44ec-a7be-6c365f617f93")
-	)
-	(wire
-		(pts
 			(xy 201.93 45.72) (xy 204.47 45.72)
 		)
 		(stroke
@@ -5974,7 +5628,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 39.37) (xy 63.5 39.37)
+			(xy 62.23 59.69) (xy 81.28 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6022,16 +5676,6 @@
 		)
 		(uuid "c9885123-a10f-435c-b990-754dee090790")
 	)
-	(polyline
-		(pts
-			(xy 73.66 20.955) (xy 105.41 20.955)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9fd8097-4fd2-4bf4-ae2b-c6dd4fdd0ad6")
-	)
 	(wire
 		(pts
 			(xy 64.77 143.51) (xy 64.77 146.05)
@@ -6052,16 +5696,6 @@
 		)
 		(uuid "cdf39945-4513-49b2-9652-bee0ff56047e")
 	)
-	(polyline
-		(pts
-			(xy 18.415 20.955) (xy 18.415 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce26a67b-8096-4ac9-9430-883e76869ef9")
-	)
 	(wire
 		(pts
 			(xy 172.72 100.33) (xy 158.75 100.33)
@@ -6081,16 +5715,6 @@
 			(type default)
 		)
 		(uuid "cf3116e8-2920-4945-9ee9-9d9202168909")
-	)
-	(wire
-		(pts
-			(xy 49.53 46.99) (xy 63.5 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf5dd1c2-be2b-47c8-94fd-611c7b3d29ad")
 	)
 	(wire
 		(pts
@@ -6121,26 +5745,6 @@
 			(type default)
 		)
 		(uuid "d26c0188-a8c0-40f8-947a-e0efe65dd5bd")
-	)
-	(polyline
-		(pts
-			(xy 18.415 71.12) (xy 105.41 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2d8b90f-1cc3-46b8-ae12-2efddeab106a")
-	)
-	(wire
-		(pts
-			(xy 92.71 30.48) (xy 92.71 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d337bedd-aa0b-4401-9bda-d7ac17531682")
 	)
 	(wire
 		(pts
@@ -6424,16 +6028,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 49.53) (xy 63.5 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8283b0d-bcfc-472d-b0d5-4a446af02f4a")
-	)
-	(wire
-		(pts
 			(xy 193.04 22.86) (xy 193.04 24.13)
 		)
 		(stroke
@@ -6572,16 +6166,6 @@
 		)
 		(uuid "271396f2-2847-47d1-bb55-41a773d0e0d6")
 	)
-	(label "QSPI_SD0"
-		(at 49.53 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b105527-e599-4635-9472-cb4bb39953cd")
-	)
 	(label "XOUT_R"
 		(at 81.28 99.06 180)
 		(effects
@@ -6601,16 +6185,6 @@
 			(justify left bottom)
 		)
 		(uuid "3a96ba08-295e-4b0c-940a-8c636d2e8791")
-	)
-	(label "QSPI_SD2"
-		(at 49.53 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b5c237f-d7d6-49ed-b03e-6a11bbbe8b45")
 	)
 	(label "SWD"
 		(at 158.75 132.08 0)
@@ -6633,16 +6207,6 @@
 		(uuid "5362a7bb-6a5c-4582-8a84-dd179357b30c")
 	)
 	(label "QSPI_SD3"
-		(at 49.53 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a08b769-52f5-4ffb-a88f-cef6e9ce4690")
-	)
-	(label "QSPI_SD3"
 		(at 158.75 96.52 0)
 		(effects
 			(font
@@ -6651,16 +6215,6 @@
 			(justify left bottom)
 		)
 		(uuid "5bd90a2c-0720-49d7-b471-8bd4be0104c6")
-	)
-	(label "QSPI_SD1"
-		(at 49.53 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "608b1311-8621-40a7-be19-36f27fed020a")
 	)
 	(label "USB_D-"
 		(at 63.5 153.67 180)
@@ -6692,16 +6246,6 @@
 		)
 		(uuid "8d9e19c9-1c38-4d1f-a346-c1ec50453cc1")
 	)
-	(label "QSPI_SCLK"
-		(at 49.53 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b52db44-d7de-4fdd-bf98-b91b7e70bfef")
-	)
 	(label "SWCLK"
 		(at 158.75 134.62 0)
 		(effects
@@ -6713,7 +6257,7 @@
 		(uuid "a2c6ddb8-c592-4f88-8d0d-4d49eee9bee0")
 	)
 	(label "QSPI_SS"
-		(at 49.53 39.37 0)
+		(at 71.12 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7061,7 +6605,7 @@
 	)
 	(hierarchical_label "~{USB_BOOT}"
 		(shape input)
-		(at 31.75 39.37 180)
+		(at 49.53 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8385,7 +7929,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 40.64 39.37 270)
+		(at 58.42 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8395,7 +7939,7 @@
 		(dnp no)
 		(uuid "32062560-499b-44dc-9b07-a0809ef2ea64")
 		(property "Reference" "R1"
-			(at 40.64 34.1122 90)
+			(at 58.42 54.4322 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8405,7 +7949,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 40.64 36.4236 90)
+			(at 58.42 56.7436 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8415,7 +7959,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 40.64 37.592 90)
+			(at 58.42 57.912 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8426,7 +7970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 39.37 0)
+			(at 58.42 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8437,7 +7981,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 40.64 39.37 0)
+			(at 58.42 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8448,7 +7992,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 40.64 39.37 90)
+			(at 58.42 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10022,83 +9566,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 92.71 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7718da40-efa4-4e34-a267-870901c29b55")
-		(property "Reference" "#PWR0103"
-			(at 92.71 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ec49490-906f-4a46-929c-b30b1502736b")
-		)
-		(instances
-			(project "piconano"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/99e5628a-8c61-4f9d-aa6e-5b585271b505"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 63.5 99.06 270)
 		(unit 1)
@@ -10695,117 +10162,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MobiFlight:W25Q16JVSS")
-		(at 73.66 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ca6dfbd-974c-4022-b8c5-99884c7fa13f")
-		(property "Reference" "U4"
-			(at 82.55 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q16JVSS"
-			(at 82.55 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SON:Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm"
-			(at 73.66 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&DocNo=DA00-W25Q16JV.1"
-			(at 73.66 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "16Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-			(at 73.66 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2843335"
-			(at 82.55 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "3"
-			(uuid "aee102e2-1f7f-49a3-826e-1f7956e0dff3")
-		)
-		(pin "1"
-			(uuid "716df264-9c24-40fd-8b3f-8cd292e9e3e0")
-		)
-		(pin "5"
-			(uuid "02111862-ec2b-4a7a-8c56-f7d85cfd96a9")
-		)
-		(pin "6"
-			(uuid "20c77085-a3ae-4378-8c82-3f21869e06e7")
-		)
-		(pin "7"
-			(uuid "49629ce3-6876-4571-b24d-2415bf0f0876")
-		)
-		(pin "4"
-			(uuid "0cfd3282-5cac-4d43-87e2-81a7cec5e1cb")
-		)
-		(pin "2"
-			(uuid "2372ac58-904d-49ce-b93c-4038091b1736")
-		)
-		(pin "8"
-			(uuid "2cbda279-b044-42d8-aec4-b2b46a0efb5c")
-		)
-		(instances
-			(project "piconano"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/99e5628a-8c61-4f9d-aa6e-5b585271b505"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 40.64 99.06 270)
 		(unit 1)
@@ -11371,83 +10727,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 73.66 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b53297b9-b708-4ab8-87e2-5856dafbf067")
-		(property "Reference" "#PWR0106"
-			(at 73.66 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 74.041 23.5458 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 73.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e2802236-0b9d-4378-acc3-ff56c139e92e")
-		)
-		(instances
-			(project "piconano"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/99e5628a-8c61-4f9d-aa6e-5b585271b505"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 193.04 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -11595,98 +10874,6 @@
 			(project "piconano"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/99e5628a-8c61-4f9d-aa6e-5b585271b505"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 92.71 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cdb426f9-d1a0-42f9-a1ec-cb48f333548f")
-		(property "Reference" "C3"
-			(at 95.631 33.1216 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 95.631 35.433 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 93.6752 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 92.71 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 92.71 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c35eef89-3167-42b6-bf24-38037971f3f9")
-		)
-		(pin "2"
-			(uuid "9e0d3b28-81d0-4a81-a086-055a625bb7b3")
-		)
-		(instances
-			(project "piconano"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/99e5628a-8c61-4f9d-aa6e-5b585271b505"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12204,83 +11391,6 @@
 			(project "piconano"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/99e5628a-8c61-4f9d-aa6e-5b585271b505"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 73.66 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "edf14a6b-0d70-4db0-9e28-784d655ee5be")
-		(property "Reference" "#PWR0104"
-			(at 73.66 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9fd7874-550d-4b45-bf4e-6567fdb916af")
-		)
-		(instances
-			(project "piconano"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/99e5628a-8c61-4f9d-aa6e-5b585271b505"
-					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
