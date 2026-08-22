@@ -2253,7 +2253,7 @@
 		(descr "Footprint for MobiFlight PicoMicro")
 		(tags "PicoMicro")
 		(property "Reference" "J1"
-			(at 7.62 12.192 270)
+			(at 7.62 12.192 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "78639518-3e00-4f43-8f62-4a8b2b592d96")
@@ -2265,7 +2265,7 @@
 			)
 		)
 		(property "Value" "PicoMicro"
-			(at 7.62 13.97 270)
+			(at 7.62 13.97 90)
 			(layer "F.Fab")
 			(uuid "86e65ca8-dc93-46ec-8662-fa658fec36b2")
 			(effects
@@ -2276,7 +2276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9f6b0afd-1abd-4d8a-9831-bc0454f2de9b")
@@ -2288,7 +2288,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ae5dda52-8d35-4aec-b481-02e274473757")
@@ -2632,26 +2632,26 @@
 			(uuid "752452b1-309a-449d-b6a9-24c488f4d95f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x12_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 -1.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz -0 -180 -0)
 			)
 		)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x12_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.step"
 			(offset
-				(xyz 15.2 0 0)
+				(xyz 15.2 0 -1.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz -0 -180 -0)
 			)
 		)
 	)
@@ -7134,17 +7134,6 @@
 			(layer "F.Fab")
 			(uuid "cf18eb45-42be-4dbb-aee1-7d51495aaf70")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0.05 0 180)
-			(layer "F.Fab")
-			(uuid "e56a94da-bb8e-4aa1-9045-1059fcd14ec9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" smd rect
 			(at -2.075 -1.075 180)
 			(size 1.05 0.65)
@@ -8433,6 +8422,7 @@
 			(at 0 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0a5c5089-d347-4901-8925-177bafe12852")
 			(effects
 				(font
@@ -8467,25 +8457,12 @@
 				)
 			)
 		)
-		(property "LCSC" "C2997432"
+		(property "JLCPCB" "C393939"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4e44cb38-686b-4dfc-b707-b0d0fd840166")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB" "C2997432"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "52d99f06-5801-42bd-ab5b-c6a4d744d0ab")
 			(effects
 				(font
 					(size 1 1)
@@ -8900,15 +8877,15 @@
 			(uuid "82e77408-a554-4ce9-a773-e708d0a3b2fe")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A.step"
+		(model "${KICAD_MOBIFLIGHT_LIBRARY_DIR}/3D-Files/USB_C_Receptacle_USB2.0_16P.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 1.25 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -9871,6 +9848,18 @@
 		(layer "Edge.Cuts")
 		(uuid "c5b96455-0065-4cb1-8cba-13dc75fa9834")
 	)
+	(gr_text "BOOT"
+		(at 122.9106 96.7486 0)
+		(layer "F.SilkS")
+		(uuid "232db029-04a0-46a1-b7cb-c49569fa895e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "A1"
 		(at 118.7228 96.96 -90)
 		(layer "B.SilkS")
@@ -9943,7 +9932,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "PicoMicro\nV1.0\n10/25"
+	(gr_text "PicoMicro\nV1.0\n2026-??"
 		(at 110.05 92.66 0)
 		(layer "B.SilkS")
 		(uuid "9a4614ec-5701-4832-a74c-4a104e0d7aee")
