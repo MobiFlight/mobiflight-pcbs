@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PicoNano")
-		(date "2026-07")
+		(date "2026-08")
 		(rev "1.0.0")
 		(company "MobiFlight")
 	)

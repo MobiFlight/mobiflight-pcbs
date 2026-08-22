@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RP2350A Template")
-		(date "2026-07")
+		(date "2026-08")
 		(rev "1.0.0")
 		(company "MobiFlight")
 	)
@@ -2346,7 +2346,7 @@
 					)
 				)
 			)
-			(property "JLCPCB" "C2997432"
+			(property "JLCPCB" "C393939"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -11168,7 +11168,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "abea971c-fe56-4940-81f2-60a0be25421a")
 		(property "Reference" "J1"
 			(at 34.29 128.27 0)
@@ -11223,18 +11222,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C2997432"
-			(at 34.29 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "C2997432"
-			(at 34.29 153.67 0)
+		(property "JLCPCB" "C393939"
+			(at 34.798 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

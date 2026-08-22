@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "PicoNano")
-		(date "2026-07")
+		(date "2026-08")
 		(rev "1.0.0")
 		(company "MobiFlight")
 	)
@@ -227,6 +227,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/42d1103b-01a9-4ce4-8c43-2c32be677f5a")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -409,6 +415,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/7b4ce615-f0d5-4b1f-9b49-d02fdef0cf8b")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -579,6 +591,12 @@
 		(path "/2c7919f4-cdd4-486c-b047-0686e05eac35")
 		(sheetname "/")
 		(sheetfile "piconano.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -927,6 +945,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/944edb35-9f5b-4576-8b54-6d6a09845a77")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1093,10 +1117,29 @@
 				)
 			)
 		)
+		(property "LCSC" "C25100"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5467ff25-bb26-4c39-96a1-ccf2eb51b0b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/e7b9820c-ebd4-46c0-8732-cafc559c4fbc")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1268,6 +1311,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/573cc9d1-0673-47f8-821b-7cde42a7e862")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1574,10 +1623,29 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c00bfd7-0f12-4305-91df-2c289158a64c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/4e171e27-0952-4a5f-bd26-afc8662a6d9a")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1730,10 +1798,29 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9cec7cd-7211-4a9a-b9c4-45ad8d2800f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/18e62b0e-dc17-495d-9e86-638d6e7835c0")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1904,6 +1991,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/4a5d9644-2379-4885-b4a6-a8623a813c99")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2070,10 +2163,29 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dda27ee-6b94-4999-bebe-792dc9a4e0ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/4b77d0a4-5200-4718-ad55-d12fcc0160fd")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2268,6 +2380,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/1ac7125e-148c-46cf-bc39-862001775ba8")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2458,10 +2576,29 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "479a1e9d-1370-44d3-bfa2-0e15b47debb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/169ff030-0e51-4ebc-85c7-e586ef119eec")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2632,6 +2769,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/6d63f474-3068-4498-806c-b83853047f41")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2816,6 +2959,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/77166b06-d670-497b-a2d2-0fac7395fed8")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3108,10 +3257,29 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b546fcdf-6902-4dce-b48b-7174e6caca51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/ed6a58de-91f9-45ec-9dd2-e4010ea9baa3")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3282,6 +3450,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/84b0d34f-561e-4159-b869-09ac10a3659e")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3438,6 +3612,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/89ff6c9f-8a8c-47ca-ae29-80003f359883")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3640,6 +3820,17 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/2262369d-908f-4b7b-8fa8-6f936456c0ae")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "46" "49" "50" "48" "47" "60" "57" "59" "58" "55" "56" "21" "22"
+					"26" "24" "25" "39" "23" "6" "54" "45" "38" "30" "61" "20" "11" "1"
+					"53" "44" "52" "51" "2" "3" "4" "5" "7" "8" "9" "10" "12" "13" "14"
+					"15" "16" "17" "18" "19" "27" "28" "29" "31" "32" "33" "34" "35" "36"
+					"37" "40" "41" "42" "43"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4741,6 +4932,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/8e194a28-9dfb-415a-b20c-ce4bfa149fb2")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4907,10 +5104,29 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22f97286-db3f-4d8b-bc2b-4f314468dcc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/edc5129d-f46c-479a-bd75-243c78b54fdb")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5081,6 +5297,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/f444c869-826a-412a-8ee2-ace2cfb0d9f5")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5232,10 +5454,29 @@
 				)
 			)
 		)
+		(property "LCSC" "C25105"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8773839-5cdd-44cd-af8a-9e02512e9f73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/dce65ab4-7288-4080-9f53-f717404e2e0e")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5380,6 +5621,15 @@
 		(path "/9d9bb2cc-5890-4b38-8ae5-01cf5e9bdb98")
 		(sheetname "/")
 		(sheetfile "piconano.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
+					"16" "17" "34" "33" "32" "31" "30" "29" "28" "27" "26" "25" "24" "23"
+					"22" "21" "20" "19" "18"
+				)
+			)
+		)
 		(attr board_only)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -5813,26 +6063,26 @@
 			(uuid "78caeb6e-6dff-4f0b-80fc-26327e7091de")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x17_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x17_P2.54mm_Vertical.step"
 			(offset
-				(xyz 8.3 13.7 0)
+				(xyz 8.3 18.7 -1.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz -0 -180 -0)
 			)
 		)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x17_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x17_P2.54mm_Vertical.step"
 			(offset
-				(xyz -9.7 18.9 0)
+				(xyz -9.7 18.9 -1.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz -0 -180 -0)
 			)
 		)
 	)
@@ -5901,10 +6151,29 @@
 				)
 			)
 		)
+		(property "LCSC" "C23733"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "737ecf0a-0047-4a35-9070-a7391290a31f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/f41f4480-856f-44e2-b16c-9f170c92de9e")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6073,6 +6342,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/3a3e0c95-b941-4e2c-a320-86faec49d8ba")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6239,10 +6514,29 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cda5eb0-83ef-4ab0-a152-d44f2bfd1214")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/7f2c9904-545b-4337-acd6-8707e0924818")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6413,6 +6707,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/5e372dc8-30ff-4a61-8ed0-592ad0944ea6")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6594,6 +6894,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/8ca6dfbd-974c-4022-b8c5-99884c7fa13f")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "6" "5" "2" "3" "7" "8" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6963,6 +7269,12 @@
 		(path "/bc559360-5dcd-43ea-8676-fb240b85ecc4")
 		(sheetname "/")
 		(sheetfile "piconano.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7307,10 +7619,29 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "feea788c-10fb-4bb7-871c-d634c7c27673")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/922e7e97-b300-4efc-863d-349e61465157")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7493,6 +7824,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/32062560-499b-44dc-9b07-a0809ef2ea64")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7659,10 +7996,29 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cfc8b3d-6754-4bfa-bb0e-c72b652c2f32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/6ad02073-0558-42a4-92fa-4add44c180cf")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7818,6 +8174,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/4f70ee66-41ca-4ae7-b93c-70a7d8aa391d")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -8048,6 +8410,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/cdb426f9-d1a0-42f9-a1ec-cb48f333548f")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8214,10 +8582,29 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "417f4097-dbc2-4c6b-8adb-d6aff4c0fb19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/0aea9910-25c6-4006-a198-ddc640a3a3e8")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8360,7 +8747,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2997432"
+		(property "JLCPCB" "C393939"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8373,23 +8760,18 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C2997432"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9e36c99e-097c-4543-99e4-9e83fe194281")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/abea971c-fe56-4940-81f2-60a0be25421a")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "S1" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
+					"A6" "B6" "A8" "B8"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8879,6 +9261,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/053fcef1-cd7e-4fab-a35e-7306e1201d96")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9035,6 +9423,12 @@
 		(path "/99e5628a-8c61-4f9d-aa6e-5b585271b505/06e81b71-0871-413c-8f8c-38b4145c1765")
 		(sheetname "/RP2350A/")
 		(sheetfile "RP2350A.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
