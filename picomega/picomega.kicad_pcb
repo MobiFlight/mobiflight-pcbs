@@ -935,38 +935,12 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C2997432"
+		(property "JLCPCB" "C393939"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "828426d7-efbd-48a7-abc4-01cbce84bcd1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C2997432"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "80977c75-f850-4036-8259-ba0d44045f95")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SLC" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "04705b04-9f54-4047-8931-e207cab41852")
 			(effects
 				(font
 					(size 1 1)
@@ -10518,7 +10492,7 @@
 	(footprint "MobiFlight:MobiFlight-Logo-Small"
 		(layer "F.Cu")
 		(uuid "e6287104-2302-4b15-9862-09d069894808")
-		(at 91.5934 116.0814)
+		(at 92.340865 118.967978)
 		(property "Reference" "G2"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -13329,6 +13303,17 @@
 			(justify left)
 		)
 	)
+	(gr_text "PicoMega\nV${REVISION}\n${ISSUE_DATE}"
+		(at 103.7092 119.049546 0)
+		(layer "F.SilkS")
+		(uuid "5b89f293-3b22-4694-9588-43b53906194c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "GND"
 		(at 88.824504 116.3846 0)
 		(layer "B.SilkS")
@@ -13738,9 +13723,9 @@
 		)
 	)
 	(gr_text "PicoMega\nV${REVISION}\n${ISSUE_DATE}"
-		(at 99.19 88.43 0)
+		(at 98.7054 86.7952 0)
 		(layer "B.SilkS")
-		(uuid "5b89f293-3b22-4694-9588-43b53906194c")
+		(uuid "41aaf4be-764e-4bb6-aa72-e7e781e27eef")
 		(effects
 			(font
 				(size 1.5 1.5)

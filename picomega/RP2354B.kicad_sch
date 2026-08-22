@@ -2717,7 +2717,7 @@
 					)
 				)
 			)
-			(property "JLCPCB" "C2997432"
+			(property "JLCPCB" "C393939"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10195,30 +10195,8 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C2997432"
+		(property "JLCPCB" "C393939"
 			(at 45.72 193.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2997432"
-			(at 45.72 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SLC" ""
-			(at 45.72 215.9 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
