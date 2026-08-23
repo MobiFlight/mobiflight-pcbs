@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "RP2350B-QFN80"
+	(symbol "RP2354B-QFN80"
 		(pin_names
 			(offset 1.016)
 		)
@@ -64,8 +64,8 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C42415655"
-			(at 0 -4.826 0)
+		(property "JLCPCB" "C39843328"
+			(at 0.254 -4.572 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -74,7 +74,7 @@
 				)
 			)
 		)
-		(symbol "RP2350B-QFN80_0_1"
+		(symbol "RP2354B-QFN80_0_1"
 			(rectangle
 				(start 31.75 66.04)
 				(end -33.02 -74.93)
@@ -87,7 +87,7 @@
 				)
 			)
 		)
-		(symbol "RP2350B-QFN80_1_0"
+		(symbol "RP2354B-QFN80_1_0"
 			(pin passive line
 				(at 0 -77.47 90)
 				(length 2.54)
@@ -107,7 +107,7 @@
 				)
 			)
 		)
-		(symbol "RP2350B-QFN80_1_1"
+		(symbol "RP2354B-QFN80_1_1"
 			(pin bidirectional line
 				(at 34.29 40.64 180)
 				(length 2.54)
