@@ -4370,7 +4370,7 @@
 		)
 		(uuid "d70f6d8c-2372-475e-bd38-6fa3f157cefe")
 	)
-	(text "Make sure R7 and R8 are\nclose to RP2350A"
+	(text "Make sure R7 and R8 are\nclose to RP2354B"
 		(exclude_from_sim no)
 		(at 320.802 81.026 0)
 		(effects
@@ -12684,7 +12684,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RP2350_80QFN"
+		(property "Value" "RP2354_80QFN"
 			(at 268.8433 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12737,29 +12737,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "LCSC" "C39843328"
-			(at 268.8433 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "SLC" ""
-			(at 266.7 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"

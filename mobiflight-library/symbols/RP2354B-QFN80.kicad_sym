@@ -21,7 +21,7 @@
 				)
 			)
 		)
-		(property "Value" "RP2350B-QFN80"
+		(property "Value" "RP2354B-QFN80"
 			(at 0 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
